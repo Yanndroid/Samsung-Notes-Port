@@ -1,0 +1,40 @@
+name: New Release
+on:
+  workflow_dispatch:
+
+jobs:
+ release:
+   runs-on: ubuntu-latest
+   steps:
+
+     - name: Checkout
+       uses: actions/checkout@v2
+
+     - name: Set up Java
+       uses: actions/setup-java@v2
+       with:
+         distribution: "zulu"
+         java-version: 11
+
+     - name: Download tools
+       run: |
+          curl -L https://github.com/iBotPeaches/Apktool/releases/download/v2.8.1/apktool_2.8.1.jar --create-dirs -o ./tools/apktool.jar
+          curl -L https://github.com/patrickfav/uber-apk-signer/releases/download/v1.3.0/uber-apk-signer-1.3.0.jar --create-dirs -o ./tools/uber-apk-signer.jar
+
+     - name: Build APK
+       run: |
+          java -jar ./tools/apktool.jar b . --use-aapt2
+          java -jar ./tools/uber-apk-signer.jar -a ./dist/*.apk --allowResign --overwrite
+
+     - name: Get release info
+       id: values
+       run: |
+          echo "releaseName=v$(grep "versionName:" apktool.yml | awk -F ": " '{print $2}')" >> $GITHUB_OUTPUT
+          echo "releaseTag=$(date +'%Y-%m-%d-%Hh%M')" >> $GITHUB_OUTPUT
+
+     - name: Create release
+       uses: ncipollo/release-action@v1
+       with:
+         name: ${{ steps.values.outputs.releaseName }}
+         tag: ${{ steps.values.outputs.releaseTag }}
+         artifacts: "dist/*.apk"
