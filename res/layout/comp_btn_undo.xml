@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hw_toolbar_undo" android:padding="@dimen/comp_hw_floating_menu_item_gap_between_img_ripple" android:contentDescription="@string/hw_toolbar_item_undo" style="@style/ComposerImageClickButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/comp_common_toolbar_ic_undo" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+</FrameLayout>

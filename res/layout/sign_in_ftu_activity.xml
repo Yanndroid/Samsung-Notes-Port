@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="38.0sp" android:textColor="@color/basic_list_main_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="111.0dip" android:text="@string/app_name" />
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="17.0sp" android:textColor="@color/basic_list_main_text_color" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="72.0dip" android:text="@string/ftu_sign_in_title_sync" />
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="13.0sp" android:textColor="@color/basic_list_secondary_text_color" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ftu_sign_in_msg_sync" />
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="17.0sp" android:textColor="@color/basic_list_main_text_color" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:text="@string/ftu_sign_in_title_collaborate" />
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="13.0sp" android:textColor="@color/basic_list_secondary_text_color" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ftu_sign_in_msg_collaborate" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:theme="@style/Widget.AppCompat.Button.Custom" android:textSize="19.0sp" android:textColor="#fffafafa" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/sign_in_button" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_marginBottom="36.0dip" android:minWidth="180.0dip" android:text="@string/button_sign_in" android:backgroundTint="#ff387aff" style="@style/ContainedButton" />
+    </LinearLayout>
+</ScrollView>

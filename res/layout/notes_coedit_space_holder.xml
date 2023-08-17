@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="center_vertical" android:id="@id/space_item_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/notes_simple_item_ripple" android:minHeight="62.0dip" android:shrinkColumns="1" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:gravity="center_vertical">
+        <FrameLayout android:id="@id/space_thumbnail" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginEnd="18.0dip" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="6.0dip">
+            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="17.0dip" android:textColor="@color/drawer_list_item_text_color" android:ellipsize="end" android:id="@id/space_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="6.0dip" />
+            <View android:layout_gravity="end|center|top" android:id="@id/space_new_badge" android:background="@drawable/drawer_list_item_dot_badge_bg" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+        </FrameLayout>
+        <include layout="@layout/notes_coedit_item_space_extra" />
+    </TableRow>
+</TableLayout>

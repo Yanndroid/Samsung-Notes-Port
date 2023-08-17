@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask" android:drawable="@drawable/dialog_btn_default_mtrl_shape" />
+    <item>
+        <inset android:insetLeft="4.0dip" android:insetRight="4.0dip" android:insetTop="4.0dip" android:insetBottom="4.0dip"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <shape android:shape="rectangle">
+                <corners android:radius="2.0dip" />
+                <solid android:color="@color/recent_search_list_clear_history_text_color" />
+                <padding android:left="4.0dip" android:top="4.0dip" android:right="4.0dip" android:bottom="4.0dip" />
+            </shape>
+        </inset>
+    </item>
+</ripple>

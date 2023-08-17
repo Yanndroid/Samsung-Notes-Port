@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Legfeljebb %d elemet lehet hozzáadni.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d elemet lehet hozzáadni.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Egyszerre legfeljebb %d elem illeszthető be.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egyszerre legfeljebb %d elem illeszthető be.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Egyszerre legfeljebb %d dokumentum szkennelhető be.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egyszerre legfeljebb %d dokumentum szkennelhető be.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Legfeljebb %d szín jeleníthető meg.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d szín jeleníthető meg.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Egyszerre legfeljebb %d hangfájl adható hozzá.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egyszerre legfeljebb %d hangfájl adható hozzá.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Egyszerre legfeljebb %d PDFs-fájl illeszthető be.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egyszerre legfeljebb %d PDF-fájl illeszthető be.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Megszakította az exportálást. Már exportált %d PDF-et.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Megszakította az exportálást. Már exportált %d PDF-et.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Legfeljebb %d karaktert írhat be.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d karaktert írhat be.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Adjon meg egy legalább %d karakterből álló jelszót.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Adjon meg egy legalább %d karakterből álló jelszót.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Adjon meg egy legalább %d karakterből álló új jelszót.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Adjon meg egy legalább %d karakterből álló új jelszót.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d másodperc múlva próbálkozzon újra.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d másodperc múlva próbálkozzon újra.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Legfeljebb %d Samsung Notes-ablak nyitható meg. Zárjon be egy ablakot, és próbálkozzon újra.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d Samsung Notes-ablak nyitható meg. Zárjon be egy ablakot, és próbálkozzon újra.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d új értesítés</item>
+        <item quantity="one">%d új értesítés</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d jegyzet letöltve.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d jegyzet letöltve.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d szín</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d szín</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d vastagság</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vastagság</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Töröl %d megosztott feljegyzést?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Töröl %d megosztott feljegyzést?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d feljegyzés konvertálása</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d feljegyzés konvertálása</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d mappa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mappa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d elem</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d feljegyzés</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d feljegyzés</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Legfeljebb %d szín jeleníthető meg.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d szín jeleníthető meg.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d jegyzetfüzet</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d jegyzetfüzet</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Áthelyez %1$d mappát ide: %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %1$d mappát ide: %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s %2$d új feljegyzést adott hozzá a(z) %3$s jegyzetfüzethez.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$d új feljegyzést adott hozzá a(z) %3$s jegyzetfüzethez.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d új feljegyzés megosztva</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d új feljegyzés megosztva</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Megszakította az importálást. Már importált %d PDFs-et.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Megszakította az importálást. Már importált %d PDF-et.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d feljegyzést nem sikerült importálni.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d feljegyzést nem sikerült importálni.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Adjon meg egy legalább %d karakterből álló új jelszót.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Adjon meg egy legalább %d karakterből álló új jelszót.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Legfeljebb %d elemet választhat ki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d elemet választhat ki.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Áthelyez %d mappát a Kukába?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %d mappát a Kukába?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Áthelyez %d mappát és minden bennük található elemet a Kukába?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %d mappát és minden benne található elemet a Kukába?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Áthelyez %d feljegyzést a Kukába?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %d feljegyzést a Kukába?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">A személyazonossága igazolása után %d feljegyzés (köztük 1 zárolt is) a Kukába kerül.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A személyazonossága igazolása után %d feljegyzés (köztük 1 zárolt is) a Kukába kerül.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">A rendszer nem helyezett át %d olyan feljegyzést, amely már a kiválasztott mappában volt.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A rendszer nem helyezett át %d olyan feljegyzést, amely már a kiválasztott mappában volt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Áthelyez %1$d feljegyzést ide: %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %1$d feljegyzést ide: %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d elem véglegesen törölve lesz a felhőből és minden eszközéről.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elem véglegesen törölve lesz a felhőből és minden eszközéről.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Véglegesen töröl %d feljegyzést?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Véglegesen töröl %d feljegyzést?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d elem véglegesen törlődni fog.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elem véglegesen törlődni fog.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d nap</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nap</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">A megosztott feljegyzésekben legfeljebb %d vonás vagy objektum választható ki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A megosztott feljegyzésekben legfeljebb %d vonás vagy objektum választható ki.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d kép mentve a telefonra.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kép mentve a telefonra.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d kép mentve a táblagépre.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kép mentve a táblagépre.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d fájlt a telefonra mentett.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fájlt a telefonra mentett.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d fájlt a táblagépre mentett.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fájlt a táblagépre mentett.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d tag</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">A feljegyzés %d nap múlva törlődni fog.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A feljegyzés %d nap múlva törlődni fog.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDF exportálása…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF exportálása…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Nem sikerült átalakítani %d feljegyzést. Szabadítson fel helyet a belső tárhelyen, és próbálja meg újra.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nem sikerült átalakítani %d feljegyzést. Szabadítson fel helyet a belső tárhelyen, és próbálja meg újra.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Töröl %d elemet?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Töröl %d elemet?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

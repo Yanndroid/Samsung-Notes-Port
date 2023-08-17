@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:paddingTop="@dimen/more_menu_list_padding_default" android:paddingBottom="@dimen/more_menu_list_padding_bottom" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/menu_top_recycler_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingStart="@dimen/insert_menu_recyclerview_padding_start_end" android:paddingEnd="@dimen/insert_menu_recyclerview_padding_start_end" android:nestedScrollingEnabled="false" />
+        <include layout="@layout/comp_menu_divider" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/menu_bottom_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingStart="@dimen/more_menu_list_padding_default" android:paddingEnd="@dimen/more_menu_list_padding_default" android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+</com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/icon_view_todo_check_height" android:width="@dimen/icon_view_todo_check_width" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/widget_preview_background_color" android:pathData="M14.167,16.25L5.833,16.25C4.688,16.25 3.75,15.313 3.75,14.167L3.75,5.833C3.75,4.688 4.688,3.75 5.833,3.75L14.167,3.75C15.313,3.75 16.25,4.688 16.25,5.833L16.25,14.167C16.25,15.313 15.313,16.25 14.167,16.25Z" android:strokeColor="@color/view_todo_check_color" android:strokeWidth="@dimen/icon_view_todo_check_stroke_width" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+</vector>

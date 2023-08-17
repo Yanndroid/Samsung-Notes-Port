@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/folder_recyclerview_margin_bottom" layout="@layout/description_textview" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.samsung.android.support.senl.nt.app.main.common.view.FolderPenRecyclerView android:scrollbarStyle="insideOverlay" android:id="@id/folderlist_recyclerview" android:paddingBottom="@dimen/folder_recyclerview_padding_bottom" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:layout_width="fill_parent" android:layout_height="fill_parent" custom:corner="all" xmlns:custom="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <include android:layout_gravity="center" android:id="@id/done_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/folder_recyclerview_margin_bottom" android:layout_marginBottom="@dimen/folder_recyclerview_margin_bottom" layout="@layout/contained_button" />
+</LinearLayout>

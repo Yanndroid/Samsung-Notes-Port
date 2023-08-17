@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/voice_item_stt_background" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:textColor="@color/stt_item_playing_voice_name" android:id="@id/voice_item_stt_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" />
+        <TextView android:textColor="@color/stt_play_normal_span" android:id="@id/voice_item_stt_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textColor="@color/stt_play_normal_span" android:id="@id/voice_item_stt_recognize_result" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

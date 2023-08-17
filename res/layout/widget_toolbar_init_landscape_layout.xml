@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_toolbar_background" android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="true" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/widget_toolbar_horizontal_margin" android:layout_marginTop="@dimen/widget_toolbar_vertical_margin" android:layout_marginRight="@dimen/widget_toolbar_horizontal_margin" android:layout_marginBottom="@dimen/widget_toolbar_vertical_margin" android:layout_marginHorizontal="@dimen/widget_toolbar_horizontal_margin" android:layout_marginVertical="@dimen/widget_toolbar_vertical_margin" layout="@layout/widget_toolbar_item_list" />
+</FrameLayout>

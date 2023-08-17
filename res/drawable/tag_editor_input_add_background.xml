@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/tag_editor_input_add_background_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="30.0dip" android:width="30.0dip" />
+            <solid android:color="@color/tag_editor_input_add_background_color" />
+        </shape>
+    </item>
+</ripple>

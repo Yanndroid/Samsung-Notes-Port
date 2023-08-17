@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="0.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/action_invitation_list_menu_layout" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" style="?android:actionButtonStyle">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/drawer_list_item_icon_size" android:layout_height="@dimen/drawer_list_item_icon_size" android:src="@drawable/ic_gcs_invitation" />
+    </FrameLayout>
+    <View android:layout_gravity="end" android:id="@id/action_invitation_list_new_badge" android:background="@drawable/notes_item_new_badge_bg" android:layout_width="@dimen/drawer_list_item_dot_badge_size" android:layout_height="@dimen/drawer_list_item_dot_badge_size" android:layout_marginTop="17.0dip" android:importantForAccessibility="no" android:layout_marginEnd="8.0dip" />
+</FrameLayout>

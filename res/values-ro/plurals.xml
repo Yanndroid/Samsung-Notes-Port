@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Nu se pot adăuga mai mult de %d elemente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate adăuga mai mult de %d element.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot adăuga mai mult de %d elemente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Nu se pot lipi mai mult de %d elemente simultan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate lipi mai mult de %d element simultan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot lipi mai mult de %d elemente simultan.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Nu se pot scana mai mult de %d documente simultan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate scana mai mult de %d document simultan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot scana mai mult de %d documente simultan.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Nu se pot afișa mai mult de %d culori.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate afișa mai mult de %d culoare.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot afișa mai mult de %d culori.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Nu se pot adăuga mai mult de %d fișiere audio simultan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate adăuga mai mult de %d fișier audio o dată.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot adăuga mai mult de %d fișiere audio simultan.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Nu se pot lipi mai mult de %d fișiere PDF simultan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate lipi mai mult de %d fișier PDF simultan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot lipi mai mult de %d fișiere PDF simultan.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Exportul a fost anulat. %d fișiere PDF au fost deja exportate.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Exportul a fost anulat. %d fișier PDF a fost deja exportat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Exportul a fost anulat. %d fișiere PDF au fost deja exportate.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Introduceți o parolă care să conțină cel puțin %d caractere.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Introduceți o parolă care să conțină cel puțin %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Introduceți o parolă care să conțină cel puțin %d caractere.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Introduceți o parolă nouă care să conțină cel puțin %d caractere.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Introduceți o parolă nouă care să conțină cel puțin %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Introduceți o parolă nouă care să conțină cel puțin %d caractere.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Așteptați %d secunde, apoi încercați din nou.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Așteptați %d secundă, apoi încercați din nou.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Așteptați %d secunde, apoi încercați din nou.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Nu puteți deschide mai mult de %d ferestre Samsung Notes. Închideți o fereastră și încercați din nou.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu puteți deschide mai mult de %d fereastră Samsung Notes. Închideți o fereastră și încercați din nou.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu puteți deschide mai mult de %d ferestre Samsung Notes. Închideți o fereastră și încercați din nou.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d note descărcate.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notă descărcată.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d note descărcate.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d culori</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d culoare</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d culori</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d grosimi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d grosime</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d grosimi</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Ștergeți %d note partajate?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d notă partajată?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d note partajate?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Se convertesc %d note</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Se convertește %d notă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Se convertesc %d note</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d foldere</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d folder</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d foldere</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d elemente</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d elemente</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d note</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d note</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Nu se pot afișa mai mult de %d culori.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate afișa mai mult de %d culoare.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot afișa mai mult de %d culori.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d blocnotesuri</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d blocnotes</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d blocnotesuri</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Mutați %1$d foldere în %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %1$d folder în %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %1$d foldere în %2$s?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s a adăugat %2$d note noi în blocnotesul %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s a adăugat %2$d notă nouă în blocnotesul %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s a adăugat %2$d note noi în blocnotesul %3$s.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d note noi partajate</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notă nouă partajată</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d note noi partajate</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Importul a fost anulat. %d fișiere PDF au fost deja importate.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Importul a fost anulat. %d fișier PDF a fost deja importat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Importul a fost anulat. %d fișiere PDF au fost deja importate.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Nu s-au putut importa %d note.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu s-a putut importa %d notă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu s-au putut importa %d note.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Introduceți o parolă nouă care să conțină cel puțin %d caractere.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Introduceți o parolă nouă care să conțină cel puțin %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Introduceți o parolă nouă care să conțină cel puțin %d caractere.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Nu se pot selecta mai mult de %d elemente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate selecta mai mult de %d element.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot selecta mai mult de %d elemente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Mutați %d foldere în Coșul de gunoi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d folder în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d foldere în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Mutați %d foldere și toate elementele din ele în Coșul de gunoi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d folder și toate elementele din el în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d foldere și toate elementele din ele în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Mutați %d note în Coșul de gunoi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d notă în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d note în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">După verificarea identității, %d note (inclusiv 1 notă blocată) vor fi mutate în Coșul de gunoi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">După verificarea identității, %d notă (inclusiv 1 notă blocată) vor fi mutate în Coșul de gunoi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">După verificarea identității, %d note (inclusiv 1 notă blocată) vor fi mutate în Coșul de gunoi.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Nu s-au mutat %d note care se aflau deja în folderul selectat.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu s-a mutat %d notă care se afla deja în folderul selectat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu s-au mutat %d note care se aflau deja în folderul selectat.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Mutați %1$d note în %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %1$d notă în %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %1$d note în %2$s?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d elemente vor fi șterse definitiv din cloud și de pe toate dispozitivele dvs.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element va fi șters definitiv din cloud și de pe toate dispozitivele dvs.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d elemente vor fi șterse definitiv din cloud și de pe toate dispozitivele dvs.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Ștergeți definitiv %d note?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți definitiv %d notă?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți definitiv %d note?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d elemente vor fi șterse definitiv.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element va fi șters definitiv.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d elemente vor fi șterse definitiv.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d zile</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zile</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Nu se pot selecta mai mult de %d linii sau obiecte în nota partajată.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate selecta mai mult de %d linie sau obiect în nota partajată.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot selecta mai mult de %d linii sau obiecte în nota partajată.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d imagini salvate pe telefon.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imagine salvată pe telefon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d imagini salvate pe telefon.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d imagini salvate pe tabletă.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imagine salvată pe tabletă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d imagini salvate pe tabletă.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d fișiere salvate pe telefon.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fișier salvat pe telefon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d fișiere salvate pe telefon.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d fișiere salvate pe tabletă.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fișier salvat pe tabletă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d fișiere salvate pe tabletă.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d membri</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d membru</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d membri</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Această notă va fi ștearsă peste %d zile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Această notă va fi ștearsă peste %d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Această notă va fi ștearsă peste %d zile.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Se exportă %d fișiere PDF…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Se exportă %d fișier PDF…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Se exportă %d fișiere PDF…</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Nu s-au putut converti %d note. Eliberați spațiul de stocare intern, apoi încercați din nou.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu s-a putut converti %d notă. Eliberați spațiul de stocare intern, apoi încercați din nou.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu s-au putut converti %d note. Eliberați spațiul de stocare intern, apoi încercați din nou.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Ștergeți %d elemente?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d element?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d elemente?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="support_settings_search">true</bool>
+    <bool name="support_settings_search_exported">true</bool>
+</resources>

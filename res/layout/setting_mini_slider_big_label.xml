@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="20.0dip" android:textColor="@color/setting_handwriting_icon_enable_color" android:gravity="center" android:background="@drawable/setting_pen_size_preview_bg" android:visibility="invisible" android:layout_width="@dimen/mini_pen_setting_slider_big_label_size" android:layout_height="@dimen/mini_pen_setting_slider_big_label_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

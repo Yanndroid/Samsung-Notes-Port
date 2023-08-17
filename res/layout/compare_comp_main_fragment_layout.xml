@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/compare_comp_main_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/appbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.samsung.android.support.senl.nt.base.winset.view.toolbar.CustomToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:textDirection="anyRtl" android:titleTextAppearance="@style/AppTheme.ToolbarTitle" android:navigationContentDescription="@string/action_navigate_up" app:background="@android:color/transparent" app:contentInsetStart="@dimen/default_toolbar_title_inset_start" app:layout_collapseMode="pin" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/first_pan" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/appbar_layout" />
+    <FrameLayout android:id="@id/second_pan" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/appbar_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

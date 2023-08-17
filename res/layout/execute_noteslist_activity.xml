@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:background="@color/noteslist_fragment_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.Design.AppBarLayout">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:extendedSubtitleTextAppearance="@style/AppTheme.CollapsingToolbarSubTitle" app:extendedTitleTextAppearance="@style/AppTheme.CollapsingToolbarTitle" app:layout_scrollFlags="scroll|exitUntilCollapsed" style="@style/Widget.Design.Light.CollapsingToolbar">
+            <include layout="@layout/default_toolbar" />
+            <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/action_mode_layout" android:layout="@layout/noteslist_action_mode_layout" android:inflatedId="@id/inflate_action_mode_layout" android:layout_width="wrap_content" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" />
+            <ViewStub android:layout_gravity="bottom" android:id="@id/search_view" android:layout="@layout/note_search_view" android:inflatedId="@id/inflate_search_view" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/notes_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/bottom_navigation" android:layout="@layout/bottom_navigation_view" android:inflatedId="@id/inflate_bottom_navigation" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_insetEdge="bottom" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

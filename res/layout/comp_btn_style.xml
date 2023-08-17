@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hw_toolbar_style" android:contentDescription="@string/hw_toolbar_item_change_style" style="@style/ComposerImageClickButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hw_toolbar_style_color_view" android:src="@drawable/comp_hw_toolbar_ic_changestyle" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+    <ImageView android:src="@drawable/comp_hw_toolbar_ic_changestyle_line" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+</FrameLayout>

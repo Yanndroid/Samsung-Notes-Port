@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/screenon_main" android:background="@color/composer_main_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/screenon_custom_containter" layout="@layout/screenon_popup_control" />
+    <include layout="@layout/composer_fragment_main" />
+</LinearLayout>

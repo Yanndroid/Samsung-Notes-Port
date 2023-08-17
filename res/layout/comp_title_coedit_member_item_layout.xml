@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/comp_title_coedit_member_container_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/comp_title_tag_item_space"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:layout_marginEnd="4.0dip">
+                <com.google.android.material.imageview.ShapeableImageView android:id="@id/comp_title_coedit_member_item_photo" android:tag="@string/coedit_theme_skip_tag" android:background="@drawable/comp_title_coedit_member_item_add" android:focusable="false" android:layout_width="@dimen/comp_title_coedit_member_item_thumbnail_height" android:layout_height="@dimen/comp_title_coedit_member_item_thumbnail_height" android:scaleType="fitXY" app:shapeAppearanceOverlay="@style/AppBaseCircleImageViewStyle" />
+                <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/comp_title_coedit_member_item_initial" android:visibility="gone" android:layout_width="@dimen/comp_title_coedit_member_item_thumbnail_height" android:layout_height="@dimen/comp_title_coedit_member_item_thumbnail_height" android:text="A" android:textAllCaps="true" android:fontFamily="sec-roboto-condensed" />
+            </FrameLayout>
+            <ImageView android:layout_gravity="end|bottom|center" android:id="@id/comp_title_coedit_member_item_leader" android:tag="@string/coedit_theme_skip_tag" android:background="@drawable/comp_title_coedit_member_item_leader_bg" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/comp_title_coedit_member_item_leader" />
+            <ImageView android:layout_gravity="end|center|top" android:id="@id/comp_title_coedit_member_item_writer" android:tag="@string/coedit_theme_skip_tag" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/comp_title_coedit_writer" android:layout_marginEnd="4.0dip" />
+        </FrameLayout>
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="12.0dip" android:textColor="#ff676767" android:ellipsize="end" android:gravity="center|top" android:id="@id/comp_title_coedit_member_item_name" android:background="@android:color/transparent" android:layout_width="54.0dip" android:layout_height="34.0dip" android:layout_marginTop="4.0dip" android:maxLines="2" android:textAlignment="gravity" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/widget_preview_note_list_background" android:layout_width="@dimen/widget_preview_note_list_width" android:layout_height="@dimen/widget_preview_note_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/widget_preview_note_list_title" style="@style/WidgetPreviewNoteListTitle" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/widget_preview_note_list_sub_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_preview_note_list_sub_margin_top" android:layout_marginBottom="@dimen/widget_preview_note_list_sub_margin_bottom" android:layout_marginStart="@dimen/widget_preview_note_list_sub_margin_start" android:layout_marginEnd="@dimen/widget_preview_note_list_sub_margin_end">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_preview_note_list_sub_content_margin_top" android:layout_marginStart="@dimen/widget_preview_note_list_sub_content_margin_start">
+            <ImageView android:layout_gravity="center" android:background="@color/widget_preview_note_list_sub_background" android:layout_width="@dimen/widget_preview_note_list_sub_content_image_width" android:layout_height="@dimen/widget_preview_note_list_sub_content_image_height" android:src="@drawable/list_thumbnail_1" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/widget_preview_note_list_sub_content_text_margin_start">
+                <TextView android:text="@string/widget_preview_note_list_title1_handwritting" style="@style/WidgetPreviewNoteListTitle1" />
+                <TextClock android:format12Hour="@string/widget_preview_note_list_sub_date" android:format24Hour="@string/widget_preview_note_list_sub_date" style="@style/WidgetPreviewNoteListSubTitle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_preview_note_list_sub_content_margin_top" android:layout_marginStart="@dimen/widget_preview_note_list_sub_content_margin_start">
+            <ImageView android:layout_gravity="center" android:background="@color/widget_preview_note_list_sub_background" android:layout_width="@dimen/widget_preview_note_list_sub_content_image_width" android:layout_height="@dimen/widget_preview_note_list_sub_content_image_height" android:src="@drawable/list_thumbnail_2" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/widget_preview_note_list_sub_content_text_margin_start">
+                <TextView android:text="@string/widget_preview_note_list_title1_meeting" style="@style/WidgetPreviewNoteListTitle1" />
+                <TextClock android:format12Hour="@string/widget_preview_note_list_sub_date" android:format24Hour="@string/widget_preview_note_list_sub_date" style="@style/WidgetPreviewNoteListSubTitle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:theme="@style/AppTheme.ToolbarStyle" layout="@layout/default_toolbar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.samsung.android.support.senl.nt.base.winset.view.AbsViewPager android:id="@id/rectified_image_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/rectified_image_view_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale" />
+    </FrameLayout>
+</LinearLayout>

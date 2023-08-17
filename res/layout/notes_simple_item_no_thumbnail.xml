@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_cardview" android:background="@color/basic_list_item_bg_color" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/notes_simple_item_no_thumbnail_padding_start" android:paddingEnd="@dimen/notes_simple_item_padding_end">
+        <include android:id="@id/checkbox_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/notes_simple_item_checkbox_margin_start" layout="@layout/notes_list_checkbox" />
+        <TableLayout android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notes_simple_item_margin_top" android:shrinkColumns="0" android:layout_marginEnd="@dimen/notes_simple_item_margin_end" android:layout_toEndOf="@id/checkbox_container">
+            <TableRow>
+                <com.samsung.android.support.senl.nt.app.main.noteslist.adapter.view.TitleView android:textAppearance="@style/RobotoMediumStyle" android:textSize="@dimen/notes_simple_item_title_size" android:textColor="@color/noteslist_item_title_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" />
+                <ViewStub android:layout_gravity="center_vertical" android:id="@id/coedit_space_extra" android:layout="@layout/notes_coedit_item_space_extra" android:inflatedId="@id/inflate_coedit_space_extra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+                <ViewStub android:layout_gravity="center" android:id="@id/coedit_load_icon_view" android:layout="@layout/notes_item_coedit_load_icon" android:inflatedId="@id/inflate_coedit_load_icon_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" />
+            </TableRow>
+        </TableLayout>
+        <include android:id="@id/extra" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/notes_simple_item_margin_bottom" android:layout_below="@id/title_container" android:layout_toEndOf="@id/checkbox_container" layout="@layout/notes_simple_item_extra" />
+        <View android:id="@id/divider" android:background="@color/notes_divider_color" android:layout_width="wrap_content" android:layout_height="@dimen/noteslist_item_divider_height" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

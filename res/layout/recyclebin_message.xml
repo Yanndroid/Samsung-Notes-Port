@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/recyclebin_message" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearanceDescription" android:id="@id/recyclebin_message_description" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/recyclebin_message_description_layout_margin_top" android:layout_marginBottom="@dimen/recyclebin_message_description_layout_margin_bottom" android:layout_marginStart="@dimen/recyclebin_message_description_layout_margin_start_end" android:layout_marginEnd="@dimen/recyclebin_message_description_layout_margin_start_end" />
+</FrameLayout>

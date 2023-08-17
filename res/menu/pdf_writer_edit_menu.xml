@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/comp_appbar_ic_full_screen" android:id="@id/action_tablet_full_screen_mode" android:orderInCategory="@integer/menu_type_not_define" android:title="@string/composer_opt_full_screen" app:showAsAction="always" />
+    <item android:icon="@drawable/comp_appbar_ic_reading_mode_off" android:id="@id/action_read_mode" android:orderInCategory="@integer/menu_type_not_define" android:title="@string/composer_reading_mode" app:showAsAction="always" />
+    <item android:icon="@drawable/comp_appbar_ic_tablet_sort_page" android:id="@id/action_tablet_sort_pages" android:orderInCategory="@integer/menu_type_not_define" android:title="@string/composer_sort_pages" app:showAsAction="always" />
+    <item android:id="@id/action_save" android:orderInCategory="@integer/menu_type_not_define" android:title="@string/string_save_full" app:showAsAction="always" />
+    <item android:icon="@drawable/comp_appbar_ic_attach" android:id="@id/action_add" android:orderInCategory="@integer/menu_type_card" android:title="@string/composer_insert" app:showAsAction="ifRoom" />
+    <group android:id="@id/action_more">
+        <item android:icon="@drawable/comp_appbar_ic_sort_page" android:id="@id/action_sort_pages" android:orderInCategory="@integer/menu_type_card" android:title="@string/composer_sort_pages" />
+        <item android:icon="@drawable/comp_appbar_ic_page_view" android:id="@id/action_page_setting" android:orderInCategory="@integer/menu_type_card" android:title="@string/composer_page_setting" />
+        <item android:id="@id/action_full_screen_mode" android:orderInCategory="@integer/menu_type_text" android:title="@string/composer_opt_full_screen" />
+        <item android:id="@id/action_export" android:orderInCategory="@integer/menu_type_text" android:title="@string/save_as" />
+        <item android:id="@id/action_turn_on_off_finger_drawing" android:orderInCategory="@integer/menu_type_text" android:title="@string/composer_turn_on_finger_drawing" />
+        <item android:id="@id/action_turn_on_off_auto_change_mode" android:visible="false" android:orderInCategory="@integer/menu_type_text" android:title="@string/composer_turn_off_auto_change_mode" />
+        <item android:icon="@drawable/comp_appbar_ic_share" android:id="@id/action_share" android:orderInCategory="@integer/menu_type_icon" android:title="@string/action_share" />
+    </group>
+</menu>

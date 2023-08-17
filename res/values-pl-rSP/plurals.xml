@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Można dodać maksymalnie %d elementu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Można dodać maksymalnie %d element.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Można dodać maksymalnie %d elementy.</item>
+        <item quantity="many">Można dodać maksymalnie %d elementów.</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Jednocześnie można wkleić maksymalnie %d elementu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jednocześnie można wkleić maksymalnie %d element.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jednocześnie można wkleić maksymalnie %d elementy.</item>
+        <item quantity="many">Jednocześnie można wkleić maksymalnie %d elementów.</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Jednocześnie można zeskanować maksymalnie %d dokumentu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jednocześnie można zeskanować maksymalnie %d dokument.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jednocześnie można zeskanować maksymalnie %d dokumenty.</item>
+        <item quantity="many">Jednocześnie można zeskanować maksymalnie %d dokumentów.</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Niy idzie pokŏzać wiyncyj co %d farbōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy idzie pokŏzać wiyncyj co %d farby.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy idzie pokŏzać wiyncyj co %d farbōw.</item>
+        <item quantity="many">Niy idzie pokŏzać wiyncyj co %d farbōw.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Niy idzie we jednym czasie dodać wiyncyj jak %d plikōw audio.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy idzie we jednym czasie dodać wiyncyj jak %d plik audio.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy idzie we jednym czasie dodać wiyncyj jak %d pliki audio.</item>
+        <item quantity="many">Niy idzie we jednym czasie dodać wiyncyj jak %d plikōw audio.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Jednocześnie można wkleić maksymalnie %d dokumentu PDF.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jednocześnie można wkleić maksymalnie %d dokument PDF.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Jednocześnie można wkleić maksymalnie %d dokumenty PDF.</item>
+        <item quantity="many">Jednocześnie można wkleić maksymalnie %d dokumentów PDF.</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Eksportowanie zostało anulowane. Wyeksportowano już %d pliku PDF.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eksportowanie zostało anulowane. Wyeksportowano już %d plik PDF.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Eksportowanie zostało anulowane. Wyeksportowano już %d pliki PDF.</item>
+        <item quantity="many">Eksportowanie zostało anulowane. Wyeksportowano już %d plików PDF.</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Niy idzie podać wiyncyj jak %d znakōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy idzie podać wiyncyj jak %d znaku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy idzie podać wiyncyj jak %d znakōw.</item>
+        <item quantity="many">Niy idzie podać wiyncyj jak %d znakōw.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Wkludź hasło co mo nojmynij %d znakōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wkludź hasło co mo nojmynij %d znaku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wkludź hasło co mo nojmynij %d znakōw.</item>
+        <item quantity="many">Wkludź hasło co mo nojmynij %d znakōw.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Wkludź nowe hasło co mo nojmynij %d znakōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wkludź nowe hasło co mo nojmynij %d znaku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wkludź nowe hasło co mo nojmynij %d znakōw.</item>
+        <item quantity="many">Wkludź nowe hasło co mo nojmynij %d znakōw.</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Doczkej %d sekund i sprōbuj jeszcze rŏz.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Doczkej %d sekunda i sprōbuj jeszcze rŏz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Doczkej %d sekundy i sprōbuj jeszcze rŏz.</item>
+        <item quantity="many">Doczkej %d sekund i sprōbuj jeszcze rŏz.</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Można otworzyć maksymalnie %d okna Notatek Samsung. Zamknij okno i spróbuj ponownie.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Można otworzyć maksymalnie %d okno Notatek Samsung. Zamknij okno i spróbuj ponownie.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Można otworzyć maksymalnie %d okna Notatek Samsung. Zamknij okno i spróbuj ponownie.</item>
+        <item quantity="many">Można otworzyć maksymalnie %d okien Notatek Samsung. Zamknij okno i spróbuj ponownie.</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">Zebrano %d zapisek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zebrano %d zapiska.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zebrano %d zapiski.</item>
+        <item quantity="many">Zebrano %d zapisek.</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d koloru</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kolor</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d kolory</item>
+        <item quantity="many">%d kolorów</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d grubości</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d grubość</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d grubości</item>
+        <item quantity="many">%d grubości</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Usunąć %d udostępnionej notatki?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Usunąć %d udostępnioną notatkę?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Usunąć %d udostępnione notatki?</item>
+        <item quantity="many">Usunąć %d udostępnionych notatek?</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Kōnwertuj %d zapiskōw</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kōnwertuj %d zapiska</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kōnwertuj %d zapiski</item>
+        <item quantity="many">Kōnwertuj %d zapiskōw</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d katalogōw</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d katalog</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d katalogi</item>
+        <item quantity="many">%d katalogōw</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d dingsōw</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dings</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dingsy</item>
+        <item quantity="many">%d dingsōw</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d zapiskōw</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zapisek</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zapiski</item>
+        <item quantity="many">%d zapiskōw</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Niy idzie pokŏzać wiyncyj co %d farbōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy idzie pokŏzać wiyncyj co %d farby.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy idzie pokŏzać wiyncyj co %d farbōw.</item>
+        <item quantity="many">Niy idzie pokŏzać wiyncyj co %d farbōw.</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d zeszytu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zeszyt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zeszyty</item>
+        <item quantity="many">%d zeszytów</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Przeciepnōńć %1$d katalogōw do %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Przeciepnōńć %1$d katalog do %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Przeciepnōńć %1$d katalogi do %2$s?</item>
+        <item quantity="many">Przeciepnōńć %1$d katalogōw do %2$s?</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">Używŏcz %1$s dodōł %2$d nowych zapiskōw do spisownika %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Używŏcz %1$s dodōł %2$d nowy zapisek do spisownika %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Używŏcz %1$s dodōł %2$d nowe zapiski do spisownika %3$s.</item>
+        <item quantity="many">Używŏcz %1$s dodōł %2$d nowych zapiskōw do spisownika %3$s.</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d nowych zapiskōw udostympn.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nowy zapisek udostympniōny</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nowe zapiski udostympniōne</item>
+        <item quantity="many">%d nowych zapiskōw udostympn.</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Importowanie zostało anulowane. Zaimportowano już %d pliku PDF.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Importowanie zostało anulowane. Zaimportowano już %d plik PDF.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Importowanie zostało anulowane. Zaimportowano już %d pliki PDF.</item>
+        <item quantity="many">Importowanie zostało anulowane. Zaimportowano już %d plików PDF.</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Nie można zaimportować %d notatki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nie można zaimportować %d notatki.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nie można zaimportować %d notatek.</item>
+        <item quantity="many">Nie można zaimportować %d notatek.</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Wkludź nowe hasło co mo nojmynij %d znakōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wkludź nowe hasło co mo nojmynij %d znaku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wkludź nowe hasło co mo nojmynij %d znakōw.</item>
+        <item quantity="many">Wkludź nowe hasło co mo nojmynij %d znakōw.</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Niy idzie ôbrać wiyncyj co %d dingsu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy idzie ôbrać wiyncyj co %d dingsu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy idzie ôbrać wiyncyj co %d dingsōw.</item>
+        <item quantity="many">Niy idzie ôbrać wiyncyj co %d dingsōw.</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Przeciepnōńć %d folderōw do Hasiŏka?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Przeciepnōńć %d folder do Hasiŏka?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Przeciepnōńć %d foldery do Hasiŏka?</item>
+        <item quantity="many">Przeciepnōńć %d folderōw do Hasiŏka?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Przenieść %d katalogu i wszystkie znajdujące się nich elementy do Kosza?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Przenieść %d katalog i wszystkie znajdujące się w nim elementy do Kosza?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Przenieść %d katalogi i wszystkie znajdujące się w nich elementy do Kosza?</item>
+        <item quantity="many">Przenieść %d katalogów i wszystkie znajdujące się w nich elementy do Kosza?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Przeciepnōńć %d zapiskōw do Hasiŏka?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Przeciepnōńć %d zapisek do Hasiŏka?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Przeciepnōńć %d zapiski do Hasiŏka?</item>
+        <item quantity="many">Przeciepnōńć %d zapiskōw do Hasiŏka?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Po zweryfikowaniu Twojej tożsamości %d notatki (w tym 1 zablokowana notatka) zostanie przeniesione do Kosza.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Po zweryfikowaniu Twojej tożsamości %d notatka (w tym 1 zablokowana notatka) zostanie przeniesiona do Kosza.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Po zweryfikowaniu Twojej tożsamości %d notatki (w tym 1 zablokowana notatka) zostaną przeniesione do Kosza.</item>
+        <item quantity="many">Po zweryfikowaniu Twojej tożsamości %d notatek (w tym 1 zablokowana notatka) zostanie przeniesionych do Kosza.</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Niy ôstało przeciepniyntych %d zapiskōw do ôbranego folderu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy ôstała przeciepniyntŏ %d zapiska do ôbranego folderu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy ôstały przeciepniynte %d zapiski do ôbranego folderu.</item>
+        <item quantity="many">Niy ôstało przeciepniyntych %d zapiskōw do ôbranego folderu.</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Przeciepnōńć %1$d zapiskōw do %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Przeciepnōńć %1$d zapiska do %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Przeciepnōńć %1$d zapiski do %2$s?</item>
+        <item quantity="many">Przeciepnōńć %1$d zapiskōw do %2$s?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d elementu zostanie trwale usunięte z chmury i wszystkich urządzeń użytkownika.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element zostanie trwale usunięty z chmury i wszystkich urządzeń użytkownika.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d elementy zostaną trwale usunięte z chmury i wszystkich urządzeń użytkownika.</item>
+        <item quantity="many">%d elementów zostanie trwale usuniętych z chmury i wszystkich urządzeń użytkownika.</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Blank wyciepnōńć %d zapiskōw?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Blank wyciepnōńć %d zapisek?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Blank wyciepnōńć %d zapiski?</item>
+        <item quantity="many">Blank wyciepnōńć %d zapiskōw?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d dingsōw bydzie na zicher wyciepanych.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dings bydzie na zicher wyciepany.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dingsy bydōm na zicher wyciepane.</item>
+        <item quantity="many">%d dingsōw bydzie na zicher wyciepanych.</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d dni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dziyń</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Można wybrać maksymalnie %d uderzenia lub obiektu we wspólnej notatce.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Można wybrać maksymalnie %d uderzenie lub obiekt we wspólnej notatce.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Można wybrać maksymalnie %d uderzenia lub obiekty we wspólnej notatce.</item>
+        <item quantity="many">Można wybrać maksymalnie %d uderzeń lub obiektów we wspólnej notatce.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">W telefōnie zachowanych ôstało %d ôbrazōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W telefōnie zachowany ôstōł %d ôbrŏz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W telefōnie zachowane ôstały %d ôbrazy.</item>
+        <item quantity="many">W telefōnie zachowanych ôstało %d ôbrazōw.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">W tablecie zachowanych ôstało %d ôbrazōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W tablecie zachowany ôstōł %d ôbrŏz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W tablecie zachowane ôstały %d ôbrazy.</item>
+        <item quantity="many">W tablecie zachowanych ôstało %d ôbrazōw.</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">W telefōnie zachowanych ôstało %d plikōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W telefōnie zachowany ôstōł %d plik.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W telefōnie zachowane ôstały %d pliki.</item>
+        <item quantity="many">W telefōnie zachowanych ôstało %d plikōw.</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">W tablecie zachowanych ôstało %d plikōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W tablecie zachowany ôstōł %d plik.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W tablecie zachowane ôstały %d pliki.</item>
+        <item quantity="many">W tablecie zachowanych ôstało %d plikōw.</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d czōnkōw</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d czōnek</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d czōnkōw</item>
+        <item quantity="many">%d czōnkōw</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Ta notatka zostanie usunięta za %d dnia.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ta notatka zostanie usunięta za %d dzień.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ta notatka zostanie usunięta za %d dni.</item>
+        <item quantity="many">Ta notatka zostanie usunięta za %d dni.</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Eksportowanie %d pliku PDF…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eksportowanie %d pliku PDF…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Eksportowanie %d plików PDF…</item>
+        <item quantity="many">Eksportowanie %d plików PDF…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Niy idzie przekōnwertować %d zapiskōw. Zwolnij trocha placu we pamiyńci driny i sprōbuj jeszcze rŏz.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy idzie przekōnwertować %d zapiska. Zwolnij trocha placu we pamiyńci driny i sprōbuj jeszcze rŏz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy idzie przekōnwertować %d zapiski. Zwolnij trocha placu we pamiyńci driny i sprōbuj jeszcze rŏz.</item>
+        <item quantity="many">Niy idzie przekōnwertować %d zapiskōw. Zwolnij trocha placu we pamiyńci driny i sprōbuj jeszcze rŏz.</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Wyciepnōńć %d elymyntōw?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wyciepnōńć %d elymynt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wyciepnōńć %d elymynty?</item>
+        <item quantity="many">Wyciepnōńć %d elymyntōw?</item>
+    </plurals>
+</resources>

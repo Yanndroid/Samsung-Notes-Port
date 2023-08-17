@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/basic_list_item_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/coedit_invite_space_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+        <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/round_corner_radius" app:corner="top_left|top_right" />
+        <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/round_corner_radius" app:corner="bottom_left|bottom_right" />
+    </FrameLayout>
+</LinearLayout>

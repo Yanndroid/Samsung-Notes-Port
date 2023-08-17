@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/comp_title_coedit_member_item_thumbnail_height" android:width="@dimen/comp_title_coedit_member_item_thumbnail_height" />
+            <solid android:color="#0f000000" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="14.0dip" android:width="14.0dip" android:drawable="@drawable/comp_title_coedit_member_item_add_icon" />
+</layer-list>

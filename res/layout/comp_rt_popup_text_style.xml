@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/text_style_scroll_view" android:background="@drawable/rich_text_font_color_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:fillViewport="true" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" android:elevation="@dimen/composer_rich_text_popup_bg_elevation">
+        <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/text_style_root_view" android:paddingBottom="@dimen/comp_rt_popup_text_style_dialog_padding" android:layout_width="@dimen/comp_rt_popup_text_style_dialog_width" android:layout_height="@dimen/comp_rt_popup_text_style_dialog_height">
+            <RelativeLayout android:gravity="center" android:layout_width="@dimen/comp_rt_popup_text_style_top_width" android:layout_height="@dimen/comp_rt_popup_text_style_top_height" android:layout_marginStart="@dimen/comp_rt_popup_text_style_top_side_margin" android:layout_marginEnd="@dimen/comp_rt_popup_text_style_top_side_margin">
+                <ImageView android:id="@id/close_btn" android:focusable="true" android:clickable="true" android:layout_width="@dimen/composer_colorpicker_done_width" android:layout_height="@dimen/composer_colorpicker_done_width" android:src="@drawable/note_setting_ic_close" android:tint="?floatingToolbarItemTint" android:layout_centerVertical="true" android:contentDescription="@string/composer_string_close" android:layout_alignParentEnd="true" />
+                <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/composer_colorpicker_title_fontsize" android:textColor="?floatingToolbarPopupMenuTextColor" android:ellipsize="end" android:gravity="start|center" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/comp_rt_popup_text_setting_title" android:maxLines="1" android:layout_alignParentStart="true" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="@dimen/comp_rt_popup_text_style_root_width" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/comp_rt_popup_text_style_dialog_padding" android:layout_marginEnd="@dimen/comp_rt_popup_text_style_dialog_padding">
+                <LinearLayout android:background="@drawable/comp_rt_popup_text_style_btn_container_bg" android:layout_width="@dimen/comp_rt_popup_text_style_task_width" android:layout_height="@dimen/comp_rt_popup_text_style_group_height" android:layout_alignParentTop="true" android:layoutDirection="ltr" android:layout_alignParentStart="true">
+                    <ImageView android:id="@id/comp_rt_btn_dot" android:src="@drawable/comp_rt_toolbar_ic_dot" android:contentDescription="@string/composer_bullets" style="@style/ComposerRTImageClickButton" />
+                    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/comp_rt_btn_numbering" android:src="@drawable/comp_rt_toolbar_ic_numbering" android:contentDescription="@string/composer_numbering" style="@style/ComposerRTImageClickButton" />
+                </LinearLayout>
+                <LinearLayout android:background="@drawable/comp_rt_popup_text_style_btn_container_bg" android:layout_width="@dimen/comp_rt_popup_text_style_align_width" android:layout_height="@dimen/comp_rt_popup_text_style_group_height" android:layout_alignParentTop="true" android:layoutDirection="ltr" android:layout_alignParentEnd="true">
+                    <ImageView android:id="@id/comp_rt_btn_align_left" android:src="@drawable/comp_rt_toolbar_ic_align_left" android:contentDescription="@string/composer_align_left" style="@style/ComposerRTImageClickButton" />
+                    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/comp_rt_btn_align_center" android:src="@drawable/comp_rt_toolbar_ic_align_center" android:contentDescription="@string/composer_align_center" style="@style/ComposerRTImageClickButton" />
+                    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/comp_rt_btn_align_right" android:src="@drawable/comp_rt_toolbar_ic_align_right" android:contentDescription="@string/composer_align_right" style="@style/ComposerRTImageClickButton" />
+                </LinearLayout>
+                <LinearLayout android:background="@drawable/comp_rt_popup_text_style_btn_container_bg" android:layout_width="@dimen/comp_rt_popup_text_style_attr_width" android:layout_height="@dimen/comp_rt_popup_text_style_group_height" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+                    <ImageView android:id="@id/comp_rt_btn_bold" android:src="@drawable/comp_rt_toolbar_ic_bold" android:contentDescription="@string/composer_bold" style="@style/ComposerRTImageClickButton" />
+                    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/comp_rt_btn_italic" android:src="@drawable/comp_rt_toolbar_ic_italic" android:contentDescription="@string/composer_italic" style="@style/ComposerRTImageClickButton" />
+                    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/comp_rt_btn_underline" android:src="@drawable/comp_rt_toolbar_ic_underline" android:contentDescription="@string/composer_underline" style="@style/ComposerRTImageClickButton" />
+                    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/comp_rt_btn_strikethrough" android:src="@drawable/comp_rt_toolbar_ic_strikethrough" android:contentDescription="@string/composer_strikethrough" style="@style/ComposerRTImageClickButton" />
+                </LinearLayout>
+                <LinearLayout android:background="@drawable/comp_rt_popup_text_style_btn_container_bg" android:layout_width="@dimen/comp_rt_popup_text_style_indent_width" android:layout_height="@dimen/comp_rt_popup_text_style_group_height" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+                    <ImageView android:id="@id/comp_rt_btn_indent" android:src="@drawable/comp_rt_toolbar_ic_indent" android:contentDescription="@string/composer_indent" style="@style/ComposerRTImageClickButton" />
+                    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/comp_rt_btn_outdent" android:src="@drawable/comp_rt_toolbar_ic_outdent" android:contentDescription="@string/composer_outdent" style="@style/ComposerRTImageClickButton" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/mini_pen_attr_default_height" android:layout_height="@dimen/mini_pen_attr_default_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/color_selected" android:layout_width="@dimen/mini_pen_attr_default_selected_size" android:layout_height="@dimen/mini_pen_attr_default_selected_size" android:layout_centerInParent="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/color_background" android:background="@drawable/setting_mini_attr_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/mini_pen_attr_default_color_bg_margin" android:elevation="3.0dip" />
+        </FrameLayout>
+        <ImageView android:id="@id/color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/mini_pen_attr_default_color_margin" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/mini_pen_attr_default_text_size" android:textColor="@color/mini_setting_pen_layout_text_color" android:id="@id/text_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:text="123" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

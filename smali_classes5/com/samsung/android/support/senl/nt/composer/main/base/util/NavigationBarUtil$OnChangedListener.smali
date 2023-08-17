@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/samsung/android/support/senl/nt/composer/main/base/util/NavigationBarUtil$OnChangedListener;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/samsung/android/support/senl/nt/composer/main/base/util/NavigationBarUtil;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "OnChangedListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract onHidedNavigation(Z)V
+.end method

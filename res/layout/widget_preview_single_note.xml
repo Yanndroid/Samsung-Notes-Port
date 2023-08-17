@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/widget_preview_single_note_background" android:layout_width="@dimen/widget_preview_single_note_width" android:layout_height="@dimen/widget_preview_single_note_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/widget_preview_single_note_title_skylars_birthday" style="@style/WidgetPreviewSingleNoteTitle" />
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/widget_preview_single_note_sub_width" android:layout_height="@dimen/widget_preview_single_note_sub_height" android:layout_marginTop="@dimen/widget_preview_single_note_sub_margin_top" android:layout_marginStart="@dimen/widget_preview_single_note_sub_margin_start" android:layout_marginEnd="@dimen/widget_preview_single_note_sub_margin_end">
+        <TextClock android:drawableStart="@drawable/view_todo_check" android:format12Hour="@string/widget_preview_single_note_date" android:format24Hour="@string/widget_preview_single_note_date" style="@style/WidgetPreviewSingleNoteSubtitleStrikeThroughText" />
+        <TextView android:text="@string/widget_preview_shortcut_buy_a_present" android:drawableStart="@drawable/view_todo_uncheck" style="@style/WidgetPreviewSingleNoteSubtitle" />
+        <TextView android:text="@string/widget_preview_shortcut_send_the_invitations" android:drawableStart="@drawable/view_todo_uncheck" style="@style/WidgetPreviewSingleNoteSubtitle" />
+        <TextView android:text="@string/widget_preview_shortcut_pick_up_the_cake" android:drawableStart="@drawable/view_todo_uncheck" style="@style/WidgetPreviewSingleNoteSubtitle" />
+    </LinearLayout>
+</RelativeLayout>

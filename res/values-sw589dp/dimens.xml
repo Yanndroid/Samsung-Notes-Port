@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="widget_setting_list_weight_top">0.9</item>
+    <item type="dimen" name="widget_setting_margin_weight_top">0.05</item>
+</resources>

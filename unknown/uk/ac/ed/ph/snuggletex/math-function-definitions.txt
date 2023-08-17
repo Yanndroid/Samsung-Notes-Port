@@ -1,0 +1,49 @@
+# Defines standard mathematical function commands.
+# The resulting MathML names will be the same as the LaTeX command
+# name, unless otherwise specified with '->'.
+arccos
+arcsin
+arctan
+arg
+cos
+cosh
+cot
+coth
+csc
+deg
+det
+dim
+exp
+gcd
+hom
+inf
+ker
+lg
+lcm
+lim
+liminf->lim inf
+limsup->lim sup
+ln
+log
+max
+min
+Pr
+sec
+sin
+sinh
+sup
+tan
+tanh
+# Extra non-standard definitions for consistency with Content MathML
+sech
+csch
+coth
+arcsec
+arccsc
+arccot
+arccosh
+arcsinh
+arctanh
+arcsech
+arccsch
+arccoth

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/settings_preference_badge_holder_size" android:layout_height="@dimen/settings_preference_badge_holder_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:background="@drawable/notes_item_new_badge_bg" android:layout_width="@dimen/settings_preference_badge_size" android:layout_height="@dimen/settings_preference_badge_size" />
+</FrameLayout>

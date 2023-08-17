@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/in_app_add_ons_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/in_app_add_ons_flow" android:layout_width="fill_parent" android:layout_height="0.0dip" app:flow_horizontalGap="0.0dip" app:flow_horizontalStyle="spread_inside" app:flow_maxElementsWrap="5" app:flow_verticalGap="@dimen/in_app_sub_toolbar_container_margin_top" app:flow_verticalStyle="spread" app:flow_wrapMode="chain" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

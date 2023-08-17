@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_save_as" android:id="@id/action_save_to_device" android:orderInCategory="100" android:title="@string/composer_save_to_device" app:contentDescription="@string/composer_save_to_device" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_save_as_file" android:id="@id/action_save_as_file" android:orderInCategory="100" android:title="@string/action_save_as" app:contentDescription="@string/action_save_as" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_share" android:id="@id/action_share" android:orderInCategory="100" android:title="@string/action_share" app:contentDescription="@string/action_share" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_switch_to_coedit" android:id="@id/action_switch_to_notebook" android:orderInCategory="100" android:title="@string/co_edit_switch_to_notebook" app:contentDescription="@string/co_edit_switch_to_notebook" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_delete" android:id="@id/action_delete" android:orderInCategory="100" android:title="@string/action_delete" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/comp_appbar_ic_leave" android:id="@id/action_leave_shared_note" android:visible="false" android:orderInCategory="100" android:title="@string/gcs_group_edit_menu_dialog_action_leave" app:contentDescription="@string/gcs_group_edit_menu_dialog_action_leave" app:showAsAction="ifRoom" />
+</menu>

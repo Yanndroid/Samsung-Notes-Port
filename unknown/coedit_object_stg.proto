@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+package coeditObjectStg;
+
+/* delete object info.(object table(with blob, s3 binary)  */
+service ObjectWorkspaceDeleter {
+  rpc DeleteWorkspace (DeleteRequest) returns (DeleteResponse);
+}
+
+message DeleteRequest {
+  string workspace_id = 1;
+}
+
+message DeleteResponse {
+  ResponseResult response_result = 1;
+}
+
+message ResponseResult {
+  int32 code = 1;
+  int32 rcode = 2;
+  int32 lcode = 3;
+  string rmsg = 4;
+  string lmsg = 5;
+}

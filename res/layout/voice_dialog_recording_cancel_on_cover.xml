@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:layout_gravity="top" android:orientation="vertical" android:id="@id/cover_canceldialog_cancel_layout" android:paddingTop="24.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:fillViewport="true" android:layout_weight="1.0" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <TextView android:textSize="17.0dip" android:textColor="#ff252525" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/voice_alertdialog_message" android:lineSpacingExtra="4.0sp" android:fontFamily="sans-serif" />
+    </com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/cover_canceldialog_button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layoutDirection="locale">
+        <Button android:textSize="14.0dip" android:textStyle="bold" android:id="@id/cover_canceldialog_cancel" android:background="@null" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="0.0dip" android:text="@string/voice_cancel" android:fontFamily="sans-serif" android:layout_marginEnd="8.0dip" />
+        <Button android:textSize="14.0dip" android:textStyle="bold" android:id="@id/cover_canceldialog_discard" android:background="@null" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="0.0dip" android:text="@string/string_discard" android:fontFamily="sans-serif" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <Button android:textSize="14.0dip" android:textStyle="bold" android:id="@id/cover_canceldialog_save" android:background="@null" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="0.0dip" android:text="@string/string_save" android:fontFamily="sans-serif" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

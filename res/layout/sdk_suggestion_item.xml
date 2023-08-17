@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/text_suggestion_popup_text_size" android:background="@drawable/spen_rect_ripple" android:paddingTop="@dimen/text_suggestion_popup_padding_top" android:paddingBottom="@dimen/text_suggestion_popup_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/text_suggestion_popup_padding_start" android:paddingEnd="@dimen/text_suggestion_popup_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

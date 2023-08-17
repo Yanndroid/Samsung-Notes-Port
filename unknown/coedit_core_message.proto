@@ -1,0 +1,161 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+import "coedit_operation.proto";
+
+package coeditCoreMessage;
+
+enum ServerCmd {
+  RESPONSE = 0;
+  NOTIFY = 1;
+  HEALTH_CHECK = 2;
+  DISCONNECT_BY_EVENT = 3;
+  RESPOND_DEVICE_LIST = 4;
+  WORKSPACE_BLOCK_STATE_CHANGE = 5;
+}
+
+enum ClientCmd {
+  CONNECT = 0;
+  DISCONNECT = 1;
+  SUBMIT = 2;
+  REFRESH = 3;
+  GET_DEVICE_LIST = 4;
+}
+
+enum DeviceInfoChangeType {
+  DEVICE_CONNECT = 0;
+  DEVICE_DISCONNECT = 1;
+  DEVICE_PERMISSION_CHANGE = 2;
+}
+
+enum CatchupType {
+  NORMAL_NEW_MEMBER = 0;
+  ABNORMAL_SUBMIT_ACK_LOST = 1;
+  ABNORMAL_NOTIFY_LOST = 2;
+}
+
+enum EventType {
+  DELETE_NOTE_RESOURCE = 0;
+  CHANGE_MEMBER_PERMISSION = 1;
+  DELETE_MEMBER = 2;
+  UPDATE_DOCUMENT_XML_VERSION = 3;
+  UPDATE_APP_VERSION = 4;
+  IS_SERVER_UNDER_MAINTENANCE = 5;
+}
+
+enum PermissionType {
+  VIEW = 0;
+  EDIT = 1;
+}
+
+message ClientMsg {
+  string channel_id = 1;
+  ClientCmd client_cmd = 2;
+}
+
+message ServerMsg {
+  ResponseResult response_result = 1;
+  string channel_id = 2;
+  ServerCmd server_cmd = 3;
+  CheckPointCoeditOpPair checkpoint_coeditop_pair = 4;
+  int64 session_valid_time = 5;
+  EventInfo event_info = 6;
+  repeated DeviceInfo device_info = 7;
+  int64 connected_device_cnt = 8;
+  bool workspace_blocked = 9;
+  int64 workspace_version = 10;
+  PolicyInfo policy_info = 11;
+  string dvc_id = 12;
+}
+
+message SubmitRequest {
+  ClientCmd client_cmd = 1;
+  string channel_id = 2;
+  CheckPointCoeditOpPair checkpoint_coeditop_pair = 3;
+  bool is_validate = 4;
+  int64 workspace_version = 5;
+}
+
+message SubmitResponse {
+  ResponseResult response_result = 1;
+  int64 checkpoint = 2;
+}
+
+message CatchupRequest {
+  int64 start_checkpoint = 1;
+  int64 end_checkpoint = 2;
+  CatchupType catchup_type = 3;
+  int64 workspace_version = 4;
+}
+
+message CatchupResponse {
+  ResponseResult response_result = 1;
+  repeated CheckPointCoeditOpPair checkpoint_coeditop_pair = 2;
+}
+
+message PermissionRequest {
+  PermissionType permission_type = 1;
+}
+
+message PermissionResponse {
+  ResponseResult response_result = 1;
+}
+
+message ResetWorkspaceRequest {
+  int64 workspace_version = 1;
+}
+
+message ResetWorkspaceResponse {
+  ResponseResult response_result = 1;
+  string workspace_id = 2;
+  int64 workspace_version = 3;
+  int64 latest_snapshot_checkpoint = 4;
+  bool is_blocked = 5;
+}
+
+message EventInfo {
+  EventType event_type = 1;
+  bool writable = 2;
+}
+
+message DeviceInfo {
+  string dvc_id = 1;
+  string uid = 2;
+  DeviceInfoChangeType device_info_change_type = 3;
+  PermissionType permission_type = 4;
+}
+
+message ObjectInfo {
+  string obj_id = 1;
+  BinaryInfo binary_info = 2;
+  string download_signed_url = 3;
+}
+
+message BinaryInfo {
+  string hash = 1;
+  int64 size = 2;
+  string mimetype = 3;
+}
+
+message CheckPointCoeditOpPair {
+  int64 checkpoint = 1;
+  repeated coeditOperation.CoeditOperation coedit_operation = 2;
+  repeated ObjectInfo object_info = 3;
+  DeviceInfo device_info = 4;
+  string extra_data = 5;
+}
+
+message ResponseResult {
+  int32 code = 1;
+  int32 rcode = 2;
+  int32 lcode = 3;
+  string rmsg = 4;
+  string lmsg = 5;
+  string request_id = 6;
+}
+
+message PolicyInfo {
+  int32 max_connectable_device_cnt = 1;
+  int32 max_editable_device_cnt = 2;
+}

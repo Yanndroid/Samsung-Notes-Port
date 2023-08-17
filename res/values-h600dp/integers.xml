@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="template_editor_menu_height_ratio">30</integer>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/time_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/import_list_item_time_text_size" android:textColor="@color/noteslist_item_time_color" android:ellipsize="end" android:gravity="start" android:id="@id/modified_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:importantForAccessibility="no" />
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/import_list_item_time_text_size" android:textColor="@color/noteslist_item_time_color" android:ellipsize="end" android:gravity="start" android:id="@id/created_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:importantForAccessibility="no" />
+    </LinearLayout>
+    <ViewStub android:id="@id/favorite" android:layout="@layout/notes_item_favorite" android:inflatedId="@id/inflate_favorite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/noteslist_item_icon_margin_start" />
+    <ViewStub android:layout_gravity="end|center" android:id="@id/voice" android:layout="@layout/notes_item_voice" android:inflatedId="@id/inflate_voice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/notes_list_item_icon_margin_start" />
+</LinearLayout>

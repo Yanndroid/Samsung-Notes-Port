@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">לא ניתן להוסיף יותר מ-%d פריטים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להוסיף יותר מפריט %d.</item>
+        <item quantity="two">לא ניתן להוסיף יותר מ-%d פריטים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להוסיף יותר מ-%d פריטים.</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">ניתן להדביק %d פריטים‎ לכל היותר בו זמנית.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להדביק פריט %d לכל היותר בו זמנית.</item>
+        <item quantity="two">ניתן להדביק %d פריטים‎ לכל היותר בו זמנית.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להדביק %d פריטים‎ לכל היותר בו זמנית.</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">לא ניתן לסרוק יותר מ-%d מסמכים בכל פעם.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן לסרוק יותר ממסמך %d בכל פעם.</item>
+        <item quantity="two">לא ניתן לסרוק יותר מ-%d מסמכים בכל פעם.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן לסרוק יותר מ-%d מסמכים בכל פעם.</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">ניתן להציג לכל היותר %d צבעים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להציג לכל היותר %d צבע.</item>
+        <item quantity="two">ניתן להציג לכל היותר %d צבעים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להציג לכל היותר %d צבעים.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">ניתן להוסיף לכל היותר %d קובצי שמע בפעם.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להוסיף רק %d קובץ שמע בפעם.</item>
+        <item quantity="two">ניתן להוסיף לכל היותר %d קובצי שמע בפעם.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להוסיף לכל היותר %d קובצי שמע בפעם.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">ניתן להדביק קובץ PDFs %d לכל היותר בו זמנית.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להדביק קובץ PDF %d לכל היותר בו זמנית.</item>
+        <item quantity="two">ניתן להדביק קובץ PDFs %d לכל היותר בו זמנית.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להדביק קובץ PDFs %d לכל היותר בו זמנית.</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">היצוא נכשל. כבר ייצאת %d קובצי PDF.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">היצוא נכשל. כבר ייצאת קובץ PDF‏ %d.</item>
+        <item quantity="two">היצוא נכשל. כבר ייצאת %d קובצי PDF.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">היצוא נכשל. כבר ייצאת %d קובצי PDF.</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להזין לכל היותר %d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להזין לכל היותר %d תווים.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">הזן סיסמה באורך של %d תווים לפחות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הזן סיסמה באורך של %d תו לפחות.</item>
+        <item quantity="two">הזן סיסמה באורך של %d תווים לפחות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הזן סיסמה באורך של %d תווים לפחות.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">הזן סיסמה חדשה באורך של %d תווים לפחות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הזן סיסמה חדשה באורך של %d תו לפחות.</item>
+        <item quantity="two">הזן סיסמה חדשה באורך של %d תווים לפחות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הזן סיסמה חדשה באורך של %d תווים לפחות.</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">המתן %d שניות ונסה שוב.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">המתן %d שנייה ונסה שוב.</item>
+        <item quantity="two">המתן %d שניות ונסה שוב.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">המתן %d שניות ונסה שוב.</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">לא ניתן לפתוח יותר מ-%d חלונות Samsung Notes. יש לסגור חלון אחד ולנסות שוב.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן לפתוח חלון Samsung Notes %d לכל היותר. יש לסגור חלון אחד ולנסות שוב.</item>
+        <item quantity="two">לא ניתן לפתוח יותר מ-%d חלונות Samsung Notes. יש לסגור חלון אחד ולנסות שוב.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן לפתוח יותר מ-%d חלונות Samsung Notes. יש לסגור חלון אחד ולנסות שוב.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">התראה חדשה אחת (%d)</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="many">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">המערכת הורידה %d הערות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">המערכת הורידה הערה %d.</item>
+        <item quantity="two">המערכת הורידה %d הערות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">המערכת הורידה %d הערות.</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d צבעים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">צבע %d</item>
+        <item quantity="two">%d צבעים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d צבעים</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d ערכי עובי</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עובי %d</item>
+        <item quantity="two">%d ערכי עובי</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d ערכי עובי</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">למחוק %d פתקים משותפים?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">למחוק פתק משותף %d?</item>
+        <item quantity="two">למחוק %d פתקים משותפים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">למחוק %d פתקים משותפים?</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">המר %d פתקים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">המר פתק %d</item>
+        <item quantity="two">המר %d פתקים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">המר %d פתקים</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d תיקיות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d תיקייה</item>
+        <item quantity="two">%d תיקיות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d תיקיות</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d פריטים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d פריט</item>
+        <item quantity="two">%d פריטים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d פריטים</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d הערות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d הערה</item>
+        <item quantity="two">%d הערות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d הערות</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">ניתן להציג לכל היותר %d צבעים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להציג לכל היותר %d צבע.</item>
+        <item quantity="two">ניתן להציג לכל היותר %d צבעים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להציג לכל היותר %d צבעים.</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d מחברות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מחברת %d</item>
+        <item quantity="two">%d מחברות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מחברות</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">האם להעביר %1$d תיקיות אל %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר תיקייה %1$d אל %2$s?</item>
+        <item quantity="two">האם להעביר %1$d תיקיות אל %2$s?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %1$d תיקיות אל %2$s?</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s הוסיף/ה %2$d פתקים חדשים במחברת %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s הוסיף/ה %2$d פתק חדש במחברת %3$s.</item>
+        <item quantity="two">%1$s הוסיף/ה %2$d פתקים חדשים במחברת %3$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s הוסיף/ה %2$d פתקים חדשים במחברת %3$s.</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">שותפו %d פתקים חדשים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שותף %d פתק חדש</item>
+        <item quantity="two">שותפו %d פתקים חדשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">שותפו %d פתקים חדשים</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">הייבוא בוטל. %d קובצי PDF כבר ייובאו.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הייבוא בוטל. קובץ PDF %d כבר ייובא.</item>
+        <item quantity="two">הייבוא בוטל. %d קובצי PDF כבר ייובאו.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הייבוא בוטל. %d קובצי PDF כבר ייובאו.</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">לא ניתן לייבא %d פתקים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן לייבא פתק %d.</item>
+        <item quantity="two">לא ניתן לייבא %d פתקים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן לייבא %d פתקים.</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">הזן סיסמה חדשה באורך של %d תווים לפחות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הזן סיסמה חדשה באורך של %d תו לפחות.</item>
+        <item quantity="two">הזן סיסמה חדשה באורך של %d תווים לפחות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הזן סיסמה חדשה באורך של %d תווים לפחות.</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">ניתן לבחור לכל היותר %d פריטים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן לבחור פריט %d בלבד.</item>
+        <item quantity="two">ניתן לבחור לכל היותר %d פריטים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן לבחור לכל היותר %d פריטים.</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">האם להעביר %d תיקיות אל סל המיחזור?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר %d תיקייה אל סל המיחזור?</item>
+        <item quantity="two">האם להעביר %d תיקיות אל סל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %d תיקיות אל סל המיחזור?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">להעביר %d תיקיות ‏‎ואת כל הפריטים שבהן לסל המיחזור?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר תיקייה %d ואת כל הפריטים שבה לסל המיחזור?</item>
+        <item quantity="two">להעביר %d תיקיות ‏‎ואת כל הפריטים שבהן לסל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להעביר %d תיקיות ‏‎ואת כל הפריטים שבהן לסל המיחזור?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">האם להעביר %d פתקים אל סל המיחזור?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר %d פתק אל סל המיחזור?</item>
+        <item quantity="two">האם להעביר %d פתקים אל סל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %d פתקים אל סל המיחזור?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">‏‫לאחר אימות זהותך, ‬‏%d הערות (ביניהן הערה נעולה אחת) יועברו אל סל המיחזור.‬</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לאחר אימות זהותך, הערה %d (ביניהן הערה נעולה אחת) תועבר אל סל המיחזור.</item>
+        <item quantity="two">‏‫לאחר אימות זהותך, ‬‏%d הערות (ביניהן הערה נעולה אחת) יועברו אל סל המיחזור.‬</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">‏‫לאחר אימות זהותך, ‬‏%d הערות (ביניהן הערה נעולה אחת) יועברו אל סל המיחזור.‬</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">לא ניתן להעביר %d הערות שכבר נמצאות בתיקייה שנבחרה.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להעביר הערה %d שכבר נמצאת בתיקייה שנבחרה.</item>
+        <item quantity="two">לא ניתן להעביר %d הערות שכבר נמצאות בתיקייה שנבחרה.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להעביר %d הערות שכבר נמצאות בתיקייה שנבחרה.</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">האם להעביר %1$d הערות אל %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר הערה %1$d אל %2$s?</item>
+        <item quantity="two">האם להעביר %1$d הערות אל %2$s?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %1$d הערות אל %2$s?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d פריטים יימחקו לצמיתות מהענן ומכל המכשירים שלך.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">פריט %d יימחק לצמיתות מהענן ומכל המכשירים שלך.</item>
+        <item quantity="two">%d פריטים יימחקו לצמיתות מהענן ומכל המכשירים שלך.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d פריטים יימחקו לצמיתות מהענן ומכל המכשירים שלך.</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">האם למחוק %d פתקים לצמיתות?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק %d פתק לצמיתות?</item>
+        <item quantity="two">האם למחוק %d פתקים לצמיתות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d פתקים לצמיתות?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d פריטים יימחקו לצמיתות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d פריט יימחק לצמיתות.</item>
+        <item quantity="two">%d פריטים יימחקו לצמיתות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d פריטים יימחקו לצמיתות.</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d ימים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יום %d</item>
+        <item quantity="two">%d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d ימים</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">לא ניתן לבחור יותר מ-%d תנועות או אובייקטים בפתק משותף.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן לבחור יותר מתנועה או אובייקט %d בפתק משותף.</item>
+        <item quantity="two">לא ניתן לבחור יותר מ-%d תנועות או אובייקטים בפתק משותף.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן לבחור יותר מ-%d תנועות או אובייקטים בפתק משותף.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d תמונות נשמרו בטלפון.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d תמונה נשמרה בטלפון.</item>
+        <item quantity="two">%d תמונות נשמרו בטלפון.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d תמונות נשמרו בטלפון.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d התמונות נשמרו בטאבלט.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d התמונה נשמרה בטאבלט.</item>
+        <item quantity="two">%d התמונות נשמרו בטאבלט.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d התמונות נשמרו בטאבלט.</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d קבצים נשמרו בטלפון.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d קובץ נשמר בטלפון.</item>
+        <item quantity="two">%d קבצים נשמרו בטלפון.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d קבצים נשמרו בטלפון.</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d קבצים נשמרו בטאבלט.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d קובץ נשמר בטאבלט.</item>
+        <item quantity="two">%d קבצים נשמרו בטאבלט.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d קבצים נשמרו בטאבלט.</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d חברים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חבר %d</item>
+        <item quantity="two">%d חברים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d חברים</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">פתק זה יימחק בעוד %d ימים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">פתק זה יימחק בעוד יום %d.</item>
+        <item quantity="two">פתק זה יימחק בעוד %d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">פתק זה יימחק בעוד %d ימים.</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">מייצא %d קובצי PDF…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מייצא קובץ PDF‏ %d…</item>
+        <item quantity="two">מייצא %d קובצי PDF…</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">מייצא %d קובצי PDF…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">לא ניתן להמיר %d פתקים. פנה שטח באחסון הפנימי ונסה שוב.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להמיר פתק %d. פנה שטח באחסון הפנימי ונסה שוב.</item>
+        <item quantity="two">לא ניתן להמיר %d פתקים. פנה שטח באחסון הפנימי ונסה שוב.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להמיר %d פתקים. פנה שטח באחסון הפנימי ונסה שוב.</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">האם למחוק %d פריטים?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק %d פריט?</item>
+        <item quantity="two">האם למחוק %d פריטים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d פריטים?</item>
+    </plurals>
+</resources>

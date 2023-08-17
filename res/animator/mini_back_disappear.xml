@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="@integer/mini_close_ani_rotate_duration" android:startOffset="@integer/mini_close_ani_hide_rotate_start_offset" android:valueFrom="@integer/mini_back_btn_init_value" android:valueTo="@integer/mini_back_btn_rotate_value" android:propertyName="rotation" />
+    <objectAnimator android:duration="@integer/mini_close_ani_scale_duration" android:startOffset="@integer/mini_close_ani_scale_start_offset" android:valueFrom="1" android:valueTo="0" android:propertyName="scaleX" />
+    <objectAnimator android:duration="@integer/mini_close_ani_scale_duration" android:startOffset="@integer/mini_close_ani_scale_start_offset" android:valueFrom="1" android:valueTo="0" android:propertyName="scaleY" />
+</set>

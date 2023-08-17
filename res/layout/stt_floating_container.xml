@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.stt.view.layout.STTFloatingContainer android:gravity="center_vertical" android:id="@id/stt_floating_container" android:background="@drawable/stt_floating_container_background" android:padding="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:hasScrollable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/stt_parent" android:layout_width="300.0dip" android:layout_height="200.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout android:id="@id/stt_toolbar" android:layout_width="fill_parent" android:layout_height="24.0dip">
+            <TextView android:textColor="@color/primary" android:gravity="center_vertical" android:id="@id/stt_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Speech to text" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/stt_edit" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/stt_floating_ic_edit" android:layout_toStartOf="@id/stt_expand" />
+            <ImageView android:id="@id/stt_expand" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/stt_floating_ic_expand" android:layout_toStartOf="@id/stt_close" />
+            <ImageView android:id="@id/stt_close" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/stt_floating_ic_cancel" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <com.samsung.android.support.senl.nt.stt.view.STTListView android:id="@id/stt_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</com.samsung.android.support.senl.nt.stt.view.layout.STTFloatingContainer>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/voice_layout" android:background="@drawable/sdk_voice_floating_view_shape" android:layout_width="wrap_content" android:layout_height="@dimen/sdk_voice_menu_height" android:layout_marginLeft="@dimen/sdk_voice_menu_margin_horizontal" android:layout_marginTop="@dimen/sdk_voice_menu_margin_vertical" android:layout_marginRight="@dimen/sdk_voice_menu_margin_horizontal" android:layout_marginBottom="@dimen/sdk_voice_menu_margin_vertical" android:paddingStart="@dimen/sdk_voice_menu_padding_start" android:paddingEnd="@dimen/sdk_voice_menu_padding_end" android:elevation="@dimen/sdk_voice_menu_elevation" android:layout_marginHorizontal="@dimen/sdk_voice_menu_margin_horizontal" android:layout_marginVertical="@dimen/sdk_voice_menu_margin_vertical">
+        <ImageButton android:id="@id/voice_handle" android:background="@drawable/sdk_note_voice_btn_ic_menu" android:layout_width="@dimen/sdk_voice_menu_handle_width" android:layout_height="@dimen/sdk_voice_menu_handle_height" android:scaleType="fitCenter" android:contentDescription="@string/composer_voice_assistant_handle" android:tooltipText="@string/composer_voice_assistant_handle" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sdk_voice_menu_handle_margin_end">
+            <include android:id="@id/voice_record_layout" android:visibility="visible" layout="@layout/sdk_floating_voice_record_view" />
+            <include android:id="@id/voice_play_layout" android:visibility="gone" layout="@layout/sdk_floating_voice_play_view" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

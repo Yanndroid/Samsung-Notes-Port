@@ -1,0 +1,52 @@
+.class public Lcom/samsung/android/sdk/mobileservice/social/group/result/GroupImageDownloadResult;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/samsung/android/sdk/mobileservice/common/result/Result;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/samsung/android/sdk/mobileservice/social/group/result/GroupImageDownloadResult$DownloadedImage;
+    }
+.end annotation
+
+
+# instance fields
+.field private mDownloadedImage:Lcom/samsung/android/sdk/mobileservice/social/group/result/GroupImageDownloadResult$DownloadedImage;
+
+.field private mStatus:Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;
+
+
+# direct methods
+.method public constructor <init>(Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;Lcom/samsung/android/sdk/mobileservice/social/group/result/GroupImageDownloadResult$DownloadedImage;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/samsung/android/sdk/mobileservice/social/group/result/GroupImageDownloadResult;->mStatus:Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;
+
+    iput-object p2, p0, Lcom/samsung/android/sdk/mobileservice/social/group/result/GroupImageDownloadResult;->mDownloadedImage:Lcom/samsung/android/sdk/mobileservice/social/group/result/GroupImageDownloadResult$DownloadedImage;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getResult()Lcom/samsung/android/sdk/mobileservice/social/group/result/GroupImageDownloadResult$DownloadedImage;
+    .locals 1
+
+    iget-object v0, p0, Lcom/samsung/android/sdk/mobileservice/social/group/result/GroupImageDownloadResult;->mDownloadedImage:Lcom/samsung/android/sdk/mobileservice/social/group/result/GroupImageDownloadResult$DownloadedImage;
+
+    return-object v0
+.end method
+
+.method public getStatus()Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;
+    .locals 1
+
+    iget-object v0, p0, Lcom/samsung/android/sdk/mobileservice/social/group/result/GroupImageDownloadResult;->mStatus:Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;
+
+    return-object v0
+.end method

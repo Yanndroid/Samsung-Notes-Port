@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">%d ခုထက္ ပိုၿပီး ထည့္၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">တစ္ႀကိမ္လွ်င္ အေၾကာင္းအရာ %d ခုထက္ပုိၿပီး ကူးထည့္၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">တစ္ႀကိမ္လွ်င္ စာရြက္စာတမ္း %d ခုထက္ပုိၿပီး မွ်ေဝ၍ မရႏိုင္ပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">အေရာင္ %d ခုထက္ ပုိျပ၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">တစ္ႀကိမ္တည္းတြင္ ေအာ္ဒီယိုဖိုင္ %d ခုထက္ပိုၿပီး ထည့္၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">တစ္ႀကိမ္လွ်င္ PDF %d ခုထက္ပုိၿပီး ကူးထည့္၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">ထုတ္ယူျခင္းကို ပယ္ဖ်က္လိုက္သည္။ %d PDF မ်ားကို ထုတ္ယူၿပီးၿပီ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">အကၡရာ %d လုံးထက္ ပိုၿပီး ထည့္သြင္း၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">၎တြင္ အနည္းဆုံးအကၡရာ %d လုံး ပါရွိသည့္ စကားဝွက္ကို ထည့္ပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">၎တြင္ အနည္းဆုံးအကၡရာ %d လုံး ပါရွိသည့္ စကားဝွက္အသစ္ကို ထည့္ပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d စကၠန္႔ေစာင့္ၿပီးမွ ထပ္မံႀကိဳးစားပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Samsung Notes ဝင္ဒိုး %d ခုထက္ ပိုၿပီး ဖြင့္၍မရပါ။ ဝင္းဒိုးကို ပိတ္ၿပီး ထပ္မံႀကိဳးစားပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">မွတ္ခ်က္ %d ခု ေဒါင္းလုဒ္လုပ္ခဲ့သည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">အေရာင္ %d ေရာင္</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">အထူ %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">မွ်ေဝထားေသာ မွတ္စု %d ခုကို ဖ်က္ပစ္မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">မွတ္စု %d ခုကို ေျပာင္းပါ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">ဖိုင္တြဲ %d ခ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">အုိင္တမ္ %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">မွတ္စု %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">အေရာင္ %d ခုထက္ ပုိျပ၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">မွတ္စုစာအုပ္ %d အုပ္</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%1$d ဖိုဒါမ်ားကို %2$s သို႔ ေရႊ႕ေျပာင္းမလာ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s က %2$d မွတ္စုစာအသစ္မ်ားကို %3$s မွတ္စုစာအုပ္သို႔ ထည့္ထားသည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">မွတ္စုစာအသစ္ %d ခု မွ်ေဝၿပီးၿပီ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">ထည့္သြင္းမႈကို ပယ္ဖ်က္လိုက္သည္။ PDF %d ခုကို ထည့္သြင္းထားၿပီးသား ျဖစ္သည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">မွတ္စု %d ခုကို ထည့္၍ မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">၎တြင္ အနည္းဆုံးအကၡရာ %d လုံး ပါရွိသည့္ စကားဝွက္အသစ္ကို ထည့္ပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">အုိင္တမ္ %d ခုထက္ ပိုေရြး၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">ဖိုင္တြဲ %d ခုကို အမႈိက္ပုံးသို႔ ေ႐ႊ႕မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">ဖိုင္တြဲ %d ခုႏွင့္ ၎တို႔ထဲရွိ အရာဝတၳဳအားလံုးကို အမႈိက္ပံုးသို႔ ေရႊ႕မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">မွတ္စု %d ခုကို အမႈိက္ပုံးသို႔ ေ႐ႊ႕မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">သင္၏ သက္ေသခံအခ်က္အလက္ကို စိစစ္ၿပီးလွ်င္၊ မွတ္စု %d ခု (ေသာ့ခတ္ထားေသာ မွတ္စု ၁ ခု အပါအဝင္) ကို အမႈိက္ပံုးထဲ ေရႊ႕ပါမည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">ေရြးခ်ယ္ထားသည့္ ဖိုင္တြဲထဲတြင္ ရွိၿပီးသား မွတ္စု %d ခုကို မေရႊ႕ပါႏွင့္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%1$d မွတ္စုတိုမ်ားကို %2$s သို႔ ေရႊ႕ေျပာင္းမလာ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">ကေလာက္ဒ္ႏွင့္ သင့္စက္အားလံုးမွ %d ခုကို အၿပီး ဖ်က္ပါမည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">မွတ္စု %d ခုကို အၿပီး ဖ်က္မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">အုိင္တမ္ %d ခုကုိ အၿပီးသတ္ ဖ်က္ပစ္ပါမည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d ရက္</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">မွ်ေဝထားေသာမွတ္စုတြင္ စုတ္ခ်က္ (သို႔) အရာဝတၳဳ %d ခုထက္ပို၍ မေ႐ြးခ်ယ္ႏိုင္ပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">႐ုပ္ပံု %d ပံုကုိ သင့္ဖုန္းထဲ သိမ္းဆည္းထားသည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">႐ုပ္ပံု %d ပံုကုိ သင့္တက္ဘလက္ထဲ သိမ္းလိုက္ၿပီ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">ဖိုင္ %d ဖိုင္ကို ဖုန္းထဲ သိမ္းလိုက္ၿပီ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">ဖိုင္ %d ဖိုင္ကို တက္ဘလက္ထဲ သိမ္းလိုက္ၿပီ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">အဖြဲ႔ဝင္ %d ဦး</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">ဤမွတ္စုကို %d ရက္အၾကာတြင္ ဖ်က္ပစ္မည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDF မ်ား ထုတ္ယူေနသည္…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">မွတ္စု %d ခုကို ေျပာင္း၍ မရပါ။ စက္တြင္းသုိေလွာင္ခန္းထဲရွိ ေနရာအခ်ိဳ႕ကို ရွင္းၿပီး ထပ္မံႀကိဳးစားပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d ခုကို ဖ်က္မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

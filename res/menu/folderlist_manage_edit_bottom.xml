@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_move" android:id="@id/action_move" android:title="@string/action_move" app:contentDescription="@string/action_move" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_add" android:id="@id/action_add_folder" android:title="@string/create_subfolder_bottom" app:contentDescription="@string/create_subfolder_bottom" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_color" android:id="@id/action_change_color" android:title="@string/folder_color" app:contentDescription="@string/folder_color" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_edit" android:id="@id/action_rename" android:title="@string/rename_folder_btn" app:contentDescription="@string/rename_folder_btn" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_delete" android:id="@id/action_delete" android:title="@string/action_delete" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_edit" android:id="@id/action_MSNotes" android:title="MS Notes" app:contentDescription="MS Notes" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/attr_root" android:layout_width="wrap_content" android:layout_height="@dimen/mini_popup_layout_width" android:paddingStart="11.0dip" android:paddingEnd="7.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/slider_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="2.0dip" />
+    <com.samsung.android.sdk.pen.setting.handwriting.SpenPenAttrMiniView android:id="@id/attr_size_item" android:layout_width="@dimen/mini_popup_layout_width" android:layout_height="fill_parent" app:applyDynamicColorSize="true" />
+    <com.samsung.android.sdk.pen.setting.handwriting.SpenPenOpacityMiniView android:id="@id/attr_opacity_item" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.samsung.android.sdk.pen.setting.handwriting.SpenPenWidthMiniLayout android:id="@id/attr_fixed_width_item" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/toast_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/toast_popup_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/toast_text_color" android:id="@id/toast_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" />
+</LinearLayout>

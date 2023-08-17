@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/hash_tag_item_radius" />
+    <stroke android:width="@dimen/hash_tag_item_border_default_width" android:color="@color/hash_tag_item_border_default_color" />
+    <solid android:color="@color/hash_tag_item_bg_color" />
+</shape>

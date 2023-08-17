@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/note_edge_tasks_ic_squircle_bg" />
+    <item android:gravity="center" android:drawable="@drawable/note_edge_tasks_ic_notes_voice" />
+</layer-list>

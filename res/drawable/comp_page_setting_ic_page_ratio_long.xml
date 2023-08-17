@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:drawable="@drawable/comp_page_setting_ic_page_ratio_long_unselected" />
+    <item android:state_selected="true" android:drawable="@drawable/comp_page_setting_ic_page_ratio_long_selected" />
+</selector>

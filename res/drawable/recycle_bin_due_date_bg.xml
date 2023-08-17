@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:bottomLeftRadius="@dimen/notes_simple_item_thumbnail_radius" android:bottomRightRadius="@dimen/notes_simple_item_thumbnail_radius" />
+    <size android:height="@dimen/notes_simple_item_due_date_view_height" android:width="@dimen/notes_simple_item_due_date_view_width" />
+    <solid android:color="@color/noteslist_item_due_date_view_bg_color" />
+</shape>

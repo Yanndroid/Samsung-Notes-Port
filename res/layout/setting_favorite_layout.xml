@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/list_layout" android:layout_width="fill_parent" android:layout_height="@dimen/setting_favorite_content_edit_height">
+        <RelativeLayout android:id="@id/pen_list_body" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/action_button_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="58.0dip" android:layout_alignParentBottom="true">
+            <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/action_negative_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.samsung.android.sdk.pen.setting.common.SpenShowButtonShapeText android:id="@id/cancel" android:background="@drawable/setting_dialog_action_button_ripple" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="36.0dip" android:text="@string/pen_string_cancel" style="@style/DialogActionButtonTextStyle" />
+            </RelativeLayout>
+            <View android:layout_gravity="center_vertical" android:id="@id/action_divider" android:background="#ffe6e6e6" android:layout_width="1.0dip" android:layout_height="16.0dip" />
+            <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/action_positive_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentEnd="true">
+                <com.samsung.android.sdk.pen.setting.common.SpenShowButtonShapeText android:id="@id/done" android:background="@drawable/setting_dialog_action_button_ripple" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="36.0dip" android:text="@string/pen_string_done" style="@style/DialogActionButtonTextStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:textColor="@color/setting_favorite_no_item_text_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/no_item_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pen_string_no_favorite_pen" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    </RelativeLayout>
+</merge>

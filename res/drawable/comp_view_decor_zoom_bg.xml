@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/comp_zoom_view_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="15.0dip" />
+            <stroke android:width="0.5dip" android:color="@color/comp_zoom_view_border" />
+            <solid android:color="@color/comp_zoom_view_bg" />
+            <padding android:left="10.0dip" android:top="6.0dip" android:right="10.0dip" android:bottom="5.0dip" />
+        </shape>
+    </item>
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/comp_zoom_view_bg" />
+            <corners android:radius="15.0dip" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/inside_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_inside_background" />
+    <TextView android:textSize="@dimen/widget_no_memos_text_size" android:gravity="center" android:id="@id/widget_list_empty_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/widget_pin_setting_empty_note_no_items" style="@style/RobotoRegularStyle" />
+    <ListView android:id="@id/widget_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/WidgetListView" />
+</FrameLayout>

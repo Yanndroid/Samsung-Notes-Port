@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.stt.view.layout.WindowFocusLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="411.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/composer_main_background" android:layout_width="fill_parent" android:layout_height="@dimen/edit_stt_dialog_height" android:layout_marginTop="@dimen/edit_stt_dialog_margin_top" android:paddingStart="18.0dip" android:paddingEnd="24.0dip">
+        <EditText android:textSize="17.0sp" android:textStyle="normal" android:textColor="@color/stt_text" android:textColorHint="@color/stt_text_hint" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/edit_stt_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter new text" android:maxLength="50" android:inputType="text" android:textCursorDrawable="@drawable/edit_cursor" android:fontFamily="sec-roboto-light" android:textAlignment="viewStart" android:paddingStart="6.0dip" android:paddingEnd="32.0dip" android:backgroundTint="@color/edit_background_tint_color" />
+        <ImageButton android:layout_gravity="end|center" android:id="@id/edit_stt_delete" android:background="?android:selectableItemBackground" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_stt_close" android:tint="@color/edit_stt_delete_btn_tint" android:contentDescription="Delete" />
+    </FrameLayout>
+</com.samsung.android.support.senl.nt.stt.view.layout.WindowFocusLayout>

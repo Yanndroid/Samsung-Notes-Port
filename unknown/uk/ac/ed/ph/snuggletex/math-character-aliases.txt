@@ -1,0 +1,9 @@
+neq->ne
+le->leq
+ge->geq
+circ->vysmwhtcircle
+lor->vee
+land->wedge
+lnot->neg
+emptyset->varnothing
+bigcirc->mdlgwhtcircle

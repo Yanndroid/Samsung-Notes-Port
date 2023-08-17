@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/comp_ripple_effect" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="22.0dip" android:paddingEnd="22.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="start|center" android:focusable="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentStart="true">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/insert_menu_font_size" android:textColor="@color/composer_default_text_color" android:ellipsize="end" android:id="@id/item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
+        <View android:layout_gravity="center" android:id="@id/item_badge" android:background="@drawable/toolbar_badge" android:padding="4.0dip" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" android:importantForAccessibility="no" android:layout_toEndOf="@id/item_text" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="end|center" android:id="@id/item_button" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/comp_page_setting_ic_page_ratio_btn_img" android:scaleType="fitCenter" android:tint="#cd8c8c8c" />
+</LinearLayout>

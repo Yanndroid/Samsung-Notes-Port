@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/adjust_color_in_dark_mode" android:key="settings_page_color_adjust_in_dark_mode" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory />
+</PreferenceScreen>

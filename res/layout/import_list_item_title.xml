@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="@dimen/notes_grid_item_text_content_size" android:textColor="@color/noteslist_item_title_color" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

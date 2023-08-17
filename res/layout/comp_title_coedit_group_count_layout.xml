@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/comp_title_coedit_group_count_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:gravity="center_vertical" android:id="@id/coedit_group_count_meet" android:visibility="gone" android:layout_width="@dimen/comp_title_coedit_meet_width" android:layout_height="24.0dip" app:cardCornerRadius="12.0dip" app:cardElevation="0.0dip">
+            <ImageView android:id="@id/coedit_group_count_meet_button" android:tag="@string/coedit_theme_skip_tag" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/meet_badge" android:scaleType="center" />
+            <ImageView android:id="@id/coedit_group_count_meet_button_bg" android:tag="@string/coedit_theme_skip_tag" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:src="@drawable/comp_title_coedit_group_count_meet_bg" />
+        </androidx.cardview.widget.CardView>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/coedit_group_count_button" android:background="@drawable/comp_title_coedit_group_count_bg" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginTop="2.0dip" android:paddingStart="4.0dip" android:paddingEnd="9.0dip" android:layout_marginEnd="4.0dip">
+            <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/comp_title_coedit_group_count_icon" android:scaleType="fitXY" android:tint="#ff666666" />
+            <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="12.0dip" android:textColor="#ff666666" android:gravity="center" android:id="@id/coedit_group_count_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:hint="0" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/coedit_group_count_writer" android:tag="@string/coedit_theme_skip_tag" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/comp_title_coedit_writer" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="start|center" android:id="@id/pager_back_button_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageButton android:id="@id/pager_back_button" android:background="@drawable/view_circular_ripple_pressed" android:padding="@dimen/pager_back_button_padding" android:layout_width="@dimen/pager_back_button_size" android:layout_height="@dimen/pager_back_button_size" android:src="@drawable/ic_back" android:contentDescription="@string/pager_back" />
+    </FrameLayout>
+    <HorizontalScrollView android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center" android:id="@id/pager_indicator_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.tabs.TabLayout android:layout_gravity="center" android:id="@id/pager_indicator" android:layout_width="wrap_content" android:layout_height="@dimen/pager_indicator_size" android:layoutDirection="locale" app:tabBackground="@drawable/indicator_selector" app:tabGravity="center" app:tabMinWidth="@dimen/pager_indicator_size" app:tabMode="fixed" xmlns:app="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <Button android:textSize="@dimen/pager_next_button_text_size" android:textColor="@color/pager_default_button_text_color" android:ellipsize="end" android:layout_gravity="end|center" android:id="@id/pager_next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/pager_button_ripple" android:text="@string/pager_next" android:maxLines="1" android:backgroundTint="@color/pager_default_button_background_color" />
+    </FrameLayout>
+</LinearLayout>

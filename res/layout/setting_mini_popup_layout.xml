@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_layout" android:layout_width="@dimen/mini_popup_layout_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/header_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mini_popup_default_top_bottom_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/mini_popup_divider_group_height">
+            <View android:layout_gravity="bottom" android:id="@id/header_divider" android:background="@color/mini_setting_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/content_area" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header_area" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/footer_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/mini_popup_default_top_bottom_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/content_area">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/mini_popup_divider_group_height">
+            <View android:layout_gravity="top" android:id="@id/footer_divider" android:background="@color/mini_setting_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="127.0dip" android:width="90.0dip" android:viewportWidth="90.0" android:viewportHeight="127.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M0,0h90v127h-90z" android:strokeAlpha="0.0" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,5.815L98.372,5.815" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,12L98.372,12" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,18L98.372,18" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,24L98.372,24" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,30L98.372,30" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,36L98.372,36" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,42L98.372,42" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,48L98.372,48" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,54L98.372,54" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,60L98.372,60" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,66L98.372,66" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,72L98.372,72" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,78L98.372,78" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,84L98.372,84" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,90L98.372,90" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,96L98.372,96" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,102L98.372,102" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,108L98.372,108" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,114L98.372,114" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M-5.13,120L98.372,120" android:strokeColor="#ff606060" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M18.1,0L18.5,127.5" android:strokeColor="#ffff2b00" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0h90v127h-90z M 0,0" />
+        <path android:fillColor="#00000000" android:pathData="M19.7,0L20.1,127.5" android:strokeColor="#ffff2b00" android:strokeWidth="0.25" android:fillType="evenOdd" />
+    </group>
+</vector>

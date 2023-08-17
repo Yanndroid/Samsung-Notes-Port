@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sdk.pen.setting.widget.SpenHorizontalScrollView android:id="@id/top_bg" android:background="@drawable/spen_brush_setting_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/total_layout" android:layout_width="303.0dip" android:layout_height="wrap_content">
+        <com.samsung.android.sdk.pen.setting.widget.SpenScrollView android:scrollbarThumbVertical="@drawable/setting_scrollbar_thumb" android:id="@id/body_layout" android:scrollbars="vertical" android:layout_width="303.0dip" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls" android:requiresFadingEdge="none" />
+    </FrameLayout>
+</com.samsung.android.sdk.pen.setting.widget.SpenHorizontalScrollView>

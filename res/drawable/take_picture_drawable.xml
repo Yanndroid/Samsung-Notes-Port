@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:state_activated="true">
+        <layer-list>
+            <item>
+                <shape android:shape="ring" android:useLevel="false" android:innerRadius="30.0dip" android:thickness="2.0dip">
+                    <solid android:color="@color/detect_highlight_color" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="ring" android:useLevel="false" android:innerRadius="0.0dip" android:thickness="26.0dip">
+                    <solid android:color="@color/detect_highlight_color" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="false" android:state_activated="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/detect_highlight_color" />
+            <size android:height="65.0dip" android:width="65.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="true" android:state_activated="false">
+        <layer-list>
+            <item>
+                <shape android:shape="ring" android:useLevel="false" android:innerRadius="30.0dip" android:thickness="2.0dip">
+                    <solid android:color="#ffffffff" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="ring" android:useLevel="false" android:innerRadius="0.0dip" android:thickness="26.0dip">
+                    <solid android:color="#ffffffff" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#ffffffff" />
+            <size android:height="65.0dip" android:width="65.0dip" />
+        </shape>
+    </item>
+</selector>

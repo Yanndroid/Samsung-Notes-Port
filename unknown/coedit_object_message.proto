@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+package coeditObjectMessage;
+
+message ObjUploadUrlRequest {
+  BinaryInfo binary_info = 1;
+}
+
+message ObjUploadUrlResponse {
+  ResponseResult response_result = 1;
+  string obj_id = 2;
+  string upload_signed_url = 3;
+}
+
+message UploadStrokeRequest {
+  oneof request {
+    BinaryInfo binary_info = 1;
+    Binary binary = 2;
+  }
+}
+
+message UploadStrokeResponse {
+  ResponseResult response_result = 1;
+  string obj_id = 2;
+}
+
+message DownloadStrokeRequest {
+  string obj_id = 1;
+}
+
+message DownloadStrokeResponse {
+  ResponseResult response_result = 1;
+  Binary binary = 2;
+}
+
+message SignedDownloadUrlRequest {
+  string obj_id = 1;
+}
+
+message SignedDownloadUrlResponse {
+  ResponseResult response_result = 1;
+  BinaryInfo binary_info = 2;
+  string download_signed_url = 3;
+}
+
+message BinaryInfo {
+  string hash = 1;
+  int64 size = 2;
+  string mimetype = 3;
+}
+
+message Binary {
+  bytes chunk = 1;
+  int32 read_size = 2;
+}
+
+message ResponseResult {
+  int32 code = 1;
+  int32 rcode = 2;
+  int32 lcode = 3;
+  string rmsg = 4;
+  string lmsg = 5;
+}

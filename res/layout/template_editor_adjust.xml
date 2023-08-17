@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.composer.main.base.view.menu.template.editor.adjust.TEAdjustView android:layout_gravity="center" android:id="@id/template_editor_adjust_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" android:contentDescription="@string/template_editor_image_tts" />
+</merge>

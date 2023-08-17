@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sub_header_text_padding_start_end" android:paddingEnd="@dimen/sub_header_text_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/notes_list_checkbox" />
+    <TextView android:textSize="15.0dip" android:textStyle="bold" android:id="@id/sub_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sub_header_text_margin_top" android:layout_marginBottom="@dimen/sub_header_text_margin_top" />
+</LinearLayout>

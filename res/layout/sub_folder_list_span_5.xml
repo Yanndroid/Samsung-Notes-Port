@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sub_folder_layout_margin_start_end" android:layout_marginEnd="@dimen/sub_folder_layout_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/sub_folder_list_item1" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:0.9" app:layout_constraintEnd_toStartOf="@id/sub_folder_list_item2" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/sub_folder_default_max_width">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/sub_folder_list_item" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/sub_folder_list_item2" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:0.9" app:layout_constraintEnd_toStartOf="@id/sub_folder_list_item3" app:layout_constraintStart_toEndOf="@id/sub_folder_list_item1" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/sub_folder_default_max_width">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/sub_folder_list_item" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/sub_folder_list_item3" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:0.9" app:layout_constraintEnd_toStartOf="@id/sub_folder_list_item4" app:layout_constraintStart_toEndOf="@id/sub_folder_list_item2" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/sub_folder_default_max_width">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/sub_folder_list_item" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/sub_folder_list_item4" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:0.9" app:layout_constraintEnd_toStartOf="@id/sub_folder_list_item5" app:layout_constraintStart_toEndOf="@id/sub_folder_list_item3" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/sub_folder_default_max_width">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/sub_folder_list_item" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/sub_folder_list_item5" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:0.9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/sub_folder_list_item4" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/sub_folder_default_max_width">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/sub_folder_list_item" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

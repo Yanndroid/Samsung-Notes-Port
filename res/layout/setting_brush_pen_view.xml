@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sdk.pen.setting.drawing.SpenImageButton android:id="@id/pen_hover_info" android:background="@android:color/transparent" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/masking_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1520.0">
+        <View android:id="@id/color_mask_upper" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.0" />
+        <com.samsung.android.sdk.pen.setting.drawing.SpenBrushMaskImageView android:id="@id/color_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="520.0" />
+        <View android:id="@id/color_mask_lower" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1000.0" />
+    </LinearLayout>
+</merge>

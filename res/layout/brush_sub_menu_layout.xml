@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/brush_sub_menu_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bind="brush_sub_menu_binding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:orientation="horizontal" android:id="@id/brush_penup_layout" android:focusable="false" android:layout_alignParentStart="true" style="@style/brush_sub_menu_layout">
+        <com.samsung.android.support.senl.addons.brush.view.PenupButton android:layout_gravity="center" android:id="@id/brush_penup_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_penup" />
+    </FrameLayout>
+    <View android:id="@id/brush_sub_menu_close_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:id="@id/brush_sub_menu_layout" android:paddingLeft="@dimen/brush_sub_menu_layout_padding_start_end" android:paddingRight="@dimen/brush_sub_menu_layout_padding_start_end" android:focusable="false" android:layout_centerHorizontal="true" style="@style/brush_sub_menu_layout">
+        <ImageButton android:id="@id/brush_eraser_btn" android:src="@drawable/brush_ic_eraser" style="@style/brush_sub_menu_button" />
+        <ImageButton android:id="@id/brush_undo_btn" android:src="@drawable/brush_ic_undo" style="@style/brush_sub_menu_button" />
+        <ImageButton android:id="@id/brush_redo_btn" android:src="@drawable/brush_ic_redo" style="@style/brush_sub_menu_button" />
+    </LinearLayout>
+    <Button android:textSize="@dimen/brush_sub_menu_done_text_size" android:textColor="@color/brush_done_text_color" android:id="@id/brush_done_button" android:background="@drawable/brush_done_button_background" android:text="@string/brush_action_done" android:textAllCaps="false" android:layout_alignParentEnd="true" style="@style/brush_sub_menu_layout" />
+</RelativeLayout>

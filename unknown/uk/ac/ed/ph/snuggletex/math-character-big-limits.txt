@@ -1,0 +1,14 @@
+# List of math character commands that should be flagged as having big limits
+# (i.e. <munderover/> et al instead of <msubsup/> et al)
+sum
+prod
+coprod
+oint
+bigcap
+bigcup
+bigsqcup
+bigvee
+bigwedge
+bigodot
+bigoplus
+biguplus

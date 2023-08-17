@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_setting_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/WidgetSettingTheme.Toolbar" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true" android:title="@string/base_widget_setting_title" android:navigationContentDescription="@string/action_navigate_up" custom:background="@color/widget_setting_background" custom:titleTextColor="@color/widget_setting_title_color" />
+    <ImageView android:id="@id/widget_setting_toolbar_bottom" android:background="@color/widget_setting_background" android:layout_width="fill_parent" android:layout_height="@dimen/widget_setting_toolbar_bottom_margin" android:layout_below="@id/toolbar" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1000.0" android:layout_above="@id/widget_setting_button_layout" android:layout_below="@id/widget_setting_toolbar_bottom">
+        <View android:id="@id/widget_setting_margin_start" android:background="@color/widget_setting_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/widget_setting_margin_weight" />
+        <RelativeLayout android:id="@id/widget_setting_preview_container_parent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/widget_setting_list_weight">
+            <RelativeLayout android:id="@id/widget_setting_preview_container" android:layout_width="fill_parent" android:layout_height="@dimen/widget_setting_preview_container_height">
+                <include layout="@layout/widget_setting_preview_layout" />
+                <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:layout_width="fill_parent" android:layout_height="fill_parent" custom:corner="all" custom:overlayColor="@color/widget_setting_background" />
+            </RelativeLayout>
+            <View android:id="@id/widget_setting_preview_margin" android:background="@color/widget_setting_background" android:layout_width="fill_parent" android:layout_height="@dimen/widget_setting_preview_container_and_control_menu_margin" android:layout_below="@id/widget_setting_preview_container" />
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/widget_setting_preview_margin" layout="@layout/widget_setting_control" />
+        </RelativeLayout>
+        <View android:id="@id/widget_setting_margin_end" android:background="@color/widget_setting_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/widget_setting_margin_weight" />
+    </LinearLayout>
+    <include android:id="@id/widget_setting_button_layout" android:layout_width="fill_parent" android:layout_height="@dimen/widget_setting_cancel_save_button_height" android:layout_alignParentBottom="true" layout="@layout/widget_setting_save_cancel" />
+</RelativeLayout>

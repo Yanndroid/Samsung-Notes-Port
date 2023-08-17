@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/cancel" android:orderInCategory="100" android:title="@string/dialog_cancel" app:showAsAction="ifRoom" />
+    <item android:id="@id/save" android:orderInCategory="100" android:title="@string/base_string_save_type1" app:showAsAction="ifRoom" />
+</menu>

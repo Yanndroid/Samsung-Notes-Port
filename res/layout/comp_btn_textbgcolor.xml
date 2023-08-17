@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/richtext_textBgColorBtn" android:contentDescription="@string/composer_font_bg_color" style="@style/ComposerImageClickButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/comp_rt_toolbar_ic_font_bg_color" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+    <ImageView android:src="@drawable/comp_rt_toolbar_ic_font_color_line" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+    <ImageView android:id="@id/richtext_textBgColor" android:src="@drawable/comp_rt_toolbar_ic_font_color_line_fill" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+</FrameLayout>

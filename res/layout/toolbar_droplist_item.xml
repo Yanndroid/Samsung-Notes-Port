@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="25.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.base.winset.view.SprImageView android:id="@id/content_image" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="36.0dip" android:layout_alignParentStart="true" />
+    <com.samsung.android.support.senl.nt.base.winset.view.SprImageView android:id="@id/check_image" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/tw_dropdown_ic_check" android:tint="@color/notes_primary_color" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

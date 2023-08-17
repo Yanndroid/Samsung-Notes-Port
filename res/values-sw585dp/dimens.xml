@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="in_app_action_bar_height">80.0dip</dimen>
+    <dimen name="in_app_add_ons_container_item_width_height">64.0dip</dimen>
+    <dimen name="in_app_close_button_margin_top">36.0dip</dimen>
+    <dimen name="in_app_text_mode_settings_layout_margin_start_end">90.0dip</dimen>
+    <dimen name="in_app_toolbar_container_margin_start_end">100.0dip</dimen>
+    <dimen name="in_app_toolbar_container_padding_start_end">67.0dip</dimen>
+</resources>

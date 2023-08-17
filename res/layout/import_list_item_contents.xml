@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.app.common.widget.HoverPopupTextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/import_list_item_contents_text_size" android:textColor="@color/import_list_item_content_color" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/import_list_item_contents_line_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

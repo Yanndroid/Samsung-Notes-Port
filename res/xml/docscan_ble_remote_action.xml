@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remote-actions enable_key="146BE4F3" swift_action="true" version="1.2">
+    <action id="single_button" label="@string/take_picture" priority="1" trigger_key="CTRL_LEFT+SHIFT_LEFT+P">
+        <preference name="gesture" value="click" />
+        <preference name="button_only" value="true" />
+        <disable-condition feature="SEC_FLOATING_FEATURE_COMMON_SUPPORT_BLE_SPEN" value="false" />
+    </action>
+</remote-actions>

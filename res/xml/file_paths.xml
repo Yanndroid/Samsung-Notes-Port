@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="notes_share" path="share" />
+    <files-path name="addons_download" path="addonsDownload" />
+    <external-path name="external_files" path="." />
+</paths>

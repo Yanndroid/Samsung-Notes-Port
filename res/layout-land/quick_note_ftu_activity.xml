@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ftu_container" android:background="@color/quick_note_ftu_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.support.senl.nt.composer.main.base.ftu.quicknote.view.QuickNoteFTUView android:id="@id/lottie_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="33.0" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="3.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="61.0">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="7.0" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="70.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:theme="@style/RobotoRegularStyle" android:textSize="@dimen/quick_note_ftu_description_text_size" android:textColor="@color/quick_note_ftu_description_text_color" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_note_ftu_description" />
+            </LinearLayout>
+        </ScrollView>
+        <Button android:theme="@style/Widget.AppCompat.Button.Custom" android:textSize="@dimen/quick_note_ftu_start_button_text_size" android:textColor="@color/quick_note_ftu_got_it_button_text_color" android:layout_gravity="end|bottom|center" android:id="@id/got_it_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_note_ftu_got_it" android:lineSpacingExtra="@dimen/quick_note_ftu_got_it_button_text_line_spacing" android:alpha="0.0" android:paddingStart="@dimen/quick_note_ftu_got_it_button_padding_start_end" android:paddingEnd="@dimen/quick_note_ftu_got_it_button_padding_start_end" app:backgroundTint="@color/quick_note_ftu_got_it_button_background_color" style="@style/ContainedButton" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="7.0" />
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="3.0" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/picker_tab_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tab_swatch" android:background="@drawable/picker_tab_bg" android:layout_width="0.0dip" android:layout_height="36.0dip" android:text="@string/pen_string_swatches" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/picker_tab_text_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tab_spectrum" android:background="@drawable/picker_tab_bg" android:layout_width="0.0dip" android:layout_height="36.0dip" android:text="@string/pen_string_spectrum" android:includeFontPadding="false" android:layout_weight="1.0" android:textAllCaps="false" android:layout_marginStart="12.0dip" />
+</merge>

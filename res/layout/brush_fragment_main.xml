@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.addons.base.view.inputblockcontainers.InputIntercepterRelativeLayout android:id="@id/brush_total_container_layout" android:background="@color/brush_canvas_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bind="brush_fragment_binding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.support.senl.addons.brush.view.menu.BrushContainer android:id="@id/brush_menu_setting" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/brush_canvas_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/brush_panningbar_layout" />
+            <include layout="@layout/brush_zoom_menu_layout" />
+            <View android:id="@id/brush_close_popup_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include layout="@layout/brush_sub_menu_layout" />
+        </RelativeLayout>
+        <com.samsung.android.support.senl.addons.brush.view.menu.BrushMenuContainer android:id="@id/brush_palette_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.samsung.android.support.senl.addons.brush.view.popup.BrushSettingPopup android:id="@id/brush_setting_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/brush_palette_menu" />
+    </com.samsung.android.support.senl.addons.brush.view.menu.BrushContainer>
+</com.samsung.android.support.senl.addons.base.view.inputblockcontainers.InputIntercepterRelativeLayout>

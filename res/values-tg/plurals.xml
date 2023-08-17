@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Беш аз %d ҷузъ илова кардан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Беш аз %d ҷузъ илова кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Якбора зиёда аз %d ҷузъ гузоштан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Якбора зиёда аз %d ҷузъ гузоштан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Якбора беш аз %d ҳуҷҷат скан кардан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Якбора беш аз %d ҳуҷҷат скан кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Зиёда аз %d ранг нишон додан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d ранг нишон додан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Якбора беш аз %d файли аудио илова кардан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Якбора беш аз %d файли аудио илова кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Якбора зиёда аз %d PDF гузоштан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Якбора зиёда аз %d PDF гузоштан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Содирот бекор карда шуд. %d PDF аллакай содирот карда шуд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Содирот бекор карда шуд. %d PDF аллакай содирот карда шуд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Аз %d аломат дохил кардан мумкин нест.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d аломат дохил кардан мумкин нест.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Пароле дохил кунед, ки на камтар аз %d аломат иборат бошад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пароле дохил кунед, ки на камтар аз %d аломат иборат бошад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Пароле наверо дохил кунед, ки на камтар аз %d аломат иборат бошад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пароле наверо дохил кунед, ки на камтар аз %d аломат иборат бошад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d сония интизор шуда, кӯшишро такрор кунед.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d сония интизор шуда, кӯшишро такрор кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Зиёда аз %d равзанаи Samsung Notes кушодан ғайриимкон аст. Як равзанаро пӯшида, кӯшишро такрор кунед.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d равзанаи Samsung Notes кушодан ғайриимкон аст. Як равзанаро пӯшида, кӯшишро такрор кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d эзоҳ боргирӣ карда шуд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d эзоҳ боргирӣ карда шуд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d ранг</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ранг</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d ғафсӣ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ғафсӣ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">%d эзоҳи муштаракро нест кунам?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d эзоҳи муштаракро нест кунам?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d эзоҳро табдил додан</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d эзоҳро табдил додан</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d ҷузвдон</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузвдон</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d ҷузъ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузъ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d эзоҳ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d эзоҳ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Зиёда аз %d ранг нишон додан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d ранг нишон додан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d дафтар</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дафтар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%1$d ҷузвдонро ба %2$s кӯчонем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ҷузвдонро ба %2$s кӯчонем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s ба дафтари %3$s %2$d эзоҳи нав илова кард.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ба дафтари %3$s %2$d эзоҳи нав илова кард.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d эзоҳи нав мубодила карда шуд</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d эзоҳи нав мубодила карда шуд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Воридкунӣ бекор карда шуд. %d PDF аллакай ворид карда шуд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Воридкунӣ бекор карда шуд. %d PDF аллакай ворид карда шудааст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Ворид кардани %d эзоҳ барор наёфт.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ворид кардани %d эзоҳ барор наёфт.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Пароле наверо дохил кунед, ки на камтар аз %d аломат иборат бошад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пароле наверо дохил кунед, ки на камтар аз %d аломат иборат бошад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Зиёда аз %d ҷузъ интихоб кардан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d ҷузъ интихоб кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">%d ҷузвдонро ба Сабад кӯчонем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузвдонро ба Сабад кӯчонем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">%d ҷузвдон ва ҳамаи ҷузъҳои дохили онҳоро ба Сабад кӯчонем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузвдон ва ҳамаи ҷузъҳои дохили онро ба Сабад кӯчонем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">%d эзоҳро ба Сабад кӯчонем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d эзоҳро ба Сабад кӯчонем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Баъди иҷро шудани тафтиши шахсияти шумо, %d эзоҳ (аз ҷумла 1 эзоҳи басташуда) ба Сабад кӯчонида мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Баъди иҷро шудани тафтиши шахсияти шумо, %d эзоҳ (аз ҷумла 1 эзоҳи басташуда) ба Сабад кӯчонида мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">%d эзоҳи аллакай дар ҷузвдони интихобшуда мавҷуд кӯчонида нашуд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d эзоҳи аллакай дар ҷузвдони интихобшуда мавҷуд кӯчонида нашуд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%1$d эзоҳро ба %2$s кӯчонем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d эзоҳро ба %2$s кӯчонем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d ҷузъ аз абр ва ҳамаи дастгоҳҳои шумо бебозгашт нест карда мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузъ аз абр ва ҳамаи дастгоҳҳои шумо бебозгашт нест карда мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">%d эзоҳро бебозгашт нест кунем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d эзоҳро бебозгашт нест кунем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d ҷузъ бебозгашт нест карда мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузъ бебозгашт нест карда мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d рӯз</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Дар эзоҳи муштарак зиёда аз %d зарба ё объект интихоб кардан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Дар эзоҳи муштарак зиёда аз %d зарба ё объект интихоб кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d тасвир ба телефон захира карда шуд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тасвир ба телефон захира карда шуд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d тасвир ба планшет захира карда шуд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тасвир ба планшет захира карда шуд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d файл ба телефон захира карда шуд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d файл ба телефон захира карда шуд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d файл ба планшет захира карда шуд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d файл ба планшет захира карда шуд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d узв</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d узв</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Ин эзоҳ баъди %d рӯз нест карда мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин эзоҳ баъди %d рӯз нест карда мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDF содирот карда мешавад…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF содирот карда мешавад…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Табдил додани %d эзоҳ барор наёфт. Дар захирагоҳи дохилӣ андак ҷой холӣ карда, кӯшишро такрор кунед.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Табдил додани %d эзоҳ барор наёфт. Дар захирагоҳи дохилӣ андак ҷой холӣ карда, кӯшишро такрор кунед.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d ҷузъро нест кунем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузъро нест кунем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

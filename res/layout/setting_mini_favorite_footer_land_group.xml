@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/mini_popup_layout_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/mini_favorite_button_more" android:layout_width="@dimen/mini_popup_button_size" android:layout_height="@dimen/mini_popup_button_size" android:layout_marginStart="@dimen/mini_popup_button_space" android:layout_marginEnd="@dimen/mini_popup_button_space" />
+        <com.samsung.android.sdk.pen.setting.SpenMiniCloseButton android:id="@id/mini_favorite_button_close" android:layout_width="@dimen/mini_popup_button_size" android:layout_height="@dimen/mini_popup_button_size" android:layout_marginStart="@dimen/mini_popup_button_space" android:layout_marginEnd="@dimen/mini_popup_button_space" app:extendedDirection="leftRight" />
+    </LinearLayout>
+    <include android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" layout="@layout/setting_mini_favorite_done_button" />
+</FrameLayout>

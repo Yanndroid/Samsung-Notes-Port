@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/item_container" android:background="@drawable/comp_ripple_circle_effect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48.0dip" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/item_button" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" android:tint="@color/composer_moreoption_icon_color_filter" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/noteslist_item_divider_height" android:color="@color/notes_divider_color" />
+    <corners android:radius="@dimen/notes_simple_item_due_date_no_thumbnail_stroke_radius" />
+</shape>

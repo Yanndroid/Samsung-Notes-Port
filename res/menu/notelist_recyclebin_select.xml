@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_recyclebin_edit" android:orderInCategory="100" android:title="@string/action_edit" app:showAsAction="always" />
+    <item android:id="@id/action_recyclebin_empty_bin" android:orderInCategory="100" android:title="@string/action_empty_trash" app:showAsAction="never" />
+</menu>

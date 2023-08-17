@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_change" android:title="open second" app:showAsAction="always" />
+    <item android:id="@id/action_select_first" android:title="First" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_select_second" android:title="Second" app:showAsAction="ifRoom" />
+</menu>

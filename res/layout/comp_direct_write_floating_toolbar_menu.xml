@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.composer.main.base.view.menu.toolbar.directwrite.DirectWriteContainerLayout android:gravity="center_vertical" android:id="@id/dw_toolbar_menu_container" android:background="@drawable/comp_direct_write_floating_menu_background" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:hasScrollable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/dw_toolbar_menu_item_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include layout="@layout/comp_direct_write_menu" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/dw_toolbar_menu_item_enter" android:background="@drawable/comp_direct_write_enter_circle_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/comp_dw_toolbar_enter_elevation" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include layout="@layout/comp_btn_direct_write_enter" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.samsung.android.support.senl.nt.composer.main.base.view.menu.toolbar.directwrite.DirectWriteContainerLayout>

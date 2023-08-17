@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/comp_zoom_widget_menu_container" android:background="@drawable/comp_zoom_widget_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:layout_marginStart="14.0dip" android:elevation="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="5.0dip" android:elevation="4.0dip" android:layout_marginHorizontal="5.0dip">
+        <ImageView android:id="@id/comp_zoom_in_btn" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/comp_zoom_widget_ic_zoom_in" android:contentDescription="@string/base_zoom_in" />
+    </LinearLayout>
+    <com.samsung.android.support.senl.nt.composer.main.base.view.composer.ZoomView android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/comp_zoom_widget_zoom_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="9.0dip" android:elevation="3.0dip">
+        <TextView android:textSize="10.0dip" android:textColor="@color/comp_zoom_view_text_color" android:gravity="center" android:id="@id/comp_zoom_value_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="80%" android:lines="1" android:fontFamily="sans-serif" android:textAlignment="center" />
+    </com.samsung.android.support.senl.nt.composer.main.base.view.composer.ZoomView>
+    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="4.0dip" android:elevation="4.0dip" android:layout_marginHorizontal="5.0dip">
+        <ImageView android:id="@id/comp_zoom_out_btn" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/comp_zoom_widget_ic_zoom_out" android:contentDescription="@string/base_zoom_out" />
+    </LinearLayout>
+</LinearLayout>

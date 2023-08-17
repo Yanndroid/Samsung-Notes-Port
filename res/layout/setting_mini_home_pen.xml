@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sdk.pen.setting.handwriting.SpenPenImageView android:layout_gravity="center_horizontal" android:id="@id/mini_pen_item" android:layout_width="22.0dip" android:layout_height="51.0dip" android:layout_marginBottom="-13.0dip" app:shadowRadius="15.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

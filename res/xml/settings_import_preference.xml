@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/notes" android:key="settings_import_notes_category">
+        <androidx.preference.Preference android:title="@string/settings_import_device" android:key="settings_import_notes_from_phone" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_import_snote_data" android:key="settings_import_snote_category">
+        <androidx.preference.Preference android:title="@string/settings_import_device" android:key="settings_import_snote_from_phone" />
+        <androidx.preference.Preference android:title="@string/settings_import_samsung_account" android:key="settings_import_snote_from_samsung_account" />
+        <androidx.preference.Preference android:icon="@drawable/ic_google_drive" android:title="@string/settings_import_google_drive" android:key="settings_import_snote_from_google_drive" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_import_memo_data" android:key="settings_import_memos_category">
+        <androidx.preference.Preference android:title="@string/settings_import_device" android:key="settings_import_memos_from_phone" />
+        <androidx.preference.Preference android:title="@string/settings_import_samsung_account" android:key="settings_import_memos_from_samsung_account" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_import_scrapbook_data" android:key="settings_import_scrapbooks_category">
+        <androidx.preference.Preference android:title="@string/settings_import_samsung_account" android:key="settings_import_scrapbooks_from_samsung_account" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

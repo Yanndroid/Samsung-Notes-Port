@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">%d سے زیادہ آئٹمز شامل نہیں کئے جا سکتے۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d سے زیادہ آئٹم شامل نہیں کئے جا سکتے۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">ایک وقت میں %d سے زیادہ آئٹمز کو پیسٹ نہیں کیا جا سکتا۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ایک وقت میں %d سے زیادہ آئٹم کو پیسٹ نہیں کیا جا سکتا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">ایک وقت میں %d سے زیادہ دستاویزات کو اسکین نہیں کیا جا سکتا۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ایک وقت میں %d سے زیادہ دستاویز کو اسکین نہیں کیا جا سکتا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">%d رنگوں سے زیادہ نہیں دکھا سکتے۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d رنگ سے زیادہ نہیں دکھا سکتے۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">بیک وقت %d سے زیادہ آڈیو فائلیں شامل نہیں کرسکتے۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">بیک وقت %d سے زیادہ آڈیو فائل شامل نہیں کرسکتے۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">ایک وقت میں %d سے زیادہ PDFs کو پیسٹ نہیں کیا جا سکتا۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ایک وقت میں %d سے زیادہ PDF کو پیسٹ نہیں کیا جا سکتا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">برآمدگی منسوخ ہو گئی۔ %d PDFs پہلے ہی برآمد ہو گئی ہے۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">برآمدگی منسوخ ہو گئی۔ %d PDF پہلے ہی برآمد ہو گئی ہے۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">%d حروف سے زائد درج نہیں کرسکتے۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d حرف سے زائد درج نہیں کرسکتے۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">اس میں کم از کم %d حروف والا پاس ورڈ درج کریں۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">اس میں کم از کم %d حرف والا پاس ورڈ درج کریں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">اس میں کم از کم %d حروف والا نیا پاس ورڈ درج کریں۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">اس میں کم از کم %d حرف والا نیا پاس ورڈ درج کریں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d سیکنڈز انتظار کریں اور دوبارہ کوشش کریں۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d سیکنڈ انتظار کریں اور دوبارہ کوشش کریں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">%d سے زیادہ Samsung Notes ونڈوز نہیں کھول سکتے۔ ونڈو بند کریں اور دوبارہ کوشش کریں۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d سے زیادہ Samsung Notes ونڈو نہیں کھول سکتے۔ ونڈو بند کریں اور دوبارہ کوشش کریں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d نوٹس ڈاؤن لوڈ کئے گئے۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نوٹ ڈاؤن لوڈ کیا گیا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d رنگ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d رنگ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d موٹائی</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d موٹائی</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">%d اشتراک کردہ نوٹس حذف کریں؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d اشتراک کردہ نوٹ حذف کریں؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d نوٹس تبدیل کریں</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نوٹ تبدیل کریں</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d فولڈرز</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فولڈر</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d اشیاء</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d شئے</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d نوٹس</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نوٹ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">%d رنگوں سے زیادہ نہیں دکھا سکتے۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d رنگ سے زیادہ نہیں دکھا سکتے۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d نوٹ بکس</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نوٹ بک</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%1$d فولڈرز کو %2$s میں منتقل کریں؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d فولڈر کو %2$s میں منتقل کریں؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s نے %2$d نیا نوٹس %3$s نوٹ بک میں شامل کیا ہے۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s نے %2$d نیا نوٹ %3$s نوٹ بک میں شامل کیا ہے۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d نئے نوٹس شیئر کیے گئے</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نئے نوٹ شیئر کیے گئے</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">برآمدگی منسوخ ہو گئی۔ %d PDFs پہلے ہی برآمد ہو گئی ہے۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">برآمدگی منسوخ ہو گئی۔ %d PDF پہلے ہی برآمد ہو گئی ہے۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d نوٹس کو درآمد نہیں کیا جا سکا۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نوٹ کو درآمد نہیں کیا جا سکا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">اس میں کم از کم %d حروف والا نیا پاس ورڈ درج کریں۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">اس میں کم از کم %d حرف والا نیا پاس ورڈ درج کریں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">%d سے زیادہ آئٹمز کا انتخاب نہیں کیا جا سکتا۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d سے زیادہ آئٹم کا انتخاب نہیں کیا جا سکتا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">%d فولڈرز کو ٹریش میں منتقل کریں؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فولڈر کو ٹریش میں منتقل کریں؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">%d فولڈرز اور ان میں موجود تمام آئٹمز کو ٹریش میں منتقل کریں؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فولڈر اور اس میں موجود تمام آئٹمز کو ٹریش میں منتقل کریں؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">%d نوٹس ٹریش میں منتقل کریں؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نوٹ ٹریش میں منتقل کریں؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">اپنی شناخت کی توثیق کرنے کے بعد، %d نوٹس (1 لاک کردہ نوٹ سمیت) کو ٹریش میں منتقل کر دیا جائے گا۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">اپنی شناخت کی توثیق کرنے کے بعد، %d نوٹ (1 لاک کردہ نوٹ سمیت) کو ٹریش میں منتقل کر دیا جائے گا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">منتخب کردہ فولڈر میں پہلے سے موجود %d نوٹس منتقل نہیں ہوئے۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">منتخب کردہ فولڈر میں پہلے سے موجود %d نوٹ منتقل نہیں ہوا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%1$d نوٹس کو %2$s میں منتقل کریں؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d نوٹ کو %2$s میں منتقل کریں؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d آئٹمز کو کلاؤڈ اور آپ کے تمام آلات سے مستقل طور پر حذف کر دیا جائے گا۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d آئٹم کو کلاؤڈ اور آپ کے تمام آلات سے مستقل طور پر حذف کر دیا جائے گا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">مستقل طورپر %d نوٹس حذف کریں؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">مستقل طورپر %d نوٹ حذف کریں؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d اشیاء کو مستقل طورپر حذف کردیے جائیں گے۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d شئے مستقل طورپر حذف کردیا جائے گا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d دن</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دن</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">مشترکہ نوٹ میں %d سے زیادہ اسٹروکس یا آبجیکٹس کا انتخاب نہیں کیا جا سکتا۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">مشترکہ نوٹ میں %d سے زیادہ اسٹروک یا آبجیکٹ کا انتخاب نہیں کیا جا سکتا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d تصاویر آپ کے فون میں محفوظ کی گئیں۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d تصویر آپ کے فون میں محفوظ کی گئی۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d تصاویر آپ کے ٹیبلیٹ پر محفوظ کی گئیں۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d تصویر آپ کے ٹیبلیٹ پر محفوظ کی گئی۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d فائلیں آپ کے فون میں محفوظ ہوگئیں۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فائل آپ کے فون میں محفوظ ہوگئی۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d فائلیں آپ کے ٹیبلیٹ میں محفوظ ہوگئیں۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فائل آپ کے ٹیبلیٹ میں محفوظ ہوگئی۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d اراکین</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d رکن</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">اس نوٹ کو %d دن میں حذف کر دیا جائے گا۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">اس نوٹ کو %d دن میں حذف کر دیا جائے گا۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">‏%d PDFs کو برآمد کیا جا رہا ہے…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">‏%d PDF کو برآمد کیا جا رہا ہے…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">%d نوٹس کو تبدیل نہیں کیا جا سکا۔ اندرونی ذخیرہ میں تھوڑی جگہ خالی کریں، پھر دوبارہ کوشش کریں۔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نوٹ کو تبدیل نہیں کیا جا سکا۔ اندرونی ذخیرہ میں تھوڑی جگہ خالی کریں، پھر دوبارہ کوشش کریں۔</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d اشیاء حذف کریں؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d شئے حذف کریں؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

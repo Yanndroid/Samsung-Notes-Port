@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">En fazla %d öge eklenebilir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En fazla %d öge eklenebilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Tek seferde en fazla %d öge yapıştırılabilir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tek seferde en fazla %d öge yapıştırılabilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Aynı anda en fazla %d belge taranabilir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aynı anda en fazla %d belge taranabilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">En fazla %d renk gösterilebilir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En fazla %d renk gösterilebilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Tek seferde en fazla %d ses dosyası eklenebilir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tek seferde en fazla %d ses dosyası eklenebilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Tek seferde en fazla %d PDF yapıştırılabilir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tek seferde en fazla %d PDF yapıştırılabilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Dışa aktarma iptal edildi. %d PDF önceden dışa aktarılmış.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dışa aktarma iptal edildi. %d PDF önceden dışa aktarılmış.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">En fazla %d karakter girilebilir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En fazla %d karakter girilebilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">En az %d karakter içeren bir şifre girin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En az %d karakter içeren bir şifre girin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">En az %d karakter içeren yeni bir şifre girin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En az %d karakter içeren yeni bir şifre girin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d saniye bekleyip tekrar deneyin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d saniye bekleyip tekrar deneyin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">En fazla %d Samsung Notes penceresi açabilirsiniz. Bir pencereyi kapatıp tekrar deneyin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En fazla %d Samsung Notes penceresi açabilirsiniz. Bir pencereyi kapatıp tekrar deneyin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildirim</item>
+        <item quantity="one">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d not indirildi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d not indirildi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d renk</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d renk</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d kalınlık</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kalınlık</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">%d paylaşılan not silinsin mi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paylaşılan not silinsin mi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d notu dönüştür</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notu dönüştür</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d klasör</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d klasör</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d öge</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d öge</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d not</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d not</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">En fazla %d renk gösterilebilir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En fazla %d renk gösterilebilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d not defteri</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d not defteri</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%1$d klasör %2$s klasörüne taşınsın mı?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d klasör %2$s klasörüne taşınsın mı?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s, %3$s not defterine %2$d yeni not ekledi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %3$s not defterine %2$d yeni not ekledi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d yeni not paylaşıldı</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d yeni not paylaşıldı</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">İçe aktarma iptal edildi. %d PDF önceden içe aktarılmış.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">İçe aktarma iptal edildi. %d PDF önceden içe aktarılmış.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d not içe aktarılamıyor.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d not içe aktarılamıyor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">En az %d karakter içeren yeni bir şifre girin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En az %d karakter içeren yeni bir şifre girin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">En fazla %d öge seçilebilir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En fazla %d öge seçilebilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">"%d klasör Çöp kutusu'na taşınsın mı?"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d klasör Çöp kutusu'na taşınsın mı?"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">%d klasör ve içindeki tüm ögeler Çöp kutusuna taşınsın mı?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d klasör ve içindeki tüm ögeler Çöp kutusuna taşınsın mı?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">%d not Çöp kutusuna taşınsın mı?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d not Çöp kutusuna taşınsın mı?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Kimliğinizi doğruladıktan sonra %d not (1 kilitli not dahil) Çöp kutusuna taşınacak.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kimliğinizi doğruladıktan sonra %d not (1 kilitli not dahil) Çöp kutusuna taşınacak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Zaten seçili klasörde olan %d not taşınmadı.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zaten seçili klasörde olan %d not taşınmadı.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%1$d not %2$s klasörüne taşınsın mı?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d not %2$s klasörüne taşınsın mı?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">"%d öge cloud'dan ve tüm cihazlarınızdan kalıcı olarak silinecek."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d öge cloud'dan ve tüm cihazlarınızdan kalıcı olarak silinecek."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">%d not kalıcı olarak silinsin mi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d not kalıcı olarak silinsin mi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d öge kalıcı olarak silinecek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d öge kalıcı olarak silinecek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d gün</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Paylaşılan bir notta en fazla %d çizgi veya nesne seçilebilir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Paylaşılan bir notta en fazla %d çizgi veya nesne seçilebilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d görüntü telefonunuza kaydedildi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d görüntü telefonunuza kaydedildi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d görüntü tabletinize kaydedildi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d görüntü tabletinize kaydedildi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d dosya telefonunuza kaydedildi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dosya telefonunuza kaydedildi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d dosya tabletinize kaydedildi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dosya tabletinize kaydedildi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d üye</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d üye</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Bu not %d gün içinde silinecek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu not %d gün içinde silinecek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDF dışa aktarılıyor…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF dışa aktarılıyor…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">%d not dönüştürülemedi. Dahili depolamada biraz alan açıp tekrar deneyin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d not dönüştürülemedi. Dahili depolamada biraz alan açıp tekrar deneyin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d öge silinsin mi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d öge silinsin mi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

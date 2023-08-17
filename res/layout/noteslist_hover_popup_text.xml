@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.app.common.widget.HoverPopupTextView android:textSize="@dimen/notes_grid_item_text_content_size" android:textColor="@color/noteslist_item_title_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/memolist_hover_text" android:background="@drawable/noteslist_hover_popup_text_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="276.0dip" android:maxHeight="162.0dip" android:maxLines="7" android:lineSpacingExtra="1.0dip" android:translationZ="2.0dip" style="@style/RobotoRegularStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

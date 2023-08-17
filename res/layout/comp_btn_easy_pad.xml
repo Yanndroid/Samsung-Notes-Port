@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hw_toolbar_easy_pad" android:contentDescription="@string/hw_toolbar_item_easy_writing_pad" style="@style/ComposerImageClickButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/comp_hw_toolbar_ic_input" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+</FrameLayout>

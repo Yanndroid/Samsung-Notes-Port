@@ -1,0 +1,23 @@
+{
+  "client_id" : "bf5b74b0-d8d4-4b72-8603-387e7fbe4ff3",
+  "authorization_user_agent" : "DEFAULT",
+  "redirect_uri" : "msauth://com.samsung.android.app.notes/JxluOGuHXnat9wDn6oTkxu7jPfo%3D",
+  "account_mode": "MULTIPLE",
+  "authorities" : [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADandPersonalMicrosoftAccount"
+      },
+      "default": true
+    }
+  ],
+  "browser_safelist": [
+    {
+      "browser_package_name": "com.sec.android.app.sbrowser",
+      "browser_signature_hashes": [
+        "XYAvJNasdscIqOev4o_ZfgOPiIzvZmX7m0qSI0wxHW_0ISfMsutaiY9Ofk5VP272AtQ9Gi666fACplmOcv0tgw=="
+      ]
+    }
+  ]
+}

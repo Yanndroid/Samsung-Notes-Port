@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/screenoff_pen_color_setting_view_item_stroke" android:color="@android:color/black" />
+    <solid android:color="@android:color/white" />
+    <size android:height="@dimen/screenoff_pen_color_setting_view_item_width_height" android:width="@dimen/screenoff_pen_color_setting_view_item_width_height" />
+</shape>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:id="@id/comp_scrolling_direction_setting_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioGroup android:orientation="vertical" android:id="@id/scrolling_direction" android:paddingBottom="24.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="24.0dip">
+            <RadioButton android:textAppearance="@style/RobotoRegularStyle" android:textSize="18.0dip" android:id="@id/direction_vertical" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/scrolling_direction_vertial" android:textAlignment="viewStart" android:paddingStart="18.0dip" android:paddingEnd="0.0dip" />
+            <RadioButton android:textAppearance="@style/RobotoRegularStyle" android:textSize="18.0dip" android:id="@id/direction_horizontal" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/scrolling_direction_horizontal" android:textAlignment="viewStart" android:paddingStart="18.0dip" android:paddingEnd="0.0dip" />
+        </RadioGroup>
+    </LinearLayout>
+</HorizontalScrollView>

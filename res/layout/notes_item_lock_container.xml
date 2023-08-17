@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/lock_icon" android:visibility="gone" android:layout_width="@dimen/noteslist_item_icon_size" android:layout_height="@dimen/noteslist_item_icon_size" android:src="@drawable/ic_lock" />
+    <androidx.appcompat.widget.SeslProgressBar android:id="@id/progress_converting" android:visibility="gone" android:layout_width="@dimen/noteslist_item_icon_size" android:layout_height="@dimen/noteslist_item_icon_size" />
+</FrameLayout>

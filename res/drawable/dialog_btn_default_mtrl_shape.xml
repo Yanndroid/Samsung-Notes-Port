@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/tw_dialog_button_inset_horizontal" android:insetRight="@dimen/tw_dialog_button_inset_horizontal" android:insetTop="@dimen/tw_dialog_button_inset_vertical" android:insetBottom="@dimen/tw_dialog_button_inset_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/control_corner_material" />
+        <solid android:color="?android:colorButtonNormal" />
+        <padding android:left="@dimen/button_padding_horizontal_material" android:top="@dimen/tw_dialog_button_padding_vertical" android:right="@dimen/button_padding_horizontal_material" android:bottom="@dimen/tw_dialog_button_padding_vertical" />
+    </shape>
+</inset>

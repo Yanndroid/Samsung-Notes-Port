@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingTop="8.0dip" android:paddingRight="24.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="14.0sp" android:textColor="@color/composer_default_text_color" android:id="@id/comp_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="19.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/comp_keep_current" style="@style/ComposerSyncConflictDialogButton">
+                <LinearLayout android:orientation="vertical" android:id="@id/comp_keep_current_text" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/comp_keep_current_title" style="@style/ComposerSyncConflictDialogButtonTitle" />
+                        <View android:id="@id/comp_keep_current_latest_red_dot" style="@style/ComposerSyncConflictDialogButtonTitleRedDot" />
+                    </LinearLayout>
+                    <TextView android:id="@id/comp_keep_current_time" style="@style/ComposerSyncConflictDialogButtonMessage" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/comp_replace" style="@style/ComposerSyncConflictDialogButton">
+                <LinearLayout android:orientation="vertical" android:id="@id/comp_replace_text" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/comp_replace_title" android:layout_marginBottom="3.0dip" style="@style/ComposerSyncConflictDialogButtonTitle" />
+                        <View android:id="@id/comp_replace_latest_red_dot" style="@style/ComposerSyncConflictDialogButtonTitleRedDot" />
+                    </LinearLayout>
+                    <TextView android:id="@id/comp_replace_time" style="@style/ComposerSyncConflictDialogButtonMessage" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/comp_keep_both" style="@style/ComposerSyncConflictDialogButton">
+                <TextView android:layout_gravity="center_vertical" android:id="@id/comp_keep_both_title" android:text="@string/composer_keep_both_versions" style="@style/ComposerSyncConflictDialogButtonTitle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/comp_compare" style="@style/ComposerSyncConflictDialogButton">
+                <TextView android:layout_gravity="center_vertical" android:id="@id/comp_compare_title" android:text="Compare" style="@style/ComposerSyncConflictDialogButtonTitle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

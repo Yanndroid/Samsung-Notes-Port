@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ftu_container" android:background="@color/quick_note_ftu_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="12.0" />
+    <com.samsung.android.support.senl.nt.composer.main.base.ftu.quicknote.view.QuickNoteFTUView android:id="@id/lottie_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="48.0" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="12.0" android:layout_marginStart="@dimen/quick_note_ftu_button_container_margin_start_end" android:layout_marginEnd="@dimen/quick_note_ftu_button_container_margin_start_end">
+        <TextView android:theme="@style/RobotoRegularStyle" android:textSize="@dimen/quick_note_ftu_description_text_size" android:textColor="@color/quick_note_ftu_description_text_color" android:gravity="center_horizontal" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/quick_note_ftu_description" />
+    </ScrollView>
+    <Button android:theme="@style/Widget.AppCompat.Button.Custom" android:textSize="@dimen/quick_note_ftu_start_button_text_size" android:textColor="@color/quick_note_ftu_got_it_button_text_color" android:id="@id/got_it_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/quick_note_ftu_button_container_margin_top_bottom" android:text="@string/quick_note_ftu_got_it" android:lineSpacingExtra="@dimen/quick_note_ftu_got_it_button_text_line_spacing" android:alpha="0.0" android:paddingStart="@dimen/quick_note_ftu_got_it_button_padding_start_end" android:paddingEnd="@dimen/quick_note_ftu_got_it_button_padding_start_end" app:backgroundTint="@color/quick_note_ftu_got_it_button_background_color" style="@style/ContainedButton" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:paddingTop="@dimen/more_menu_list_padding_default" android:paddingBottom="@dimen/more_menu_list_padding_bottom" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/more_menu_list_min_width">
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/card_menu_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/more_menu_list_padding_bottom" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+            <include android:id="@id/card_menu_divider" layout="@layout/comp_menu_divider" />
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/text_menu_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/more_menu_list_padding_bottom" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+            <include android:id="@id/icon_menu_constraint_layout_divider" layout="@layout/comp_menu_divider" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/icon_menu_constraint_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/more_menu_icon_item_side_margin" android:layout_marginTop="@dimen/more_menu_icon_item_list_margin_top" android:layout_marginRight="@dimen/more_menu_icon_item_side_margin" android:layout_marginBottom="@dimen/more_menu_icon_item_list_margin_bottom" android:overScrollMode="never" android:layout_marginHorizontal="@dimen/more_menu_icon_item_side_margin" />
+        </LinearLayout>
+    </com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>
+</HorizontalScrollView>

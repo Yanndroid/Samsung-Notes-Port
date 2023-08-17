@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_move" android:id="@id/action_move" android:orderInCategory="10" android:title="@string/action_move" app:contentDescription="@string/action_move" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_lock" android:id="@id/action_lock" android:orderInCategory="40" android:title="@string/action_more_lock" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_share" android:id="@id/action_share" android:orderInCategory="50" android:title="@string/action_share" app:contentDescription="@string/action_share" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_color" android:id="@id/action_change_color" android:orderInCategory="20" android:title="@string/folder_color" app:contentDescription="@string/folder_color" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_edit" android:id="@id/action_rename" android:orderInCategory="30" android:title="@string/rename" app:contentDescription="@string/rename" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_switch" android:id="@id/action_convert" android:orderInCategory="60" android:title="@string/convert" app:contentDescription="@string/convert" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_delete" android:id="@id/action_delete" android:orderInCategory="70" android:title="@string/action_delete" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_save_as" android:id="@id/action_save_as_file" android:orderInCategory="80" android:title="@string/save_as" app:contentDescription="@string/save_as" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_duplicate_bottom_menu" android:id="@id/action_duplicate" android:orderInCategory="90" android:title="@string/action_duplicate" app:contentDescription="@string/action_duplicate" app:showAsAction="never" />
+    <item android:id="@id/action_remove_from_favorites" android:orderInCategory="100" android:title="@string/composer_remove_from_favorite" app:showAsAction="never" />
+    <item android:id="@id/action_add_to_favorites" android:orderInCategory="110" android:title="@string/composer_add_to_favorite" app:showAsAction="never" />
+    <item android:id="@id/action_start_coedit_with_standalone" android:orderInCategory="120" android:title="@string/co_edit_start" app:showAsAction="never" />
+    <item android:id="@id/action_start_coedit_with_space" android:orderInCategory="120" android:title="@string/co_edit_start_with_space" app:showAsAction="never" />
+    <item android:id="@id/action_secure_folder_move" android:orderInCategory="130" android:title="@string/action_move_to_secure_folder" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/co_edit_thumbnail_background_size" android:layout_height="@dimen/co_edit_thumbnail_background_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="@dimen/co_edit_thumbnail_background_half_size" android:layout_height="@dimen/co_edit_thumbnail_background_size">
+        <ImageView android:id="@id/first_profile" style="@style/CoeditMemberProfileStyle" />
+        <TextView android:id="@id/first_initial" style="@style/CoeditMemberInitialTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/co_edit_thumbnail_background_half_size" android:layout_height="@dimen/co_edit_thumbnail_background_half_size" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/second_profile" style="@style/CoeditMemberProfileStyle" />
+        <TextView android:textSize="@dimen/co_edit_user_thumbnail_text_half_size" android:id="@id/second_initial" style="@style/CoeditMemberInitialTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/co_edit_thumbnail_background_half_size" android:layout_height="@dimen/co_edit_thumbnail_background_half_size" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/third_profile" style="@style/CoeditMemberProfileStyle" />
+        <TextView android:textSize="@dimen/co_edit_user_thumbnail_text_half_size" android:id="@id/third_initial" style="@style/CoeditMemberInitialTextStyle" />
+    </FrameLayout>
+</RelativeLayout>

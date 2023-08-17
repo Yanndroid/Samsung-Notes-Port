@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/color_rect_picker_icon" />
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="2.0px" android:color="@color/setting_picker_selection_stroke_color" />
+        </shape>
+    </item>
+</layer-list>

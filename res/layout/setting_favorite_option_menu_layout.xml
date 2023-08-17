@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:background="@drawable/dialog_bg" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="168.0dip" android:elevation="@dimen/setting_popup_bg_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/setting_content_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/favorite_menu_add" android:background="@drawable/drawing_ripple_rect_pressed" android:layout_width="fill_parent" android:layout_height="51.0dip" android:text="@string/pen_string_add" android:maxLines="1" android:includeFontPadding="false" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/setting_content_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/favorite_menu_delete" android:background="@drawable/drawing_ripple_rect_pressed" android:layout_width="fill_parent" android:layout_height="51.0dip" android:text="@string/pen_string_delete_preset" android:maxLines="1" android:includeFontPadding="false" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+</LinearLayout>

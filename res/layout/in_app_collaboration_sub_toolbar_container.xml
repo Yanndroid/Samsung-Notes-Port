@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/in_app_container_background" android:layout_width="0.0dip" android:layout_height="@dimen/in_app_sub_toolbar_container_item_height" android:layout_weight="0.55" style="@style/InAppCollaborationContainerStyle">
+        <include layout="@layout/comp_btn_quick_color" />
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.03" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/in_app_container_background" android:layout_width="0.0dip" android:layout_height="@dimen/in_app_sub_toolbar_container_item_height" android:layout_weight="0.42" style="@style/InAppCollaborationContainerStyle">
+        <include layout="@layout/comp_btn_quick_size" />
+    </LinearLayout>
+</LinearLayout>

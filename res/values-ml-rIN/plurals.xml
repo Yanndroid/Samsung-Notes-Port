@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">ഇനങ്ങൾ %d-ൽ കൂടുതൽ ചേർക്കാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇനം %d-ൽ കൂടുതൽ ചേർക്കാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">ഒരേ സമയം %d-ൽ കൂടുതൽ ഇനങ്ങൾ ഒട്ടിക്കാനാകില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഒരേ സമയം %d-ൽ കൂടുതൽ ഇനം ഒട്ടിക്കാനാകില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">ഒരേ സമയം %d-ൽ കൂടുതൽ പ്രമാണങ്ങൾ സ്കാൻ ചെയ്യാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഒരേ സമയം %d-ൽ കൂടുതൽ പ്രമാണം സ്കാൻ ചെയ്യാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">നിറങ്ങൾ %d-ൽ കൂടുതൽ കാണിക്കാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിറം %d-ൽ കൂടുതൽ കാണിക്കാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">ഒരേ സമയം %d-ൽ കൂടുതൽ ഓഡിയോ ഫയലുകൾ ചേർക്കാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഒരേ സമയം %d-ൽ കൂടുതൽ ഓഡിയോ ഫയൽ ചേർക്കാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">ഒരേ സമയം %d-ൽ കൂടുതൽ PDF-കൾ ഒട്ടിക്കാനാകില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഒരേ സമയം %d-ൽ കൂടുതൽ PDF ഒട്ടിക്കാനാകില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">എക്സ്‌പോർട്ട് റദ്ദാക്കി. %d PDF-കൾ നേരത്തേതന്നെ എക്സ്‌പോർട്ട് ചെയ്യപ്പെട്ടതാണ്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">എക്സ്‌പോർട്ട് റദ്ദാക്കി. %d PDF നേരത്തേതന്നെ എക്സ്‌പോർട്ട് ചെയ്യപ്പെട്ടതാണ്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">%d-ൽ കൂടുതൽ അക്ഷരങ്ങൾ നൽകാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ൽ കൂടുതൽ അക്ഷരം നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">കുറഞ്ഞത് %d പ്രതീകങ്ങളെങ്കിലുമുള്ള ഒരു പാസ്‌വേഡ് നല്‍കുക.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">കുറഞ്ഞത് %d പ്രതീകമെങ്കിലുമുള്ള ഒരു പാസ്‌വേഡ് നല്‍കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">കുറഞ്ഞത് %d പ്രതീകങ്ങളെങ്കിലുമുള്ള ഒരു പുതിയ പാസ്‌വേഡ് നല്‍കുക.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">കുറഞ്ഞത് %d പ്രതീകമെങ്കിലുമുള്ള ഒരു പുതിയ പാസ്‌വേഡ് നല്‍കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d സെക്കന്‍റ് കാത്ത് വീണ്ടും ശ്രമിക്കുക.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d സെക്കന്‍റ് കാത്ത് വീണ്ടും ശ്രമിക്കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">%d-ൽ കൂടുതൽ Samsung Notes വിൻഡോകൾ തുറക്കാനാവില്ല. ഒരു വിൻഡോ അടച്ച് വീണ്ടും ശ്രമിക്കുക.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ൽ കൂടുതൽ Samsung Notes വിൻഡോ തുറക്കാനാവില്ല. ഒരു വിൻഡോ അടച്ച് വീണ്ടും ശ്രമിക്കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d കുറിപ്പുകൾ ഡൗൺലോഡ് ചെയ്തു.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കുറിപ്പ് ഡൗൺലോഡ് ചെയ്തു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d നിറങ്ങൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d നിറം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d കനങ്ങൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കനം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">%d പങ്കിട്ട കുറിപ്പുകൾ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d പങ്കിട്ട കുറിപ്പ് ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d കുറിപ്പുകൾ പരിവർത്തനം ചെയ്യുക</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കുറിപ്പ് പരിവർത്തനം ചെയ്യുക</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d ഫോൾഡറുകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഫോൾഡർ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d ഇനങ്ങൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇനം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d കുറിപ്പുകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കുറിപ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">നിറങ്ങൾ %d-ൽ കൂടുതൽ കാണിക്കാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിറം %d-ൽ കൂടുതൽ കാണിക്കാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d നോട്ട്‌ബുക്കുകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d നോട്ട്‌ബുക്ക്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%1$d ഫോൾഡറുകളെ %2$s-ലേക്ക് നീക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ഫോൾഡറിനെ %2$s-ലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%3$s നോട്ട്ബുക്കിൽ %2$d പുതിയ കുറിപ്പുകൾ %1$s ചേർത്തു.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%3$s നോട്ട്ബുക്കിൽ %2$d പുതിയ കുറിപ്പ് %1$s ചേർത്തു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d പുതിയ കുറിപ്പുകള്‍ പങ്കിട്ടു</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d പുതിയ കുറിപ്പ് പങ്കിട്ടു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">ഇംപോർട്ട് റദ്ദാക്കി. %d PDF-കൾ നേരത്തേതന്നെ ഇംപോർട്ട് ചെയ്യപ്പെട്ടതാണ്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇംപോർട്ട് റദ്ദാക്കി. %d PDF നേരത്തേതന്നെ ഇംപോർട്ട് ചെയ്യപ്പെട്ടതാണ്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d കുറിപ്പുകൾ ഇംപോർട്ട് ചെയ്യാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കുറിപ്പ് ഇംപോർട്ട് ചെയ്യാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">കുറഞ്ഞത് %d പ്രതീകങ്ങളെങ്കിലുമുള്ള ഒരു പുതിയ പാസ്‌വേഡ് നല്‍കുക.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">കുറഞ്ഞത് %d പ്രതീകമെങ്കിലുമുള്ള ഒരു പുതിയ പാസ്‌വേഡ് നല്‍കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">%d-ൽ കൂടുതൽ ഇനങ്ങൾ തിരഞ്ഞെടുക്കാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ൽ കൂടുതൽ ഇനം തിരഞ്ഞെടുക്കാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">%d ഫോൾഡറുകളെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഫോൾഡറിനെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">%d ഫോൾഡറുകളെയും അവയിലെ എല്ലാ ഇനങ്ങളെയും ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഫോൾഡറിനെയും അതിലെ എല്ലാ ഇനങ്ങളെയും ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">%d കുറിപ്പുകൾ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കുറിപ്പ് ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">നിങ്ങളുടെ തിരിച്ചറിയൽ പരിശോധിച്ചുറപ്പിച്ചു കഴിഞ്ഞാൽ, %d കുറിപ്പുകൾ (ലോക്ക് ചെയ്ത 1 കുറിപ്പ് ഉൾപ്പെടെ) ട്രാഷിലേക്ക് നീക്കപ്പെടും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങളുടെ തിരിച്ചറിയൽ പരിശോധിച്ചുറപ്പിച്ചു കഴിഞ്ഞാൽ, %d കുറിപ്പ് (ലോക്ക് ചെയ്ത 1 കുറിപ്പ് ഉൾപ്പെടെ) ട്രാഷിലേക്ക് നീക്കപ്പെടും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">തിരഞ്ഞെടുത്ത ഫോൾഡറിൽ നേരത്തേതന്നെയുള്ള %d കുറിപ്പുകൾ നീക്കിയില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">തിരഞ്ഞെടുത്ത ഫോൾഡറിൽ നേരത്തേതന്നെയുള്ള %d കുറിപ്പ് നീക്കിയില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%1$d കുറിപ്പുകളെ %2$s-ലേക്ക് നീക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d കുറിപ്പിനെ %2$s-ലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">ക്ലൗഡിൽ നിന്നും നിങ്ങളുടെ എല്ലാ ഉപകരണങ്ങളിൽ നിന്നും %d ഇനങ്ങൾ ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ക്ലൗഡിൽ നിന്നും നിങ്ങളുടെ എല്ലാ ഉപകരണങ്ങളിൽ നിന്നും %d ഇനം ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">%d കുറിപ്പുകളെ ശാശ്വതമായി ഇല്ലാതാക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കുറിപ്പിനെ ശാശ്വതമായി ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d ഇനങ്ങൾ ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇനം ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d ദിവസം</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ദിവസം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">പങ്കിട്ട കുറിപ്പിൽ %d ലധികം സ്‌ട്രോക്കുകൾ അല്ലെങ്കിൽ ഒബ്‌ജക്‌റ്റുകൾ തിരഞ്ഞെടുക്കാനാകില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">പങ്കിട്ട കുറിപ്പിൽ %d ലധികം സ്‌ട്രോക്ക് അല്ലെങ്കിൽ ഒബ്‌ജക്‌റ്റ് തിരഞ്ഞെടുക്കാനാകില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">നിങ്ങളുടെ ഫോണിൽ %d ചിത്രങ്ങൾ സംരക്ഷിച്ചു.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങളുടെ ഫോണിൽ %d ചിത്രം സംരക്ഷിച്ചു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">നിങ്ങളുടെ ടാബ്‌ലറ്റിൽ %d ചിത്രങ്ങൾ സംരക്ഷിച്ചു.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങളുടെ ടാബ്‌ലറ്റിൽ %d ചിത്രം സംരക്ഷിച്ചു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">നിങ്ങളുടെ ഫോണിൽ %d ഫയലുകൾ സംരക്ഷിച്ചു.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങളുടെ ഫോണിൽ %d ഫയൽ സംരക്ഷിച്ചു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">നിങ്ങളുടെ ടാബ്‌ലറ്റിൽ %d ഫയലുകൾ സംരക്ഷിച്ചു.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിങ്ങളുടെ ടാബ്‌ലറ്റിൽ %d ഫയൽ സംരക്ഷിച്ചു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d അംഗങ്ങൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d അംഗം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">%d ദിവസത്തിന് ശേഷം ഈ കുറിപ്പ് ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ദിവസത്തിന് ശേഷം ഈ കുറിപ്പ് ഇല്ലാതാക്കപ്പെടും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDF-കൾ എക്സ്‌പോര്‍ട്ട് ചെയ്യുന്നു…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF എക്സ്‌പോര്‍ട്ട് ചെയ്യുന്നു…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">%d കുറിപ്പുകൾ പരിവർത്തനം ചെയ്യാനായില്ല. ആന്തരിക സംഭരണത്തിലെ കുറച്ച് സ്ഥലം മായ്ക്കുക, തുടർന്ന് വീണ്ടും ശ്രമിക്കുക.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d കുറിപ്പ് പരിവർത്തനം ചെയ്യാനായില്ല. ആന്തരിക സംഭരണത്തിലെ കുറച്ച് സ്ഥലം മായ്ക്കുക, തുടർന്ന് വീണ്ടും ശ്രമിക്കുക.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d ഇനങ്ങൾ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇനം ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

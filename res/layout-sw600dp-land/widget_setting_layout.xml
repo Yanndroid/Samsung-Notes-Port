@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/widget_setting_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/actionbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/widget_setting_action_bar" layout="@layout/widget_setting_action_bar" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/actionbar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/widget_setting_margin_start" android:background="@color/widget_setting_background" android:layout_width="0.0dip" android:layout_height="fill_parent" custom:layout_constraintBottom_toBottomOf="parent" custom:layout_constraintEnd_toStartOf="@id/widget_setting_container" custom:layout_constraintStart_toStartOf="parent" custom:layout_constraintTop_toTopOf="parent" custom:layout_constraintWidth_percent="0.0925" />
+            <RelativeLayout android:id="@id/widget_setting_container" android:layout_width="0.0dip" android:layout_height="fill_parent" custom:layout_constraintBottom_toBottomOf="parent" custom:layout_constraintEnd_toStartOf="@id/widget_setting_margin_end" custom:layout_constraintStart_toEndOf="@id/widget_setting_margin_start" custom:layout_constraintTop_toTopOf="parent" custom:layout_constraintWidth_percent="0.815">
+                <ImageView android:id="@id/widget_setting_preview_margin" android:background="@color/widget_setting_background" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_alignParentBottom="true" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/widget_setting_preview_container_parent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:weightSum="1.0" android:layout_above="@id/widget_setting_preview_margin" android:layout_alignParentTop="true">
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.535">
+                        <RelativeLayout android:id="@id/widget_setting_preview_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <include layout="@layout/widget_setting_preview_layout" />
+                            <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:layout_width="fill_parent" android:layout_height="fill_parent" custom:corner="all" custom:overlayColor="@color/widget_setting_background" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.465">
+                        <View android:id="@id/widget_setting_preview_end_margin" android:background="@color/widget_setting_background" android:layout_width="12.0dip" android:layout_height="fill_parent" />
+                        <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/widget_setting_preview_end_margin" layout="@layout/widget_setting_control" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:id="@id/widget_setting_margin_end" android:background="@color/widget_setting_background" android:layout_width="0.0dip" android:layout_height="fill_parent" custom:layout_constraintBottom_toBottomOf="parent" custom:layout_constraintEnd_toEndOf="parent" custom:layout_constraintStart_toEndOf="@id/widget_setting_container" custom:layout_constraintTop_toTopOf="parent" custom:layout_constraintWidth_percent="0.0925" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sdk.pen.setting.widget.SpenNestedHorizontalScrollView android:id="@id/pen_type_scrollview" android:layout_width="@dimen/setting_common_popup_width_v60" android:layout_height="104.0dip" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pen_type_scroll_child" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</com.samsung.android.sdk.pen.setting.widget.SpenNestedHorizontalScrollView>

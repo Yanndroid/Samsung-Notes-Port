@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/AppTheme" android:id="@id/widget_init_layout" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_img_shortcut_title_margin_top">
+        <RelativeLayout android:id="@id/widget_title_layout" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/widget_img_shortcut_title_margin_horizontal" android:layout_marginRight="@dimen/widget_img_shortcut_title_margin_horizontal" android:layout_marginBottom="@dimen/widget_img_shortcut_image_margin_top" android:layout_marginHorizontal="@dimen/widget_img_shortcut_title_margin_horizontal">
+            <LinearLayout android:id="@id/widget_options" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="10.0dip" android:layout_alignParentEnd="true">
+                <ImageView android:id="@id/widget_voice" style="@style/WidgetShortcutVoice" />
+                <ImageView android:gravity="center_vertical" android:id="@id/widget_settings" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="true" />
+            </LinearLayout>
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/widget_options" layout="@layout/widget_shortcut_title" />
+        </RelativeLayout>
+        <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_shortcut_list_bottom_margin">
+            <ImageView android:id="@id/widget_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/widget_pin_shortcut_side_padding" android:layout_marginRight="@dimen/widget_pin_shortcut_side_padding" android:scaleType="fitStart" android:adjustViewBounds="true" android:layout_marginHorizontal="@dimen/widget_pin_shortcut_side_padding" />
+        </ScrollView>
+    </LinearLayout>
+    <androidx.appcompat.widget.SeslProgressBar android:id="@id/widget_content_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+    <ImageView android:id="@id/widget_empty_view" android:visibility="gone" android:layout_width="@dimen/widget_img_shortcut_empty_image_size" android:layout_height="@dimen/widget_img_shortcut_empty_image_size" android:src="@drawable/ic_notes_widget_shortcut_ic_no_item" android:layout_centerInParent="true" />
+</RelativeLayout>

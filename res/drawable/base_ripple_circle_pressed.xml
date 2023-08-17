@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/base_btn_bg_pressed_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="oval">
+            <solid android:color="@color/base_toolbar_icon_selected_color" />
+            <size android:height="@dimen/drawing_btn_bg_pressed_ripple_shape_size" android:width="@dimen/drawing_btn_bg_pressed_ripple_shape_size" />
+        </shape>
+    </item>
+    <item>
+        <selector>
+            <item android:state_pressed="true" android:drawable="@drawable/base_button_bg_circle_state_pressed" />
+            <item android:state_selected="true" android:drawable="@drawable/base_button_bg_circle_state_selected" />
+        </selector>
+    </item>
+</ripple>

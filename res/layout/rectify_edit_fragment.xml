@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:theme="@style/AppTheme.ToolbarStyle" layout="@layout/default_toolbar" />
+    <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.samsung.android.support.senl.docscan.rectify.view.RectifyOverlayView android:layout_gravity="center" android:id="@id/rectify_overlay_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/bottom_navigation_view" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_navigation_text_view_height" app:menu="@menu/rectify_edit_menu" style="@style/Style.BottomNavigationView.Text_Docscan">
+        <View android:layout_gravity="center" android:background="@color/base_background_color_white" android:layout_width="@dimen/rectify_button_divider_width" android:layout_height="@dimen/rectify_button_divider_height" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</LinearLayout>

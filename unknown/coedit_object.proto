@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+import "coedit_object_message.proto";
+
+package coeditObject;
+
+service Uploader {
+    rpc GetObjectUploadUrl(coeditObjectMessage.ObjUploadUrlRequest) returns (coeditObjectMessage.ObjUploadUrlResponse);
+    rpc UploadStroke(stream coeditObjectMessage.UploadStrokeRequest) returns  (coeditObjectMessage.UploadStrokeResponse);
+}
+
+service Downloader {
+    rpc GetSignedDownloadUrl(coeditObjectMessage.SignedDownloadUrlRequest) returns (coeditObjectMessage.SignedDownloadUrlResponse);
+    rpc DownloadStroke(coeditObjectMessage.DownloadStrokeRequest) returns  (stream coeditObjectMessage.DownloadStrokeResponse);
+}

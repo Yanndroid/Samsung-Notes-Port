@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="12.0dip" />
+            <padding android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="2.0dip" />
+            <solid android:color="#00cccccc" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="12.0dip" />
+            <padding android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="2.0dip" />
+            <solid android:color="#10cccccc" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="12.0dip" />
+            <padding android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="2.0dip" />
+            <solid android:color="#20cccccc" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="12.0dip" />
+            <padding android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="2.0dip" />
+            <solid android:color="#30cccccc" />
+        </shape>
+    </item>
+    <item android:id="@id/shadow_view_text_background">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/composer_shadow_view_radius" />
+            <padding android:left="11.0dip" android:top="6.0dip" android:right="11.0dip" android:bottom="7.0dip" />
+            <solid android:color="@color/composer_shadow_view_background_color" />
+            <stroke android:width="0.5dip" android:color="#0dcccccc" />
+        </shape>
+    </item>
+</layer-list>

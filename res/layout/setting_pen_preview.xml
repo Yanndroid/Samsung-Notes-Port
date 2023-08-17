@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/pen_select_preview" android:padding="4.0dip" android:focusable="false" android:layout_width="58.0dip" android:layout_height="42.0dip" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

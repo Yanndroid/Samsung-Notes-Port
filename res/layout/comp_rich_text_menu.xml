@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:id="@id/rt_toolbar_scroll_view" style="@style/ComposerToolbarScroll"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/comp_floating_menu_gap" />
+        <include layout="@layout/comp_btn_todo" />
+        <include layout="@layout/comp_floating_menu_gap" />
+        <include layout="@layout/comp_btn_textstyle" />
+        <include layout="@layout/comp_floating_menu_gap" />
+        <include layout="@layout/comp_btn_textcolor" />
+        <include layout="@layout/comp_floating_menu_gap" />
+        <include layout="@layout/comp_btn_textbgcolor" />
+        <include layout="@layout/comp_floating_menu_gap" />
+        <include layout="@layout/comp_btn_fontsize" />
+        <include layout="@layout/comp_floating_menu_gap" />
+        <include android:id="@id/richtext_undo" layout="@layout/comp_btn_undo" />
+        <include android:id="@id/rt_toolbar_undo_view" layout="@layout/comp_floating_menu_gap" />
+        <include android:id="@id/richtext_redo" layout="@layout/comp_btn_redo" />
+        <include android:id="@id/rt_toolbar_redo_view" layout="@layout/comp_floating_menu_gap" />
+        <include layout="@layout/comp_btn_direct_write" />
+        <include android:id="@id/rt_toolbar_direct_write_view" layout="@layout/comp_floating_menu_gap" />
+    </LinearLayout>
+</HorizontalScrollView>

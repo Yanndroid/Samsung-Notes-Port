@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/mini_favorite_pen_view_width" android:layout_height="@dimen/mini_favorite_pen_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/add_icon" android:background="@drawable/setting_mini_favorite_add_button_ripple" android:padding="6.0dip" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/ic_mini_add" android:scaleType="centerInside" android:tint="@color/setting_handwriting_icon_enable_color" android:cropToPadding="true" android:contentDescription="@string/pen_string_add_favorite_pen" android:tooltipText="@string/pen_string_add_favorite_pen" />
+</FrameLayout>

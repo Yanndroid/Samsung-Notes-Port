@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">%d உருப்படிகளுக்கு மேல் சேர்க்க இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d உருப்படிக்கு மேல் சேர்க்க இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">ஒரே நேரத்தில் %d உருப்படிகளுக்கு மேல் ஒட்ட இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஒரே நேரத்தில் %d உருப்படிக்கு மேல் ஒட்ட இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">ஒரே நேரத்தில் %d-க்கும் மேற்பட்ட ஆவணங்களைப் பகிர இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஒரே நேரத்தில் %d-க்கும் மேற்பட்ட ஆவணத்தைப் பகிர இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">%d நிறங்களுக்கு மேல் காட்ட இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நிறத்திற்கு மேல் காட்ட இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">ஒரே நேரத்தில் %d-க்கு மேற்பட்ட கேட்பொலி கோப்புகளைச் சேர்க்க இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஒரே நேரத்தில் %d-க்கு மேற்பட்ட கேட்பொலி கோப்பைச் சேர்க்க இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">ஒரே நேரத்தில் %d-க்கு மேற்பட்ட PDF-களை ஒட்ட இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஒரே நேரத்தில் %d-க்கு மேற்பட்ட PDF-ஐ ஒட்ட இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">ஏற்றுமதி ரத்துசெய்யப்பட்டுள்ளது. %d PDFகள் ஏற்கனவே ஏற்றப்பட்டுள்ளன.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ஏற்றுமதி ரத்துசெய்யப்பட்டுள்ளது. %d PDF ஏற்கனவே ஏற்றப்பட்டுள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">%d எழுத்துகளுக்கு மேல் உள்ளிட இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d எழுத்துக்கு மேல் உள்ளிட இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">குறைந்தது %d எழுத்துக்களைக் கொண்ட கடவுச்சொல்லை உள்ளிடவும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">குறைந்தது %d எழுத்தைக் கொண்ட கடவுச்சொல்லை உள்ளிடவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">குறைந்தது %d எழுத்துக்களைக் கொண்ட புதிய கடவுச்சொல்லை உள்ளிடவும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">குறைந்தது %d எழுத்தைக் கொண்ட புதிய கடவுச்சொல்லை உள்ளிடவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d வினாடிகள் காத்திருந்து மீண்டும் முயலவும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d வினாடி காத்திருந்து மீண்டும் முயலவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">%d Samsung Notes விண்டோக்களுக்கு மேல் திறக்க இயலாது. ஒரு விண்டோவை மூடி மீண்டும் முயலவும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Samsung Notes விண்டோவிற்கு மேல் திறக்க இயலாது. ஒரு விண்டோவை மூடி மீண்டும் முயலவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d குறிப்புகள் வெற்றிகரமாக பதிவிறக்கப்பட்டன.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d குறிப்புகள் வெற்றிகரமாக பதிவிறக்கப்பட்டது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d நிறங்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நிறம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d தடிமன்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தடிமன்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">பகிர்ந்த %d குறிப்புகளை நீக்கவா?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">பகிர்ந்த %d குறிப்பை நீக்கவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d குறிப்புகளை மாற்றுக</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d குறிப்பை மாற்றுக</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d கோப்புறைகள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d கோப்புறை</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d உருப்படிகள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d உருப்படி</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d குறிப்புகள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d குறிப்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">%d நிறங்களுக்கு மேல் காட்ட இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நிறத்திற்கு மேல் காட்ட இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d நோட்புக்குகள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நோட்புக்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%2$s-க்கு %1$d கோப்புறைகளை நகர்த்தவா?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-க்கு %1$d கோப்புறையை நகர்த்தவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%3$s நோட்புக்கில் %1$s என்பவர் %2$d புதிய குறிப்புகளை சேர்த்துள்ளார்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%3$s நோட்புக்கில் %1$s என்பவர் %2$d புதிய குறிப்பை சேர்த்துள்ளார்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d புதிய குறிப்புகள் பகிரப்பட்டன</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d புதிய குறிப்பு பகிரப்பட்டது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">இறக்குமதி ரத்துசெய்யப்பட்டுள்ளது. %d PDFகள் ஏற்கனவே இறக்கப்பட்டுள்ளன.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">இறக்குமதி ரத்துசெய்யப்பட்டுள்ளது. %d PDF ஏற்கனவே இறக்கப்பட்டுள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d குறிப்புகளை இறக்குமதி செய்ய இயலவில்லை.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d குறிப்பை இறக்குமதி செய்ய இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">குறைந்தது %d எழுத்துக்களைக் கொண்ட புதிய கடவுச்சொல்லை உள்ளிடவும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">குறைந்தது %d எழுத்தைக் கொண்ட புதிய கடவுச்சொல்லை உள்ளிடவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">%d உருப்படிகளை விட அதிகமாகத் தேர்வுசெய்ய இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d உருப்படியை விட அதிகமாகத் தேர்வுசெய்ய இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">%d கோப்புறைகளைத் தேவையற்றவைக்கு நகர்த்தவா?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d கோப்புறையை தேவையற்றவைக்கு நகர்த்தவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">%d கோப்புறைகளையும் அதில் உள்ள அனைத்து உருப்படிகளையும் தேவையற்றவைக்கு நகர்த்தவா?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d கோப்புறையையும் அதில் உள்ள அனைத்து உருப்படிகளையும் தேவையற்றவைக்கு நகர்த்தவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">%d குறிப்புகளைத் தேவையற்றவைக்கு நகர்த்தவா?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d குறிப்பைத் தேவையற்றவைக்கு நகர்த்தவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">உங்கள் அடையாளத்தைச் சரிபார்த்த பிறகு, %d குறிப்புகள் (1 பூட்டிய குறிப்பு உட்பட) தேவையற்றவைக்கு நகர்த்தப்படும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உங்கள் அடையாளத்தைச் சரிபார்த்த பிறகு, %d குறிப்பு (1 பூட்டிய குறிப்பு உட்பட) தேவையற்றவைக்கு நகர்த்தப்படும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">தேர்வுசெய்யப்பட்ட கோப்புறையில் ஏற்கனவே உள்ள %d குறிப்புகளை நகர்த்தவில்லை.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">தேர்வுசெய்யப்பட்ட கோப்புறையில் ஏற்கனவே உள்ள %d குறிப்பை நகர்த்தவில்லை.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%2$s-க்கு %1$d குறிப்புகளை நகர்த்தவா?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-க்கு %1$d குறிப்பை நகர்த்தவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d உருப்படிகளானது கிளௌடு மற்றும் உங்கள் அனைத்து சாதனங்களிலிருந்தும் நிரந்தரமாக நீக்கப்படும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d உருப்படியானது கிளௌடு மற்றும் உங்கள் அனைத்து சாதனங்களிலிருந்தும் நிரந்தரமாக நீக்கப்படும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">%d குறிப்புகளை நிரந்தரமாக நீக்கவா?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d குறிப்பை நிரந்தரமாக நீக்கவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d உருப்படிகள் நிரந்தரமாக நீக்கப்படும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d உருப்படி நிரந்தரமாக நீக்கப்படும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d நாட்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நாள்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">பகிரப்பட்ட குறிப்பில் %d ஸ்ட்ரோக்குகள் அல்லது பொருளைத் தேர்வுசெய்ய இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">பகிரப்பட்ட குறிப்பில் %d ஸ்ட்ரோக் அல்லது பொருளைத் தேர்வுசெய்ய இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d படிமங்கள் உங்கள் ஃபோனில் சேமிக்கப்பட்டுள்ளன.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d படிமம் உங்கள் ஃபோனில் சேமிக்கப்பட்டுள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d படிமங்கள் உங்கள் டேப்லெட்டில் சேமிக்கப்பட்டுள்ளது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d படிமம் உங்கள் டேப்லெட்டில் சேமிக்கப்பட்டுள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d கோப்புகள் உங்கள் ஃபோனில் சேமிக்கப்பட்டுள்ளன.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d கோப்பு உங்கள் ஃபோனில் சேமிக்கப்பட்டுள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d கோப்புகள் உங்கள் டேப்லெட்டில் சேமிக்கப்பட்டுள்ளன.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d கோப்பு உங்கள் டேப்லெட்டில் சேமிக்கப்பட்டுள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d உறுப்பினர்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d உறுப்பினர்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">இந்தக் குறிப்பு %d நாட்களில் நீக்கப்படும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">இந்தக் குறிப்பு %d நாளில் நீக்கப்படும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDFகளை ஏற்றுகிறது…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF-ஐ ஏற்றுகிறது…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">%d குறிப்புகளை மாற்ற இயலவில்லை. உள்ளக சேமிப்பகத்தில் சிறிது இடத்தைக் காலிசெய்து மீண்டும் முயலவும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d குறிப்பை மாற்ற இயலவில்லை. உள்ளக சேமிப்பகத்தில் சிறிது இடத்தைக் காலிசெய்து மீண்டும் முயலவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d உருப்படிகளை நீக்கவா?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d உருப்படியை நீக்கவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

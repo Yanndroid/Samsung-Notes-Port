@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Negalima pridėti daugiau nei %d elementų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pridėti daugiau nei %d elemento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pridėti daugiau nei %d elementų.</item>
+        <item quantity="many">Negalima pridėti daugiau nei %d elementų.</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Vienu metu negalima įklijuoti daugiau nei %d elementų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vienu metu negalima įklijuoti daugiau nei %d elemento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vienu metu negalima įklijuoti daugiau nei %d elementų.</item>
+        <item quantity="many">Vienu metu negalima įklijuoti daugiau nei %d elementų.</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Vienu kartu negalima nuskaityti daugiau nei %d dokumentų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vienu kartu negalima nuskaityti daugiau nei %d dokumento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vienu kartu negalima nuskaityti daugiau nei %d dokumentų.</item>
+        <item quantity="many">Vienu kartu negalima nuskaityti daugiau nei %d dokumento.</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Negalima rodyti daugiau nei %d spalvų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima rodyti daugiau nei %d spalvos.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima rodyti daugiau nei %d spalvų.</item>
+        <item quantity="many">Negalima rodyti daugiau nei %d spalvos.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Vienu kartu negalima pridėti daugiau nei %d garso failų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vienu kartu negalima pridėti daugiau nei %d garso failo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vienu kartu negalima pridėti daugiau nei %d garso failų.</item>
+        <item quantity="many">Vienu kartu negalima pridėti daugiau nei %d garso failų.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Vienu metu negalima įklijuoti daugiau nei %d PDF.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vienu metu negalima įklijuoti daugiau nei %d PDF.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vienu metu negalima įklijuoti daugiau nei %d PDF.</item>
+        <item quantity="many">Vienu metu negalima įklijuoti daugiau nei %d PDF.</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Eksportavimas atšauktas. %d PDF jau eksportuota.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eksportavimas atšauktas. %d PDF jau eksportuotas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Eksportavimas atšauktas. %d PDF jau eksportuoti.</item>
+        <item quantity="many">Eksportavimas atšauktas. %d PDF jau eksportuota.</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima įvesti daugiau nei %d simbolį.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="many">Negalima įvesti daugiau nei %d simbolių.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Įveskite slaptažodį, kurį sudaro bent %d simbolių.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Įveskite slaptažodį, kurį sudaro bent %d simbolis.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Įveskite slaptažodį, kurį sudaro bent %d simboliai.</item>
+        <item quantity="many">Įveskite slaptažodį, kurį sudaro bent %d simbolių.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Įveskite naują slaptažodį, kurį sudaro bent %d simbolių.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Įveskite naują slaptažodį, kurį sudaro bent %d simbolis.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Įveskite naują slaptažodį, kurį sudaro bent %d simboliai.</item>
+        <item quantity="many">Įveskite naują slaptažodį, kurį sudaro bent %d simbolių.</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Palaukite %d sek. ir bandykite dar kartą.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Palaukite %d sek. ir bandykite dar kartą.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Palaukite %d sek. ir bandykite dar kartą.</item>
+        <item quantity="many">Palaukite %d sek. ir bandykite dar kartą.</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Negalima atidaryti daugiau nei %d „Samsung Notes“ langų. Uždarykite langą ir bandykite dar kartą.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima atidaryti daugiau nei %d „Samsung Notes“ lango. Uždarykite langą ir bandykite dar kartą.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima atidaryti daugiau nei %d „Samsung Notes“ langų. Uždarykite langą ir bandykite dar kartą.</item>
+        <item quantity="many">Negalima atidaryti daugiau nei %d „Samsung Notes“ langų. Uždarykite langą ir bandykite dar kartą.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d naujų pranešimų</item>
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">Atsisiųsta %d pastabų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Atsisiųsta %d pastaba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Atsisiųstos %d pastabos.</item>
+        <item quantity="many">Atsisiųsta %d pastabos.</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d spalvų</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d spalva</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d spalvos</item>
+        <item quantity="many">%d spalvų</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d storių</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d storis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d storiai</item>
+        <item quantity="many">%d storių</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Trinti %d bendrinamų pastabų?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trinti %d bendrinamą pastabą?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trinti %d bendrinamas pastabas?</item>
+        <item quantity="many">Trinti %d bendrinamų pastabų?</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Konvertuoti %d pastabų</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Konvertuoti %d pastabą</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Konvertuoti %d pastabas</item>
+        <item quantity="many">Konvertuoti %d pastabų</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d aplankų</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplankas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplankai</item>
+        <item quantity="many">%d aplankų</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d elementų</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elementas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d elementai</item>
+        <item quantity="many">%d elemento</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d pastabų</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pastaba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d pastabos</item>
+        <item quantity="many">%d pastabų</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Negalima rodyti daugiau nei %d spalvų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima rodyti daugiau nei %d spalvos.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima rodyti daugiau nei %d spalvų.</item>
+        <item quantity="many">Negalima rodyti daugiau nei %d spalvos.</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d bloknotų</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bloknotas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d bloknotai</item>
+        <item quantity="many">%d bloknotų</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Perkelti %1$d aplankų į %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Perkelti %1$d aplanką į %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Perkelti %1$d aplankus į %2$s?</item>
+        <item quantity="many">Perkelti %1$d aplanko į %2$s?</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s pridėjo %2$d naujų pastabų prie %3$s bloknoto.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s pridėjo %2$d naują pastabą prie %3$s bloknoto.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s pridėjo %2$d naujas pastabas prie %3$s bloknoto.</item>
+        <item quantity="many">%1$s pridėjo %2$d naujų pastabų prie %3$s bloknoto.</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">Bendrinama %d naujų pastabų</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bendrinama %d nauja pastaba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Bendrinamos %d naujos pastabos</item>
+        <item quantity="many">Bendrinama %d naujų pastabų</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Importavimas atšauktas. %d PDF jau importuota.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Importavimas atšauktas. %d PDF jau importuotas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Importavimas atšauktas. %d PDF jau importuoti.</item>
+        <item quantity="many">Importavimas atšauktas. %d PDF jau importuota.</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Nepavyko importuoti %d pastabų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nepavyko importuoti %d pastabos.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nepavyko importuoti %d pastabų.</item>
+        <item quantity="many">Nepavyko importuoti %d pastabų.</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Įveskite naują slaptažodį, kurį sudaro bent %d simbolių.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Įveskite naują slaptažodį, kurį sudaro bent %d simbolis.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Įveskite naują slaptažodį, kurį sudaro bent %d simboliai.</item>
+        <item quantity="many">Įveskite naują slaptažodį, kurį sudaro bent %d simbolių.</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Negalima pasirinkti daugiau nei %d elementų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pasirinkti daugiau nei %d elemento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pasirinkti daugiau nei %d elementų.</item>
+        <item quantity="many">Negalima pasirinkti daugiau nei %d elemento.</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Perkelti %d aplankų į šiukšlinę?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Perkelti %d aplanką į šiukšlinę?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Perkelti %d aplankus į šiukšlinę?</item>
+        <item quantity="many">Perkelti %d aplankų į šiukšlinę?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Perkelti %d aplankų ir visus juose esančius elementus į šiukšlinę?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Perkelti %d aplanką ir visus jame esančius elementus į šiukšlinę?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Perkelti %d aplankus ir visus juose esančius elementus į šiukšlinę?</item>
+        <item quantity="many">Perkelti %d aplankų ir visus juose esančius elementus į šiukšlinę?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Perkelti %d įrašų į šiukšlinę?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Perkelti %d įrašą į šiukšlinę?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Perkelti %d įrašus į šiukšlinę?</item>
+        <item quantity="many">Perkelti %d įrašo į šiukšlinę?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Patvirtinus jūsų tapatybę %d pastabų (įskaitant 1 užrakintą pastabą) bus perkelta į šiukšliadėžę.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Patvirtinus jūsų tapatybę %d pastaba (įskaitant 1 užrakintą pastabą) bus perkelta į šiukšliadėžę.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Patvirtinus jūsų tapatybę %d pastabos (įskaitant 1 užrakintą pastabą) bus perkeltos į šiukšliadėžę.</item>
+        <item quantity="many">Patvirtinus jūsų tapatybę %d pastabų (įskaitant 1 užrakintą pastabą) bus perkelta į šiukšliadėžę.</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Neperkėlė %d pastabų, kurios jau yra pasirinktame aplanke.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Neperkėlė %d pastabos, kuri jau yra pasirinktame aplanke.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Neperkėlė %d pastabų, kurios jau yra pasirinktame aplanke.</item>
+        <item quantity="many">Neperkėlė %d pastabos, kuri jau yra pasirinktame aplanke.</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Perkelti %1$d pastabų į %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Perkelti %1$d pastabą į %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Perkelti %1$d pastabas į %2$s?</item>
+        <item quantity="many">Perkelti %1$d pastabos į %2$s?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d elementų bus visam laikui ištrinta iš debesies ir visų jūsų įrenginių.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elementas bus visam laikui ištrintas iš debesies ir visų jūsų įrenginių.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d elementai bus visam laikui ištrinti iš debesies ir visų jūsų įrenginių.</item>
+        <item quantity="many">%d elementų bus visam laikui ištrinta iš debesies ir visų jūsų įrenginių.</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Visam laikui ištrinti %d pastabų?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Visam laikui ištrinti %d pastabą?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Visam laikui ištrinti %d pastabas?</item>
+        <item quantity="many">Visam laikui ištrinti %d pastabų?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">Visam laikui bus ištrinta %d elementų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Visam laikui bus ištrintas %d elementas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Visam laikui bus ištrinti %d elementai.</item>
+        <item quantity="many">Visam laikui bus ištrinta %d elementų.</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d d.</item>
+        <item quantity="many">%d d.</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Bendrinamoje pastaboje negalima pasirinkti daugiau nei %d brūkšnių ar objektų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bendrinamoje pastaboje negalima pasirinkti daugiau nei %d brūkšnio ar objekto.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Bendrinamoje pastaboje negalima pasirinkti daugiau nei %d brūkšnių ar objektų.</item>
+        <item quantity="many">Bendrinamoje pastaboje negalima pasirinkti daugiau nei %d brūkšnių ar objektų.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d vaizdų išsaugota telefone.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vaizdas išsaugotas telefone.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d vaizdai išsaugoti telefone.</item>
+        <item quantity="many">%d vaizdo išsaugota telefone.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d vaizdų išsaugota planšetiniame kompiuteryje.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vaizdas išsaugotas planšetiniame kompiuteryje.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d vaizdai išsaugoti planšetiniame kompiuteryje.</item>
+        <item quantity="many">%d vaizdo išsaugota planšetiniame kompiuteryje.</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d failų išsaugota telefone.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d failas išsaugotas telefone.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d failai išsaugoti telefone.</item>
+        <item quantity="many">%d failų išsaugota telefone.</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d failų išsaugota planšetiniame kompiuteryje.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d failas išsaugotas planšetiniame kompiuteryje.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d failai išsaugoti planšetiniame kompiuteryje.</item>
+        <item quantity="many">%d failų išsaugota planšetiniame kompiuteryje.</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d narių</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d narys</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nariai</item>
+        <item quantity="many">%d nario</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Ši pastaba bus ištrinta po %d d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ši pastaba bus ištrinta po %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ši pastaba bus ištrinta po %d d.</item>
+        <item quantity="many">Ši pastaba bus ištrinta po %d d.</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Eksportuojama %d PDF…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eksportuojamas %d PDF…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Eksportuojami %d PDF…</item>
+        <item quantity="many">Eksportuojama %d PDF…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Nepavyko konvertuoti %d pastabų. Atlaisvinkite vietos vidinėje saugykloje, tada bandykite dar kartą.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nepavyko konvertuoti %d pastabos. Atlaisvinkite vietos vidinėje saugykloje, tada bandykite dar kartą.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nepavyko konvertuoti %d pastabų. Atlaisvinkite vietos vidinėje saugykloje, tada bandykite dar kartą.</item>
+        <item quantity="many">Nepavyko konvertuoti %d pastabos. Atlaisvinkite vietos vidinėje saugykloje, tada bandykite dar kartą.</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Trinti %d element.?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trinti %d elementą?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trinti %d element.?</item>
+        <item quantity="many">Trinti %d element.?</item>
+    </plurals>
+</resources>

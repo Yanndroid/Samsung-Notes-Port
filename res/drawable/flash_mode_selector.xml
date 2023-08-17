@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <level-list>
+            <item android:drawable="@drawable/ic_camera_flash_off" android:maxLevel="0" />
+            <item android:drawable="@drawable/ic_camera_flash_always_on" android:maxLevel="1" />
+            <item android:drawable="@drawable/ic_camera_flash_auto_on" android:maxLevel="2" />
+        </level-list>
+    </item>
+    <item>
+        <level-list>
+            <item android:drawable="@drawable/ic_camera_flash_off" android:maxLevel="0" />
+            <item android:drawable="@drawable/ic_camera_flash_always_on" android:maxLevel="1" />
+            <item android:drawable="@drawable/ic_camera_flash_auto" android:maxLevel="2" />
+        </level-list>
+    </item>
+</selector>

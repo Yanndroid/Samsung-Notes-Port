@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:scrollbarStyle="outsideOverlay" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxHeight="205.0dip" android:foregroundGravity="center" app:lottie_fileName="fit_text_to_screen_ftu_light.json" app:lottie_repeatCount="0" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/comp_default_dialog_message_color" android:id="@id/ftu_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="4.0dip" android:text="@string/composer_fit_text_to_screen_dialog_message" android:lineSpacingExtra="4.0sp" />
+        </LinearLayout>
+    </com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>
+</LinearLayout>

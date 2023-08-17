@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/te_menu_layout">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/template_editor_adjust" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/te_menu_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/te_button_container">
+        <include android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/template_editor_opacity_layout" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/te_button_container" android:layout_width="fill_parent" android:layout_height="@dimen/template_editor_bottom_menu_height" android:baselineAligned="false" android:weightSum="2.0" android:layout_alignParentBottom="true" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:textAppearance="@style/RobotoMediumStyle" android:textSize="18.0sp" android:textColor="@color/template_editor_button_color" android:gravity="center" android:layout_gravity="center" android:id="@id/te_cancel" android:background="@drawable/base_ripple_rect_pressed" android:focusable="true" android:clickable="true" android:layout_width="156.0dip" android:layout_height="wrap_content" android:text="@string/dialog_cancel" android:textAlignment="center" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:textAppearance="@style/RobotoMediumStyle" android:textSize="18.0sp" android:textColor="@color/template_editor_button_color" android:gravity="center" android:layout_gravity="center" android:id="@id/te_done" android:background="@drawable/base_ripple_rect_pressed" android:focusable="true" android:clickable="true" android:layout_width="156.0dip" android:layout_height="wrap_content" android:text="@string/dialog_done" android:textAlignment="center" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

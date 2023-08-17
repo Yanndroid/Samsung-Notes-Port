@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/noteslist_hover_container" android:background="@color/basic_list_item_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/noteslist_hover_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:scaleType="fitCenter" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" />
+</LinearLayout>

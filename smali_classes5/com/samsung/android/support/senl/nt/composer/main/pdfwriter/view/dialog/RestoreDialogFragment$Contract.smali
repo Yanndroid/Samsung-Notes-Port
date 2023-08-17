@@ -1,0 +1,22 @@
+.class public interface abstract Lcom/samsung/android/support/senl/nt/composer/main/pdfwriter/view/dialog/RestoreDialogFragment$Contract;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/samsung/android/support/senl/nt/composer/main/pdfwriter/view/dialog/RestoreDialogFragment;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "Contract"
+.end annotation
+
+
+# virtual methods
+.method public abstract onDiscardClicked()V
+.end method
+
+.method public abstract onRestoreClicked()V
+.end method

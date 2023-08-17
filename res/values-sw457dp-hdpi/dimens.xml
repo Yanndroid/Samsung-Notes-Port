@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="handwriting_pen_type_button_height">90.0dip</dimen>
+    <dimen name="handwriting_pen_type_button_width">38.0dip</dimen>
+    <dimen name="handwriting_pen_type_focus_button_height">93.0dip</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:layout_width="fill_parent" android:layout_height="fill_parent" android:shape="rectangle">
+            <corners android:radius="@dimen/video_viewer_seek_bar_indicator_radius" />
+            <solid android:color="@android:color/white" />
+            <stroke android:width="@dimen/video_viewer_seek_bar_indicator_stroke_size" android:color="@android:color/black" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/AppTheme" android:id="@id/widget_init_layout" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_title_top_margin_phone_portrait">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_title_bottom_margin_phone_portrait" layout="@layout/widget_show_note_title" />
+        <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/widget_pin_side_padding_phone" android:layout_marginRight="@dimen/widget_pin_side_padding_phone" android:layout_marginBottom="@dimen/widget_title_bottom_margin_phone_portrait" android:layout_marginHorizontal="@dimen/widget_pin_side_padding_phone">
+            <ImageView android:id="@id/widget_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitStart" android:adjustViewBounds="true" />
+        </ScrollView>
+    </LinearLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_title_top_margin_phone_portrait" android:layout_alignParentTop="true" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" layout="@layout/widget_show_note_options" />
+    <androidx.appcompat.widget.SeslProgressBar android:id="@id/widget_content_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/widget_no_memos_text_size" android:textColor="@color/widget_text_color" android:gravity="center" android:id="@id/widget_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_here_to_add_a_note" android:layout_centerInParent="true" />
+</RelativeLayout>

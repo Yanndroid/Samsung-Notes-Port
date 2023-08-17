@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/image_view_container" android:padding="@dimen/rectify_overlay_view_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.support.senl.docscan.rectify.view.RectifyImageView android:layout_gravity="center" android:id="@id/image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    </FrameLayout>
+    <com.samsung.android.support.senl.docscan.rectify.view.RectifyHandlerPreview android:id="@id/rectify_handler_preview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/zoom_menu_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bind="brush_zoom_menu_binding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/base_zoom_percentage_view_text_size" android:textColor="@color/brush_zoom_text_color" android:gravity="center" android:id="@id/brush_zoom_percent_text" android:background="@drawable/brush_zoom_text_bg" android:paddingTop="@dimen/base_zoom_percentage_view_text_padding_vertical" android:paddingBottom="@dimen/base_zoom_percentage_view_text_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentTop="true" android:paddingStart="@dimen/base_zoom_percentage_view_text_padding_horizontal" android:paddingEnd="@dimen/base_zoom_percentage_view_text_padding_horizontal" android:layout_alignParentEnd="true" android:elevation="@dimen/base_zoom_percentage_view_elevation" />
+    <LinearLayout android:orientation="vertical" android:id="@id/brush_zoom_layout" android:layout_width="wrap_content" android:layout_height="@dimen/brush_toolbar_zoom_btn_total_height" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/brush_toolbar_zoom_btn_menu_margin" android:layout_alignParentEnd="true">
+        <LinearLayout android:id="@id/brush_zoom_in_layout" android:background="@drawable/brush_zoom_item_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/brush_zoom_in_btn" android:layout_width="@dimen/brush_toolbar_zoom_btn_width_height" android:layout_height="@dimen/brush_toolbar_zoom_btn_width_height" android:src="@drawable/photo_knox_ic_zoom_in" android:contentDescription="@string/base_zoom_in" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/brush_zoom_out_layout" android:background="@drawable/brush_zoom_item_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/brush_toolbar_zoom_btn_margin">
+            <ImageButton android:id="@id/brush_zoom_out_btn" android:layout_width="@dimen/brush_toolbar_zoom_btn_width_height" android:layout_height="@dimen/brush_toolbar_zoom_btn_width_height" android:src="@drawable/photo_knox_ic_zoom_out" android:tint="@color/brush_sub_menu_icon_color" android:contentDescription="@string/base_zoom_out" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

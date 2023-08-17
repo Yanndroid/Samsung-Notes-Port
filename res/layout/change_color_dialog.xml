@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:scrollbarStyle="outsideOverlay" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/folder_edit_dialog_layout_padding_start_end" android:paddingEnd="@dimen/folder_edit_dialog_layout_padding_start_end">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <HorizontalScrollView android:id="@id/category_color_palette" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/folder_edit_dialog_palette_only_margin_top" android:layout_marginBottom="@dimen/folder_edit_dialog_palette_only_margin_bottom" android:fillViewport="true">
+                <include layout="@layout/folder_mark_color_palette" />
+            </HorizontalScrollView>
+        </LinearLayout>
+    </com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>
+</LinearLayout>

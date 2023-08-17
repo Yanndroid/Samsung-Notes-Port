@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory android:title="@string/settings_category_password" android:key="settings_lock_password_category">
+        <androidx.preference.Preference android:title="@string/settings_create_password" android:key="settings_lock_create_change_password" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/setting_biometrics" android:key="settings_lock_biometrics_category" app:isPreferenceVisible="false">
+        <androidx.preference.Preference android:layout="@layout/settings_description_preference_layout" android:title="@string/settings_iris_fingerprint_help" android:selectable="false" android:key="settings_lock_biometrics_help_text" app:isPreferenceVisible="false" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_iris" android:key="settings_lock_biometrics_iris" app:isPreferenceVisible="false" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_fingerprint" android:key="settings_lock_biometrics_fingerprints" app:isPreferenceVisible="false" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

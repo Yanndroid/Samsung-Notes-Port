@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/guide_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/sdk_floating_convert_text_guide_shape" android:paddingTop="@dimen/sdk_floating_convert_text_guide_view_padding_top" android:paddingBottom="@dimen/sdk_floating_convert_text_guide_view_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sdk_floating_convert_text_guide_view_padding_start" android:paddingEnd="@dimen/sdk_floating_convert_text_guide_view_padding_end">
+            <TextView android:textSize="@dimen/sdk_floating_convert_text_textview_font_size" android:textColor="@color/handwriting_floating_convert_text_guide_text_color" android:id="@id/guide_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/handwriting_convert_text_guide_first_hand" android:fontFamily="sec-roboto-light" android:textAlignment="center" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

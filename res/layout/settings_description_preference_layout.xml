@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/BiometricHelpTextStyle" android:id="@android:id/title" android:paddingTop="@dimen/settings_list_padding_top_bottom" android:paddingBottom="@dimen/settings_list_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/settings_list_padding_start_end" android:paddingEnd="@dimen/settings_list_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

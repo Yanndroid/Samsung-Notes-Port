@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/window_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:spr="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/iris_preview_container" android:layout_width="fill_parent" android:layout_height="@dimen/lock_iris_preview_height">
+        <View android:id="@id/iris_preview" android:background="@color/lock_iris_preview_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/iris_preview_guide_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_gravity="center" android:background="@drawable/lock_iris_preview" android:layout_width="@dimen/lock_iris_preview_oval" android:layout_height="@dimen/lock_iris_preview_oval" />
+            <View android:layout_width="@dimen/lock_iris_preview" android:layout_height="fill_parent" />
+            <View android:layout_gravity="center" android:background="@drawable/lock_iris_preview" android:layout_width="@dimen/lock_iris_preview_oval" android:layout_height="@dimen/lock_iris_preview_oval" />
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView android:background="@color/window_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/multi_recognize" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginTop="56.0dip">
+                <com.samsung.android.support.senl.nt.base.winset.view.SprImageView android:id="@id/multi_finger_image" android:layout_width="wrap_content" android:layout_height="wrap_content" spr:src="@drawable/iris_icon_finger" />
+                <View android:layout_gravity="center" android:background="@color/lock_iris_multi_divider" android:layout_width="2.0px" android:layout_height="19.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+                <com.samsung.android.support.senl.nt.base.winset.view.SprImageView android:id="@id/multi_iris_image" android:layout_width="wrap_content" android:layout_height="wrap_content" spr:src="@drawable/iris_icon_look_here" />
+            </LinearLayout>
+            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/lock_iris_help_text_size" android:textColor="@color/lock_guide_text" android:gravity="center" android:id="@id/iris_guide_text" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lock_iris_only_help_text_margin_top_bottom" android:layout_marginBottom="@dimen/lock_iris_only_help_text_margin_top_bottom" android:text="@string/lock_iris_guide_text" />
+            <Button android:textAppearance="@style/RobotoMediumStyle" android:textSize="@dimen/lock_use_password_text_size" android:textColor="@color/lock_reset_button_text_color" android:ellipsize="end" android:layout_gravity="center" android:id="@id/use_password" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/lock_reset_button_min_height" android:text="@string/lock_fingerprint_dialog_use_password" android:maxLines="1" android:textAllCaps="true" android:paddingStart="@dimen/lock_reset_button_start_end_padding" android:paddingEnd="@dimen/lock_reset_button_start_end_padding" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

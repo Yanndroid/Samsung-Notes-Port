@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">%d টা আইটেমতকৈ অধিক যোগ কৰিব নোৱাৰে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা আইটেমতকৈ অধিক যোগ কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">এবাৰত %d টা আইটেমতকৈ অধিক পেষ্ট কৰিব নোৱাৰে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এবাৰত %d টা আইটেমতকৈ অধিক পেষ্ট কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">এবাৰত %d টাতকৈ অধিক নথিপত্ৰ স্কেন কৰিব নোৱাৰে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এবাৰত %d টাতকৈ অধিক নথিপত্ৰ স্কেন কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">%d টা ৰঙতকৈ অধিক দেখুৱাব নোৱাৰে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ৰঙতকৈ অধিক দেখুৱাব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">"এবাৰত %d টা অডিঅ' ফাইলতকৈ অধিক যোগ কৰিব নোৱাৰে।"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"এবাৰত %d টা অডিঅ' ফাইলতকৈ অধিক যোগ কৰিব নোৱাৰে।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">এবাৰত %d খন PDF-তকৈ অধিক পেষ্ট কৰিব নোৱাৰে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">এবাৰত %d খন PDF-তকৈ অধিক পেষ্ট কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">ৰপ্তানি বাতিল কৰা হৈছে। %d টা PDF ইতিমধ্যে ৰপ্তানি কৰা হৈছে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ৰপ্তানি বাতিল কৰা হৈছে। %d টা PDF ইতিমধ্যে ৰপ্তানি কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">%d টা বৰ্ণতকৈ অধিক প্ৰৱিষ্ট কৰিব নোৱাৰে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা বৰ্ণতকৈ অধিক প্ৰৱিষ্ট কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">কমেও %d টা বৰ্ণ থকা এটা পাছৱৰ্ড প্ৰৱিষ্ট কৰক।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">কমেও %d টা বৰ্ণ থকা এটা পাছৱৰ্ড প্ৰৱিষ্ট কৰক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">কমেও %d টা বৰ্ণ থকা এটা নতুন পাছৱৰ্ড প্ৰৱিষ্ট কৰক।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">কমেও %d টা বৰ্ণ থকা এটা নতুন পাছৱৰ্ড প্ৰৱিষ্ট কৰক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d ছেকেণ্ড অপেক্ষা কৰক আৰু পুনঃচেষ্টা কৰক।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ছেকেণ্ড অপেক্ষা কৰক আৰু পুনঃচেষ্টা কৰক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">"%d টাতকৈ অধিক Samsung Notes-ৰ উইণ্ড' খুলিব নোৱাৰে। এটা উইণ্ড' বন্ধ কৰক আৰু পুনঃচেষ্টা কৰক।"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টাতকৈ অধিক Samsung Notes-ৰ উইণ্ড' খুলিব নোৱাৰে। এটা উইণ্ড' বন্ধ কৰক আৰু পুনঃচেষ্টা কৰক।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d টা টোকা ডাউনলোড হৈছে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা টোকা ডাউনলোড হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d টা ৰং</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ৰং</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d গাঢ়তা</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d গাঢ়তা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">%d টা শ্বেয়াৰ কৰা টোকা বিলোপ কৰিবনে?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা শ্বেয়াৰ কৰা টোকা বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d টা টোকা ৰূপান্তৰ কৰক</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা টোকা ৰূপান্তৰ কৰক</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">"%d টা ফ'ল্ডাৰ"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা ফ'ল্ডাৰ"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d টা আইটেম</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা আইটেম</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d টা টোকা</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা টোকা</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">%d টা ৰঙতকৈ অধিক দেখুৱাব নোৱাৰে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ৰঙতকৈ অধিক দেখুৱাব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d খন টোকাবহী</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d খন টোকাবহী</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">"%2$s-লৈ %1$d টা ফ'ল্ডাৰ লৈ যাবনে?"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%2$s-লৈ %1$d টা ফ'ল্ডাৰ লৈ যাবনে?"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s-এ %3$s টোকাবহীত %2$d টা নতুন টোকা যোগ কৰিছে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-এ %3$s টোকাবহীত %2$d টা নতুন টোকা যোগ কৰিছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d টা নতুন টোকা শ্বেয়াৰ কৰিছে</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা নতুন টোকা শ্বেয়াৰ কৰিছে</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">আমদানি বাতিল কৰা হৈছে। %d টা PDF ইতিমধ্যে আমদানি কৰা হৈছে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">আমদানি বাতিল কৰা হৈছে। %d টা PDF ইতিমধ্যে আমদানি কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">"%d টা টোকা আমদানি কৰিব পৰা নগ'ল।"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা টোকা আমদানি কৰিব পৰা নগ'ল।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">কমেও %d টা বৰ্ণ থকা এটা নতুন পাছৱৰ্ড প্ৰৱিষ্ট কৰক।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">কমেও %d টা বৰ্ণ থকা এটা নতুন পাছৱৰ্ড প্ৰৱিষ্ট কৰক।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">%d টাতকৈ অধিক আইটেম চয়ন কৰিব নোৱাৰে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টাতকৈ অধিক আইটেম চয়ন কৰিব নোৱাৰে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">"ট্ৰেচলৈ %d টা ফ'ল্ডাৰ লৈ যাবনে?"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ট্ৰেচলৈ %d টা ফ'ল্ডাৰ লৈ যাবনে?"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">"তাত থকা %d টা ফ'ল্ডাৰ আৰু সকলো আইটেম ট্ৰেচলৈ লৈ যাবনে?"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ইয়াত থকা %d টা ফ'ল্ডাৰ আৰু সকলো আইটেম ট্ৰেচলৈ লৈ যাব নেকি?"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">ট্ৰেচলৈ %d টা টোকা লৈ যাবনে?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ট্ৰেচলৈ %d টা টোকা লৈ যাবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">"আপোনাৰ পৰিচয় সত্যাপন কৰাৰ পিছত, %d টা টোকা (1 টা লক থকা টোকা অন্তৰ্ভুক্ত কৰি) ট্ৰেচলৈ লৈ যোৱা হ'ব।"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"আপোনাৰ পৰিচয় সত্যাপন কৰাৰ পিছত, %d টা টোকা (1 টা লক থকা টোকা অন্তৰ্ভুক্ত কৰি) ট্ৰেচলৈ লৈ যোৱা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">"ইতিমধ্যে চয়ন কৰা ফ'ল্ডাৰত থকা %d টা টোকা লৈ যোৱা নাই।"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"ইতিমধ্যে চয়ন কৰা ফ'ল্ডাৰত থকা %d টা টোকা লৈ যোৱা নাই।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%2$s-লৈ %1$d টা টোকা লৈ যাবনে?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-লৈ %1$d টা টোকা লৈ যাবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">"%d টা আইটেম ক্লাউড আৰু আপোনাৰ সকলো ডিভাইচৰ পৰা স্থায়ীভাৱে বিলোপ কৰা হ'ব।"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা আইটেম ক্লাউড আৰু আপোনাৰ সকলো ডিভাইচৰ পৰা স্থায়ীভাৱে বিলোপ কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">%d টা টোকা স্থায়ীভাৱে বিলোপ কৰিবনে?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা টোকা স্থায়ীভাৱে বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">"%d টা আইটেম স্থায়ীভাৱে বিলোপ হ'ব।"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা আইটেম স্থায়ীভাৱে বিলোপ হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d দিন</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d দিন</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">"শ্বেয়াৰ কৰা টোকাত থকা %d টাতকৈ অধিক ষ্ট্ৰ'ক বা অৱজেক্ট বাছনি কৰিব নোৱাৰে।"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"শ্বেয়াৰ কৰা টোকাত থকা %d টাতকৈ অধিক ষ্ট্ৰ'ক বা অৱজেক্ট বাছনি কৰিব নোৱাৰে।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d খন প্ৰতিচ্ছবি আপোনাৰ ফোনত সংৰক্ষণ কৰা হৈছে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d খন প্ৰতিচ্ছবি আপোনাৰ ফোনত সংৰক্ষণ কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d খন প্ৰতিচ্ছবি আপোনাৰ টেবলেটত সংৰক্ষণ কৰা হৈছে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d খন প্ৰতিচ্ছবি আপোনাৰ টেবলেটত সংৰক্ষণ কৰা হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d টা ফাইল আপোনাৰ ফোনত সংৰক্ষণ হৈছে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ফাইল আপোনাৰ ফোনত সংৰক্ষণ হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d টা ফাইল আপোনাৰ টেবলেটত সংৰক্ষণ হৈছে।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা ফাইল আপোনাৰ টেবলেটত সংৰক্ষণ হৈছে।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d জন সদস্য</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d জন সদস্য</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">"এই টোকাটো %d দিনত বিলোপ কৰা হ'ব।"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"এই টোকাটো %d দিনত বিলোপ কৰা হ'ব।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d টা PDF ৰপ্তানি কৰি আছে…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা PDF ৰপ্তানি কৰি আছে…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">"%d টা টোকা ৰূপান্তৰ কৰিব পৰা নগ'ল। আভ্যন্তৰীণ ষ্ট'ৰেজত কিছু স্পেচ পৰিষ্কাৰ কৰক, তাৰপিছত পুনঃচেষ্টা কৰক।"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d টা টোকা ৰূপান্তৰ কৰিব পৰা নগ'ল। আভ্যন্তৰীণ ষ্ট'ৰেজত কিছু স্পেচ পৰিষ্কাৰ কৰক, তাৰপিছত পুনঃচেষ্টা কৰক।"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d টা আইটেম বিলোপ কৰিবনে?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d টা আইটেম বিলোপ কৰিবনে?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

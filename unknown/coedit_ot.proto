@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+import "coedit_ot_message.proto";
+
+package coeditOt;
+
+service Transformer {
+    rpc Transform (coeditOtMessage.TransformRequest) returns (coeditOtMessage.TransformResponse);
+    rpc MultipleTransform (coeditOtMessage.MultipleTransformRequest) returns (coeditOtMessage.MultipleTransformResponse);
+    rpc TransformWithMultiple (coeditOtMessage.TransformWithMultipleRequest) returns (coeditOtMessage.TransformWithMultipleResponse);
+}
+
+service Composer {
+    rpc Compose(coeditOtMessage.ComposeRequest) returns (coeditOtMessage.ComposeResponse);
+}

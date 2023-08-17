@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/screenon_popup_height" app:background="@color/composer_main_background"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/screenon_custom_close_button" android:background="@drawable/comp_ripple_rounded_effect" android:focusable="true" android:clickable="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:contentDescription="@string/screenon_close_app" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center" android:id="@id/screenon_custom_close_image" android:layout_width="@dimen/screenon_custom_icon_image_size" android:layout_height="@dimen/screenon_custom_icon_image_size" android:src="@drawable/screenon_close_btn" android:scaleType="center" android:tint="#ff545454" android:autoMirrored="true" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/screenon_custom_resize_window_button" android:background="@drawable/comp_ripple_rounded_effect" android:focusable="true" android:clickable="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:contentDescription="@string/screenon_open_in_popup_view" android:layout_marginEnd="14.0dip" android:layout_toStartOf="@id/screenon_custom_close_button">
+        <ImageView android:layout_gravity="center" android:id="@id/screenon_custom_resize_window_image" android:layout_width="@dimen/screenon_custom_icon_image_size" android:layout_height="@dimen/screenon_custom_icon_image_size" android:src="@drawable/screenon_popupsize_btn" android:scaleType="center" android:tint="#ff545454" android:autoMirrored="true" />
+    </FrameLayout>
+</RelativeLayout>

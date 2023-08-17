@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Ekki er hægt að bæta við fleiri en %d atriðum.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að bæta við fleiri en %d atriði.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Ekki er hægt að líma fleiri en %d atriði í einu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að líma fleiri en %d atriði í einu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Ekki er hægt að skanna fleiri en %d skjöl í einu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að skanna fleiri en %d skjal í einu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Ekki er hægt að sýna meira en %d liti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að sýna meira en %d lit.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Ekki er hægt að bæta við fleiri en %d hljóðskrám í einu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að bæta við fleiri en %d hljóðskrá í einu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Ekki er hægt að líma fleiri en %d PDF-skjöl í einu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að líma fleiri en %d PDF-skjal í einu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Hætt við útflutning. %d PDF-skjöl hafa þegar verið flutt út.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hætt við útflutning. %d PDF-skjal hefur þegar verið flutt út.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Ekki er hægt að slá inn fleiri en %d stafi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að slá inn fleiri en %d staf.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Sláðu inn lykilorð sem er minnst %d stafir að lengd.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sláðu inn lykilorð sem er minnst %d stafur að lengd.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Sláðu inn nýtt lykilorð sem er minnst %d stafir að lengd.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sláðu inn nýtt lykilorð sem er minnst %d stafur að lengd.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Bíddu í %d sekúndur og reyndu aftur.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bíddu í %d sekúndu og reyndu aftur.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Ekki er hægt að opna fleiri en %d Samsung Notes-glugga. Lokaðu glugga og reyndu aftur.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að opna fleiri en %d Samsung Notes-glugga. Lokaðu glugga og reyndu aftur.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d glósur sóttar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d glósa sótt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d litir</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d litur</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d þykktir</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d þykkt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Viltu eyða %d samnýttum glósum?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu eyða %d samnýttri glósu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Umbreyta %d glósum</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Umbreyta %d glósu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d möppur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mappa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d atriði</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d atriði</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d glósur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d glósa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Ekki er hægt að sýna meira en %d liti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að sýna meira en %d lit.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d glósubækur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d glósubók</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Færa %1$d möppur í %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Færa %1$d möppu í %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s bætti %2$d nýjum glósum við glósubókina „%3$s“.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s bætti %2$d nýrri glósu við glósubókina „%3$s“.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d nýjum glósum deilt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nýrri glósu deilt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Hætt við innflutning. %d PDF-skrár þegar fluttar inn.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hætt við innflutning. %d PDF-skrá þegar flutt inn.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Ekki tókst að flytja inn %d glósur.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki tókst að flytja inn %d glósu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Sláðu inn nýtt lykilorð sem er minnst %d stafir að lengd.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sláðu inn nýtt lykilorð sem er minnst %d stafur að lengd.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Ekki er hægt að velja fleiri en %d atriði.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að velja fleiri en %d atriði.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Viltu færa %d möppur í ruslið?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa %d möppu í ruslið?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Viltu færa %d möppur og öll atriði í þeim í ruslið?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa %d möppu og öll atriðin í henni í ruslið?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Viltu færa %d glósur í ruslið?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa %d glósu í ruslið?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Þegar þú hefur staðfest hver þú ert verða %d glósur (þar af 1 læst glósa) færðar í ruslið.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þegar þú hefur staðfest hver þú ert verður %d glósa (þar af 1 læst glósa) færð í ruslið.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">%d glósur voru ekki færðar þar sem þær voru þegar í valdri möppu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d glósa var ekki færð þar sem hún var þegar í valdri möppu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Færa %1$d glósur í %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Færa %1$d glósu í %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d atriðum verður eytt varanlega úr skýinu og öllum tækjunum þínum.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d atriði verður eytt varanlega úr skýinu og öllum tækjunum þínum.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Eyða %d glósum varanlega?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eyða %d glósu varanlega?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d atriðum verður eytt varanlega.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d atriði verður eytt varanlega.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d dagar</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dagur</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Ekki er hægt að velja fleiri en %d strokur eða hluti í samnýttri glósu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að velja fleiri en %d stroku eða hlut í samnýttri glósu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d myndir vistaðar í símann.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mynd vistuð í símann.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d myndir vistaðar í spjaldtölvuna.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mynd vistuð í spjaldtölvuna.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d skrár vistaðar í símann.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d skrá vistuð í símann.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d skrár vistaðar í spjaldtölvuna.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d skrá vistuð í spjaldtölvuna.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d meðlimir</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d meðlimur</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Þessari glósu verður eytt eftir %d daga.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessari glósu verður eytt eftir %d dag.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Flytur út %d PDF-skjöl …</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Flytur út %d PDF-skjal …</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Ekki tókst að umbreyta %d glósum. Losaðu um pláss í innri geymslu og reyndu síðan aftur.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki tókst að umbreyta %d glósu. Losaðu um pláss í innri geymslu og reyndu síðan aftur.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Viltu eyða %d atriðum?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu eyða %d atriði?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

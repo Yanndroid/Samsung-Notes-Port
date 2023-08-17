@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:paddingTop="@dimen/tab_text_container_padding_top_bottom" android:paddingBottom="@dimen/tab_text_container_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/tab_text_size" android:textColor="@drawable/settings_tab_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/tab_text" android:background="@drawable/settings_tab_ripple_bg" android:paddingTop="@dimen/tab_text_padding_top_bottom" android:paddingBottom="@dimen/tab_text_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/tab_text_min_height" android:lineSpacingExtra="@dimen/tab_text_line_spacing" android:textAlignment="center" android:paddingStart="@dimen/tab_text_padding_start_end" android:paddingEnd="@dimen/tab_text_padding_start_end" />
+</FrameLayout>

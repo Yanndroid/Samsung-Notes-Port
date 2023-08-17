@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/comp_template_preview_item_image" android:background="@color/change_template_default_item_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/change_template_preview_dialog_thumbnail_margin_top" android:layout_marginBottom="@dimen/change_template_preview_dialog_thumbnail_margin_bottom" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxHeight="@dimen/change_template_preview_dialog_thumbnail_height" android:layout_marginStart="@dimen/change_template_preview_dialog_thumbnail_margin_side" android:layout_marginEnd="@dimen/change_template_preview_dialog_thumbnail_margin_side" android:elevation="@dimen/change_template_item_elevation" />
+</FrameLayout>

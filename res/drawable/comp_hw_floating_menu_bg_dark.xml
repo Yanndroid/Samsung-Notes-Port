@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="4.0dip" android:top="2.0dip" android:right="4.0dip" android:bottom="6.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/screenoff_main_background" />
+            <corners android:radius="@dimen/comp_hw_floating_menu_container_corner_radius" />
+            <stroke android:width="0.5dip" android:color="#ff666666" />
+        </shape>
+    </item>
+</layer-list>

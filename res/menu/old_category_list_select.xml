@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/action_more">
+        <item android:id="@id/action_converted_notes" android:orderInCategory="100" android:title="@string/converted_notes" android:showAsAction="never" />
+    </group>
+</menu>

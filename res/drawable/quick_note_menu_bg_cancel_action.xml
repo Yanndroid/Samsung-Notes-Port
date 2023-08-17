@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="22.0dip" />
+            <solid android:color="@color/quick_note_menu_bg_color" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="22.0dip" />
+            <stroke android:width="0.75dip" android:color="@color/quick_note_menu_bg_outline_color" />
+        </shape>
+    </item>
+</layer-list>

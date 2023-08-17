@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/video_viewer_fragment_container" android:background="@color/video_viewer_fragment_bg_default_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.composer.main.base.view.menu.video.view.VideoViewer android:layout_gravity="center" android:id="@id/video_viewer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/controller_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/Theme.AppCompat.DayNight" android:id="@id/toolbar" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_alignParentTop="true" android:contentInsetStart="@dimen/default_toolbar_title_inset_start" android:navigationContentDescription="@string/action_navigate_up" app:background="@color/video_viewer_system_ui_color" app:collapseContentDescription="@string/action_navigate_up" app:layout_collapseMode="pin" xmlns:app="http://schemas.android.com/apk/res-auto" />
+        <FrameLayout android:orientation="horizontal" android:padding="@dimen/video_viewer_controller_default_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/seek_bar_container">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/playback_toggle" android:background="@drawable/video_viewer_controller_bg" android:padding="@dimen/video_viewer_controller_default_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/play_status" android:layout_width="@dimen/video_viewer_play_status_size" android:layout_height="@dimen/video_viewer_play_status_size" android:src="@drawable/video_viewer_play" android:importantForAccessibility="no" />
+                <TextView android:textColor="@android:color/white" android:id="@id/play_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/video_viewer_controller_default_padding" android:paddingEnd="@dimen/video_viewer_controller_default_padding" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/audio_toggle" android:background="@drawable/video_viewer_controller_bg" android:padding="@dimen/video_viewer_controller_default_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/audio_status" android:layout_width="@dimen/video_viewer_audio_status_size" android:layout_height="@dimen/video_viewer_audio_status_size" android:src="@drawable/ic_video_sound_off" android:importantForAccessibility="no" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/seek_bar_container" android:background="@color/video_viewer_system_ui_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.samsung.android.support.senl.nt.composer.main.base.view.menu.video.view.widget.SeekBar android:id="@id/seek_bar" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" />
+            <View android:layout_gravity="center|top" android:layout_width="@dimen/video_viewer_seek_bar_indicator_width" android:layout_height="@dimen/video_viewer_seek_bar_indicator_height" android:layout_margin="@dimen/video_viewer_seek_bar_indicator_padding" android:foreground="@drawable/video_viewer_seek_bar_indicator" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center_vertical" android:left="4.0dip" android:top="0.0dip" android:right="4.0dip" android:bottom="0.0dip">
+        <shape android:shape="rectangle">
+            <corners android:radius="2.0dip" />
+            <solid android:color="#47ffffff" />
+            <stroke android:width="2.0px" android:color="#4c000000" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/setting_dialog_action_button_ripple" />
+</layer-list>

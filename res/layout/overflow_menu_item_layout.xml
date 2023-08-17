@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/window_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:foreground="@drawable/sesl_list_selector_light" android:minWidth="200.0dip" android:minHeight="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/menu_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@id/menu_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

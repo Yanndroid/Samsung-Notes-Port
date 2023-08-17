@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_list_width">325.0dip</dimen>
+    <dimen name="widget_min_width">325.0dip</dimen>
+    <dimen name="widget_show_note_min_width">325.0dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="720.0dip" android:width="720.0dip" android:viewportWidth="720.0" android:viewportHeight="720.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ff88d8f9" android:pathData="M621.4,607.5C412.9,401.7 152,282.7 23.3,232.5C7.8,273.2 -0.1,316.4 0,360c0,189.7 146.8,345.2 333,359h54C476.3,712.4 559.9,672.6 621.4,607.5z" />
+    <path android:fillColor="#ff88d8f9" android:pathData="M719,387v-54C705.2,146.8 549.7,0 360,0C206.1,0 74.7,96.6 23.3,232.5C152,282.7 412.9,401.7 621.4,607.5C678.4,547.5 712.9,469.6 719,387z" />
+    <path android:fillColor="@drawable/$contact_list_preset_crop_17__0" android:pathData="M719,387v-54C705.2,146.8 549.7,0 360,0C206.1,0 74.7,96.6 23.3,232.5C152,282.7 412.9,401.7 621.4,607.5C678.4,547.5 712.9,469.6 719,387z" />
+</vector>

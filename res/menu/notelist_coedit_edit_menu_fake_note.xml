@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_delete" android:id="@id/action_delete" android:orderInCategory="100" android:title="@string/action_delete" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/comp_appbar_ic_leave" android:id="@id/action_leave_shared_note" android:visible="false" android:orderInCategory="100" android:title="@string/gcs_group_edit_menu_dialog_action_leave" app:contentDescription="@string/gcs_group_edit_menu_dialog_action_leave" app:showAsAction="ifRoom" />
+</menu>

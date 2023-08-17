@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/category_group_container" android:background="@color/noteslist_simple_list_item_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/old_category_list_description_item_padding_start_end" android:paddingEnd="@dimen/old_category_list_description_item_padding_start_end">
+        <TextView android:textAppearance="@style/TextAppearanceListPrimary" android:id="@id/category_group_title" android:paddingTop="@dimen/old_category_list_description_item_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unconverted_notes" />
+        <TextView android:textAppearance="@style/TextAppearanceListSecondary" android:textSize="@dimen/old_category_list_description_item_secondary_text_size" android:id="@id/category_group_description" android:paddingBottom="@dimen/old_category_list_description_item_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unconverted_note_description" />
+        <Button android:textSize="@dimen/old_category_list_description_button_text_size" android:textColor="@color/basic_list_main_text_color" android:layout_gravity="center" android:id="@id/convert_all_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/old_category_list_description_button_margin_top" android:layout_marginBottom="@dimen/old_category_list_description_button_margin_bottom" android:text="@string/convert_all_to_new_format" style="@style/Widget.AppCompat.Light.Button" />
+    </LinearLayout>
+</FrameLayout>

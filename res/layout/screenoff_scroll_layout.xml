@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/scroll_layout" android:layout_width="@dimen/screenoff_scroll_circle_size" android:layout_height="fill_parent" android:layout_alignParentEnd="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/scroll_up_button" android:background="@drawable/screenoff_scroll_button_background" android:visibility="invisible" android:layout_width="@dimen/screenoff_scroll_circle_size" android:layout_height="@dimen/screenoff_scroll_circle_size" android:src="@drawable/screenoff_scroll_up" android:layout_alignParentTop="true" android:contentDescription="@string/screenoff_previous_memo" android:autoMirrored="true" />
+    <ImageView android:id="@id/scroll_down_button" android:background="@drawable/screenoff_scroll_button_background" android:visibility="invisible" android:layout_width="@dimen/screenoff_scroll_circle_size" android:layout_height="@dimen/screenoff_scroll_circle_size" android:src="@drawable/screenoff_scroll_down" android:layout_alignParentBottom="true" android:contentDescription="@string/screenoff_next_memo" android:autoMirrored="true" />
+</RelativeLayout>

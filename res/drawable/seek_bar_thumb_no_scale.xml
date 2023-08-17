@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/progress_thumb">
+        <shape android:shape="oval">
+            <solid android:color="@color/setting_handwriting_slider_thumb_color" />
+            <size android:height="17.0dip" android:width="17.0dip" />
+            <stroke android:width="1.0px" android:color="#ffd6d6d6" />
+        </shape>
+    </item>
+    <item android:id="@id/progress_thumb_border">
+        <shape android:shape="oval">
+            <solid android:color="#00000000" />
+            <size android:height="17.0dip" android:width="17.0dip" />
+            <stroke android:width="1.0px" android:color="#ffd6d6d6" />
+            <padding android:left="1.0px" android:top="1.0px" android:right="1.0px" android:bottom="1.0px" />
+        </shape>
+    </item>
+</layer-list>

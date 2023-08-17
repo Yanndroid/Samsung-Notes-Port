@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">S‘mund të shtohen më shumë se %d gjëra.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S‘mund të shtohet më shumë se %d gjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">S‘mund të ngjitësh më shumë se %d objekte njëherësh.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S‘mund të ngjitësh më shumë se %d objekt njëherësh.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Nuk mund të skanosh më shumë se %d dokumente njëherësh.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nuk mund të skanosh më shumë se %d dokument njëherësh.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">S’mund të tregohen më shumë se %d ngjyra.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të tregohet më shumë se %d ngjyrë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">S‘mund të shtosh më shumë se %d skedarë audio njëherësh.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S‘mund të shtosh më shumë se %d skedar audio njëherësh.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">S‘mund të ngjitësh më shumë se %d PDF njëherësh.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S‘mund të ngjitësh më shumë se %d PDF njëherësh.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Eksporti u anulua. %d skedarë PDF janë eksportuar tashmë.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eksporti u anulua. %d skedar PDF është eksportuar tashmë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">S’mund të futësh më shumë se %d shenja.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të futësh më shumë se %d shenjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Fut një fjalëkalim me të paktën %d shenja.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Fut një fjalëkalim me të paktën %d shenjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Fut një fjalëkalim të ri me të paktën %d shenja.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Fut një fjalëkalim të ri me të paktën %d shenjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Prit %d sekonda dhe provo sërish.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Prit %d sekondë dhe provo sërish.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">S’mund të hapen më shumë se %d dritare të Samsung Notes. Mbylle një dritare dhe provo sërish.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të hapet më shumë se %d dritare e Samsung Notes. Mbylle një dritare dhe provo sërish.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d shënime u shkarkuan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d shënim u shkarkua.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d ngjyra</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ngjyrë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d trashësi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d trashësi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Të hiqen %d shënime të bashkëndara?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të hiqet %d shënim i bashkëndarë?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Konverto %d shënime</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Konverto %d shënim</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d dosje</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dosje</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d objekte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d objekt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d shënime</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d shënim</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">S’mund të tregohen më shumë se %d ngjyra.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të tregohet më shumë se %d ngjyrë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d blloqe</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bllok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Të çohen %1$d dosje te %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %1$d dosje te %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s shtoi %2$d shënime të reja te blloku i shënimeve %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s shtoi %2$d shënim të ri te blloku i shënimeve %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">U përbashkuan %d shënime të reja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">U përbashkua %d shënim i ri</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Importi u anulua. %d PDF janë importuar tashmë.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Importi u anulua. %d PDF është importuar tashmë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d shënime nuk u importuan dot.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d shënim nuk u importua dot.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Fut një fjalëkalim të ri me të paktën %d shenja.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Fut një fjalëkalim të ri me të paktën %d shenjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">S’mund të përzgjidhen më shumë se %d objekte.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të përzgjidhet më shumë se %d objekt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Të çohen %d dosje te Koshi i mbeturinave?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %d dosje te Koshi i mbeturinave?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Të çohen %d dosje dhe gjithçka ato përmbajnë te Koshi i mbeturinave?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %d dosje dhe gjithçka ajo përmban te Koshi i mbeturinave?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Të çohen %d shënime te Koshi i mbeturinave?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %d shënim te Koshi i mbeturinave?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Pasi të verifikohet identiteti yt, %d shënime (përfshi 1 shënim të kyçur) do të çohen te Koshi i mbeturinave.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pasi të verifikohet identiteti yt, %d shënim (përfshi 1 shënim të kyçur) do të çohet te Koshi i mbeturinave.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Nuk u zhvendosën %d shënime që ishin tashmë te dosja e përzgjedhur.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nuk u zhvendos %d shënim që ishte tashmë te dosja e përzgjedhur.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Të çohen %1$d shënime te %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %1$d shënim te %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d objekte do të hiqen përfundimisht nga reja dhe të gjitha pajisjet e tua.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d objekt do të hiqet përfundimisht nga reja dhe të gjitha pajisjet e tua.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Do t’i heqësh përfundimisht %d shënime?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do ta heqësh përfundimisht %d shënim?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d objekte do të hiqen përfundimisht.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d objekt do të hiqet përfundimisht.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d ditë</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ditë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Nuk mund të përzgjedhësh më shumë se %d stroka ose objekte, në shënimin e bashkëndarë.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nuk mund të përzgjedhësh më shumë se %d strokë ose objekt, në shënimin e bashkëndarë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d imazhe u ruajtën në telefon.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imazh u ruajt në telefon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d imazhe u ruajtën në tabletë.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imazh u ruajt në tabletë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d skedarë u ruajtën në telefon.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d skedar u ruajt në telefon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d skedarë u ruajtën në tabletë.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d skedar u ruajt në tabletë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d anëtarë</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anëtar</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Ky shënim do të hiqet pas %d ditësh.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ky shënim do të hiqet pas %d dite.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Duke eksportuar %d skedarë PDF…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Duke eksportuar %d skedar PDF…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Nuk i konvertova dot %d shënime. Hap pak vend te magazina e brendshme, pastaj provo sërish.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nuk e konvertova dot %d shënim. Hap pak vend te magazina e brendshme, pastaj provo sërish.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Do të heqësh %d objekte?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do të heqësh %d objekt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

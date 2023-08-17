@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/item_container" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notes_simple_item_card_view_margin_top_bottom" android:layout_marginBottom="@dimen/notes_simple_item_card_view_margin_top_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:theme="@style/CheckBox" android:layout_gravity="center" android:id="@id/checkbox" android:layout_width="@dimen/item_checkbox_width" android:layout_height="@dimen/item_checkbox_width" android:layout_marginStart="@dimen/file_picker_item_checkbox_margin_start" android:layout_marginEnd="@dimen/file_picker_item_checkbox_margin_end" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/file_picker_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/file_picker_item_min_height">
+        <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="@dimen/file_picker_item_icon_size" android:layout_height="@dimen/file_picker_item_icon_size" android:src="@drawable/myfiles_list_etc" android:layout_marginEnd="@dimen/file_picker_item_icon_margin_end" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="@dimen/file_picker_item_padding_top_bottom" android:paddingBottom="@dimen/file_picker_item_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/file_picker_item_name_margin_end">
+            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/file_picker_item_title_text_size" android:textColor="@color/list_title_text_color" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/file_picker_item_summary_text_size" android:textColor="@color/list_summary_text_color" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

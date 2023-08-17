@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <padding android:left="1.0dip" android:bottom="1.0dip" />
+            <solid android:color="#00cccccc" />
+            <corners android:topLeftRadius="@dimen/voice_recording_record_menu_bg_radius" android:bottomLeftRadius="@dimen/voice_recording_record_menu_bg_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dip" android:bottom="1.0dip" />
+            <solid android:color="#10cccccc" />
+            <corners android:topLeftRadius="@dimen/voice_recording_record_menu_bg_radius" android:bottomLeftRadius="@dimen/voice_recording_record_menu_bg_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dip" android:bottom="1.0dip" />
+            <solid android:color="#20cccccc" />
+            <corners android:topLeftRadius="@dimen/voice_recording_record_menu_bg_radius" android:bottomLeftRadius="@dimen/voice_recording_record_menu_bg_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:left="1.0dip" android:bottom="1.0dip" />
+            <solid android:color="#30cccccc" />
+            <corners android:topLeftRadius="@dimen/voice_recording_record_menu_bg_radius" android:bottomLeftRadius="@dimen/voice_recording_record_menu_bg_radius" />
+        </shape>
+    </item>
+    <item android:id="@id/voice_record_background">
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="@dimen/voice_recording_record_menu_bg_radius" android:bottomLeftRadius="@dimen/voice_recording_record_menu_bg_radius" />
+            <solid android:color="@color/composer_voice_menu_composite_alpha_background" />
+            <stroke android:width="0.5dip" android:color="#14000000" />
+        </shape>
+    </item>
+</layer-list>

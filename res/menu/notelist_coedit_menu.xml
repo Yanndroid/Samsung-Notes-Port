@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search" android:id="@id/action_search" android:orderInCategory="100" android:title="@string/action_search" app:showAsAction="always" />
+    <item android:id="@id/action_edit" android:orderInCategory="100" android:title="@string/action_edit" android:showAsAction="never" />
+    <item android:id="@id/action_viewby" android:orderInCategory="100" android:title="@string/noteslist_option_menu_view" android:showAsAction="never" />
+    <item android:id="@id/action_old_shared_notebook" android:orderInCategory="100" android:title="@string/co_edit_action_old_shared_notebook" app:showAsAction="never" />
+    <item android:id="@id/action_create_notebook" android:orderInCategory="100" android:title="@string/action_add_gcs_group" app:showAsAction="never" />
+    <item android:id="@id/action_mark_all_as_read" android:orderInCategory="100" android:title="@string/co_edit_action_mark_all_as_read" app:showAsAction="never" />
+</menu>

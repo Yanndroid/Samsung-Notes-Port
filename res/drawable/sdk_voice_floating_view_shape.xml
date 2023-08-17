@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/voice_floating_bg" />
+    <stroke android:width="@dimen/sdk_voice_menu_outline_stroke_width" android:color="@color/voice_floating_outline" />
+    <corners android:radius="@dimen/sdk_voice_menu_shape_radius" />
+</shape>

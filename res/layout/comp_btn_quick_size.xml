@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/hw_toolbar_quick_size" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/hw_toolbar_quick_size_1" android:contentDescription="@string/hw_toolbar_item_quick_size" style="@style/ComposerImageClickButton">
+        <ImageView android:id="@id/hw_toolbar_quick_size_image_1" android:src="@drawable/comp_hw_toolbar_ic_quick_size" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/hw_toolbar_quick_size_2" android:contentDescription="@string/hw_toolbar_item_quick_size" style="@style/ComposerImageClickButton">
+        <ImageView android:id="@id/hw_toolbar_quick_size_image_2" android:src="@drawable/comp_hw_toolbar_ic_quick_size" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/hw_toolbar_quick_size_3" android:contentDescription="@string/hw_toolbar_item_quick_size" style="@style/ComposerImageClickButton">
+        <ImageView android:id="@id/hw_toolbar_quick_size_image_3" android:src="@drawable/comp_hw_toolbar_ic_quick_size" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+    </FrameLayout>
+</LinearLayout>

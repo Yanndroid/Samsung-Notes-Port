@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:tag="for beginDelayedTransition. CheckBoxTransition" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/checkbox" android:layout="@layout/item_checkbox" android:inflatedId="@id/inflate_checkbox" android:layout_width="@dimen/item_checkbox_width" android:layout_height="@dimen/item_checkbox_width" android:layout_marginEnd="@dimen/noteslist_item_checkbox_margin_end" />
+</FrameLayout>

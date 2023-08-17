@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/drawing_btn_bg_selected_color" />
+    <corners android:radius="@dimen/drawing_btn_bg_selected_ripple_radius" />
+    <size android:height="100.0dip" android:width="68.0dip" />
+</shape>

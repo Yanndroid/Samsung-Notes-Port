@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/co_edit_load_icon_layout_size" android:width="@dimen/co_edit_load_icon_layout_size" />
+    <solid android:color="@color/coedit_note_load_icon_background" />
+</shape>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/in_app_redo_undo_container" android:background="@drawable/in_app_container_background" android:layout_width="wrap_content" android:layout_height="@dimen/in_app_sub_toolbar_container_item_height" android:paddingStart="22.0dip" android:paddingEnd="22.0dip" style="@style/InAppCollaborationContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

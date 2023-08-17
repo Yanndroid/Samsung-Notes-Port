@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.composer.main.base.view.menu.list.pages.holder.PageItemView android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/comp_page_list_item_bottom_margin" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/pages_item_thumbnail_container_cover" android:clipChildren="false" android:layout_width="@dimen/comp_page_list_item_width" android:layout_height="wrap_content">
+                <com.samsung.android.support.senl.nt.composer.main.base.view.menu.list.pages.holder.CheckableRelativeLayout android:id="@id/pages_item_thumbnail_container" android:background="@color/composer_main_background" android:focusable="true" android:layout_width="@dimen/comp_page_list_item_width" android:layout_height="wrap_content" android:foreground="@drawable/comp_fragment_pages_item_outline_drawable" android:minHeight="@dimen/comp_page_list_item_thumbnail_container_min_height" android:layout_centerInParent="true" android:contentDescription="@string/composer_sort_pages" android:elevation="4.0dip" android:outlineSpotShadowColor="#88000000" android:outlineAmbientShadowColor="#aa000000">
+                    <ImageView android:id="@id/pages_item_thumbnail" android:background="@color/composer_main_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@string/composer_sort_pages" />
+                    <FrameLayout android:layout_width="@dimen/comp_page_list_item_bookmark_click_area_size" android:layout_height="@dimen/comp_page_list_item_bookmark_click_area_size" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+                        <com.samsung.android.support.senl.nt.composer.main.base.view.menu.list.animator.CustomLottieAnimationView android:layout_gravity="end|center|top" android:id="@id/pages_item_bookmark_btn_image" android:background="@android:color/transparent" android:layout_width="@dimen/comp_page_list_item_bookmark_width" android:layout_height="@dimen/comp_page_list_item_bookmark_height" android:src="@drawable/comp_page_bookmark_off_ic" android:contentDescription="@string/composer_bookmark" android:layout_marginEnd="10.0dip" />
+                    </FrameLayout>
+                    <ImageView android:id="@id/pages_item_plus" android:visibility="gone" android:layout_width="@dimen/comp_page_list_item_plus_size" android:layout_height="@dimen/comp_page_list_item_plus_size" android:src="@drawable/comp_page_list_item_ic_plus" android:layout_centerInParent="true" />
+                    <ImageButton android:id="@id/pages_item_more_btn" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/comp_ripple_circle_effect" android:src="@drawable/comp_fragment_pages_item_more_icon" android:layout_alignBottom="@id/pages_item_thumbnail" android:contentDescription="@string/search_more_options" android:layout_alignEnd="@id/pages_item_thumbnail" />
+                </com.samsung.android.support.senl.nt.composer.main.base.view.menu.list.pages.holder.CheckableRelativeLayout>
+            </RelativeLayout>
+            <FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/comp_page_list_item_number_height">
+                <TextView android:textSize="12.0dip" android:layout_gravity="bottom|center" android:id="@id/pages_item_number" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" />
+            </FrameLayout>
+        </LinearLayout>
+        <include android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" layout="@layout/item_checkbox" />
+    </RelativeLayout>
+</com.samsung.android.support.senl.nt.composer.main.base.view.menu.list.pages.holder.PageItemView>

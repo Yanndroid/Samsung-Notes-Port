@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/ssm_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.SeslProgressBar android:layout_width="@dimen/ssm_progress_size" android:layout_height="@dimen/ssm_progress_size" android:layout_marginStart="@dimen/ssm_margin" android:mirrorForRtl="true" />
+    <TextView android:textSize="@dimen/ssm_text_size" android:id="@id/ssm_progress_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/ssm_margin" />
+</LinearLayout>

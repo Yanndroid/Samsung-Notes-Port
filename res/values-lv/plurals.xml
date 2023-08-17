@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Var pievienot ne vairāk kā %d vienumus.</item>
+        <item quantity="zero">Var pievienot ne vairāk kā %d vienumus.</item>
+        <item quantity="one">Var pievienot ne vairāk kā %d vienumu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Vienlaikus var ielīmēt ne vairāk kā %d vienumus.</item>
+        <item quantity="zero">Vienlaikus var ielīmēt ne vairāk kā %d vienumus.</item>
+        <item quantity="one">Vienlaikus var ielīmēt ne vairāk kā %d vienumu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Vienlaikus var skenēt ne vairāk kā %d dokumentus.</item>
+        <item quantity="zero">Vienlaikus var skenēt ne vairāk kā %d dokumentus.</item>
+        <item quantity="one">Vienlaikus var skenēt ne vairāk kā %d dokumentu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Var parādīt ne vairāk kā %d krāsas.</item>
+        <item quantity="zero">Var parādīt ne vairāk kā %d krāsas.</item>
+        <item quantity="one">Var parādīt ne vairāk kā %d krāsu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Vienlaikus var pievienot ne vairāk kā %d audio failus.</item>
+        <item quantity="zero">Vienlaikus var pievienot ne vairāk kā %d audio failus.</item>
+        <item quantity="one">Vienlaikus var pievienot ne vairāk kā %d audio failu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Vienlaikus var ielīmēt ne vairāk kā %d PDF failus.</item>
+        <item quantity="zero">Vienlaikus var ielīmēt ne vairāk kā %d PDF failus.</item>
+        <item quantity="one">Vienlaikus var ielīmēt ne vairāk kā %d PDF failu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Eksportēšana atcelta. %d PDF faili jau ir eksportēti.</item>
+        <item quantity="zero">Eksportēšana atcelta. %d PDF faili jau ir eksportēti.</item>
+        <item quantity="one">Eksportēšana atcelta. %d PDF fails jau ir eksportēts.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+        <item quantity="zero">Var ievadīt ne vairāk kā %d rakstzīmju.</item>
+        <item quantity="one">Var ievadīt ne vairāk kā %d rakstzīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Ievadiet paroli, kurā ir vismaz %d rakstzīmes.</item>
+        <item quantity="zero">Ievadiet paroli, kurā ir vismaz %d rakstzīmes.</item>
+        <item quantity="one">Ievadiet paroli, kurā ir vismaz %d rakstzīme.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Ievadiet jaunu paroli, kurā ir vismaz %d rakstzīmes.</item>
+        <item quantity="zero">Ievadiet jaunu paroli, kurā ir vismaz %d rakstzīmes.</item>
+        <item quantity="one">Ievadiet jaunu paroli, kurā ir vismaz %d rakstzīme.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Uzgaidiet %d sekundes un mēģiniet vēlreiz.</item>
+        <item quantity="zero">Uzgaidiet %d sekundes un mēģiniet vēlreiz.</item>
+        <item quantity="one">Uzgaidiet %d sekundi un mēģiniet vēlreiz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Var atvērt ne vairāk kā %d programmas Samsung Notes logus. Aizveriet kādu logu un mēģiniet vēlreiz.</item>
+        <item quantity="zero">Var atvērt ne vairāk kā %d programmas Samsung Notes logus. Aizveriet kādu logu un mēģiniet vēlreiz.</item>
+        <item quantity="one">Var atvērt ne vairāk kā %d programmas Samsung Notes logu. Aizveriet kādu logu un mēģiniet vēlreiz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d jauni paziņojumi</item>
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">Lejupielādētas %d piezīmes.</item>
+        <item quantity="zero">Lejupielādētas %d piezīmes.</item>
+        <item quantity="one">Lejupielādēta %d piezīme.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d krāsas</item>
+        <item quantity="zero">%d krāsas</item>
+        <item quantity="one">%d krāsa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d biezuma veidi</item>
+        <item quantity="zero">%d biezuma veidi</item>
+        <item quantity="one">%d biezuma veids</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Vai izdzēst %d kopīgotās piezīmes?</item>
+        <item quantity="zero">Vai izdzēst %d kopīgotās piezīmes?</item>
+        <item quantity="one">Vai izdzēst %d kopīgoto piezīmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Konvertēt %d piezīmes</item>
+        <item quantity="zero">Konvertēt %d piezīmes</item>
+        <item quantity="one">Konvertēt %d piezīmi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d mapes</item>
+        <item quantity="zero">%d mapes</item>
+        <item quantity="one">%d mape</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d objekti</item>
+        <item quantity="zero">%d objekti</item>
+        <item quantity="one">%d objekts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d piezīmes</item>
+        <item quantity="zero">%d piezīmes</item>
+        <item quantity="one">%d piezīme</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Var parādīt ne vairāk kā %d krāsas.</item>
+        <item quantity="zero">Var parādīt ne vairāk kā %d krāsas.</item>
+        <item quantity="one">Var parādīt ne vairāk kā %d krāsu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d piezīmju grāmatiņas</item>
+        <item quantity="zero">%d piezīmju grāmatiņas</item>
+        <item quantity="one">%d piezīmju grāmatiņa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Vai pārvietot %1$d mapes uz %2$s?</item>
+        <item quantity="zero">Vai pārvietot %1$d mapes uz %2$s?</item>
+        <item quantity="one">Vai pārvietot %1$d mapi uz %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s pievienoja %2$d jaunas piezīmes piezīmju grāmatiņai %3$s.</item>
+        <item quantity="zero">%1$s pievienoja %2$d jaunas piezīmes piezīmju grāmatiņai %3$s.</item>
+        <item quantity="one">%1$s pievienoja %2$d jaunu piezīmi piezīmju grāmatiņai %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">Kopīgotas %d jaunas piezīmes</item>
+        <item quantity="zero">Kopīgotas %d jaunas piezīmes</item>
+        <item quantity="one">Kopīgota %d jauna piezīme</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Importēšana ir atcelta. %d PDF faili jau ir importēti.</item>
+        <item quantity="zero">Importēšana ir atcelta. %d PDF faili jau ir importēti.</item>
+        <item quantity="one">Importēšana ir atcelta. %d PDF fails jau ir importēts.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Nevarēja importēt %d piezīmes.</item>
+        <item quantity="zero">Nevarēja importēt %d piezīmes.</item>
+        <item quantity="one">Nevarēja importēt %d piezīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Ievadiet jaunu paroli, kurā ir vismaz %d rakstzīmes.</item>
+        <item quantity="zero">Ievadiet jaunu paroli, kurā ir vismaz %d rakstzīmes.</item>
+        <item quantity="one">Ievadiet jaunu paroli, kurā ir vismaz %d rakstzīme.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Var izvēlēties ne vairāk kā %d objektus.</item>
+        <item quantity="zero">Var izvēlēties ne vairāk kā %d objektus.</item>
+        <item quantity="one">Var izvēlēties ne vairāk kā %d objektu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Vai pārvietot %d mapes uz atkritni?</item>
+        <item quantity="zero">Vai pārvietot %d mapes uz atkritni?</item>
+        <item quantity="one">Vai pārvietot %d mapi uz atkritni?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Vai pārvietot %d mapes un visus tajās esošos vienumus uz atkritni?</item>
+        <item quantity="zero">Vai pārvietot %d mapes un visus tajās esošos vienumus uz atkritni?</item>
+        <item quantity="one">Vai pārvietot %d mapi un visus tajā esošos vienumus uz atkritni?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Vai pārvietot %d piezīmes uz atkritni?</item>
+        <item quantity="zero">Vai pārvietot %d piezīmes uz atkritni?</item>
+        <item quantity="one">Vai pārvietot %d piezīmi uz atkritni?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Pēc jūsu identitātes verifikācijas %d piezīmes (tostarp 1 bloķētā piezīme) tiks pārvietotas uz atkritni.</item>
+        <item quantity="zero">Pēc jūsu identitātes verifikācijas %d piezīmes (tostarp 1 bloķētā piezīme) tiks pārvietotas uz atkritni.</item>
+        <item quantity="one">Pēc jūsu identitātes verifikācijas %d piezīme (tostarp 1 bloķētā piezīme) tiks pārvietota uz atkritni.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Netika pārvietotas %d piezīmes, kas jau atrodas izvēlētajā mapē.</item>
+        <item quantity="zero">Netika pārvietotas %d piezīmes, kas jau atrodas izvēlētajā mapē.</item>
+        <item quantity="one">Netika pārvietota %d piezīme, kas jau atrodas izvēlētajā mapē.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Vai pārvietot %1$d piezīmes uz %2$s?</item>
+        <item quantity="zero">Vai pārvietot %1$d piezīmes uz %2$s?</item>
+        <item quantity="one">Vai pārvietot %1$d piezīmi uz %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d vienumi tiks neatgriezeniski izdzēsti no mākoņa un visām jūsu ierīcēm.</item>
+        <item quantity="zero">%d vienumi tiks neatgriezeniski izdzēsti no mākoņa un visām jūsu ierīcēm.</item>
+        <item quantity="one">%d vienums tiks neatgriezeniski izdzēsts no mākoņa un visām jūsu ierīcēm.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Vai neatgriezeniski izdzēst %d piezīmes?</item>
+        <item quantity="zero">Vai neatgriezeniski izdzēst %d piezīmes?</item>
+        <item quantity="one">Vai neatgriezeniski izdzēst %d piezīmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d objekti tiks neatgriezeniski izdzēsti.</item>
+        <item quantity="zero">%d objekti tiks neatgriezeniski izdzēsti.</item>
+        <item quantity="one">%d objekts tiks neatgriezeniski izdzēsts.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d d.</item>
+        <item quantity="zero">%d d.</item>
+        <item quantity="one">%d diena</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Kopīgotajā piezīmē var izvēlēties ne vairāk kā %d vilkumus vai objektus.</item>
+        <item quantity="zero">Kopīgotajā piezīmē var izvēlēties ne vairāk kā %d vilkumus vai objektus.</item>
+        <item quantity="one">Kopīgotajā piezīmē var izvēlēties ne vairāk kā %d vilkumu vai objektu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">Tālrunī ir saglabāti %d attēli.</item>
+        <item quantity="zero">Tālrunī ir saglabāti %d attēli.</item>
+        <item quantity="one">Tālrunī ir saglabāts %d attēls.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">Planšetdatorā ir saglabāti %d attēli.</item>
+        <item quantity="zero">Planšetdatorā ir saglabāti %d attēli.</item>
+        <item quantity="one">Planšetdatorā ir saglabāts %d attēls.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">Tālrunī ir saglabāti %d faili.</item>
+        <item quantity="zero">Tālrunī ir saglabāti %d faili.</item>
+        <item quantity="one">Tālrunī ir saglabāts %d fails.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">Planšetdatorā ir saglabāti %d faili.</item>
+        <item quantity="zero">Planšetdatorā ir saglabāti %d faili.</item>
+        <item quantity="one">Planšetdatorā ir saglabāts %d fails.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d dalībnieki</item>
+        <item quantity="zero">%d dalībnieki</item>
+        <item quantity="one">%d dalībnieks</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Šī piezīme tiks izdzēsta pēc %d dienām.</item>
+        <item quantity="zero">Šī piezīme tiks izdzēsta pēc %d dienām.</item>
+        <item quantity="one">Šī piezīme tiks izdzēsta pēc %d dienas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Eksportē %d PDF failus…</item>
+        <item quantity="zero">Eksportē %d PDF failus…</item>
+        <item quantity="one">Eksportē %d PDF failu…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Nevarēja konvertēt %d piezīmes. Atbrīvojiet vietu iekšējā krātuvē un pēc tam mēģiniet vēlreiz.</item>
+        <item quantity="zero">Nevarēja konvertēt %d piezīmes. Atbrīvojiet vietu iekšējā krātuvē un pēc tam mēģiniet vēlreiz.</item>
+        <item quantity="one">Nevarēja konvertēt %d piezīmi. Atbrīvojiet vietu iekšējā krātuvē un pēc tam mēģiniet vēlreiz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Vai izdzēst %d objektus?</item>
+        <item quantity="zero">Vai izdzēst %d objektu?</item>
+        <item quantity="one">Vai izdzēst %d objektu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

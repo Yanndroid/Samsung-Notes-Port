@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:background="@color/window_background_color" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.support.senl.nt.app.settings.detail.style.widget.ColorStyleView android:layout_width="fill_parent" android:layout_height="wrap_content" app:corner="all" />
+    </LinearLayout>
+</com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>

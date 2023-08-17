@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/writingoption_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/writingoption_fbr_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/writingoption_prediction_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/writingoption_dvfs_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/writingoption_measure_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/writingoption_palm_rejection_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/writingoption_offset_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/writingoption_close_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pen_string_close" />
+</LinearLayout>

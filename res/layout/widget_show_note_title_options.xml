@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/widget_options" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentEnd="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/widget_voice" android:visibility="gone" android:layout_width="@dimen/widget_voice_icon_size" android:layout_height="@dimen/widget_voice_icon_size" android:src="@drawable/widget_ic_voice" android:tint="@color/widget_voice_icon_color" android:layout_marginStart="@dimen/widget_pin_setting_start_margin" />
+    <ImageView android:gravity="center_vertical" android:id="@id/widget_settings" android:visibility="gone" android:layout_width="@dimen/widget_voice_icon_size" android:layout_height="@dimen/widget_voice_icon_size" android:foreground="@drawable/widget_ripple" android:src="@drawable/widget_ic_setting" android:includeFontPadding="true" android:contentDescription="@string/action_settings" android:layout_marginStart="@dimen/widget_pin_setting_start_margin" />
+</LinearLayout>

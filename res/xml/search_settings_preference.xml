@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/show_recent_searches" android:key="recent_searches" android:defaultValue="true" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/show_recent_tags" android:key="recent_tags" android:defaultValue="true" />
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/round_corner_stroke_size" android:paddingEnd="@dimen/round_corner_stroke_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/settings_textureview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:id="@id/flash_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/camera_layout_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/flash_mode" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/flash_mode_selector" android:contentDescription="@string/auto" />
+    <ImageView android:id="@id/flash_auto" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_camera_flash_auto" android:contentDescription="@string/auto" />
+    <ImageView android:id="@id/flash_on" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/ic_camera_flash_always" android:contentDescription="@string/on" />
+    <ImageView android:id="@id/flash_off" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_camera_flash_off" android:contentDescription="@string/off" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.app.main.common.view.NotesPenRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/noteslist_recyclerview" android:scrollbars="vertical" android:nextFocusDown="@id/note_fab" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes" android:paddingStart="@dimen/notes_list_recycler_padding_start_end" android:paddingEnd="@dimen/notes_list_recycler_padding_start_end" android:scrollIndicators="none" app:fastScrollEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

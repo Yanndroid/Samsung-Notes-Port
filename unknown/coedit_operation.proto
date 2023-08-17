@@ -1,0 +1,77 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+package coeditOperation;
+
+enum ChangeType {
+  INSERT_CHARACTERS = 0;        // RichText 글자 추가
+  DELETE_CHARACTERS = 1;        // RichText 글자 삭제
+  INSERT_ELEMENTS = 2;          // Elements 추가
+  DELETE_ELEMENTS = 3;          // Elements 삭제
+  UPDATE_ATTRIBUTES = 4;        // 속성값 변경
+  REPLACE_ATTRIBUTES = 5;       // 속성값 Object 속성 추가/삭제
+  SET_ANNOTATIONS = 6;          // RichText 속성 추가/삭제/변경
+  RETAIN = 7;                   // RETAIN ONLY
+  INSERT_OBJECT_SPAN = 8;         // ObjectSpan 추가
+  DELETE_OBJECT_SPAN = 9;         // ObjectSpan 삭제
+}
+
+message CedOps {
+  repeated coeditOperation.CoeditOperation coedit_operation = 1;
+}
+
+message CoeditOperation {
+  ChangeType change_type = 1;
+  int32 index = 2;
+  int32 size = 3;
+
+  string insert_characters = 4;                           // RichText 글자 추가
+  string delete_characters = 5;                           // RichText 글자 삭제
+  Elements insert_elements = 6;                           // Elements 추가
+  Elements delete_elements = 7;                           // Elements 삭제
+  UpdateAttributes update_attributes = 8;                 // 속성값 변경
+  ReplaceAttributes replace_attributes = 9;               // 속성값 Object 속성 추가/삭제
+  SetAnnotations set_annotations = 10;                    // RichText 속성 추가/삭제/변경
+  ObjectSpan insert_object_span = 11;                     // ObjectSpan 추가
+  ObjectSpan delete_object_span = 12;                     // ObjectSpan 삭제
+
+  message Elements {
+    repeated Element element = 1;
+  }
+
+  message Element {
+    bool element_end = 1;
+    string tag_name = 2;
+    repeated KeyValuePair attribute = 3;
+  }
+
+  message KeyValuePair {
+    string key = 1;
+    string value = 2;
+  }
+
+  message KeyValueUpdate {
+    string key = 1;
+    string old_value = 2;
+    string new_value = 3;
+  }
+
+  message UpdateAttributes {
+    repeated KeyValueUpdate change = 1;
+  }
+
+  message ReplaceAttributes {
+    repeated KeyValuePair old_attribute = 1;
+    repeated KeyValuePair new_attribute = 2;
+  }
+
+  message SetAnnotations {
+    int32 end_index = 1;
+    repeated KeyValueUpdate annotation = 2;
+  }
+
+  message ObjectSpan {
+    KeyValuePair object_span = 1;
+  }
+}

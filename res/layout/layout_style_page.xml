@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/description_text_size" android:textColor="@color/description_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_layout_style_dialog_description" android:lineSpacingExtra="@dimen/description_text_line_space" />
+    <com.samsung.android.support.senl.nt.app.settings.detail.style.widget.LayoutStyleView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Неможливо додати понад %d об’єкта.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо додати понад %d об’єкт.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо додати понад %d об’єкти.</item>
+        <item quantity="many">Неможливо додати понад %d об’єктів.</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Неможливо за раз вставити понад %d об’єкта.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо за раз вставити понад %d об’єкт.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо за раз вставити понад %d об’єкти.</item>
+        <item quantity="many">Неможливо за раз вставити понад %d об’єктів.</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">За один раз можна відсканувати щонайбільше %d документа.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">За один раз можна відсканувати щонайбільше %d документ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">За один раз можна відсканувати щонайбільше %d документи.</item>
+        <item quantity="many">За один раз можна відсканувати щонайбільше %d документів.</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Неможливо відобразити більше %d кольору.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо відобразити більше %d кольору.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо відобразити більше %d кольорів.</item>
+        <item quantity="many">Неможливо відобразити більше %d кольорів.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Неможливо додати більше %d аудіофайлу за один раз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо додати більше %d аудіофайлу за один раз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо додати більше %d аудіофайлів за один раз.</item>
+        <item quantity="many">Неможливо додати більше %d аудіофайлів за один раз.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Неможливо за раз вставити понад %d PDF-файлу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо за раз вставити понад %d PDF-файл.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо за раз вставити понад %d PDF-файли.</item>
+        <item quantity="many">Неможливо за раз вставити понад %d PDF-файлів.</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Експортування скасовано. %d PDF-файлу експортовано.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Експортування скасовано. %d PDF-файл експортовано.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Експортування скасовано. %d PDF-файли експортовано.</item>
+        <item quantity="many">Експортування скасовано. %d PDF-файлів експортовано.</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Неможливо ввести більше %d символу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо ввести більше %d символу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо ввести більше %d символів.</item>
+        <item quantity="many">Неможливо ввести більше %d символів.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Уведіть пароль, що містить принаймні %d символу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Уведіть пароль, що містить принаймні %d символ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Уведіть пароль, що містить принаймні %d символи.</item>
+        <item quantity="many">Уведіть пароль, що містить принаймні %d символів.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Уведіть новий пароль, що містить принаймні %d символу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Уведіть новий пароль, що містить принаймні %d символ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Уведіть новий пароль, що містить принаймні %d символи.</item>
+        <item quantity="many">Уведіть новий пароль, що містить принаймні %d символів.</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Зачекайте %d секунди і спробуйте ще раз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зачекайте %d секунду і спробуйте ще раз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Зачекайте %d секунди і спробуйте ще раз.</item>
+        <item quantity="many">Зачекайте %d секунд і спробуйте ще раз.</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Неможливо відкрити більше ніж %d вікна Samsung Notes. Закрийте одне з вікон і спробуйте ще раз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо відкрити більше ніж %d вікно Samsung Notes. Закрийте одне з вікон і спробуйте ще раз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо відкрити більше ніж %d вікна Samsung Notes. Закрийте одне з вікон і спробуйте ще раз.</item>
+        <item quantity="many">Неможливо відкрити більше ніж %d вікон Samsung Notes. Закрийте одне з вікон і спробуйте ще раз.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового сповіщення</item>
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">Завантажено %d нотатки.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Завантажено %d нотатку.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Завантажено %d нотатки.</item>
+        <item quantity="many">Завантажено %d нотаток.</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d кольору</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колір</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d кольори</item>
+        <item quantity="many">%d кольорів</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d товщини</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d товщина</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d товщини</item>
+        <item quantity="many">%d товщин</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Видалити %d спільної примітки?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Видалити %d спільну примітку?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Видалити %d спільні примітки?</item>
+        <item quantity="many">Видалити %d спільних приміток?</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Перетворити %d нотатки</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перетворити %d нотатку</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перетворити %d нотатки</item>
+        <item quantity="many">Перетворити %d нотаток</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d папки</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d папка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d папки</item>
+        <item quantity="many">%d папок</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d об’єкта</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d об’єкт</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d об’єкти</item>
+        <item quantity="many">%d об’єктів</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d нотатки</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d нотатка</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d нотатки</item>
+        <item quantity="many">%d нотаток</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Неможливо відобразити більше %d кольору.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо відобразити більше %d кольору.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо відобразити більше %d кольорів.</item>
+        <item quantity="many">Неможливо відобразити більше %d кольорів.</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d записника</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d записник</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d записники</item>
+        <item quantity="many">%d записників</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Перемістити %1$d папки до папки «%2$s»?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перемістити %1$d папку до папки «%2$s»?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перемістити %1$d папки до папки «%2$s»?</item>
+        <item quantity="many">Перемістити %1$d папок до папки «%2$s»?</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">Користувач %1$s додав %2$d нової нотатки до блокнота «%3$s».</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Користувач %1$s додав %2$d нову нотатку до блокнота «%3$s».</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Користувач %1$s додав %2$d нові нотатки до блокнота «%3$s».</item>
+        <item quantity="many">Користувач %1$s додав %2$d нових нотаток до блокнота «%3$s».</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d нової нот. у спільн. доступі</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d нова нот. у спільн. доступі</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d нові нот. у спільн. доступі</item>
+        <item quantity="many">%d нових нот. у спільн. доступі</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Імпортування скасовано. %d PDF-файлу імпортовано.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Імпортування скасовано. %d PDF-файл імпортовано.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Імпортування скасовано. %d PDF-файли імпортовано.</item>
+        <item quantity="many">Імпортування скасовано. %d PDF-файлів імпортовано.</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Не вдалося імпортувати %d примітки.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не вдалося імпортувати %d примітку.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Не вдалося імпортувати %d примітки.</item>
+        <item quantity="many">Не вдалося імпортувати %d приміток.</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Уведіть новий пароль, що містить принаймні %d символу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Уведіть новий пароль, що містить принаймні %d символ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Уведіть новий пароль, що містить принаймні %d символи.</item>
+        <item quantity="many">Уведіть новий пароль, що містить принаймні %d символів.</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Неможливо вибрати понад %d об’єкта.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо вибрати понад %d об’єкт.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо вибрати понад %d об’єкти.</item>
+        <item quantity="many">Неможливо вибрати понад %d об’єктів.</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Перемістити %d папки до кошика?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перемістити %d папку до кошика?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перемістити %d папки до кошика?</item>
+        <item quantity="many">Перемістити %d папок до кошика?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Перемістити %d папки та всі об’єкти в них до кошика?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перемістити %d папку та всі об’єкти в ній до кошика?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перемістити %d папки та всі об’єкти в них до кошика?</item>
+        <item quantity="many">Перемістити %d папок та всі об’єкти в них до кошика?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Перемістити %d нотатки до кошика?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перемістити %d нотатку до кошика?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перемістити %d нотатки до кошика?</item>
+        <item quantity="many">Перемістити %d нотаток до кошика?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Після підтвердження особи %d нотатки, зокрема 1 заблоковану, буде перенесено до кошика.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Після підтвердження особи %d нотатка, зокрема 1 заблокована, буде перенесена до кошика.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Після підтвердження особи %d нотатки, зокрема 1 заблоковану, буде перенесено до кошика.</item>
+        <item quantity="many">Після підтвердження особи %d нотаток, зокрема 1 заблоковану, буде перенесено до кошика.</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Не вдалося перемістити %d нотатки, оскільки вони вже розташовані у вибраній папці.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не вдалося перемістити %d нотатку, оскільки вона вже розташована у вибраній папці.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Не вдалося перемістити %d нотатки, оскільки вони вже розташовані у вибраній папці.</item>
+        <item quantity="many">Не вдалося перемістити %d нотаток, оскільки вони вже розташовані у вибраній папці.</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Перемістити %1$d нотатки до папки «%2$s»?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перемістити %1$d нотатку до папки «%2$s»?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перемістити %1$d нотатки до папки «%2$s»?</item>
+        <item quantity="many">Перемістити %1$d нотаток до папки «%2$s»?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d об’єкта буде назавжди видалено із хмарного сховища й усіх пристроїв.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d об’єкт буде назавжди видалено із хмарного сховища й усіх пристроїв.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d об’єкти буде назавжди видалено із хмарного сховища й усіх пристроїв.</item>
+        <item quantity="many">%d об’єктів буде назавжди видалено із хмарного сховища й усіх пристроїв.</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Видалити %d нотатки без можливості відновлення?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Видалити %d нотатку без можливості відновлення?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Видалити %d нотатки без можливості відновлення?</item>
+        <item quantity="many">Видалити %d нотаток без можливості відновлення?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d об’єкта буде видалено назавжди.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d об’єкт буде видалено назавжди.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d об’єкти буде видалено назавжди.</item>
+        <item quantity="many">%d об’єктів буде видалено назавжди.</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d дня</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d день</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дні</item>
+        <item quantity="many">%d днів</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Неможливо вибрати понад %d штриха або об’єкта в спільній нотатці.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо вибрати понад %d штрих або об’єкт у спільній нотатці.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо вибрати понад %d штрихи або об’єкти в спільній нотатці.</item>
+        <item quantity="many">Неможливо вибрати понад %d штрихів або об’єктів у спільній нотатці.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">На телефон збережено %d зображення.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На телефон збережено %d зображення.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На телефон збережено %d зображення.</item>
+        <item quantity="many">На телефон збережено %d зображень.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">На планшет збережено %d зображення.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На планшет збережено %d зображення.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На планшет збережено %d зображення.</item>
+        <item quantity="many">На планшет збережено %d зображень.</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">На телефон збережено %d файлу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На телефон збережено %d файл.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На телефон збережено %d файли.</item>
+        <item quantity="many">На телефон збережено %d файлів.</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">На планшет збережено %d файлу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">На планшет збережено %d файл.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">На планшет збережено %d файли.</item>
+        <item quantity="many">На планшет збережено %d файлів.</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d учасника</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d учасник</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d учасники</item>
+        <item quantity="many">%d учасників</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Цю примітку буде видалено через %d дня.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Цю примітку буде видалено через %d день.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Цю примітку буде видалено через %d дні.</item>
+        <item quantity="many">Цю примітку буде видалено через %d днів.</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Експортування %d PDF-файлу…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Експортування %d PDF-файлу…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Експортування %d PDF-файлів…</item>
+        <item quantity="many">Експортування %d PDF-файлів…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Не вдалося відновити %d нотатки. Звільніть місце у внутрішньому сховищі та спробуйте ще раз.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не вдалося відновити %d нотатку. Звільніть місце у внутрішньому сховищі та спробуйте ще раз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Не вдалося відновити %d нотатки. Звільніть місце у внутрішньому сховищі та спробуйте ще раз.</item>
+        <item quantity="many">Не вдалося відновити %d нотаток. Звільніть місце у внутрішньому сховищі та спробуйте ще раз.</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Видалити %d об’єкта?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Видалити %d об’єкт?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Видалити %d об’єкти?</item>
+        <item quantity="many">Видалити %d об’єктів?</item>
+    </plurals>
+</resources>

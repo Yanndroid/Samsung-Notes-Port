@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="0.0dip" android:navigationContentDescription="@string/action_navigate_up" />
+    <ImageView android:background="@color/memolist_actionbar_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/comp_actionbar_divider_height" />
+    <com.samsung.android.support.senl.nt.composer.main.base.external.scrapbook.CustomWebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

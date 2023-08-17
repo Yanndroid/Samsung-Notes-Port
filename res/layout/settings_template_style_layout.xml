@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/window_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.samsung.android.support.senl.nt.base.winset.view.AbsViewPager android:id="@id/comp_template_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>
+        <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:layout_width="fill_parent" android:layout_height="fill_parent" app:corner="all" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/comp_template_tab_layout_container" android:background="@color/window_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabLayout android:id="@id/comp_template_tab_layout" android:layout_width="fill_parent" android:layout_height="@dimen/change_template_tab_height" android:layoutDirection="locale" android:layout_marginStart="@dimen/change_template_tab_margin_start_end" android:layout_marginEnd="@dimen/change_template_tab_margin_start_end" app:tabGravity="fill" app:tabIndicatorColor="@color/change_template_tab_text_selected" app:tabMode="fixed" app:tabSelectedTextColor="@color/change_template_tab_text_selected" app:tabTextColor="@color/change_template_tab_text_unselected" />
+    </FrameLayout>
+</LinearLayout>

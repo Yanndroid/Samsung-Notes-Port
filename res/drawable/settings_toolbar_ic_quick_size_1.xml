@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:autoMirrored="true" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff4c4c4c" android:pathData="M14.5,13.5L25.5,13.5A1.5,1.5 0,0 1,27 15L27,15A1.5,1.5 0,0 1,25.5 16.5L14.5,16.5A1.5,1.5 0,0 1,13 15L13,15A1.5,1.5 0,0 1,14.5 13.5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@color/customize_toolbar_item_spinner_color" android:pathData="M15.43,25.572C15.126,25.198 15.417,24.667 15.925,24.667L24.074,24.667C24.583,24.667 24.874,25.198 24.57,25.572L20.496,30.59C20.249,30.895 19.751,30.895 19.504,30.59L15.43,25.572Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

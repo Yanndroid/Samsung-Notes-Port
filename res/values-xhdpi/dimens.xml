@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sesl_list_divider_height">1.0px</dimen>
+    <dimen name="widget_toolbar_ic_height_tablet">56.0px</dimen>
+    <dimen name="widget_toolbar_ic_width_tablet">56.0px</dimen>
+    <dimen name="common_setting_bg_stroke">1.0px</dimen>
+    <dimen name="common_setting_divider_stroke">1.0px</dimen>
+    <dimen name="drawing_brush_setting_popup_penlist_divider_height">1.0px</dimen>
+    <dimen name="visiontext_entity_underline_width">1.0dip</dimen>
+</resources>

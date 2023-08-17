@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sdk.pen.setting.colorpalette.SpenPaletteViewV2 android:id="@id/pen_palette_view" android:layout_width="@dimen/setting_common_popup_width_v60" android:layout_height="@dimen/setting_pen_layout_popup_color_v60_height" android:paddingStart="19.0dip" android:paddingEnd="19.0dip" app:paletteCornerRadius="@dimen/mini_color_rect_chip_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

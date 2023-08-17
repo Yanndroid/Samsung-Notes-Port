@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/widget_toolbar_preview_background" android:layout_width="@dimen/widget_toolbar_preview_width" android:layout_height="@dimen/widget_toolbar_preview_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notes" style="@style/WidgetToolbarPreview" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/widget_toolbar_preview_sub_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_toolbar_preview_sub_marginTop" android:layout_marginBottom="@dimen/widget_toolbar_preview_sub_marginBottom" android:baselineAligned="false" android:layout_marginStart="@dimen/widget_toolbar_preview_sub_marginStart" android:layout_marginEnd="@dimen/widget_toolbar_preview_sub_marginEnd">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_toolbar_preview_icon_width" android:layout_height="@dimen/widget_toolbar_preview_icon_height" android:src="@drawable/ic_widget_notes_line" android:contentDescription="@string/notes" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_toolbar_preview_icon_width" android:layout_height="@dimen/widget_toolbar_preview_icon_height" android:src="@drawable/ic_widget_text" android:scaleType="fitCenter" android:contentDescription="@string/widget_toolbar_keypad" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_toolbar_preview_icon_width" android:layout_height="@dimen/widget_toolbar_preview_icon_height" android:src="@drawable/ic_widget_handwriting" android:scaleType="fitCenter" android:contentDescription="@string/widget_toolbar_writing" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_toolbar_preview_icon_width" android:layout_height="@dimen/widget_toolbar_preview_icon_height" android:src="@drawable/ic_widget_brush" android:scaleType="fitCenter" android:contentDescription="@string/widget_toolbar_drawing" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_toolbar_preview_icon_width" android:layout_height="@dimen/widget_toolbar_preview_icon_height" android:src="@drawable/ic_widget_image" android:scaleType="fitCenter" android:contentDescription="@string/widget_toolbar_image" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/widget_toolbar_preview_icon_width" android:layout_height="@dimen/widget_toolbar_preview_icon_height" android:src="@drawable/ic_widget_voice" android:scaleType="fitCenter" android:contentDescription="@string/widget_toolbar_voice" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

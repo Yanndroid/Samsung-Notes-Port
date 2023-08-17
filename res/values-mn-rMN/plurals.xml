@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">%d-с илүү зүйлийг нэмэх боломжгүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-с илүү зүйлийг нэмэх боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Нэгэн зэрэг %d-с дээш зүйлийг буулгах боломжгүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Нэгэн зэрэг %d-с дээш зүйлийг буулгах боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Нэг зэрэг %d-с илүү бичиг баримтыг уншуулах боломжгүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Нэг зэрэг %d-с илүү бичиг баримтыг уншуулах боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">%d-с их өнгө харуулах боломжгүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-с их өнгө харуулах боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Нэг удаа %d-с олон аудио файл нэмэх боломжгүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Нэг удаа %d-с олон аудио файл нэмэх боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Нэгэн зэрэг %d-с дээш PDF-үүдийг буулгах боломжгүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Нэгэн зэрэг %d-с дээш PDF-г буулгах боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Экспортлохыг цуцалсан. %d PDF-үүдийг аль хэдийн экспортолсон.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Экспортлохыг цуцалсан. %d PDF-г аль хэдийн экспортолсон.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">%d-с илүү тэмдэгт оруулах боломжгүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-с илүү тэмдэгт оруулах боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Хамгийн багадаа %d тэмдэгттэй нууц үг оруулна уу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хамгийн багадаа %d тэмдэгттэй нууц үг оруулна уу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Хамгийн багадаа %d тэмдэгттэй шинэ нууц үг оруулна уу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хамгийн багадаа %d тэмдэгттэй шинэ нууц үг оруулна уу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d секунд хүлээгээд дахин оролд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунд хүлээгээд дахин оролд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">%d-с их Samsung Notes цонх нээх боломжгүй. Цонхыг хаагаад дахин оролд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-с их Samsung Notes цонх нээх боломжгүй. Цонхыг хаагаад дахин оролд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d тэмдэглэлийг татаж авсан.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тэмдэглэлийг татаж авсан.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d өнгө</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d өнгө</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d зузаан</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d зузаан</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">%d хуваалцсан тэмдэглэлийг устгах уу?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хуваалцсан тэмдэглэлийг устгах уу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d тэмдэглэл хөрвүүлэх</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тэмдэглэл хөрвүүлэх</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d хавтас</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хавтас</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d зүйл</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d зүйл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d тэмдэглэл</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тэмдэглэл</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">%d-с их өнгө харуулах боломжгүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-с их өнгө харуулах боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d дэвтэр</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дэвтэр</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%1$d хавтсыг %2$s руу зөөх үү?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d хавтсыг %2$s руу зөөх үү?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s %3$s тэмдэглэлийн дэвтэрт %2$d шинэ тэмдэглэл нэмсэн.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %3$s тэмдэглэлийн дэвтэрт %2$d шинэ тэмдэглэл нэмсэн.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d шинэ тэмдэглэл хуваалцсан</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d шинэ тэмдэглэл хуваалцсан</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Импортыг цуцалсан. %d PDF-г аль хэдийн импортолсон.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Импортыг цуцалсан. %d PDF-г аль хэдийн импортолсон.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d тэмдэглэлийг импортолж чадсангүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тэмдэглэлийг импортолж чадсангүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Хамгийн багадаа %d тэмдэгттэй шинэ нууц үг оруулна уу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хамгийн багадаа %d тэмдэгттэй шинэ нууц үг оруулна уу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">%d-с илүү зүйл сонгох боломжгүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-с илүү зүйл сонгох боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Хогийн сав руу %d хавтсыг зөөх үү?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хогийн сав руу %d хавтсыг зөөх үү?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">%d хавтас болон тэдгээр дотор бүх зүйлийг Хогийн сав руу зөөх үү?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хавтас болон тэдгээр дотор бүх зүйлийг Хогийн сав руу зөөх үү?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">%d тэмдэглэлийг Хогийн сав руу зөөх үү?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тэмдэглэлийг Хогийн сав руу зөөх үү?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Хувийн мэдээллээ баталгаажуулсны дараа %d тэмдэглэлийг (1 түгжээтэй тэмдэглэлийг оруулан) Хогийн сав руу зөөх болно.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Хувийн мэдээллээ баталгаажуулсны дараа %d тэмдэглэлийг (1 түгжээтэй тэмдэглэлийг оруулан) Хогийн сав руу зөөх болно.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Сонгосон хавтас дотор байсан %d тэмдэглэлийг зөөгөөгүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сонгосон хавтас дотор байсан %d тэмдэглэлийг зөөгөөгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%1$d тэмдэглэлийг %2$s руу зөөх үү?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d тэмдэглэлийг %2$s руу зөөх үү?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d зүйлс таны үүл болон бүх төхөөрөмжүүдээс бүрмөсөн устах болно.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d зүйлс таны үүл болон бүх төхөөрөмжүүдээс бүрмөсөн устах болно.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">%d тэмдэглэлийг бүрмөсөн устгах уу?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тэмдэглэлийг бүрмөсөн устгах уу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d зүйлийг бүрмөсөн устгана.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d зүйлийг бүрмөсөн устгана.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d өдөр</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d өдөр</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Дундын тэмдэглэлд %d-с илүү мөр эсвэл объект сонгох боломжгүй.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Дундын тэмдэглэлд %d-с илүү мөр эсвэл объект сонгох боломжгүй.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d зургийг таны утсанд хадгалсан.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d зургийг таны утсанд хадгалсан.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d зургийг таны таблетад хадгалсан.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d зургийг таны таблетад хадгалсан.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d файлыг таны утсанд хадгалсан.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d файлыг таны утсанд хадгалсан.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d файлыг таны таблетад хадгалсан.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d файлыг таны таблетад хадгалсан.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d гишүүн</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d гишүүн</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Энэ тэмдэглэлийг %d өдрийн дараа устгана.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Энэ тэмдэглэлийг %d өдрийн дараа устгана.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDF-үүдийг экспортолж байна…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF-г экспортолж байна…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">%d тэмдэглэлийг хөрвүүлж чадсангүй. Дотоод хадгалалт дотроос хэсэг зайг чөлөөлж дараа дахин оролд.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тэмдэглэлийг хөрвүүлж чадсангүй. Дотоод хадгалалт дотроос хэсэг зайг чөлөөлж дараа дахин оролд.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d зүйл устгах уу?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d зүйл устгах уу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

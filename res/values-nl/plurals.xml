@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Kan niet meer dan %d items toevoegen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d item toevoegen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Kan niet meer dan %d items tegelijk plakken.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d item tegelijk plakken.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Kan niet meer dan %d documenten tegelijk scannen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d document tegelijk scannen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Kan niet meer dan %d kleuren weergeven.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d kleur weergeven.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Kan niet meer dan %d audiobestanden tegelijk toevoegen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d audiobestand tegelijk toevoegen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">"Kan niet meer dan %d PDF's tegelijk plakken."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d PDF tegelijk plakken.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">"Exporteren geannuleerd. %d PDF's al geëxporteerd."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Exporteren geannuleerd. %d PDF al geëxporteerd.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Kan niet meer dan %d tekens invoeren.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d teken invoeren.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Voer een wachtwoord in van ten minste %d tekens.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Voer een wachtwoord in van ten minste %d teken.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Voer een nieuw wachtwoord in van ten minste %d tekens.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Voer een nieuw wachtwoord in van ten minste %d teken.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Wacht %d seconden en probeer het opnieuw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wacht %d seconde en probeer het opnieuw.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Kan niet meer dan %d Samsung Notes-vensters openen. Sluit een venster en probeer het opnieuw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d Samsung Notes-venster openen. Sluit een venster en probeer het opnieuw.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nieuwe meldingen</item>
+        <item quantity="one">%d nieuwe melding</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d notities gedownload.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notitie gedownload.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d kleuren</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kleur</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d diktes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dikte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">%d gedeelde notities verwijderen?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gedeelde notitie verwijderen?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d notities converteren</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notitie converteren</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d mappen</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d map</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d items</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d item</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d notities</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notitie</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Kan niet meer dan %d kleuren weergeven.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d kleur weergeven.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d notitieboeken</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notitieblok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%1$d mappen verplaatsen naar %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d map verplaatsen naar %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s heeft %2$d nieuwe notities toegevoegd aan notitieboek %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s heeft %2$d nieuwe notitie toegevoegd aan notitieboek %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d nieuwe notities gedeeld</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nieuwe notitie gedeeld</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">"Importeren geannuleerd. %d PDF's al geïmporteerd."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Importeren geannuleerd. %d PDF al geïmporteerd.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Kan %d notities niet importeren.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan %d notitie niet importeren.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Voer een nieuw wachtwoord in van ten minste %d tekens.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Voer een nieuw wachtwoord in van ten minste %d teken.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Kan niet meer dan %d items selecteren.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d item selecteren.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">%d mappen verplaatsen naar Prullenbak?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d map verplaatsen naar Prullenbak?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">%d mappen en alle items erin naar de Prullenbak verplaatsen?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d map en alle items erin naar de Prullenbak verplaatsen?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">%d notities verplaatsen naar Prullenbak?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notitie verplaatsen naar Prullenbak?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Nadat u uw identiteit hebt geverifieerd, worden %d notities (inclusief 1 vergrendelde notitie) naar de Prullenbak verplaatst.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nadat u uw identiteit hebt geverifieerd, wordt %d notitie (inclusief 1 vergrendelde notitie) naar de prullenbak verplaatst.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">%d notities die al in de geselecteerde map staan, zijn niet verplaatst.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notitie die al in de geselecteerde map staat, is niet verplaatst.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%1$d notities verplaatsen naar %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d notitie verplaatsen naar %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d items worden permanent verwijderd uit de cloud en van al uw apparaten.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d item wordt permanent verwijderd uit de cloud en van al uw apparaten.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">%d notities permanent verwijderen?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notitie permanent verwijderen?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d items worden permanent verwijderd.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d item wordt permanent verwijderd.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d dagen</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Kan niet meer dan %d streken of objecten in gedeelde notitie selecteren.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d streek of object in gedeelde notitie selecteren.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d afbeeldingen opgeslagen op uw telefoon.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d afbeelding opgeslagen op uw telefoon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d afbeeldingen opgeslagen op uw tablet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d afbeelding opgeslagen op uw tablet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d bestanden opgeslagen op uw telefoon.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bestand opgeslagen op uw telefoon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d bestanden opgeslagen op uw tablet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bestand opgeslagen op uw tablet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d leden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lid</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Deze notitie wordt over %d dagen verwijderd.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Deze notitie wordt over %d dag verwijderd.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">"%d PDF's exporteren…"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF exporteren…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Kan %d notities niet converteren. Maak ruimte vrij in de interne opslag en probeer het opnieuw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan %d notitie niet converteren. Maak ruimte vrij in de interne opslag en probeer het opnieuw.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d items verwijderen?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d item verwijderen?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/voice_menu_play" layout="@layout/comp_voice_record_play_menu" />
+    <include android:id="@id/voice_menu_expand" layout="@layout/comp_voice_record_expand_menu" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+package coeditCoreStg;
+
+import "coedit_core_internal_message.proto";
+
+/* delete change info.(change table)   */
+service CoreWorkspaceDeleter {
+  rpc DeleteWorkspace (coeditCoreInternalMessage.DeleteRequest) returns (coeditCoreInternalMessage.DeleteResponse);
+}

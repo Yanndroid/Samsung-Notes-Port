@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppMainThemeNoChunking" parent="@style/AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/noteslist_fragment_bg_color</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/noteslist_fragment_bg_color</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionModeCloseButton</item>
+    </style>
+    <style name="BrushTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/brush_canvas_blank_color</item>
+        <item name="android:navigationBarColor">@color/brush_canvas_blank_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

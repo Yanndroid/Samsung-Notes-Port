@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/page_color_container_margin_top_bottom" android:paddingBottom="@dimen/page_color_container_margin_top_bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/page_color_container_margin_start_end" android:paddingEnd="@dimen/page_color_container_margin_start_end">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/palette_layout" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr" />
+    </LinearLayout>
+</HorizontalScrollView>

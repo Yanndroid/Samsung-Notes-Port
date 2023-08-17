@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/compare_comp_main_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/appbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.samsung.android.support.senl.nt.base.winset.view.toolbar.CustomToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:textDirection="anyRtl" android:titleTextAppearance="@style/AppTheme.ToolbarTitle" android:navigationContentDescription="@string/action_navigate_up" app:background="@android:color/transparent" app:contentInsetStart="@dimen/default_toolbar_title_inset_start" app:layout_collapseMode="pin" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/viewer_container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/appbar_layout">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/first_pan" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/middle_divider" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/middle_divider" android:background="@android:color/holo_blue_light" android:layout_width="4.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/second_pan" app:layout_constraintStart_toEndOf="@id/first_pan" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/second_pan" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toEndOf="@id/middle_divider" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

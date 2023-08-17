@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/co_edit_thumbnail_background_size" android:layout_height="@dimen/co_edit_thumbnail_background_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/first_profile" style="@style/CoeditMemberProfileStyle" />
+    <TextView android:id="@id/first_initial" style="@style/CoeditMemberInitialTextStyle" />
+</FrameLayout>

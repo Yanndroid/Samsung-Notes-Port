@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@color/widget_page_stroke_color" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="@dimen/widget_page_stroke_size" android:adjustViewBounds="true" />
+    <ImageView android:background="@color/widget_page_stroke_color" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="@dimen/widget_page_stroke_size" android:layout_marginTop="@dimen/widget_page_stroke_margin" android:adjustViewBounds="true" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.addons.base.view.inputblockcontainers.InputIntercepterConstraintLayout android:background="@color/composer_page_list_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/comp_page_list_top_toolbar_container" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ViewStub android:id="@id/comp_page_list_edit_mode_toolbar" android:layout="@layout/comp_page_list_toolbar_edit_mode_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/comp_page_list_base_mode_toolbar" layout="@layout/comp_page_list_toolbar_layout" />
+        <RelativeLayout android:id="@id/comp_list_search_container" android:background="@color/composer_page_list_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.SearchView android:id="@id/comp_list_search" android:layout_width="fill_parent" android:layout_height="fill_parent" app:iconifiedByDefault="false" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.samsung.android.support.senl.nt.base.common.view.penrecyclerview.BasePenRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/comp_page_list" android:paddingTop="1.0dip" android:focusable="false" android:scrollbars="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:importantForAccessibility="no" android:paddingStart="@dimen/comp_page_list_side_padding" android:paddingEnd="@dimen/comp_page_list_side_padding" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/comp_page_list_top_toolbar_container" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toBottomOf="@id/comp_page_list_top_toolbar_container">
+        <TextView android:textAppearance="@style/TextAppearanceNoItem" android:layout_gravity="center" android:id="@id/no_bookmark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/composer_no_bookmarks" android:textAlignment="center" />
+    </FrameLayout>
+    <ViewStub android:id="@id/search_layout_stub" android:layout="@layout/comp_page_list_search_layout" android:inflatedId="@id/search_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/comp_page_list_top_toolbar_container" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/bottom_navigation" android:layout="@layout/bottom_navigation_view" android:inflatedId="@id/inflate_bottom_navigation" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_insetEdge="bottom" />
+</com.samsung.android.support.senl.addons.base.view.inputblockcontainers.InputIntercepterConstraintLayout>

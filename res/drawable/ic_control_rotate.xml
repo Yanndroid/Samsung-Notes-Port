@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dip" android:width="16.0dip" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M0,0h16v16h-16z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.0" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff000000" android:pathData="M8,8m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00fafafa" android:pathData="M8,8m-7.5,0a7.5,7.5 0,1 1,15 0a7.5,7.5 0,1 1,-15 0" android:strokeColor="#fff46a4e" android:strokeWidth="1.0" android:strokeLineJoin="bevel" android:fillType="evenOdd" />
+    <group>
+        <clip-path android:pathData="M8,8m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+        <path android:fillColor="#ff000000" android:pathData="M8,8m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.0" android:fillType="evenOdd" />
+        <path android:fillColor="#00fafafa" android:pathData="M8,8m-7.5,0a7.5,7.5 0,1 1,15 0a7.5,7.5 0,1 1,-15 0" android:strokeColor="#fff46a4e" android:strokeWidth="1.0" android:strokeLineJoin="bevel" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M8,8m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+        <path android:fillColor="#00000000" android:pathData="M6.3663,4.2558C4.9717,4.8847 4,6.2968 4,7.9387C4,9.6891 5.1057,11.1793 6.6507,11.7361" android:strokeColor="#fff46a4e" android:strokeWidth="1.0" android:fillType="evenOdd" />
+        <path android:fillColor="#00000000" android:pathData="M4.3514,4l2.1574,0l0,2.1723" android:strokeColor="#fff46a4e" android:strokeWidth="1.0" android:fillType="evenOdd" />
+        <path android:fillColor="#00000000" android:pathData="M9.6249,11.621C11.019,10.9916 11.9912,9.5797 11.9912,7.9386C11.9912,6.1877 10.8854,4.6975 9.34,4.1405" android:strokeColor="#fff46a4e" android:strokeWidth="1.0" android:fillType="evenOdd" />
+        <path android:fillColor="#00000000" android:pathData="M11.6396,11.8769l-2.1573,0l0,-2.1728" android:strokeColor="#fff46a4e" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    </group>
+</vector>

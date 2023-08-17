@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Nije moguće dodati više od %d stavki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće dodati više od %d stavke.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće dodati više od %d stavke.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Nije moguće zalijepiti više od %d stavki istovremeno.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće zalijepiti više od %d stavke istovremeno.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće zalijepiti više od %d stavke istovremeno.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Nije moguće skenirati više od %d dokumenata istovremeno.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće skenirati više od %d dokumenta istovremeno.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće skenirati više od %d dokumenta istovremeno.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Nije moguće prikazati više od %d boja.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće prikazati više od %d boje.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće prikazati više od %d boje.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Nije moguće dodati više od %d audiodatoteka odjednom.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće dodati više od %d audiodatoteke odjednom.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće dodati više od %d audiodatoteke odjednom.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Nije moguće zalijepiti više od %d PDF-ova istovremeno.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće zalijepiti više od %d PDF-a istovremeno.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće zalijepiti više od %d PDF-a istovremeno.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Izvoz je prekinut. Već je izvezeno %d PDF datoteka.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izvoz je prekinut. Već je izvezena %d PDF datoteka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izvoz je prekinut. Već su izvezene %d PDF datoteke.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Nije moguće unijeti više od %d znakova.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće unijeti više od %d znaka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće unijeti više od %d znaka.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Unesite lozinku koja sadrži barem %d znakova.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Unesite lozinku koja sadrži barem %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Unesite lozinku koja sadrži barem %d znaka.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Unesite novu lozinku koja sadrži barem %d znakova.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Unesite novu lozinku koja sadrži barem %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Unesite novu lozinku koja sadrži barem %d znaka.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Pričekajte %d sekundi i pokušajte ponovno.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pričekajte %d sekundu i pokušajte ponovno.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pričekajte %d sekunde i pokušajte ponovno.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Nije moguće otvoriti više od %d prozora Samsung Notes. Zatvorite jedan prozor i pokušajte ponovno.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće otvoriti više od %d prozora Samsung Notes. Zatvorite jedan prozor i pokušajte ponovno.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće otvoriti više od %d prozora Samsung Notes. Zatvorite jedan prozor i pokušajte ponovno.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obavijesti</item>
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">%d nove obavijesti</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">Preuzeto %d bilješki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Preuzeta %d bilješka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Preuzete %d bilješke.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d boja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d boja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d boje</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d debljina</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d debljina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d debljine</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Izbrisati %d zajedničkih bilješki?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izbrisati %d zajedničku bilješku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izbrisati %d zajedničke bilješke?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Pretvori %d bilješki</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pretvori %d bilješku</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pretvori %d bilješke</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d mapa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mapa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mape</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d stavki</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stavka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d stavke</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d bilješki</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bilješka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d bilješke</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Nije moguće prikazati više od %d boja.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće prikazati više od %d boje.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće prikazati više od %d boje.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d notesa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notes</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d notesa</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Premjestiti %1$d mapa u mapu %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Premjestiti %1$d mapu u mapu %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Premjestiti %1$d mape u mapu %2$s?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">Korisnik %1$s dodao je %2$d novih bilješki notesu %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Korisnik %1$s dodao je %2$d novu bilješku notesu %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Korisnik %1$s dodao je %2$d nove bilješke notesu %3$s.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d novih bilješki podijeljeno</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nova bilješka podijeljena</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d nove bilješke podijeljene</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Uvoz je otkazan. Već je uvezeno %d PDF datoteka.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uvoz je otkazan. Već je uvezena %d PDF datoteka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Uvoz je otkazan. Već su uvezene %d PDF datoteke.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Nije moguće uvesti %d bilješki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće uvesti %d bilješku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće uvesti %d bilješke.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Unesite novu lozinku koja sadrži barem %d znakova.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Unesite novu lozinku koja sadrži barem %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Unesite novu lozinku koja sadrži barem %d znaka.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Nije moguće odabrati više od %d stavki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće odabrati više od %d stavke.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće odabrati više od %d stavke.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Želite li premjestiti %d mapa u Smeće?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li premjestiti %d mapu u Smeće?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li premjestiti %d mape u Smeće?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Premjestiti %d mapa i sve stavke koje su unutra u Smeće?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Premjestiti %d mapu i sve stavke koje su unutra u Smeće?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Premjestiti %d mape i sve stavke koje su unutra u Smeće?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Premjestiti %d bilješki u Smeće?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Premjestiti %d bilješku u Smeće?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Premjestiti %d bilješke u Smeće?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Nakon potvrde vašeg identiteta %d bilješki (uključujući 1 zaključanu bilješku) premjestit će se u Smeće.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nakon potvrde vašeg identiteta %d bilješka (uključujući 1 zaključanu bilješku) premjestit će se u Smeće.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nakon potvrde vašeg identiteta %d bilješke (uključujući 1 zaključanu bilješku) premjestit će se u Smeće.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Nije premješteno %d bilješki koje se već nalaze u odabranoj mapi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije premještena %d bilješka koja se već nalazi u odabranoj mapi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nisu premještene %d bilješke koje se već nalaze u odabranoj mapi.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Premjestiti %1$d bilješki u mapu %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Premjestiti %1$d bilješku u mapu %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Premjestiti %1$d bilješke u mapu %2$s?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d stavki trajno će se izbrisati iz oblaka i sa svih vaših uređaja.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stavka trajno će se izbrisati iz oblaka i sa svih vaših uređaja.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d stavke trajno će se izbrisati iz oblaka i sa svih vaših uređaja.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Trajno izbrisati %d bilješki?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trajno izbrisati %d bilješku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trajno izbrisati %d bilješke?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">Trajno će se izbrisati %d stavki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trajno će se izbrisati %d stavka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trajno će se izbrisati %d stavke.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d dana</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dana</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Nije moguće odabrati više od %d poteza ili objekata u ovoj zajedničkoj bilješki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće odabrati više od %d poteza ili objekta u ovoj zajedničkoj bilješki.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće odabrati više od %d poteza ili objekta u ovoj zajedničkoj bilješki.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">Na telefon je spremljeno %d slika.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Na telefon je spremljena %d slika.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Na telefon su spremljene %d slike.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">Na tablet je spremljeno %d slika.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Na tablet je spremljena %d slika.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Na tablet su spremljene %d slike.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">Na telefon je spremljeno %d datoteka.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Na telefon je spremljena %d datoteka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Na telefon su spremljene %d datoteke.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">Na tablet je spremljeno %d datoteka.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Na tablet je spremljena %d datoteka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Na tablet su spremljene %d datoteke.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d članova</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d član</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d člana</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Ova će se bilješka izbrisati za %d dana.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ova će se bilješka izbrisati za %d dan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ova će se bilješka izbrisati za %d dana.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Izvoz %d PDF datoteka…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izvoz %d PDF datoteke…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izvoz %d PDF datoteke…</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Nije moguće vratiti %d bilješki. Oslobodite prostor u unutarnjoj pohrani, a zatim pokušajte ponovno.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nije moguće vratiti %d bilješku. Oslobodite prostor u unutarnjoj pohrani, a zatim pokušajte ponovno.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nije moguće vratiti %d bilješke. Oslobodite prostor u unutarnjoj pohrani, a zatim pokušajte ponovno.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Izbrisati %d stavki?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izbrisati %d stavku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izbrisati %d stavke?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

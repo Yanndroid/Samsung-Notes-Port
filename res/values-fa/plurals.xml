@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">افزودن بیش از %d مورد ممکن نيست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">افزودن بیش از %d مورد ممکن نيست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">جایگذاری همزمان بیش از %d مورد ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">جایگذاری همزمان بیش از %d مورد ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">نمی‌توان همزمان بیش از %d سند را اسکن کرد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">نمی‌توان همزمان بیش از %d سند را اسکن کرد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">نمایش بیشتر از %d رنگ ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">نمایش بیشتر از %d رنگ ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">هر بار، افزودن بیشتر از %d فایل صوتی ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">هر بار، افزودن بیشتر از %d فایل صوتی ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">جایگذاری همزمان بیش از %d فایل PDF ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">جایگذاری همزمان بیش از %d فایل PDF ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">صادر کردن لغو شد. %d فایل PDF قبلاً صادر شده است.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">صادر کردن لغو شد. %d فایل PDF قبلاً صادر شده است.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">یک رمزعبور با حداقل %d نویسه وارد کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">یک رمزعبور با حداقل %d نویسه وارد کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">یک رمزعبور جدید با حداقل %d نویسه وارد کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">یک رمزعبور جدید با حداقل %d نویسه وارد کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d ثانیه صبر کرده و دوباره امتحان کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ثانیه صبر کرده و دوباره امتحان کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">باز کردن بیش از %d پنجره Samsung Notes ممکن نیست. پنجره‌ای را ببندید و دوباره امتحان کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">باز کردن بیش از %d پنجره Samsung Notes ممکن نیست. پنجره‌ای را ببندید و دوباره امتحان کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d اعلان جدید</item>
+        <item quantity="one">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d یادداشت دانلود شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d یادداشت دانلود شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d رنگ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d رنگ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d ضخامت</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ضخامت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">این %d یادداشت اشتراکی حذف شود؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">این %d یادداشت اشتراکی حذف شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">تبدیل %d یادداشت</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تبدیل %d یادداشت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d پوشه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d پوشه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d مورد</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مورد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d یادداشت</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d یادداشت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">نمایش بیشتر از %d رنگ ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">نمایش بیشتر از %d رنگ ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d دفترچه یادداشت</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دفترچه یادداشت</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%1$d پوشه به %2$s منتقل شود؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d پوشه به %2$s منتقل شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s %2$d یادداشت جدید به دفتر یادداشت %3$s اضافه کرد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$d یادداشت جدید به دفتر یادداشت %3$s اضافه کرد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d یادداشت جدید اشتراک‌گذاری شد</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d یادداشت جدید اشتراک‌گذاری شد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">وارد کردن لغو شد. %d فایل PDFs قبلاً وارد شده است.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">وارد کردن لغو شد. %d فایل PDF قبلاً وارد شده است.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d یادداشت وارد نشد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d یادداشت وارد نشد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">یک رمزعبور جدید با حداقل %d نویسه وارد کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">یک رمزعبور جدید با حداقل %d نویسه وارد کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">انتخاب بیشتر از %d مورد ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">انتخاب بیشتر از %d مورد ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">%d پوشه به سطل زباله منتقل شود؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d پوشه به سطل زباله منتقل شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">این %d پوشه و همه موارد موجود در آنها به ”سطل زباله“ منتقل شود؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">این %d پوشه و همه موارد موجود در آن به ”سطل زباله“ منتقل شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">%d یادداشت به سطل زباله منتقل شود؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d یادداشت به سطل زباله منتقل شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">پس از تأیید هویت شما، %d یادداشت (از جمله ۱ یادداشت قفل‌شده) به ”سطل زباله“ منتقل خواهد شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">پس از تایید هویت شما، %d یادداشت (از جمله ۱ یادداشت قفل‌شده) به ”سطل زباله“ منتقل خواهد شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">انتقال %d یادداشت که از قبل در پوشه انتخاب‌شده وجود داشت، انجام نشد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">انتقال %d یادداشت که از قبل در پوشه انتخاب‌شده وجود داشت، انجام نشد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%1$d یادداشت به %2$s منتقل شود؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d یادداشت به %2$s منتقل شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d مورد برای همیشه از cloud و همه دستگاه‌های شما حذف خواهد شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مورد برای همیشه از cloud و همه دستگاه‌های شما حذف خواهد شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">%d یادداشت برای همیشه حذف شود؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d یادداشت برای همیشه حذف شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d مورد برای همیشه حذف خواهد شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مورد برای همیشه حذف خواهد شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d روز</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d روز</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">نمی‌توان بیش از %d ضربه یا شیء را در یادداشت اشتراکی انتخاب کرد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">نمی‌توان بیش از %d ضربه یا شیء را در یادداشت اشتراکی انتخاب کرد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d تصویر در تلفن شما ذخیره شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d تصویر در تلفن شما ذخیره شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d تصویر در تبلت شما ذخیره شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d تصویر در تبلت شما ذخیره شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d فایل در تلفن شما ذخیره شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فایل در تلفن شما ذخیره شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d فایل در تبلت شما ذخیره شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d فایل در تبلت شما ذخیره شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d عضو</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d عضو</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">این یادداشت ظرف %d روز حذف خواهد شد.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">این یادداشت ظرف %d روز حذف خواهد شد.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">در حال صادر کردن %d فایل PDF…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">در حال صادر کردن %d فایل PDF…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">تبدیل %d یادداشت ممکن نبود. پس از پاک کردن بخشی از فضای ذخیره‌سازی داخلی، دوباره امتحان کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">تبدیل %d یادداشت ممکن نبود. پس از پاک کردن بخشی از فضای ذخیره‌سازی داخلی، دوباره امتحان کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d مورد حذف شود؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مورد حذف شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

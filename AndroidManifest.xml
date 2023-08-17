@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.samsung.android.app.notes" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="com.samsung.feature.samsung_experience_mobile"/>
+    <uses-permission android:name="android.permission.SET_PROCESS_LIMIT"/>
+    <uses-permission android:name="com.samsung.android.scloud.app.permission.BROADCAST"/>
+    <uses-permission android:name="com.sec.android.diagmonagent.permission.DIAGMON"/>
+    <uses-permission android:name="com.sec.spp.permission.TOKEN_12f2cb82b47ea6aca5e9ddbbf0f6439a2b11ada7a315feefe090ac49ef1f5a4c7727b0274db9521810ec839fe04ec9c82efe0e87e0934584cdd9e75544ae9a9b0622e10d16e4aacb78cfff3089b314e0c3ce3acb03ef4d1c75a77265bbdfca3afe2ae113511fcb8c3b5e2154df465da6f266fdecc7f4bb4ec5b452471bb93154"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.samsung.android.app.notesx.sync.NOTESX_READ"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="com.samsung.android.scloud.app.ui"/>
+    <uses-permission android:name="com.samsung.android.permission.REQUEST_SCLOUD"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.buddy.provider.Permission.READ"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.buddy.provider.Permission.WRITE"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.group.provider.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.group.member.provider.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.share.space.provider.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.share.space.provider.permission.WRITE"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.share.asset.provider.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.share.item.provider.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.share.item.provider.permission.WRITE"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.ui.Permission.SOCIAL_CONTACT_PICKER"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.permission.RECEIVE_SEMS_BROADCAST"/>
+    <uses-permission android:name="com.samsung.sea.retailagent.permission.RETAILMODE"/>
+    <uses-permission android:maxSdkVersion="29" android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.wssnps.permission.COM_WSSNPS"/>
+    <uses-permission android:name="com.samsung.android.service.aircommand.permission.ACCESS_AIRCOMMAND"/>
+    <uses-permission android:name="com.sec.android.app.myfiles.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.email.permission.ACCESS_PROVIDER"/>
+    <permission android:description="@string/permission_read_body" android:label="@string/permission_read_title" android:name="com.samsung.android.app.notes.READ" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/permission_sync_state_read_body" android:label="@string/permission_sync_state_read_title" android:name="com.samsung.android.app.notes.sync.STATE_READ" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/permission_sync_state_write_body" android:label="@string/permission_sync_state_write_title" android:name="com.samsung.android.app.notes.sync.STATE_WRITE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:description="@string/permission_write_body" android:label="@string/permission_write_title" android:name="com.samsung.android.app.notes.DELETE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.samsung.android.app.notes.VERIFY_LOCKED_NOTES" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="com.samsung.android.permission.BIOMETRICS_PRIVILEGED"/>
+    <uses-permission android:name="com.samsung.android.permission.FINGERPRINT_PRIVILEGED"/>
+    <uses-permission android:name="com.samsung.android.camera.iris.permission.MANAGE_IRIS"/>
+    <uses-permission android:name="com.samsung.android.camera.iris.permission.RESET_IRIS_LOCKOUT"/>
+    <uses-permission android:name="com.samsung.android.camera.iris.permission.USE_IRIS"/>
+    <uses-permission android:name="com.sec.android.inputmethod.permission.KEYBOARD_SETTING"/>
+    <uses-permission android:name="com.samsung.android.honeyboard.permission.KEYBOARD_SETTING"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="com.samsung.android.app.notes.addons.ADDONS_VIEW"/>
+    <uses-permission android:name="com.samsung.android.mcfds.permission.USE_CONTINUITY_PROVIDER"/>
+    <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES"/>
+    <app:application-salescode android:enabled="true" android:label="@string/notes_jp" android:name="DCM"/>
+    <app:application-salescode android:enabled="true" android:label="@string/notes_jp" android:name="KDI"/>
+    <app:application-salescode android:enabled="true" android:label="@string/notes_jp" android:name="RKT"/>
+    <app:application-salescode android:enabled="true" android:label="@string/notes_jp" android:name="UQM"/>
+    <app:application-salescode android:enabled="true" android:label="@string/notes_jp" android:name="JCO"/>
+    <app:application-salescode android:enabled="true" android:label="@string/notes_jp" android:name="XJP"/>
+    <app:application-salescode android:enabled="true" android:label="@string/notes_jp" android:name="SBM"/>
+    <app:application-salescode android:enabled="true" android:label="@string/notes_jp" android:name="SJP"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND_MULTIPLE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.EDIT"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.HOME"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PICK"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.DIAL"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.ACTION_INSERT_OR_EDIT"/>
+        </intent>
+        <intent>
+            <action android:name="com.msc.action.samsungaccount.REQUEST_SERVICE"/>
+        </intent>
+        <intent>
+            <action android:name="android.settings.WIFI_SETTINGS"/>
+        </intent>
+        <intent>
+            <action android:name="com.samsung.settings.REGISTER_FINGERPRINT"/>
+        </intent>
+        <intent>
+            <action android:name="com.osp.app.signin.action.ADD_SAMSUNG_ACCOUNT"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <package android:name="com.samsung.android.app.memo"/>
+        <package android:name="com.osp.app.signin"/>
+        <package android:name="com.samsung.android.scloud"/>
+        <package android:name="com.samsung.android.scloud.config"/>
+        <package android:name="com.samsung.android.mobileservice"/>
+        <package android:name="com.samsung.android.voc"/>
+        <package android:name="com.samsung.android.kmemo"/>
+        <package android:name="com.sec.android.app.popupcalculator"/>
+        <package android:name="com.sec.android.app.samsungapps"/>
+        <package android:name="com.sec.android.app.myfiles"/>
+        <package android:name="com.samsung.android.app.notes.addons"/>
+        <package android:name="com.sec.android.app.dictionary"/>
+        <package android:name="com.diotek.sec.lookup.dictionary"/>
+        <package android:name="com.samsung.android.service.tagservice"/>
+        <package android:name="com.samsung.android.app.reminder"/>
+        <package android:name="com.samsung.android.service.aircommand"/>
+        <package android:name="com.sec.penup"/>
+        <package android:name="com.sec.android.mimage.photoretouching"/>
+        <package android:name="com.microsoft.office.word"/>
+        <package android:name="com.microsoft.office.powerpoint"/>
+        <package android:name="com.microsoft.office.officehubrow"/>
+        <package android:name="com.microsoft.appmanager"/>
+        <package android:name="com.microsoft.office.officehubhl"/>
+        <package android:name="com.microsoft.office.officehub"/>
+        <package android:name="com.hancom.office.editor.netffice"/>
+        <package android:name="com.hancom.office.editor.hidden"/>
+        <package android:name="com.hancom.office.viewer"/>
+        <package android:name="com.google.android.apps.meetings"/>
+        <package android:name="com.google.android.gm"/>
+        <package android:name="com.google.android.apps.tachyon"/>
+        <package android:name="com.samsung.android.smp.register"/>
+        <package android:name="com.sec.spp.push"/>
+        <package android:name="com.azure.authenticator"/>
+        <package android:name="com.microsoft.identity.testuserapp"/>
+        <package android:name="com.microsoft.windowsintune.companyportal"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <provider android:authorities="com.samsung.android.sdk.ocr.resourcemanager"/>
+    </queries>
+    <uses-permission android:name="android.permission.MANAGE_ACTIVITY_STACKS"/>
+    <uses-permission android:name="com.sec.android.launcher.permission.BIND_WIDGET"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+    <uses-permission android:maxSdkVersion="30" android:name="com.samsung.clipboardsaveservice.CLIPBOARDSAVESERVICE_PERMISSION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="com.samsung.android.app.aodservice.permission.BROADCAST_RECEIVER"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+    <uses-permission android:name="dexonpc.app.action.permission.KMS_FILETRANSFER_DRAG_FILEINFO"/>
+    <uses-permission android:name="com.samsung.android.providers.media.READ"/>
+    <uses-permission android:name="com.samsung.android.providers.media.WRITE"/>
+    <uses-permission android:name="com.samsung.android.app.reminder.permission.action.REGISTER"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACTIVITY_TASKS"/>
+    <uses-permission android:name="com.sec.android.mimage.photoretouching"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.samsung.android.scloud.permission.RPC_SYNC_SETTING"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.ui.permission.SOCIAL_AGREEMENT"/>
+    <uses-permission android:name="com.sec.knox.bridge.permission.FILE_OPERATION_HANDLER"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.messaging.permission.READ_MESSAGE_QUICK_NOTE"/>
+    <uses-permission android:name="com.samsung.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.samsung.android.app.cocktailbarservice.permission.ACCESS_PANEL"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission-group.NOTIFICATIONS"/>
+    <uses-permission android:maxSdkVersion="33" android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.samsung.android.mobileservice.social.common.provider.opensession.permission.READ"/>
+    <uses-permission android:name="com.samsung.android.mcfds.permission.START_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.scs.permission.SUPPORTED_FEATURE_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.suggestion.permission.SUGGESTION_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.image.permission.BIND_IMAGE_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.image.permission.IMAGE_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.text.permission.TEXT_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.scs.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER"/>
+    <uses-permission android:name="com.samsung.android.app.deepsky.donation.provider.permission.DONATE_ACTION"/>
+    <uses-permission android:name="com.samsung.android.app.deepsky.permission.ACCESS_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.app.deepsky.feedback.provider.permission.SUBMIT_FEEDBACK"/>
+    <uses-permission android:name="com.samsung.android.sdk.ocr.permission.PROVIDE_OCR_RESOURCE"/>
+    <uses-permission android:name="com.samsung.android.sdk.handwriting.permission.RESOURCE_LANGUAGE_UPDATE"/>
+    <uses-permission android:name="com.sec.android.inputmethod.permission.RESOURCEMANAGER_LANGUAGE_UPDATE"/>
+    <uses-permission android:name="com.samsung.android.sdk.handwriting.permission.RESOURCE_LANGUAGE_UPDATE_COMMAND"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:minSdkVersion="16" android:multiArch="true" android:name="com.samsung.android.app.notes.MemoApplication" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:resizeableActivity="true" android:roundIcon="@mipmap/ic_launcher" android:supportsRtl="true" android:targetSdkVersion="23" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <uses-library android:name="com.samsung.device" android:required="true"/>
+        <uses-library android:name="SmpsManager" android:required="false"/>
+        <uses-native-library android:name="libSDKRecognitionText.spensdk.samsung.so" android:required="false"/>
+        <uses-native-library android:name="libSmartScan.camera.samsung.so" android:required="false"/>
+        <uses-native-library android:name="libRectify.camera.samsung.so" android:required="false"/>
+        <meta-data android:name="com.samsung.android.dex.launchwidth" android:value="960dp"/>
+        <meta-data android:name="com.samsung.android.dex.launchheight" android:value="720dp"/>
+        <meta-data android:name="com.samsung.android.dex.multiinstance.enable" android:value="true"/>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        <meta-data android:name="com.samsung.android.sdk.bixby2.companionApp" android:value="true"/>
+        <meta-data android:name="com.samsung.android.icon_container.has_icon_container" android:value="true"/>
+        <meta-data android:name="com.samsung.android.icon_container.feature_appicon" android:value="ADAPTIVEICON_SHADOW"/>
+        <meta-data android:name="com.samsung.android.resolver.ranking_priority" android:value="700"/>
+        <meta-data android:name="com.samsung.keyguard.SAMSUNG_SHORTCUT_BLACK" android:value="@string/lockscreen_ic_monotone"/>
+        <meta-data android:name="com.samsung.keyguard.SAMSUNG_SHORTCUT" android:value="@string/lockscreen_ic"/>
+        <meta-data android:name="runtime.manifest.overlay" android:resource="@xml/runtime_manifest_overlay"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.microsoft.identity.client.BrowserTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.samsung.android.app.notes" android:path="/JxluOGuHXnat9wDn6oTkxu7jPfo=" android:scheme="msauth"/>
+                <data android:host="com.samsung.android.app.notes" android:path="/nKUXDzgZGd/gRG/NqxixmhQ7MWM=" android:scheme="msauth"/>
+                <data android:host="com.samsung.android.app.notes" android:path="/KcZHy8yaX71sDJYeBXEr0VNSofU=" android:scheme="msauth"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.samsung.android.app.notes.widget.setting.WidgetToolbarSettingActivity" android:resizeableActivity="false" android:taskAffinity=".WidgetToolbarSettingActivity" android:theme="@style/WidgetSettingTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:name="com.samsung.android.app.notes.widget.dialog.StorageErrorDialogActivity" android:noHistory="true" android:theme="@style/WidgetDialogTheme"/>
+        <receiver android:exported="true" android:label="@string/widget_toolbar" android:name="com.samsung.android.app.notes.widget.WidgetToolBarProvider">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_toolbar_provider"/>
+            <meta-data android:name="android.appwidget.provider.semConfigureActivity" android:value="com.samsung.android.app.notes.widget.setting.WidgetToolbarSettingActivity"/>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="widget.UPDATE_TOOLBAR"/>
+                <action android:name="com.sec.android.intent.action.WALLPAPER_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.samsung.android.app.notes.CapsuleProvider" android:exported="true" android:name="com.samsung.android.sdk.bixby2.provider.CapsuleProvider"/>
+        <provider android:authorities="com.sec.android.log.sn0vpasr64" android:exported="true" android:name="com.sec.android.diagmonagent.log.provider.DiagMonProvider" android:permission="com.sec.android.diagmonagent.permission.PROVIDER"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.memolist.MemoListActivity" android:theme="@style/AppMainThemeNoChunking" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="com.samsung.android.multiwindow.activity.alias.targetactivity" android:value="com.samsung.android.app.notes.memolist.MultiInstanceMemoListActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.XR2D"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.app.notes.ACTION_VIEW_TRASH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.app.notes.action.VIEW_FROM_FINDER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="notes_finder"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.samsung.android.app.notes" android:scheme="applink"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+            <meta-data android:name="com.sec.android.app.launcher.icon_theme" android:value="themeColor"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.memolist.MemoListActivity1" android:theme="@style/AppMainThemeNoChunking" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.samsung.android.app.notes.ACTION_VIEW_TRASH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.app.launcher.icon_theme" android:value="themeColor"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.memolist.MemoListActivity2" android:theme="@style/AppMainThemeNoChunking" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.samsung.android.app.notes.ACTION_VIEW_TRASH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.app.launcher.icon_theme" android:value="themeColor"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.memolist.MemoListActivity3" android:theme="@style/AppMainThemeNoChunking" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.samsung.android.app.notes.ACTION_VIEW_TRASH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.app.launcher.icon_theme" android:value="themeColor"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.memolist.MemoListActivity4" android:theme="@style/AppMainThemeNoChunking" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.samsung.android.app.notes.ACTION_VIEW_TRASH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.app.launcher.icon_theme" android:value="themeColor"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.samsung.android.app.notes.memolist.MultiInstanceMemoListActivity" android:taskAffinity="" android:theme="@android:style/Theme.NoDisplay" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize" android:exported="true" android:icon="@drawable/aircommand_view_all_notes" android:label="@string/aircommand_view_all_notes" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.memolist.MemoListBaseActivity" android:theme="@android:style/Theme.NoDisplay" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.samsung.android.app.notes.ACTION_VIEW_ALL_NOTES"/>
+                <action android:name="com.samsung.android.app.notes.sync.ui.MDE_START_NOTES"/>
+                <action android:name="com.samsung.android.app.notes.coedit.action.COEDIT_START"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.app.ftu.composer.ComposerFTUActivity" android:theme="@style/AppMainTheme"/>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.app.ftu.coedit.CoeditFTUActivity" android:theme="@style/AppMainThemeNoChunking"/>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.app.ftu.signin.SignInFTUActivity" android:theme="@style/AppMainThemeNoChunking"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/add_to_existing_note" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.memolist.MemoPickerActivity" android:theme="@style/AppMainThemeNoChunkingTransparent" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdoc"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="application/sdoc"/>
+                <data android:mimeType="application/sdocuuid"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.multiwindow.activity.alias.targetactivity" android:value="com.samsung.android.app.notes.nativecomposer.MemoPickerActivity"/>
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.support.senl.nt.app.main.folder.FolderListActivity" android:theme="@style/CustomAppMainTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.support.senl.nt.app.main.hashtag.HashTagNotesActivity" android:theme="@style/AppMainThemeNoChunking"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.support.senl.nt.app.main.oldnotes.OldNotesActivity" android:theme="@style/AppMainThemeNoChunking"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.support.senl.nt.app.main.oldnotes.OldCategoryActivity" android:theme="@style/AppMainThemeNoChunking"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.support.senl.nt.app.main.invitation.GcsInvitationActivity" android:theme="@style/AppMainThemeNoChunking" android:windowSoftInputMode="adjustResize">
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/co_edit_space_select" android:name="com.samsung.android.support.senl.nt.app.main.coedit.spacepicker.CoeditSpacePickerActivity" android:theme="@style/AppMainTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.samsung.android.support.senl.nt.app.main.coedit.CoeditLaunchSocialPickerActivity" android:theme="@style/AppTheme.NoActionBarTransparent"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.samsung.android.support.senl.nt.app.main.livesharing.LiveSharingActivity" android:theme="@style/AppTheme.NoActionBarTransparent"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.support.senl.nt.app.main.noteslist.search.SearchSettingsActivity" android:theme="@style/AppPreferenceTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="@bool/support_settings_search_exported" android:label="@string/settings_title" android:name="com.samsung.android.support.senl.nt.app.settings.SettingsMainActivity" android:theme="@style/AppPreferenceTheme">
+            <intent-filter>
+                <action android:name="com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"/>
+                <category android:name="com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="@bool/support_settings_search_exported" android:name="com.samsung.android.support.senl.nt.app.settings.detail.SettingsDetailActivity" android:theme="@style/AppPreferenceTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.support.senl.nt.app.settings.microsoft.SettingsMicrosoftLoginActivity" android:theme="@style/AppMainTheme" android:windowSoftInputMode="adjustResize">
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="" android:name="com.samsung.android.support.senl.nt.app.settings.importnotes.ImportActivity" android:theme="@style/AppMainThemeNoChunking" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="mcc|mnc|orientation|screenSize" android:hardwareAccelerated="false" android:name="com.samsung.android.support.senl.nt.app.account.SamsungAccountPrimaryLoginActivity" android:theme="@style/AppMainTheme" android:windowSoftInputMode="adjustResize">
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:configChanges="mcc|mnc|orientation|screenSize" android:hardwareAccelerated="false" android:name="com.samsung.android.support.senl.nt.app.account.SamsungAccountLoginForLockActivity" android:theme="@style/AppMainTheme" android:windowSoftInputMode="adjustResize">
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:exported="false" android:label="@string/about_note" android:name="com.samsung.android.support.senl.nt.app.settings.about.AboutActivity" android:theme="@style/AppAboutNotesTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/open_source_license" android:name="com.samsung.android.support.senl.nt.app.settings.about.OpenSourceLicenseActivity" android:theme="@style/AppMainTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:enabled="true" android:exported="true" android:name="com.samsung.android.support.senl.nt.app.settings.about.SetupWizardWelcomeActivity" android:theme="@style/AppMainTheme">
+            <intent-filter>
+                <action android:name="com.samsung.android.spv.ACTION_VIEW_DETAIL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="Notice" android:name="com.samsung.android.app.notes.memolist.NoticeUTActivity" android:theme="@style/AppAboutNotesTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.samsung.android.support.senl.nt.app.lock.LockActivity" android:permission="com.samsung.android.app.notes.VERIFY_LOCKED_NOTES" android:theme="@style/AppMainTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.app.nativecomposer.ComposerActivity" android:theme="@style/ComposerTheme.NoActionBar" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="com.samsung.android.support.REMOTE_ACTION"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.support.REMOTE_ACTION" android:resource="@xml/ble_remote_action"/>
+            <meta-data android:name="com.samsung.android.service.aircommand.SEM_DISABLE_AIRCOMMAND" android:value="button_noaction|detach_floating"/>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:icon="@drawable/aircommand_create_note" android:label="Create Note" android:launchMode="singleInstance" android:name="com.samsung.android.app.notes.tools.CreateNoteActivity" android:theme="@style/CreateNoteTheme" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="com.samsung.android.support.REMOTE_ACTION"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.support.REMOTE_ACTION" android:resource="@xml/ble_remote_action"/>
+            <meta-data android:name="com.samsung.android.dex.excludefromrecents" android:value="dex"/>
+            <meta-data android:name="com.samsung.android.service.aircommand.SEM_DISABLE_AIRCOMMAND" android:value="button_noaction|detach_floating"/>
+            <meta-data android:name="com.samsung.android.sdk.spen.BLOCK_DOUBLE_TAP_ACTION" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboard|mcc|mnc|orientation|screenSize" android:exported="true" android:icon="@drawable/aircommand_create_note" android:label="@string/aircommand_create_note" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.composer.ComposerBaseActivity" android:taskAffinity="com.samsung.android.app.notes.composer.base" android:theme="@style/AppTheme.NoActionBarTransparent" android:windowSoftInputMode="adjustResize|stateHidden">
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:configChanges="keyboard|mcc|mnc|orientation|screenSize" android:exported="true" android:icon="@drawable/aircommand_create_note" android:label="@string/add_to_new_note" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.nativecomposer.NativeComposerActionNewActivity" android:theme="@style/AppTheme.NoActionBarTransparent" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.multiwindow.activity.alias.targetactivity" android:value="com.samsung.android.app.notes.nativecomposer.NativeComposerActionNewActivity"/>
+        </activity>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.composer.main.base.view.menu.template.editor.TemplateEditorActivity" android:theme="@style/TemplateEditor" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="com.samsung.android.supports_pop_over" android:value="false"/>
+        </activity>
+        <activity android:configChanges="keyboard|mcc|mnc|orientation|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.nativecomposer.NativeComposerReminderTriggerActivity" android:permission="com.samsung.android.app.notes.READ" android:theme="@style/AppTheme.NoActionBarTransparent" android:windowSoftInputMode="adjustResize|stateHidden">
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:configChanges="keyboard|mcc|mnc|orientation|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.nativecomposer.ComposerAppToNoteActivity" android:permission="com.samsung.android.app.notes.READ" android:theme="@style/AppTheme.NoActionBarTransparent" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="density|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.samsung.android.support.senl.nt.app.trigger.DocOpenTriggerActivity" android:taskAffinity="notes.openTrigger" android:theme="@style/AppTheme.NoActionBarTransparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/spd"/>
+                <data android:mimeType="application/memo"/>
+                <data android:mimeType="application/snb"/>
+                <data android:mimeType="application/vnd.samsung.android.memo"/>
+                <data android:mimeType="application/scc"/>
+                <data android:mimeType="application/sdoc"/>
+                <data android:mimeType="application/vnd.samsung.scc"/>
+                <data android:mimeType="application/vnd.samsung.scc.pinall"/>
+                <data android:mimeType="application/vnd.samsung.scc.storyalbum"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/sdoc"/>
+                <data android:mimeType="application/scc"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="gmail-ls" android:mimeType="application/octet-stream" android:scheme="content"/>
+                <data android:host="jp.co.nttdocomo.carriermail.MailFileProvider" android:mimeType="application/octet-stream" android:scheme="content"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.multiwindow.activity.alias.targetactivity" android:value="com.samsung.android.support.senl.nt.app.trigger.DocOpenTriggerActivity"/>
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:configChanges="density|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:icon="@drawable/pdf_reader_icon" android:label="@string/pdf_reader" android:name="com.samsung.android.support.senl.nt.app.trigger.PdfOnlyOpenTriggerActivity" android:taskAffinity="notes.openTrigger" android:theme="@style/AppTheme.NoActionBarTransparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.multiwindow.activity.alias.targetactivity" android:value="com.samsung.android.support.senl.nt.app.trigger.PdfOnlyOpenTriggerActivity"/>
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:configChanges="density|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/pdf_convert_to_note" android:name="com.samsung.android.support.senl.nt.app.trigger.PdfToSDocTriggerActivity" android:taskAffinity="notes.openTrigger" android:theme="@style/AppTheme.NoActionBarTransparent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.multiwindow.activity.alias.targetactivity" android:value="com.samsung.android.support.senl.nt.app.trigger.PdfToSDocTriggerActivity"/>
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:configChanges="density|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.samsung.android.support.senl.nt.app.trigger.OpaqueDocOpenTriggerActivity" android:theme="@style/AppMainTheme">
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:label="@string/labs" android:name="com.samsung.android.support.senl.nt.app.labs.LabsActivity" android:theme="@style/AppMainTheme"/>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:label="@string/labs" android:name="com.samsung.android.support.senl.nt.app.labs.actionbar.FragmentToolBarActivity" android:theme="@style/ActionBarTheme"/>
+        <activity android:configChanges="keyboard|orientation|screenSize" android:excludeFromRecents="true" android:name="com.samsung.android.support.senl.nt.app.sync.ui.dialog.NetworkConnectionFailedDialog" android:theme="@style/AppTheme.NoActionBarTransparent">
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.samsung.android.support.senl.nt.app.sync.ui.notification.SyncNotificationReceiverActivity" android:theme="@style/AppTheme.NoActionBarTransparent" android:windowSoftInputMode="adjustResize">
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:launchMode="singleTask" android:name="com.samsung.android.app.notes.handoff.HandoffActivity" android:taskAffinity="notes.handoff" android:theme="@style/AppTheme.HandoffTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:icon="@drawable/in_app_collaboration_icon" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.app.inapp.InAppCollaborationActivity" android:screenOrientation="portrait" android:taskAffinity="inapp.inappcollaboration" android:theme="@style/InAppCollaborationMainTheme"/>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.app.inapp.InAppCollaborationTriggerActivity" android:taskAffinity="inapp.inappcollaboration" android:theme="@style/InAppCollaborationMainTheme"/>
+        <service android:exported="true" android:icon="@drawable/aircommand_create_note" android:label="@string/aircommand_create_note" android:name="com.samsung.android.app.notes.popupnote.PopupNoteService" android:theme="@android:style/Theme.DeviceDefault.Light"/>
+        <service android:excludeFromRecents="true" android:exported="true" android:hardwareAccelerated="true" android:name="com.samsung.android.app.notes.screenoffmemo.ScreenOffMemoService"/>
+        <service android:excludeFromRecents="true" android:exported="true" android:name="com.samsung.android.app.notes.trigger.EmptyTriggerService"/>
+        <receiver android:exported="true" android:name="com.samsung.android.support.senl.nt.app.inapp.receiver.ContinuityServiceReceiver">
+            <intent-filter>
+                <action android:name="ContinuityService.NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.support.senl.nt.app.sync.receivers.SamsungAccountReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"/>
+                <action android:name="com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.samsung.android.support.senl.nt.app.sync.receivers.SyncTimeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.app.notes.demo.NotesDemoReceiver" android:permission="com.samsung.sea.retailagent.permission.RETAILMODE">
+            <intent-filter>
+                <action android:name="com.samsung.sea.rm.DEMO_RESET_STARTED"/>
+                <action android:name="com.samsung.sea.rm.DEMO_RESET_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.samsung.android.app.notes.sync" android:exported="true" android:name="com.samsung.android.app.notes.sync.provider.NotesSyncProvider" android:readPermission="com.samsung.android.app.notes.sync.STATE_READ" android:writePermission="com.samsung.android.app.notes.sync.STATE_WRITE"/>
+        <provider android:authorities="com.samsung.android.app.notes.syncv2" android:exported="true" android:name="com.samsung.android.support.senl.nt.app.sync.cloudsettings.callee.NotesSyncRpcProvider" android:permission="com.samsung.android.scloud.permission.RPC_SYNC_SETTING" android:syncable="false"/>
+        <provider android:authorities="com.samsung.android.app.notes.count" android:exported="true" android:name="com.samsung.android.app.notes.sync.provider.SDocCountProvider" android:readPermission="com.wssnps.permission.COM_WSSNPS"/>
+        <receiver android:exported="false" android:name="com.samsung.android.support.senl.nt.app.biometrics.receiver.FingerprintChangedReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.FINGERPRINT_RESET"/>
+                <action android:name="com.samsung.android.intent.action.FINGERPRINT_REMOVED"/>
+                <action android:name="com.samsung.android.intent.action.FINGERPRINT_ADDED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.samsung.android.support.senl.nt.app.biometrics.receiver.IrisChangedReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.IRIS_RESET"/>
+                <action android:name="com.samsung.android.intent.action.IRIS_REMOVED"/>
+                <action android:name="com.samsung.android.intent.action.IRIS_ADDED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.samsung.android.app.notes.RecentSearchProvider" android:enabled="true" android:exported="false" android:grantUriPermissions="true" android:name="com.samsung.android.support.senl.nt.app.main.noteslist.search.model.RecentSearchProvider"/>
+        <provider android:authorities="com.samsung.android.app.notes.hashtagnote" android:exported="true" android:grantUriPermissions="true" android:name="com.samsung.android.support.senl.nt.app.sync.providers.HashTagNoteProvider" android:permission="com.samsung.android.app.notes.DELETE"/>
+        <provider android:authorities="com.samsung.android.app.notes" android:exported="true" android:grantUriPermissions="true" android:name="com.samsung.android.support.senl.nt.app.sync.providers.SdocProviderCompat" android:permission="com.samsung.android.app.notes.READ">
+            <path-permission android:pathPrefix="/search_suggest_query" android:readPermission="android.permission.GLOBAL_SEARCH"/>
+            <path-permission android:pathPrefix="/search_suggest_regex_query" android:readPermission="android.permission.GLOBAL_SEARCH"/>
+            <path-permission android:pathPrefix="/search_suggest_tag_query" android:readPermission="android.permission.GLOBAL_SEARCH"/>
+        </provider>
+        <provider android:authorities="com.samsung.android.app.notes.MeridianTokenProvider" android:exported="true" android:name="com.samsung.android.support.senl.nt.app.sync.providers.MeridianTokenProvider"/>
+        <provider android:authorities="com.samsung.android.app.notes.ManageTrashProvider" android:exported="true" android:name="com.samsung.android.app.notes.trash.ManageTrashProvider" android:permission="com.sec.android.app.myfiles.permission.MANAGE_TRASH">
+            <intent-filter>
+                <action android:name="com.sec.android.app.myfiles.MANAGE_TRASH"/>
+            </intent-filter>
+        </provider>
+        <provider android:authorities="com.samsung.android.app.notes.SettingsSearchProvider" android:enabled="@bool/support_settings_search" android:exported="true" android:grantUriPermissions="true" android:name="com.samsung.android.app.notes.settings.provider.SettingsSearchProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.settings.require_config_changes" android:value="knoxRestrictionMode|desktopMode|powerSavingMode"/>
+            <meta-data android:name="com.samsung.android.settings.require_settings_key" android:value="top_level_settings_main_screen"/>
+            <meta-data android:name="com.samsung.android.settings.require_settings_title" android:value="@string/settings_title"/>
+        </provider>
+        <receiver android:exported="true" android:name="com.samsung.android.app.notes.receiver.SPenEventBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.pen.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.samsung.android.app.notes.disable.BR.com.samsung.pen.INSERT" android:value="true"/>
+        <receiver android:exported="true" android:name="com.samsung.android.support.senl.nt.app.sync.receiver.MigrationReceiver" android:permission="com.wssnps.permission.COM_WSSNPS">
+            <intent-filter>
+                <action android:name="com.samsung.android.intent.action.REQUEST_BACKUP_SAMSUNGNOTE"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_RESTORE_SAMSUNGNOTE"/>
+                <action android:name="com.samsung.android.intent.action.SUPPORT_PROGRESS_SAMSUNGNOTE"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_RESTORE_SAMSUNGNOTE_SF"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT"/>
+                <action android:name="com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE"/>
+                <action android:name="com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE"/>
+                <action android:name="com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.app.notes.receiver.OneDriveAccountLinkReceiver" android:permission="com.samsung.android.scloud.app.permission.BROADCAST">
+            <intent-filter>
+                <action android:name="com.samsung.android.scloud.app.broadcast.ACTION_MIGRATION_STATUS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.app.notes.receiver.MdePushReceiver" android:permission="com.samsung.android.mobileservice.social.share.space.provider.permission.READ">
+            <intent-filter>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SHARE_ADD_SPACE_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SHARE_ADD_ITEM_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SHARE_UPDATE_ITEM_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SHARE_DELETE_ITEM_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SHARE_DELETE_SPACE_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_INVITE_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_DELETE_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_MEMBER_DELETE_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_I_MEMBER_DELETE_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_FORCE_MEMBER_DELETE_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_ACCEPT_INVITE_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_I_ACCEPT_INVITE_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_I_CREATE_GROUP_PUSH"/>
+                <action android:name="com.samsung.android.app.notes.sync.ui.MDE_NOTIFICATION_INTENT_FILTER"/>
+                <action android:name="com.samsung.android.app.notes.sync.ui.MDE_NOTIFICATION_ADDED_ITEM_OPENED_FROM_SES"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_MESSAGESHARE_PUSH"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.app.notes.receiver.CoeditPushReceiver" android:permission="com.samsung.android.mobileservice.social.share.space.provider.permission.READ">
+            <intent-filter>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SHARE_ADD_SPACE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SHARE_ADD_ITEM_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SHARE_UPDATE_ITEM_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SHARE_DELETE_ITEM_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SHARE_DELETE_SPACE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_INVITE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_UPDATE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_DELETE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_MEMBER_DELETE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_I_MEMBER_DELETE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_FORCE_MEMBER_DELETE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_ACCEPT_INVITE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_I_CREATE_GROUP_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_I_ACCEPT_INVITE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_REJECTED_INVITE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_DELEGATE_AUTHORITY_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_I_JOIN_GROUP_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_GROUP_INVITATION_CANCELED_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.social.ACTION_SHARE_UPDATE_SPACE_WITH_FEATURE_ID_PUSH"/>
+                <action android:name="com.samsung.android.mobileservice.ACTION_ACTIVATED"/>
+                <action android:name="com.samsung.android.app.notes.sync.ui.COEDIT_NOTIFICATION_INTENT_FILTER"/>
+                <action android:name="com.samsung.android.app.notes.sync.ui.COEDIT_NOTIFICATION_ADDED_ITEM_OPENED_FROM_SES"/>
+                <action android:name="com.samsung.android.mobileservice.ACTION_SERVICE_STATUS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.samsung.android.support.senl.nt.app.jobscheduler.NotesJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:enabled="true" android:exported="true" android:icon="@drawable/ic_quickpanel_create_note_gray" android:label="@string/aircommand_create_note" android:name="com.samsung.android.support.senl.nt.app.quicknote.QuickNoteTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.SEM_DEFAULT_TILE_NAME" android:value="CreateNote"/>
+            <meta-data android:name="android.service.quicksettings.SEM_ACTIVE_TILE_SUPPORT_SEM_PLATFORM_VER" android:value="@integer/sep_version_in_one_ui_4.1"/>
+        </service>
+        <meta-data android:name="com.samsung.android.mobileservice.AppId" android:value="n9s985jz7n"/>
+        <meta-data android:name="com.samsung.android.mobileservice.IntentRequest" android:value="true"/>
+        <meta-data android:name="com.samsung.android.mobileservice.social.featurelist" android:value="family_group_sharing | global_group_sharing | local_group_sharing"/>
+        <meta-data android:name="com.samsung.android.mobileservice.social.feature.family_group_sharing.action" android:value="com.samsung.android.app.notes.sync.ui.MDE_START_NOTES"/>
+        <meta-data android:name="com.samsung.android.mobileservice.social.feature.invitation_link.action" android:value="com.samsung.android.app.notes.coedit.action.COEDIT_START"/>
+        <meta-data android:name="scloud_setting_standalone_provider_authority" android:value="com.samsung.android.app.notes.syncv2"/>
+        <meta-data android:name="firebase_messaging_auto_init_enabled" android:value="false"/>
+        <meta-data android:name="com.samsung.android.multiwindow.support.pair.shortcut" android:value="true"/>
+        <app:activity-salescode android:enabled="true" android:label="@string/notes_jp" android:name="DCM" android:targetActivity="com.samsung.android.app.notes.memolist.MemoListActivity"/>
+        <app:activity-salescode android:enabled="true" android:label="@string/notes_jp" android:name="KDI" android:targetActivity="com.samsung.android.app.notes.memolist.MemoListActivity"/>
+        <app:activity-salescode android:enabled="true" android:label="@string/notes_jp" android:name="RKT" android:targetActivity="com.samsung.android.app.notes.memolist.MemoListActivity"/>
+        <app:activity-salescode android:enabled="true" android:label="@string/notes_jp" android:name="UQM" android:targetActivity="com.samsung.android.app.notes.memolist.MemoListActivity"/>
+        <app:activity-salescode android:enabled="true" android:label="@string/notes_jp" android:name="JCO" android:targetActivity="com.samsung.android.app.notes.memolist.MemoListActivity"/>
+        <app:activity-salescode android:enabled="true" android:label="@string/notes_jp" android:name="XJP" android:targetActivity="com.samsung.android.app.notes.memolist.MemoListActivity"/>
+        <app:activity-salescode android:enabled="true" android:label="@string/notes_jp" android:name="SBM" android:targetActivity="com.samsung.android.app.notes.memolist.MemoListActivity"/>
+        <app:activity-salescode android:enabled="true" android:label="@string/notes_jp" android:name="SJP" android:targetActivity="com.samsung.android.app.notes.memolist.MemoListActivity"/>
+        <receiver android:exported="true" android:label="@string/widget_show_note" android:name="com.samsung.android.app.notes.widget.WidgetProvider">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_provider"/>
+            <meta-data android:name="android.appwidget.provider.semConfigureActivity" android:value="com.samsung.android.app.notes.widget.setting.WidgetPinSettingsActivity"/>
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="widget.MEMO_PICK_DONE"/>
+                <action android:name="widget.MEMO_UPDATE_UUID"/>
+                <action android:name="widget.MEMO_DELETE_UUID"/>
+                <action android:name="widget.MEMO_UPDATE_ALL"/>
+                <action android:name="widget.MEMO_WAIT_CACHE"/>
+                <action android:name="widget.MEMO_CONVERT_UUID"/>
+                <action android:name="com.sec.android.intent.action.WALLPAPER_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.samsung.android.app.notes.widget.WidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <service android:name="com.samsung.android.app.notes.widget.WidgetImgShortcutService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:exported="true" android:name="com.samsung.android.app.notes.widget.pintohome.WidgetPinnedReceiver"/>
+        <receiver android:exported="false" android:label="@string/widget_shortcut" android:name="com.samsung.android.app.notes.widget.WidgetImgShortCutProvider">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_img_shortcut_provider_info"/>
+            <meta-data android:name="android.appwidget.provider.semConfigureActivity" android:value="com.samsung.android.app.notes.widget.setting.WidgetPinSettingsActivity"/>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="widget.MEMO_PICK_DONE"/>
+                <action android:name="widget.MEMO_UPDATE_UUID"/>
+                <action android:name="widget.MEMO_DELETE_UUID"/>
+                <action android:name="widget.MEMO_UPDATE_ALL"/>
+                <action android:name="widget.MEMO_WAIT_CACHE"/>
+                <action android:name="widget.MEMO_CONVERT_UUID"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.samsung.android.app.notes.widget.setting.WidgetPinSettingsActivity" android:resizeableActivity="false" android:taskAffinity=".WidgetPinSettingsActivity" android:theme="@style/WidgetSettingTheme">
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="fullscreenOnly"/>
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:label="" android:name="com.samsung.android.app.notes.widget.common.ConvertConfirmDialogActivity" android:noHistory="true" android:theme="@style/WidgetDialogTheme"/>
+        <activity android:configChanges="density|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:name="com.samsung.android.app.notes.widget.configure.ShowNotesWidgetConfigureActivity" android:resizeableActivity="false" android:theme="@style/AppTheme.NoActionBarTransparent">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="density|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:name="com.samsung.android.app.notes.widget.configure.ShortcutWidgetConfigureActivity" android:resizeableActivity="false" android:theme="@style/AppTheme.NoActionBarTransparent">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="density|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:name="com.samsung.android.app.notes.widget.configure.WidgetListConfigureActivity" android:resizeableActivity="false" android:theme="@style/AppTheme.NoActionBarTransparent">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.samsung.android.app.notes.widget.WidgetListService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:exported="true" android:label="@string/widget_list" android:name="com.samsung.android.app.notes.widget.WidgetListProvider">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_list_provider"/>
+            <meta-data android:name="android.appwidget.provider.semConfigureActivity" android:value="com.samsung.android.app.notes.widget.setting.WidgetListSettingActivity"/>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="widget.MEMO_UPDATE_UUID"/>
+                <action android:name="widget.MEMO_DELETE_UUID"/>
+                <action android:name="widget.MEMO_UPDATE_ALL"/>
+                <action android:name="widget.MEMO_PICK_DONE_FROM_NOTE_LIST"/>
+                <action android:name="widget.MEMO_UPDATE_UUID_FROM_NOTE_LIST"/>
+                <action android:name="com.sec.android.intent.action.WALLPAPER_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.samsung.android.app.notes.widget.setting.WidgetListSettingActivity" android:resizeableActivity="false" android:taskAffinity=".WidgetListSettingActivity" android:theme="@style/WidgetSettingTheme">
+            <layout android:minHeight="@dimen/notes_activity_minheight" android:minWidth="@dimen/notes_activity_minwidth"/>
+            <meta-data android:name="com.sec.android.multiwindow.activity.STYLE" android:value="fullscreenOnly"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:launchMode="standard" android:name="com.samsung.android.support.senl.nt.composer.main.base.external.tageditor.TagEditorActivity" android:noHistory="true" android:theme="@style/EditorUi" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="com.samsung.android.dex.excludefromrecents" android:value="dex"/>
+        </activity>
+        <activity android:configChanges="density|keyboard|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.support.senl.nt.composer.main.base.external.scrapbook.ScrapBookViewer" android:theme="@style/ComposerTheme.NoActionBar">
+            <layout android:minHeight="@dimen/nativecomposer_minheight" android:minWidth="@dimen/nativecomposer_minwidth"/>
+        </activity>
+        <activity android:configChanges="density|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:label="Screen Off Memo" android:launchMode="singleInstance" android:name="com.samsung.android.support.senl.nt.composer.main.screenoff.ScreenOffAnimatorActivity" android:resizeableActivity="false" android:showWhenLocked="true" android:theme="@style/AppTheme.NoActionBarTransparent" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="com.samsung.android.edge.hide_edge_screen_handle" android:value="true"/>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.samsung.android.support.senl.nt.composer.main.screenoff.ScreenOffActivity" android:resizeableActivity="false" android:showWhenLocked="true" android:theme="@style/ScreenOffActivityTheme" android:windowSoftInputMode="adjustResize|stateHidden">
+            <meta-data android:name="com.samsung.android.edge.hide_edge_screen_handle" android:value="true"/>
+        </activity>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.composer.main.recyclebin.RecycleBinActivity" android:theme="@style/ComposerTheme.NoActionBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <service android:foregroundServiceType="mediaPlayback|microphone" android:name="com.samsung.android.support.senl.nt.composer.main.base.presenter.voice.VoiceService"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.samsung.android.support.senl.nt.composer.main.base.presenter.voice.VoiceNotificationDialogActivity" android:noHistory="true" android:resizeableActivity="false" android:showOnLockScreen="true" android:theme="@style/Voice.Transparent">
+            <layout android:minHeight="@dimen/nativecomposer_minheight" android:minWidth="@dimen/nativecomposer_minwidth"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.composer.main.base.view.menu.template.view.ChangeTemplatesActivity" android:theme="@style/ChangeTemplates" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.support.senl.nt.composer.main.base.view.menu.video.VideoViewerActivity" android:theme="@style/VideoViewerTheme"/>
+        <meta-data android:name="com.samsung.android.support.executable" android:resource="@xml/task_edge_executable"/>
+        <activity android:configChanges="keyboard|mcc|mnc|orientation|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.composer.main.nativecomposer.NativeComposerTriggerActivity" android:permission="com.samsung.android.app.notes.READ" android:taskAffinity="notes.trigger" android:theme="@style/AppTheme.NoActionBarTransparent" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="com.samsung.android.support.executable"/>
+                <action android:name="com.samsung.android.app.notes.ACTION_TASK_EDGE"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.multiwindow.activity.alias.targetactivity" android:value="com.samsung.android.support.senl.nt.composer.main.nativecomposer.NativeComposerTriggerActivity"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.samsung.android.support.senl.nt.composer.main.base.presenter.voice.NotificationTaskMoveActivity" android:noHistory="true" android:taskAffinity="" android:theme="@style/AppTheme.NoActionBarTransparent"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:icon="@drawable/pdf_reader_icon" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.composer.main.pdfwriter.PdfWriterActivity" android:theme="@style/ComposerTheme.NoActionBar" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="com.samsung.android.support.REMOTE_ACTION"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.support.REMOTE_ACTION" android:resource="@xml/ble_remote_action"/>
+            <meta-data android:name="com.samsung.android.service.aircommand.SEM_DISABLE_AIRCOMMAND" android:value="button_noaction|detach_floating"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:name="com.samsung.android.support.senl.nt.composer.main.base.ftu.inapp.InAppCollaborationFTUActivity" android:noHistory="true" android:taskAffinity="" android:theme="@style/InAppFTUTheme.Transparent"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.support.senl.nt.composer.main.base.ftu.quicknote.QuickNoteFTUActivity" android:theme="@style/BaseTheme.NoActionBar"/>
+        <activity android:autoRemoveFromRecents="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.support.senl.nt.composer.main.compare.CompareViewerActivity" android:theme="@style/ComposerTheme.NoActionBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <receiver android:exported="true" android:name="com.samsung.android.support.senl.nt.composer.main.screenoff.view.receiver.statically.ScreenOffBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.snote.SCREEN_ON"/>
+                <action android:name="com.samsung.android.snote.SCREEN_OFF"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.support.senl.nt.coedit.service.CoeditService"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="com.samsung.android.smp.updated" android:value="true"/>
+        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true"/>
+        <meta-data android:name="support_delta_progress_snapshot" android:value="true"/>
+        <meta-data android:name="support_delta_progress_restore" android:value="true"/>
+        <receiver android:exported="false" android:name="com.samsung.android.sdk.smp.SmpReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.android.app.notes.sync.synchronization.services.SyncOldService"/>
+        <service android:name="com.samsung.android.sdk.smp.SmpService"/>
+        <service android:name="com.samsung.android.sdk.smp.SmpJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.samsung.android.app.notes.sync.push.service.SmpFcmPushService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.android.app.notes.sync.importing.services.ImportService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.android.app.notes.sync.contentsharing.service.ShareOldService"/>
+        <receiver android:exported="false" android:name="com.samsung.android.app.notes.sync.push.receiver.SmpFcmPushReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.sdk.smp.pushRegistrationResult"/>
+                <action android:name="com.samsung.android.sdk.smp.smpInitializeResult"/>
+                <action android:name="com.samsung.android.sdk.smp.pushTokenChanged"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.samsung.android.app.notes.sync.push.receiver.SmpPackageReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.samsung.android.app.notes.sync.push.receiver.SmpSppPushReceiver" android:permission="com.sec.spp.permission.SEND">
+            <intent-filter>
+                <action android:name="8938bd824975bfb2"/>
+                <action android:name="com.sec.spp.RegistrationChangedAction"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.samsung.android.app.notes.movenote" android:exported="true" android:name="com.samsung.android.app.notes.sync.move.MoveNoteProvider" android:permission="com.samsung.android.app.notes.DELETE"/>
+        <provider android:authorities="com.samsung.android.app.notes.bnrDocuments" android:enabled="false" android:exported="true" android:grantUriPermissions="true" android:name="com.samsung.android.app.notes.sync.migration.provider.BnRDocumentProvider" android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER"/>
+            </intent-filter>
+        </provider>
+        <receiver android:exported="true" android:name="com.samsung.android.app.notes.sync.move.MoveResponseReceiver" android:permission="com.sec.knox.bridge.permission.FILE_OPERATION_HANDLER">
+            <intent-filter>
+                <action android:name="com.samsung.android.app.notes.model.ACTION_FILE_OPERATIONS_DONE"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:foregroundServiceType="dataSync" android:name="com.samsung.android.app.notes.sync.migration.common.MigrationService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.samsung.android.app.notes.sync.coedit.service.CoeditShareOldService"/>
+        <service android:exported="false" android:name="com.samsung.android.support.senl.nt.model.service.NotesWordDocumentService">
+            <intent-filter>
+                <action android:name="com.samsung.android.support.senl.nt.model.DOCUMENT_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.samsung.android.support.senl.nt.model.mining.text.TextMiningService"/>
+        <service android:exported="false" android:name="com.samsung.android.support.senl.nt.model.collector.CollectService"/>
+        <receiver android:exported="true" android:name="com.samsung.android.support.senl.nt.model.contextawareness.ContextAwarenessBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.android.app.notes.contextSUBSCRIBE_SUGGESTION"/>
+                <action android:name="com.samsung.android.app.notes.intent.action.ATTACH_CONTENT"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="density|layoutDirection|locale|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.samsung.android.support.senl.docscan.DocumentScanActivity" android:theme="@style/DocumentScanTheme">
+            <intent-filter>
+                <action android:name="com.samsung.android.support.REMOTE_ACTION"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.support.REMOTE_ACTION" android:resource="@xml/docscan_ble_remote_action"/>
+        </activity>
+        <provider android:authorities="com.samsung.android.app.notes.shareprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.samsung.android.support.senl.nt.base.framework.provider.ShareFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <provider android:authorities="com.samsung.android.app.notes.clipdatacontentprovider" android:exported="true" android:grantUriPermissions="false" android:name="com.samsung.android.support.senl.nt.base.framework.provider.ClipDataContentProvider"/>
+        <activity android:name="com.samsung.android.support.senl.nt.base.winset.app.permission.GoToSettingsActivity" android:theme="@style/GotoSettingStyle"/>
+        <activity android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTop" android:name="com.samsung.android.app.notes.tools.BrushActivity" android:theme="@style/BrushTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.samsung.android.support.REMOTE_ACTION"/>
+            </intent-filter>
+            <meta-data android:name="com.samsung.android.support.REMOTE_ACTION" android:resource="@xml/addons_ble_remote_action"/>
+            <meta-data android:name="com.samsung.android.service.aircommand.SEM_DISABLE_AIRCOMMAND" android:value="button_noaction|detach_floating"/>
+        </activity>
+        <service android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <meta-data android:name="com.samsung.android.sdk.smp.sdkv" android:value="3.3.7.0"/>
+        <meta-data android:name="com.samsung.android.sdk.smp.sdkvint" android:value="3030700"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="singleTask" android:name="com.microsoft.identity.common.internal.providers.oauth2.AuthorizationActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:launchMode="standard" android:name="com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity"/>
+        <activity android:exported="false" android:launchMode="standard" android:name="com.microsoft.identity.client.helper.BrokerHelperActivity"/>
+        <activity android:exported="true" android:name="com.microsoft.identity.client.CurrentTaskBrowserTabActivity"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:name="com.microsoft.identity.common.internal.broker.BrokerActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <provider android:authorities="com.samsung.android.app.notes.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <activity android:exported="true" android:name="androidx.biometric.DeviceCredentialHandlerActivity" android:theme="@style/DeviceCredentialHandlerTheme"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <provider android:authorities="com.samsung.android.app.notes.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
+        <activity android:enabled="false" android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"/>
+        <meta-data android:name="com.samsung.android.app.sdk.deepsky.versionName" android:value="2.2.9"/>
+        <uses-native-library android:name="libSDKRecognitionOCR.spenocr.samsung.so" android:required="false"/>
+        <uses-native-library android:name="libSDKMoireDetector.spenocr.samsung.so" android:required="false"/>
+        <uses-native-library android:name="libStride.camera.samsung.so" android:required="false"/>
+        <uses-library android:name="com.samsung.android.spensdk.framework-v1" android:required="false"/>
+        <meta-data android:name="com.samsung.android.sdk.bixby2.version" android:value="@string/sdk_version"/>
+        <uses-native-library android:name="libDocRectifyWrapper.camera.samsung.so" android:required="false"/>
+        <uses-native-library android:name="libRectify.camera.samsung.so" android:required="false"/>
+        <meta-data android:name="SPDE.build.signature" android:value="0b79f02c8b5517eedbac34f9d62fb409cd8f45b0/120368581/universal-release/Notes-406000-4.4.09"/>
+        <meta-data android:name="SPDE.env.version" android:value="7.2.1/G33.1.13/1.1.3"/>
+    </application>
+</manifest>

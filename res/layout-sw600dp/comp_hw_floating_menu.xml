@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/hw_toolbar_menu_container" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView android:id="@id/hw_toolbar_scroll_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ComposerToolbarScroll">
+        <ScrollView android:id="@id/hw_toolbar_vertical_scroll_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ComposerToolbarScroll">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/hw_toolbar_menu_item_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </ScrollView>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

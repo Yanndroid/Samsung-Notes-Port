@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/widget_preview_single_note_height" android:width="@dimen/widget_preview_single_note_width" />
+    <solid android:color="@color/widget_preview_background_color" />
+    <corners android:radius="@dimen/widget_preview_shortcut_radius" />
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/lottie" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxHeight="400.0dip" android:foregroundGravity="center" app:lottie_fileName="In_app_collaboration_FTU.json" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <Button android:theme="@style/ContainedButtonTheme" android:id="@id/use_phone_as_toolbar" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/in_app_menu" style="@style/ContainedButton" />
+</LinearLayout>

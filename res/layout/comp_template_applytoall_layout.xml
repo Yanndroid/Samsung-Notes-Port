@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/change_template_applytoall_container" android:background="@drawable/change_template_menu_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:paddingStart="@dimen/change_template_side_margin" android:paddingEnd="@dimen/change_template_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/change_template_menu_title_text_padding_top_bottom" android:paddingBottom="@dimen/change_template_menu_title_text_padding_top_bottom" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip" android:importantForAccessibility="noHideDescendants">
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="18.0sp" android:textColor="@color/change_template_menu_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/change_template_apply_to_all_pages" android:textDirection="locale" />
+        </LinearLayout>
+        <androidx.appcompat.widget.SwitchCompat android:theme="@style/ChangeTemplatesSwitchTheme" android:textSize="18.0sp" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/change_template_applytoall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+    </LinearLayout>
+    <View android:id="@id/change_template_applytoall_divider" android:background="@color/change_template_item_added_menu_top_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="@dimen/widget_list_width" android:minHeight="@dimen/widget_list_height" android:updatePeriodMillis="0" android:initialLayout="@layout/widget_list_init" android:configure="com.samsung.android.app.notes.widget.configure.WidgetListConfigureActivity" android:previewImage="@drawable/widget_list_preview" android:resizeMode="horizontal|vertical" android:minResizeWidth="@dimen/widget_list_resize_width" android:minResizeHeight="@dimen/widget_list_resize_height" android:previewLayout="@layout/widget_preview_note_list"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

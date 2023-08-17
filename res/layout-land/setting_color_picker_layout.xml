@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sdk.pen.setting.widget.SpenHorizontalScrollView android:scrollbarSize="@dimen/setting_color_picker_popup_scroll_bar_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_color_picker_popup_margin_top" android:layout_marginBottom="@dimen/setting_color_picker_popup_margin_bottom" android:fillViewport="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_alignWithParentIfMissing="true">
+        <FrameLayout android:background="@drawable/color_picker_dialog_bg_shape" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/content_main" android:layout_width="@dimen/setting_color_picker_popup_width_land" android:layout_height="wrap_content" android:importantForAccessibility="no">
+                <FrameLayout android:id="@id/color_picker_top_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/setting_color_picker_top_layout_height" android:layout_marginStart="@dimen/setting_color_picker_button_layout_side_margin" android:layout_marginEnd="@dimen/setting_color_picker_button_layout_side_margin">
+                    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/picker_close_button" android:background="@drawable/spen_ripple_effect_drawable" android:layout_width="@dimen/setting_common_title_ic_width" android:layout_height="@dimen/setting_common_title_ic_height" android:src="@drawable/note_setting_ic_close" android:contentDescription="@string/pen_string_close" />
+                </FrameLayout>
+                <com.samsung.android.sdk.pen.setting.widget.SpenScrollView android:scrollbarSize="4.0dip" android:id="@id/popup_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/color_picker_button_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/setting_color_picker_text_button_height" android:layout_marginTop="0.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="@dimen/setting_color_picker_button_layout_side_margin" android:layout_marginEnd="@dimen/setting_color_picker_button_layout_side_margin">
+                    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/negative_button" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <com.samsung.android.sdk.pen.setting.common.SpenShowButtonShapeText android:textSize="16.0sp" android:textColor="@color/component_common" android:gravity="center" android:id="@id/color_picker_button_cancel" android:background="@drawable/setting_dialog_action_button_ripple" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/pen_string_cancel" android:singleLine="true" android:includeFontPadding="false" />
+                    </RelativeLayout>
+                    <View android:layout_gravity="center_vertical" android:background="#ffe6e6e6" android:layout_width="1.0dip" android:layout_height="16.0dip" />
+                    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/positive_button" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <com.samsung.android.sdk.pen.setting.common.SpenShowButtonShapeText android:textSize="16.0sp" android:textColor="@color/component_common" android:gravity="center" android:id="@id/color_picker_button_done" android:background="@drawable/setting_dialog_action_button_ripple" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/pen_string_done" android:includeFontPadding="false" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </com.samsung.android.sdk.pen.setting.widget.SpenHorizontalScrollView>
+</RelativeLayout>

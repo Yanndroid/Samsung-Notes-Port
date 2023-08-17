@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/tipcard_layout" android:background="@drawable/tipcard_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tipcard_layout_margin_top" android:layout_marginBottom="@dimen/tipcard_margin_bottom" android:layout_marginStart="@dimen/tipcard_layout_margin_start_end" android:layout_marginEnd="@dimen/tipcard_layout_margin_start_end" android:elevation="@dimen/notes_grid_item_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.app.main.noteslist.tipcard.TipCardPager android:id="@id/tipcard_viewpager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale" />
+    <com.google.android.material.tabs.TabLayout android:layout_gravity="bottom|center" android:id="@id/tipcard_indicator" android:paddingBottom="@dimen/tipcard_indicator_padding_bottom" android:layout_width="wrap_content" android:layout_height="@dimen/tipcard_indicator_height" android:layoutDirection="locale" app:tabBackground="@drawable/indicator_selector" app:tabGravity="center" app:tabMinWidth="@dimen/tipcard_indicator_item_min_width" app:tabMode="fixed" xmlns:app="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

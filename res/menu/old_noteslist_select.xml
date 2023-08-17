@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_switch" android:enabled="false" android:id="@id/action_convert" android:visible="false" android:orderInCategory="100" android:title="@string/convert" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_search" android:id="@id/action_search" android:orderInCategory="100" android:title="@string/action_search" app:showAsAction="always" />
+    <group android:id="@id/action_more">
+        <item android:id="@id/action_edit" android:orderInCategory="100" android:title="@string/action_edit" android:showAsAction="never" />
+        <item android:id="@id/action_viewby" android:orderInCategory="100" android:title="@string/noteslist_option_menu_view" android:showAsAction="never" />
+    </group>
+</menu>

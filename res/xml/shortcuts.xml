@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/note_task_edge_text" android:shortcutId="shortcut_create_note" android:shortcutShortLabel="@string/task_edge_add">
+        <intent android:targetPackage="com.samsung.android.app.notes" android:action="com.samsung.android.app.notes.ACTION_TASK_EDGE" android:targetClass="com.samsung.android.support.senl.nt.composer.main.nativecomposer.NativeComposerTriggerActivity">
+            <extra android:name="MEMO_WIDGET_ACTION" android:value="NEW_MEMO_OPEN" />
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/note_task_edge_handwriting" android:shortcutId="shortcut_write_with_pen" android:shortcutShortLabel="@string/task_edge_handwriting">
+        <intent android:targetPackage="com.samsung.android.app.notes" android:action="com.samsung.android.app.notes.ACTION_TASK_EDGE" android:targetClass="com.samsung.android.support.senl.nt.composer.main.nativecomposer.NativeComposerTriggerActivity">
+            <extra android:name="MEMO_WIDGET_ACTION" android:value="NEW_MEMO_WRITING_OPEN" />
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/note_task_edge_voice" android:shortcutId="shortcut_record_voice_note" android:shortcutShortLabel="@string/task_edge_voice">
+        <intent android:targetPackage="com.samsung.android.app.notes" android:action="com.samsung.android.app.notes.ACTION_TASK_EDGE" android:targetClass="com.samsung.android.support.senl.nt.composer.main.nativecomposer.NativeComposerTriggerActivity">
+            <extra android:name="MEMO_WIDGET_ACTION" android:value="NEW_MEMO_VOICE_OPEN" />
+        </intent>
+    </shortcut>
+</shortcuts>

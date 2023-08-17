@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">%d కంటే ఎక్కువ అంశాలను జోడించలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అంశాన్ని జోడించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">ఒకసారి %d కంటే ఎక్కువ అంశాలను అతికించలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఒకసారి %d కంటే ఎక్కువ అంశాన్ని అతికించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">ఒకేసారి %d కంటే ఎక్కువ పత్రాలను స్కాన్ చేయలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఒకేసారి %d కంటే ఎక్కువ పత్రాన్ని స్కాన్ చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">%d కంటే ఎక్కువ రంగులను చూపలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ రంగుని చూపించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">ఒకసారి %d కంటే ఎక్కువ ఆడియో ఫైల్‌లను జోడించలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఒకసారి %d కంటే ఎక్కువ ఆడియో ఫైల్‌ని జోడించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">ఒకసారి %d కంటే ఎక్కువ PDFలను అతికించలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఒకసారి %d కంటే ఎక్కువ PDFని అతికించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">ఎగుమతి రద్దు చేయబడింది. ఇప్పటికే %d PDFలు ఎగుమతి చేయబడ్డాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఎగుమతి రద్దు చేయబడింది. ఇప్పటికే %d PDF ఎగుమతి చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">%d కంటే ఎక్కువ అక్షరాలను నమోదు చేయలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అక్షరాన్ని నమోదు చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">కనీసం %d అక్షరాలు ఉండే పాస్‌వర్డ్‌ని నమోదు చేయండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">కనీసం %d అక్షరం ఉండే పాస్‌వర్డ్‌ని నమోదు చేయండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">కనీసం %d అక్షరాలు ఉండే కొత్త పాస్‌వర్డ్‌ని నమోదు చేయండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">కనీసం %d అక్షరం ఉండే కొత్త పాస్‌వర్డ్‌ని నమోదు చేయండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d సెకన్లు వేచి ఉండి, మళ్లీ ప్రయత్నించండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సెకను వేచి ఉండి, మళ్లీ ప్రయత్నించండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">%d కంటే ఎక్కువ Samsung Notes విండోలను తెరవలేరు. విండోని మూసివేసి, మళ్లీ ప్రయత్నించండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ Samsung Notes విండోని తెరవలేరు. విండోని మూసివేసి, మళ్లీ ప్రయత్నించండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d గమనికలు డౌన్‌లోడ్ చేయబడ్డాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గమనిక డౌన్‌లోడ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d రంగులు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d రంగు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d మందాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d మందం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">%d భాగస్వామ్య గమనికలను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d భాగస్వామ్య గమనికని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d గమనికలను మార్పిడి చేయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గమనికను మార్పిడి చేయి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d ఫోల్డర్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఫోల్డర్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d అంశాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అంశం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d గమనికలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గమనిక</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">%d కంటే ఎక్కువ రంగులను చూపలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ రంగుని చూపించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d నోట్‌బుక్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నోట్‌బుక్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%2$sకు %1$d ఫోల్డర్‌లను తరలించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sకు %1$d ఫోల్డర్‌ను తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s %2$d కొత్త గమనికలను %3$s నోట్‌బుక్‌కు జోడించారు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$d కొత్త గమనికను %3$s నోట్‌బుక్‌కు జోడించారు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d కొత్త గమనికలు భాగస్వామ్యం చేయబడ్డాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కొత్త గమనిక భాగస్వామ్యం చేయబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">దిగుమతి రద్దు చేయబడింది. ఇప్పటికే %d PDFలు దిగుమతి చేయబడ్డాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">దిగుమతి రద్దు చేయబడింది. ఇప్పటికే %d PDF దిగుమతి చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d గమనికలను దిగుమతి చేయడం సాధ్యం కాలేదు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గమనికను దిగుమతి చేయడం సాధ్యం కాలేదు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">కనీసం %d అక్షరాలు ఉండే కొత్త పాస్‌వర్డ్‌ని నమోదు చేయండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">కనీసం %d అక్షరం ఉండే కొత్త పాస్‌వర్డ్‌ని నమోదు చేయండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">%d కంటే ఎక్కువ అంశాలను ఎంచుకోలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అంశాన్ని ఎంచుకోలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">%d ఫోల్డర్‌లను ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఫోల్డర్‌ని ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">%d ఫోల్డర్‌లను మరియు వాటిలో ఉన్న అన్ని అంశాలను ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఫోల్డర్‌ను మరియు దానిలో ఉన్న అన్ని అంశాలను ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">%d గమనికలను ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గమనికను ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">మీ గుర్తింపుని నిర్ధారించిన తర్వాత, ట్రాష్ నుండి %d గమనికలు (1 లాక్ చేసిన గమనికలతో సహా) తరలించబడతాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీ గుర్తింపుని నిర్ధారించిన తర్వాత, ట్రాష్ నుండి %d గమనిక (1 లాక్ చేసిన గమనికతో సహా) తరలించబడుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">ఇప్పటికే ఎంచుకున్న ఫోల్డర్‌లో ఉన్న %d గమనికలను తరలించలేదు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇప్పటికే ఎంచుకున్న ఫోల్డర్‌లో ఉన్న %d గమనికను తరలించలేదు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%2$sకు %1$d గమనికలను తరలించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sకు %1$dగమనికను తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">క్లౌడ్ మరియు మీ అన్ని పరికరాల నుండి %d అంశాలు శాశ్వతంగా తొలగించబడతాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">క్లౌడ్ మరియు మీ అన్ని పరికరాల నుండి %d అంశం శాశ్వతంగా తొలగించబడుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">%d గమనికలను శాశ్వతంగా తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గమనికని శాశ్వతంగా తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d అంశాలు శాశ్వతంగా తొలగించబడతాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అంశం శాశ్వతంగా తొలగించబడుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d రోజులు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d రోజు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">భాగస్వామ్య గమనికలో %d కంటే ఎక్కువ స్ట్రోక్‌లు లేదా అంశాలను ఎంచుకోలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">భాగస్వామ్య గమనికలో %d కంటే ఎక్కువ స్ట్రోక్ లేదా అంశాన్ని ఎంచుకోలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d చిత్రాలు మీ ఫోన్‌కు సేవ్ చేయబడ్డాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d చిత్రం మీ ఫోన్‌కు సేవ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d చిత్రాలు మీ టాబ్లెట్‌కు సేవ్ చేయబడ్డాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d చిత్రం మీ టాబ్లెట్‌కు సేవ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d ఫైల్‌లు మీ ఫోన్‌కు సేవ్ చేయబడ్డాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఫైల్ మీ ఫోన్‌కు సేవ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d ఫైల్‌లు మీ టాబ్లెట్‌కు సేవ్ చేయబడ్డాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఫైల్ మీ టాబ్లెట్‌కు సేవ్ చేయబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d సభ్యులు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సభ్యుడు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">ఈ గమనిక %d రోజుల్లో తొలగించబడుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ గమనిక %d రోజులో తొలగించబడుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDFలను ఎగుమతి చేస్తోంది…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDFను ఎగుమతి చేస్తోంది…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">%d గమనికలను మార్పిడి చేయడం సాధ్యం కాలేదు. అంతర్గత నిల్వలో కొంత స్థలాన్ని క్లియర్ చేసి, ఆపై మళ్లీ ప్రయత్నించండి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గమనికను మార్పిడి చేయడం సాధ్యం కాలేదు. అంతర్గత నిల్వలో కొంత స్థలాన్ని క్లియర్ చేసి, ఆపై మళ్లీ ప్రయత్నించండి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d అంశాలను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అంశాన్ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

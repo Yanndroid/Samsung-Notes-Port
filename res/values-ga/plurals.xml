@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Ní féidir níos mó ná %d mír a chur leis.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d mhír a chur leis.</item>
+        <item quantity="two">Ní féidir níos mó ná %d mhír a chur leis.</item>
+        <item quantity="few">Ní féidir níos mó ná %d mhír a chur leis.</item>
+        <item quantity="many">Ní féidir níos mó ná %d mír a chur leis.</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Ní féidir níos mó ná %d mír a ghreamú ag am amháin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d mhír a ghreamú ag am amháin.</item>
+        <item quantity="two">Ní féidir níos mó ná %d mhír a ghreamú ag am amháin.</item>
+        <item quantity="few">Ní féidir níos mó ná %d mhír a ghreamú ag am amháin.</item>
+        <item quantity="many">Ní féidir níos mó ná %d mír a ghreamú ag am amháin.</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Ní féidir níos mó ná %d doiciméad a scanadh ag an am céanna.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d doiciméad a scanadh ag an am céanna.</item>
+        <item quantity="two">Ní féidir níos mó ná %d dhoiciméad a scanadh ag an am céanna.</item>
+        <item quantity="few">Ní féidir níos mó ná %d dhoiciméad a scanadh ag an am céanna.</item>
+        <item quantity="many">Ní féidir níos mó ná %d ndoiciméad a scanadh ag an am céanna.</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Ní féidir níos mó ná %d dath a thaispeáint.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d dath a thaispeáint.</item>
+        <item quantity="two">Ní féidir níos mó ná %d dhath a thaispeáint.</item>
+        <item quantity="few">Ní féidir níos mó ná %d dhath a thaispeáint.</item>
+        <item quantity="many">Ní féidir níos mó ná %d ndath a thaispeáint.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Ní féidir níos mó ná %d comhad fuaime a chur leis ag am amháin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d chomhad fuaime a chur leis ag am amháin.</item>
+        <item quantity="two">Ní féidir níos mó ná %d chomhad fuaime a chur leis ag am amháin.</item>
+        <item quantity="few">Ní féidir níos mó ná %d chomhad fuaime a chur leis ag am amháin.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcomhad fuaime a chur leis ag am amháin.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Ní féidir níos mó ná %d PDF a ghreamú ag am amháin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d PDF a ghreamú ag am amháin.</item>
+        <item quantity="two">Ní féidir níos mó ná %d PDF a ghreamú ag am amháin.</item>
+        <item quantity="few">Ní féidir níos mó ná %d PDF a ghreamú ag am amháin.</item>
+        <item quantity="many">Ní féidir níos mó ná %d PDF a ghreamú ag am amháin.</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Easpórtáil curtha ar ceal. Tá %d PDF easpórtáilte cheana.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Easpórtáil curtha ar ceal. Tá %d PDF easpórtáilte cheana.</item>
+        <item quantity="two">Easpórtáil curtha ar ceal. Tá %d PDF easpórtáilte cheana.</item>
+        <item quantity="few">Easpórtáil curtha ar ceal. Tá %d PDF easpórtáilte cheana.</item>
+        <item quantity="many">Easpórtáil curtha ar ceal. Tá %d PDF easpórtáilte cheana.</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Ní féidir níos mó ná %d carachtar a iontráil.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcarachtar a iontráil.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Iontráil pasfhocal a bhfuil %d carachtar ar a laghad ann.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iontráil pasfhocal a bhfuil %d charachtar ar a laghad ann.</item>
+        <item quantity="two">Iontráil pasfhocal a bhfuil %d charachtar ar a laghad ann.</item>
+        <item quantity="few">Iontráil pasfhocal a bhfuil %d charachtar ar a laghad ann.</item>
+        <item quantity="many">Iontráil pasfhocal a bhfuil %d gcarachtar ar a laghad ann.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Iontráil pasfhocal nua a bhfuil %d carachtar ar a laghad ann.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iontráil pasfhocal nua a bhfuil %d charachtar ar a laghad ann.</item>
+        <item quantity="two">Iontráil pasfhocal nua a bhfuil %d charachtar ar a laghad ann.</item>
+        <item quantity="few">Iontráil pasfhocal nua a bhfuil %d charachtar ar a laghad ann.</item>
+        <item quantity="many">Iontráil pasfhocal nua a bhfuil %d gcarachtar ar a laghad ann.</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Fan %d soicind agus triail arís.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Fan %d soicind agus triail arís.</item>
+        <item quantity="two">Fan %d shoicind agus triail arís.</item>
+        <item quantity="few">Fan %d shoicind agus triail arís.</item>
+        <item quantity="many">Fan %d soicind agus triail arís.</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Ní féidir níos mó ná %d fuinneog Samsung Notes a oscailt. Dún fuinneog agus triail arís.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d fhuinneog Samsung Notes a oscailt. Dún fuinneog agus triail arís.</item>
+        <item quantity="two">Ní féidir níos mó ná %d fhuinneog Samsung Notes a oscailt. Dún fuinneog agus triail arís.</item>
+        <item quantity="few">Ní féidir níos mó ná %d fhuinneog Samsung Notes a oscailt. Dún fuinneog agus triail arís.</item>
+        <item quantity="many">Ní féidir níos mó ná %d bhfuinneog Samsung Notes a oscailt. Dún fuinneog agus triail arís.</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d nóta íoslódáilte.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóta íoslódáilte.</item>
+        <item quantity="two">%d nóta íoslódáilte.</item>
+        <item quantity="few">%d nóta íoslódáilte.</item>
+        <item quantity="many">%d nóta íoslódáilte.</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d dath</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dath</item>
+        <item quantity="two">%d dhath</item>
+        <item quantity="few">%d dhath</item>
+        <item quantity="many">%d ndath</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d tiús</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tiús</item>
+        <item quantity="two">%d thiús</item>
+        <item quantity="few">%d thiús</item>
+        <item quantity="many">%d dtiús</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Scrios %d nóta comhroinnte?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d nóta comhroinnte?</item>
+        <item quantity="two">Scrios %d nóta chomhroinnte?</item>
+        <item quantity="few">Scrios %d nóta chomhroinnte?</item>
+        <item quantity="many">Scrios %d nóta chomhroinnte?</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Tiontaigh %d nóta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tiontaigh %d nóta</item>
+        <item quantity="two">Tiontaigh %d nóta</item>
+        <item quantity="few">Tiontaigh %d nóta</item>
+        <item quantity="many">Tiontaigh %d nóta</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d fillteán</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fhillteán</item>
+        <item quantity="two">%d fhillteán</item>
+        <item quantity="few">%d fhillteán</item>
+        <item quantity="many">%d bhfillteán</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d mír</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mhír</item>
+        <item quantity="two">%d mhír</item>
+        <item quantity="few">%d mhír</item>
+        <item quantity="many">%d mír</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d nóta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóta</item>
+        <item quantity="two">%d nóta</item>
+        <item quantity="few">%d nóta</item>
+        <item quantity="many">%d nóta</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Ní féidir níos mó ná %d dath a thaispeáint.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d dath a thaispeáint.</item>
+        <item quantity="two">Ní féidir níos mó ná %d dhath a thaispeáint.</item>
+        <item quantity="few">Ní féidir níos mó ná %d dhath a thaispeáint.</item>
+        <item quantity="many">Ní féidir níos mó ná %d ndath a thaispeáint.</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d leabhar nótaí</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d leabhar nótaí</item>
+        <item quantity="two">%d leabhar nótaí</item>
+        <item quantity="few">%d leabhar nótaí</item>
+        <item quantity="many">%d leabhar nótaí</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Bog %1$d fillteán chuig %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %1$d fhillteán chuig %2$s?</item>
+        <item quantity="two">Bog %1$d fhillteán chuig %2$s?</item>
+        <item quantity="few">Bog %1$d fhillteán chuig %2$s?</item>
+        <item quantity="many">Bog %1$d bhfillteán chuig %2$s?</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">Chuir %1$s %2$d nóta nua leis an leabhar nótaí %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Chuir %1$s %2$d nóta nua leis an leabhar nótaí %3$s.</item>
+        <item quantity="two">Chuir %1$s %2$d nóta nua leis an leabhar nótaí %3$s.</item>
+        <item quantity="few">Chuir %1$s %2$d nóta nua leis an leabhar nótaí %3$s.</item>
+        <item quantity="many">Chuir %1$s %2$d nóta nua leis an leabhar nótaí %3$s.</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d nóta nua comhroinnte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóta nua comhroinnte</item>
+        <item quantity="two">%d nóta nua comhroinnte</item>
+        <item quantity="few">%d nóta nua comhroinnte</item>
+        <item quantity="many">%d nóta nua comhroinnte</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Iompórtáil curtha ar ceal. Tá %d PDF iompórtáilte cheana.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iompórtáil curtha ar ceal. Tá %d PDF iompórtáilte cheana.</item>
+        <item quantity="two">Iompórtáil curtha ar ceal. Tá %d PDF iompórtáilte cheana.</item>
+        <item quantity="few">Iompórtáil curtha ar ceal. Tá %d PDF iompórtáilte cheana.</item>
+        <item quantity="many">Iompórtáil curtha ar ceal. Tá %d PDF iompórtáilte cheana.</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Níorbh fhéidir %d nóta a iompórtáil.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Níorbh fhéidir %d nóta a iompórtáil.</item>
+        <item quantity="two">Níorbh fhéidir %d nóta a iompórtáil.</item>
+        <item quantity="few">Níorbh fhéidir %d nóta a iompórtáil.</item>
+        <item quantity="many">Níorbh fhéidir %d nóta a iompórtáil.</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Iontráil pasfhocal nua a bhfuil %d carachtar ar a laghad ann.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iontráil pasfhocal nua a bhfuil %d charachtar ar a laghad ann.</item>
+        <item quantity="two">Iontráil pasfhocal nua a bhfuil %d charachtar ar a laghad ann.</item>
+        <item quantity="few">Iontráil pasfhocal nua a bhfuil %d charachtar ar a laghad ann.</item>
+        <item quantity="many">Iontráil pasfhocal nua a bhfuil %d gcarachtar ar a laghad ann.</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Ní féidir níos mó ná %d mír a roghnú.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d mhír a roghnú.</item>
+        <item quantity="two">Ní féidir níos mó ná %d mhír a roghnú.</item>
+        <item quantity="few">Ní féidir níos mó ná %d mhír a roghnú.</item>
+        <item quantity="many">Ní féidir níos mó ná %d mír a roghnú.</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Bog %d fillteán chuig an mBruscar?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d fhillteán chuig an mBruscar?</item>
+        <item quantity="two">Bog %d fhillteán chuig an mBruscar?</item>
+        <item quantity="few">Bog %d fhillteán chuig an mBruscar?</item>
+        <item quantity="many">Bog %d bhfillteán chuig an mBruscar?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Bog %d fillteán agus gach mír iontu chuig an mBruscar?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d fhillteán agus gach mír ann chuig an mBruscar?</item>
+        <item quantity="two">Bog %d fhillteán agus gach mír iontu chuig an mBruscar?</item>
+        <item quantity="few">Bog %d fhillteán agus gach mír iontu chuig an mBruscar?</item>
+        <item quantity="many">Bog %d bhfillteán agus gach mír iontu chuig an mBruscar?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Bog %d nóta chuig an mBruscar?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d nóta chuig an mBruscar?</item>
+        <item quantity="two">Bog %d nóta chuig an mBruscar?</item>
+        <item quantity="few">Bog %d nóta chuig an mBruscar?</item>
+        <item quantity="many">Bog %d nóta chuig an mBruscar?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">"Tar éis d'aitheantas a fhíorú, bogfar %d nóta (1 nóta glasáilte san áireamh) chuig an mBruscar."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Tar éis d'aitheantas a fhíorú, bogfar %d nóta (1 nóta glasáilte san áireamh) chuig an mBruscar."</item>
+        <item quantity="two">"Tar éis d'aitheantas a fhíorú, bogfar %d nóta (1 nóta glasáilte san áireamh) chuig an mBruscar."</item>
+        <item quantity="few">"Tar éis d'aitheantas a fhíorú, bogfar %d nóta (1 nóta glasáilte san áireamh) chuig an mBruscar."</item>
+        <item quantity="many">"Tar éis d'aitheantas a fhíorú, bogfar %d nóta (1 nóta glasáilte san áireamh) chuig an mBruscar."</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Níor bogadh %d nóta atá san fhillteán roghnaithe cheana féin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Níor bogadh %d nóta atá san fhillteán roghnaithe cheana féin.</item>
+        <item quantity="two">Níor bogadh %d nóta atá san fhillteán roghnaithe cheana féin.</item>
+        <item quantity="few">Níor bogadh %d nóta atá san fhillteán roghnaithe cheana féin.</item>
+        <item quantity="many">Níor bogadh %d nóta atá san fhillteán roghnaithe cheana féin.</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Bog %1$d nóta chuig %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %1$d nóta chuig %2$s?</item>
+        <item quantity="two">Bog %1$d nóta chuig %2$s?</item>
+        <item quantity="few">Bog %1$d nóta chuig %2$s?</item>
+        <item quantity="many">Bog %1$d nóta chuig %2$s?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">Scriosfar %d mír go buan ón néal agus ó do chuid gléasanna uile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scriosfar %d mhír go buan ón néal agus ó do chuid gléasanna uile.</item>
+        <item quantity="two">Scriosfar %d mhír go buan ón néal agus ó do chuid gléasanna uile.</item>
+        <item quantity="few">Scriosfar %d mhír go buan ón néal agus ó do chuid gléasanna uile.</item>
+        <item quantity="many">Scriosfar %d mír go buan ón néal agus ó do chuid gléasanna uile.</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Scrios %d nóta go buan?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d nóta go buan?</item>
+        <item quantity="two">Scrios %d nóta go buan?</item>
+        <item quantity="few">Scrios %d nóta go buan?</item>
+        <item quantity="many">Scrios %d nóta go buan?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">Scriosfar %d mír go buan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scriosfar %d mhír go buan.</item>
+        <item quantity="two">Scriosfar %d mhír go buan.</item>
+        <item quantity="few">Scriosfar %d mhír go buan.</item>
+        <item quantity="many">Scriosfar %d mír go buan.</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d lá</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá</item>
+        <item quantity="two">%d lá</item>
+        <item quantity="few">%d lá</item>
+        <item quantity="many">%d lá</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Ní féidir níos mó ná %d buille ná oibiacht a roghnú i nóta comhroinnte.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d bhuille ná oibiacht a roghnú i nóta comhroinnte.</item>
+        <item quantity="two">Ní féidir níos mó ná %d bhuille ná oibiacht a roghnú i nóta comhroinnte.</item>
+        <item quantity="few">Ní féidir níos mó ná %d bhuille ná oibiacht a roghnú i nóta comhroinnte.</item>
+        <item quantity="many">Ní féidir níos mó ná %d mbuille ná n-oibiacht a roghnú i nóta comhroinnte.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">"%d íomhá sábháilte chuig d'fhón."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d íomhá sábháilte chuig d'fhón."</item>
+        <item quantity="two">"%d íomhá sábháilte chuig d'fhón."</item>
+        <item quantity="few">"%d íomhá sábháilte chuig d'fhón."</item>
+        <item quantity="many">"%d n-íomhá sábháilte chuig d'fhón."</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d íomhá sábháilte chuig do tháibléad.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d íomhá sábháilte chuig do tháibléad.</item>
+        <item quantity="two">%d íomhá sábháilte chuig do tháibléad.</item>
+        <item quantity="few">%d íomhá sábháilte chuig do tháibléad.</item>
+        <item quantity="many">%d n-íomhá sábháilte chuig do tháibléad.</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">"%d comhad sábháilte chuig d'fhón."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d chomhad sábháilte chuig d'fhón."</item>
+        <item quantity="two">"%d chomhad sábháilte chuig d'fhón."</item>
+        <item quantity="few">"%d chomhad sábháilte chuig d'fhón."</item>
+        <item quantity="many">"%d gcomhad sábháilte chuig d'fhón."</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d comhad sábháilte chuig do tháibléad.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d chomhad sábháilte chuig do tháibléad.</item>
+        <item quantity="two">%d chomhad sábháilte chuig do tháibléad.</item>
+        <item quantity="few">%d chomhad sábháilte chuig do tháibléad.</item>
+        <item quantity="many">%d gcomhad sábháilte chuig do tháibléad.</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d ball</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bhall</item>
+        <item quantity="two">%d bhall</item>
+        <item quantity="few">%d bhall</item>
+        <item quantity="many">%d mball</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Scriosfar an nóta seo i gceann %d lá.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scriosfar an nóta seo i gceann %d lae.</item>
+        <item quantity="two">Scriosfar an nóta seo i gceann %d lá.</item>
+        <item quantity="few">Scriosfar an nóta seo i gceann %d lá.</item>
+        <item quantity="many">Scriosfar an nóta seo i gceann %d lá.</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDF á n-easpórtáil…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF á easpórtáil…</item>
+        <item quantity="two">%d PDF á n-easpórtáil…</item>
+        <item quantity="few">%d PDF á n-easpórtáil…</item>
+        <item quantity="many">%d PDF á n-easpórtáil…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Níorbh fhéidir %d nóta a thiontú. Glan roinnt spáis sa stóras inmheánach, ansin triail arís.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Níorbh fhéidir %d nóta a thiontú. Glan roinnt spáis sa stóras inmheánach, ansin triail arís.</item>
+        <item quantity="two">Níorbh fhéidir %d nóta a thiontú. Glan roinnt spáis sa stóras inmheánach, ansin triail arís.</item>
+        <item quantity="few">Níorbh fhéidir %d nóta a thiontú. Glan roinnt spáis sa stóras inmheánach, ansin triail arís.</item>
+        <item quantity="many">Níorbh fhéidir %d nóta a thiontú. Glan roinnt spáis sa stóras inmheánach, ansin triail arís.</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Scrios %d mír?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d mhír?</item>
+        <item quantity="two">Scrios %d mhír?</item>
+        <item quantity="few">Scrios %d mhír?</item>
+        <item quantity="many">Scrios %d mír?</item>
+    </plurals>
+</resources>

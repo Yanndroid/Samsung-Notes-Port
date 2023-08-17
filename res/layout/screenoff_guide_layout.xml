@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/guide_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1000.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="125.0" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/guide_layout_supported_AOP" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="750.0">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.6" />
+        <TextView android:textSize="@dimen/screenoff_guide_tips_write_memo_on_screen_text_size" android:textColor="@color/screenoff_fcfcfc_opacity_55" android:gravity="center" android:layout_gravity="center" android:id="@id/guide_tips_supported_AOP_write_memo_on_screen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/screenoff_guide_tips_write_memo_on_screen" android:fontFamily="@font/cooljazz_lite" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/screenoff_guide_tips_write_memo_on_screen_tap_the_screen_while_pressing_x_text_size" android:textColor="@color/screenoff_fcfcfc_opacity_45" android:gravity="start" android:layout_gravity="center" android:id="@id/guide_tips_supported_AOP_xxx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/screenoff_guide_tips_write_memo_on_screen_tap_the_screen_while_pressing_x" android:fontFamily="@font/cooljazz_lite" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/guide_layout_not_supported_AOP" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="750.0">
+        <TextView android:textSize="@dimen/screenoff_guide_tips_write_memo_on_screen_text_size" android:textColor="@color/screenoff_fcfcfc_opacity_55" android:gravity="center" android:layout_gravity="center" android:id="@id/guide_tips_not_supported_AOP_write_memo_on_screen" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/screenoff_guide_tips_write_memo_on_screen" android:fontFamily="@font/cooljazz_lite" />
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="125.0" />
+</LinearLayout>

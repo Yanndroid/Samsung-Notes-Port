@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_selected="true" android:drawable="@drawable/hash_tag_item_bg_selected" />
+            <item android:drawable="@drawable/hash_tag_item_bg_default" />
+        </selector>
+    </item>
+    <item>
+        <ripple android:color="@color/list_ripple_color">
+            <item android:id="@android:id/mask">
+                <shape android:shape="rectangle">
+                    <solid android:color="?android:colorAccent" />
+                    <corners android:radius="@dimen/hash_tag_item_radius" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</layer-list>

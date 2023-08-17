@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/voice_recording_speed_button_text_size" android:textColor="@color/composer_voice_menu_text_icon_color" android:id="@id/voice_record_speed" android:background="@drawable/voice_record_speed_background" android:layout_width="@dimen/voice_recording_speed_button_width" android:layout_height="@dimen/voice_recording_speed_button_height" android:text="1.0x" android:layout_centerVertical="true" android:textAlignment="center" android:layout_marginStart="10.0dip" android:layout_alignParentStart="true" />
+    <ImageButton android:id="@id/voice_record_backward" android:src="@drawable/voice_record_backward" android:contentDescription="@string/voice_record_backward" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/voice_record_forward" style="@style/VoiceImageButtonSize" />
+    <ImageButton android:id="@id/voice_record_forward" android:src="@drawable/voice_record_forward" android:contentDescription="@string/voice_record_forward" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" style="@style/VoiceImageButtonSize" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/voice_record_backward" android:layout_toEndOf="@id/voice_record_speed">
+        <ImageView android:id="@id/time_divider" android:background="#ff8f8f8f" android:layout_width="1.0dip" android:layout_height="8.0dip" android:layout_centerInParent="true" android:importantForAccessibility="no" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+        <TextView android:textAppearance="@style/RobotoMediumStyle" android:textColor="@color/composer_voice_menu_sub_text_color" android:ellipsize="end" android:id="@id/voice_record_play_time" android:singleLine="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/time_divider" style="@style/VoiceTimeTextSize" />
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textColor="@color/composer_voice_menu_sub_text_color" android:ellipsize="end" android:id="@id/voice_record_total_time" android:singleLine="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/time_divider" style="@style/VoiceTimeTextSize" />
+    </RelativeLayout>
+</RelativeLayout>

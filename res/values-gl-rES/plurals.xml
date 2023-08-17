@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Non se poden engadir máis de %d elementos.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se pode engadir máis de %d elemento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Non se poden pegar máis de %d elementos á vez.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se pode pegar máis de %d elemento á vez.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Non se poden escanear máis de %d documentos á vez.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se pode escanear máis de %d documento á vez.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Non se poden mostrar máis de %d cores.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se pode mostrar máis de %d cor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Non se poden engadir máis de %d arquivos de audio á vez.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se pode engadir máis de %d arquivo de audio á vez.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Non se poden pegar máis de %d PDF á vez.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se pode pegar máis de %d PDF á vez.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Exportación cancelada. Xa se exportaron %d PDF.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Exportación cancelada. Xa se exportou %d PDF.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Non se poden introducir máis de %d caracteres.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se pode introducir máis de %d carácter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Introduce un contrasinal que conteña polo menos %d caracteres.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Introduce un contrasinal que conteña polo menos %d carácter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Introduce un contrasinal novo que conteña polo menos %d caracteres.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Introduce un contrasinal novo que conteña polo menos %d carácter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Espera %d segundos e téntao outra vez.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Espera %d segundo e téntao outra vez.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Non se poden abrir máis de %d ventás de Samsung Notes. Pecha unha ventá e téntao outra vez.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se pode abrir máis de %d ventá de Samsung Notes. Pecha unha ventá e téntao outra vez.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d notas descargadas.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nota descargada.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d cores</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d cor</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d grosores</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d grosor</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Queres eliminar %d notas compartidas?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Queres eliminar %d nota compartida?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Converter %d notas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Converter %d nota</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d carpetas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d carpeta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d elementos</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elemento</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d notas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nota</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Non se poden mostrar máis de %d cores.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se pode mostrar máis de %d cor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d cadernos</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d caderno</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Queres mover %1$d carpetas a %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Queres mover %1$d carpeta a %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s engadiu %2$d notas novas ao caderno %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s engadiu %2$d nota nova ao caderno %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d notas novas compartidas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nota nova compartida</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Importación cancelada. Xa se importaron %d PDF.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Importación cancelada. Xa se importou %d PDF.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Non se puideron importar %d notas.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se puido importar %d nota.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Introduce un contrasinal novo que conteña polo menos %d caracteres.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Introduce un contrasinal novo que conteña polo menos %d carácter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Non se poden seleccionar máis de %d elementos.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se pode seleccionar máis de %d elemento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Queres mover %d carpetas á Papeleira?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Queres mover %d carpeta á Papeleira?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Queres mover á Papeleira %d carpetas e todos os elementos que conteñan?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Queres mover á Papeleira %d carpeta e todos os elementos que conteña?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Queres mover %d notas á Papeleira?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Queres mover %d nota á Papeleira?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Unha vez verificada a túa identidade, moveranse %d notas (incluída 1 nota bloqueada) á Papeleira.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Unha vez verificada a túa identidade, moverase %d nota (incluída 1 nota bloqueada) á Papeleira.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Non se moveron %d notas que xa estaban na carpeta seleccionada.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se moveu %d nota que xa estaba na carpeta seleccionada.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Queres mover %1$d notas a %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Queres mover %1$d nota a %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">Eliminaranse de xeito permanente %d elementos da nube e de todos os teus dispositivos.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eliminarase de xeito permanente %d elemento da nube e de todos os teus dispositivos.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Queres eliminar %d notas de xeito permanente?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Queres eliminar %d nota de xeito permanente?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">Eliminaranse %d elementos permanentemente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eliminarase %d elemento permanentemente.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d días</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d día</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Non se poden seleccionar máis de %d trazos ou obxectos nunha nota compartida.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se pode seleccionar máis de %d trazo ou obxecto nunha nota compartida.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">Gardáronse %d fotos no teléfono.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gardouse %d foto no teléfono.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">Gardáronse %d fotos na tableta.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gardouse %d foto na tableta.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">Gardáronse %d arquivos no teléfono.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gardouse %d arquivo no teléfono.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">Gardáronse %d arquivos na tableta.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gardouse %d arquivo na tableta.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d membros</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d membro</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Eliminarase esta nota en %d días.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eliminarase esta nota en %d día.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Exportando %d PDF…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Exportando %d PDF…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Non se puideron converter %d notas. Libera espazo no almacenamento interno e téntao outra vez.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Non se puido converter %d nota. Libera espazo no almacenamento interno e téntao outra vez.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Queres eliminar %d elementos?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Queres eliminar %d elemento?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:left="28.0dip" android:right="20.0dip" android:bottom="10.0dip">
+        <shape android:tint="@color/setting_scroll_bar_color" android:shape="rectangle">
+            <corners android:radius="2.0dip" />
+            <size android:height="3.0dip" />
+        </shape>
+    </item>
+</layer-list>

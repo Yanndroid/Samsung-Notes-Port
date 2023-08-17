@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.support.senl.nt.app.settings.common.component.TextViewPreference android:title="@string/settings_sync_now_last_synced" android:key="settings_sync_to_microsoft_last_sync_time" />
+    <androidx.preference.PreferenceCategory android:key="settings_sync_category">
+        <com.samsung.android.support.senl.nt.app.settings.common.component.SwitchPreference android:key="settings_sync_to_microsoft" app:title="@string/settings_sync_on" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <com.samsung.android.support.senl.nt.app.settings.common.component.ProgressPreference android:title="@string/settings_sync_now" android:key="settings_sync_to_microsoft_sync_now" />
+        <androidx.preference.Preference android:title="@string/settings_sync_to_ms_folder_to_sync_title" android:key="settings_sync_to_microsoft_folders_to_sync" />
+        <androidx.preference.Preference android:title="@string/settings_sync_to_ms_sync_using" android:key="settings_sync_to_microsoft_sync_type" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_sync_to_ms_sync_while_roaming" android:key="settings_sync_to_microsoft_sync_while_roaming" android:summary="@string/settings_sync_to_ms_sync_while_roaming_description" android:defaultValue="false" />
+        <androidx.preference.Preference android:title="@string/settings_log_out" android:key="settings_sync_to_microsoft_sign_info" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <androidx.preference.Preference android:title="@string/settings_feed_show_meridian_home" android:key="settings_sync_to_microsoft_more_apps" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/sesl_menu_popup_background_dark" android:insetLeft="@dimen/popup_menu_side_margin" android:insetRight="@dimen/popup_menu_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

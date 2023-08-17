@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">تتعذر إضافة أكثر من %d عنصر.</item>
+        <item quantity="zero">تتعذر إضافة أكثر من %d عنصر.</item>
+        <item quantity="one">تتعذر إضافة أكثر من عنصر واحد.</item>
+        <item quantity="two">تتعذر إضافة أكثر من عنصرين.</item>
+        <item quantity="few">تتعذر إضافة أكثر من %d عناصر.</item>
+        <item quantity="many">تتعذر إضافة أكثر من %d عنصراً.</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">يتعذر لصق أكثر من %d عنصر في المرة الواحدة.</item>
+        <item quantity="zero">يتعذر لصق أكثر من %d عنصر في المرة الواحدة.</item>
+        <item quantity="one">يتعذر لصق أكثر من عنصر واحد في المرة الواحدة.</item>
+        <item quantity="two">يتعذر لصق أكثر من عنصرين في المرة الواحدة.</item>
+        <item quantity="few">يتعذر لصق أكثر من %d عناصر في المرة الواحدة.</item>
+        <item quantity="many">يتعذر لصق أكثر من %d عنصراً في المرة الواحدة.</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">يتعذر مسح أكثر من %d مستند في المرة الواحدة.</item>
+        <item quantity="zero">يتعذر مسح أكثر من %d مستند في المرة الواحدة.</item>
+        <item quantity="one">يتعذر مسح أكثر من مستند واحد في المرة الواحدة.</item>
+        <item quantity="two">يتعذر مسح أكثر من مستندين في المرة الواحدة.</item>
+        <item quantity="few">يتعذر مسح أكثر من %d مستندات في المرة الواحدة.</item>
+        <item quantity="many">يتعذر مسح أكثر من %d مستنداً في المرة الواحدة.</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">يتعذر إظهار أكثر من %d لون.</item>
+        <item quantity="zero">يتعذر إظهار أكثر من %d لون.</item>
+        <item quantity="one">يتعذر إظهار أكثر من لون واحد.</item>
+        <item quantity="two">يتعذر إظهار أكثر من لونَين.</item>
+        <item quantity="few">يتعذر إظهار أكثر من %d ألوان.</item>
+        <item quantity="many">يتعذر إظهار أكثر من %d لوناً.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">تتعذر إضافة أكثر من %d ملف صوت في المرة الواحدة.</item>
+        <item quantity="zero">تتعذر إضافة أكثر من %d ملف صوت في المرة الواحدة.</item>
+        <item quantity="one">تتعذر إضافة أكثر من ملف صوت واحد في المرة الواحدة.</item>
+        <item quantity="two">تتعذر إضافة أكثر من ملفَي صوت في المرة الواحدة.</item>
+        <item quantity="few">تتعذر إضافة أكثر من %d ملفات صوت في المرة الواحدة.</item>
+        <item quantity="many">تتعذر إضافة أكثر من %d ملف صوت في المرة الواحدة.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">يتعذر لصق أكثر من %d ملف PDF في المرة الواحدة.</item>
+        <item quantity="zero">يتعذر لصق أكثر من %d ملف PDF في المرة الواحدة.</item>
+        <item quantity="one">يتعذر لصق أكثر من ملف PDF واحد في المرة الواحدة.</item>
+        <item quantity="two">يتعذر لصق أكثر من ملفي PDF في المرة الواحدة.</item>
+        <item quantity="few">يتعذر لصق أكثر من %d ملفات PDF في المرة الواحدة.</item>
+        <item quantity="many">يتعذر لصق أكثر من %d ملف PDF في المرة الواحدة.</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">تم إلغاء التصدير. تم تصدير %d ملف PDF بالفعل.</item>
+        <item quantity="zero">تم إلغاء التصدير. تم تصدير %d ملف PDF بالفعل.</item>
+        <item quantity="one">تم إلغاء التصدير. تم تصدير ملف PDF واحد بالفعل.</item>
+        <item quantity="two">تم إلغاء التصدير. تم تصدير ملفي PDF بالفعل.</item>
+        <item quantity="few">تم إلغاء التصدير. تم تصدير %d ملفات PDF بالفعل.</item>
+        <item quantity="many">تم إلغاء التصدير. تم تصدير %d ملف PDF بالفعل.</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="zero">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="one">يتعذر إدخال أكثر من حرف واحد.</item>
+        <item quantity="two">يتعذر إدخال أكثر من حرفين.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d أحرف.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d حرفاً.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">أدخل كلمة مرور تتألف من %d حرف على الأقل.</item>
+        <item quantity="zero">أدخل كلمة مرور تتألف من %d حرف على الأقل.</item>
+        <item quantity="one">أدخل كلمة مرور تتألف من حرف واحد على الأقل.</item>
+        <item quantity="two">أدخل كلمة مرور تتألف من حرفَين على الأقل.</item>
+        <item quantity="few">أدخل كلمة مرور تتألف من %d أحرف على الأقل.</item>
+        <item quantity="many">أدخل كلمة مرور تتألف من %d حرفاً على الأقل.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">أدخل كلمة مرور جديدة تتألف من %d حرف على الأقل.</item>
+        <item quantity="zero">أدخل كلمة مرور جديدة تتألف من %d حرف على الأقل.</item>
+        <item quantity="one">أدخل كلمة مرور جديدة تتألف من حرف واحد على الأقل.</item>
+        <item quantity="two">أدخل كلمة مرور جديدة تتألف من حرفَين على الأقل.</item>
+        <item quantity="few">أدخل كلمة مرور جديدة تتألف من %d أحرف على الأقل.</item>
+        <item quantity="many">أدخل كلمة مرور جديدة تتألف من %d حرفاً على الأقل.</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">انتظر لمدة %d ثانية وحاول مرة أخرى.</item>
+        <item quantity="zero">انتظر لمدة %d ثانية وحاول مرة أخرى.</item>
+        <item quantity="one">انتظر لمدة ثانية واحدة وحاول مرة أخرى.</item>
+        <item quantity="two">انتظر لمدة ثانيتَين وحاول مرة أخرى.</item>
+        <item quantity="few">انتظر لمدة %d ثوانٍ وحاول مرة أخرى.</item>
+        <item quantity="many">انتظر لمدة %d ثانية وحاول مرة أخرى.</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">يتعذر فتح أكثر من %d إطار في تطبيق Samsung Notes. أغلق إطار وحاول مرة أخرى.</item>
+        <item quantity="zero">يتعذر فتح أكثر من %d إطار في تطبيق Samsung Notes. أغلق إطار وحاول مرة أخرى.</item>
+        <item quantity="one">يتعذر فتح أكثر من إطار واحد في تطبيق Samsung Notes. أغلق إطار وحاول مرة أخرى.</item>
+        <item quantity="two">يتعذر فتح أكثر من إطارين في تطبيق Samsung Notes. أغلق إطار وحاول مرة أخرى.</item>
+        <item quantity="few">يتعذر فتح أكثر من %d إطارات في تطبيق Samsung Notes. أغلق إطار وحاول مرة أخرى.</item>
+        <item quantity="many">يتعذر فتح أكثر من %d إطاراً في تطبيق Samsung Notes. أغلق إطار وحاول مرة أخرى.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">تم تنزيل %d ملاحظة‬.</item>
+        <item quantity="zero">تم تنزيل %d ملاحظة‬.</item>
+        <item quantity="one">تم تنزيل ملاحظة واحدة.</item>
+        <item quantity="two">تم تنزيل ملاحظتين.</item>
+        <item quantity="few">تم تنزيل %d ملاحظات.</item>
+        <item quantity="many">تم تنزيل %d ملاحظة‬.</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d لون</item>
+        <item quantity="zero">%d لون</item>
+        <item quantity="one">لون واحد</item>
+        <item quantity="two">لونان</item>
+        <item quantity="few">%d ألوان</item>
+        <item quantity="many">%d لوناً</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d درجة سُمك</item>
+        <item quantity="zero">%d درجة سُمك</item>
+        <item quantity="one">درجة سُمك واحدة</item>
+        <item quantity="two">درجتي سُمك</item>
+        <item quantity="few">%d درجات سُمك</item>
+        <item quantity="many">%d درجة سُمك</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">هل تريد حذف %d ملاحظة مشتركة؟</item>
+        <item quantity="zero">هل تريد حذف %d ملاحظة مشتركة؟</item>
+        <item quantity="one">هل تريد حذف ملاحظة مشتركة واحدة؟</item>
+        <item quantity="two">هل تريد حذف ملاحظتين مشتركتين؟</item>
+        <item quantity="few">هل تريد حذف %d ملاحظات مشتركة؟</item>
+        <item quantity="many">هل تريد حذف %d ملاحظةً مشتركةً؟</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">تحويل %d ملاحظة</item>
+        <item quantity="zero">تحويل %d ملاحظة</item>
+        <item quantity="one">تحويل ملاحظة واحدة</item>
+        <item quantity="two">تحويل ملاحظتين</item>
+        <item quantity="few">تحويل %d ملاحظات</item>
+        <item quantity="many">تحويل %d ملاحظةً</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d مجلد</item>
+        <item quantity="zero">%d مجلد</item>
+        <item quantity="one">مجلد واحد</item>
+        <item quantity="two">مجلدان</item>
+        <item quantity="few">%d مجلدات</item>
+        <item quantity="many">%d مجلداً</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d عنصر</item>
+        <item quantity="zero">%d عنصر</item>
+        <item quantity="one">عنصر واحد</item>
+        <item quantity="two">عنصران</item>
+        <item quantity="few">%d عناصر</item>
+        <item quantity="many">%d عنصراً</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d ملاحظة</item>
+        <item quantity="zero">%d ملاحظة</item>
+        <item quantity="one">ملاحظة واحدة</item>
+        <item quantity="two">ملاحظتان</item>
+        <item quantity="few">%d ملاحظات</item>
+        <item quantity="many">%d ملاحظة</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">يتعذر إظهار أكثر من %d لون.</item>
+        <item quantity="zero">يتعذر إظهار أكثر من %d لون.</item>
+        <item quantity="one">يتعذر إظهار أكثر من لون واحد.</item>
+        <item quantity="two">يتعذر إظهار أكثر من لونَين.</item>
+        <item quantity="few">يتعذر إظهار أكثر من %d ألوان.</item>
+        <item quantity="many">يتعذر إظهار أكثر من %d لوناً.</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d دفتر ملاحظات</item>
+        <item quantity="zero">%d دفتر ملاحظات</item>
+        <item quantity="one">دفتر ملاحظات واحد</item>
+        <item quantity="two">دفترا ملاحظات</item>
+        <item quantity="few">%d دفاتر ملاحظات</item>
+        <item quantity="many">%d دفتر ملاحظات</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">هل تريد نقل %1$d مجلد إلى %2$s؟</item>
+        <item quantity="zero">هل تريد نقل %1$dمجلد إلى %2$s؟</item>
+        <item quantity="one">هل تريد نقل مجلد واحد إلى %2$s؟</item>
+        <item quantity="two">هل تريد نقل مجلدين إلى %2$s؟</item>
+        <item quantity="few">هل تريد نقل %1$d مجلدات إلى %2$s؟</item>
+        <item quantity="many">هل تريد نقل %1$d مجلداً إلى %2$s؟</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">تمت إضافة %2$d ملاحظة جديدة من قبل %1$s في دفتر الملاحظات %3$s.</item>
+        <item quantity="zero">تمت إضافة %2$d ملاحظة جديدة من قبل %1$s في دفتر الملاحظات %3$s.</item>
+        <item quantity="one">تمت إضافة ملاحظة واحدة جديدة من قبل %1$s في دفتر الملاحظات %3$s.</item>
+        <item quantity="two">تمت إضافة ملاحظتَين جديدتَين من قبل %1$s في دفتر الملاحظات %3$s.</item>
+        <item quantity="few">تمت إضافة %2$d ملاحظات جديدة من قبل %1$s في دفتر الملاحظات %3$s.</item>
+        <item quantity="many">تمت إضافة %2$d ملاحظة جديدة من قبل %1$s في دفتر الملاحظات %3$s.</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">تمت مشاركة %d ملاحظة جديدة</item>
+        <item quantity="zero">تمت مشاركة %d ملاحظة جديدة</item>
+        <item quantity="one">تمت مشاركة ملاحظة واحدة جديدة</item>
+        <item quantity="two">تمت مشاركة ملاحظتَين جديدتَين</item>
+        <item quantity="few">تمت مشاركة %d ملاحظات جديدة</item>
+        <item quantity="many">تمت مشاركة %d ملاحظة جديدة</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">تم إلغاء الاستيراد. تم استيراد %d ملف PDF بالفعل.</item>
+        <item quantity="zero">تم إلغاء الاستيراد. تم استيراد %d ملف PDF بالفعل.</item>
+        <item quantity="one">تم إلغاء الاستيراد. تم استيراد ملف PDF واحد بالفعل.</item>
+        <item quantity="two">تم إلغاء الاستيراد. تم استيراد ملفي PDF بالفعل.</item>
+        <item quantity="few">تم إلغاء الاستيراد. تم استيراد %d ملفات PDF بالفعل.</item>
+        <item quantity="many">تم إلغاء الاستيراد. تم استيراد %d ملف PDF بالفعل.</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">تعذر استيراد %d ملاحظة.</item>
+        <item quantity="zero">تعذر استيراد %d ملاحظة.</item>
+        <item quantity="one">تعذر استيراد ملاحظة واحدة.</item>
+        <item quantity="two">تعذر استيراد ملاحظتين.</item>
+        <item quantity="few">تعذر استيراد %d ملاحظات.</item>
+        <item quantity="many">تعذر استيراد %d ملاحظةً.</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">أدخل كلمة مرور جديدة تتألف من %d حرف على الأقل.</item>
+        <item quantity="zero">أدخل كلمة مرور جديدة تتألف من %d حرف على الأقل.</item>
+        <item quantity="one">أدخل كلمة مرور جديدة تتألف من حرف واحد على الأقل.</item>
+        <item quantity="two">أدخل كلمة مرور جديدة تتألف من حرفَين على الأقل.</item>
+        <item quantity="few">أدخل كلمة مرور جديدة تتألف من %d أحرف على الأقل.</item>
+        <item quantity="many">أدخل كلمة مرور جديدة تتألف من %d حرفاً على الأقل.</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">يتعذر تحديد أكثر من %d عنصر.</item>
+        <item quantity="zero">يتعذر تحديد أكثر من %d عنصر.</item>
+        <item quantity="one">يتعذر تحديد أكثر من عنصر واحد.</item>
+        <item quantity="two">يتعذر تحديد أكثر من عنصرين.</item>
+        <item quantity="few">يتعذر تحديد أكثر من %d عناصر.</item>
+        <item quantity="many">يتعذر تحديد أكثر من %d عنصراً.</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">أتريد نقل %d مجلد إلى سلة المحذوفات؟</item>
+        <item quantity="zero">أتريد نقل %d مجلد إلى سلة المحذوفات؟</item>
+        <item quantity="one">أتريد نقل مجلد واحد إلى سلة المحذوفات؟</item>
+        <item quantity="two">أتريد نقل مجلدين إلى سلة المحذوفات؟</item>
+        <item quantity="few">أتريد نقل %d مجلدات إلى سلة المحذوفات؟</item>
+        <item quantity="many">أتريد نقل %d مجلداً إلى سلة المحذوفات؟</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">هل تريد نقل %d مجلد وكل العناصر بداخله إلى سلة المحذوفات؟</item>
+        <item quantity="zero">هل تريد نقل %d مجلد وكل العناصر بداخله إلى سلة المحذوفات؟</item>
+        <item quantity="one">هل تريد نقل مجلد واحد وكل العناصر بداخله إلى سلة المحذوفات؟</item>
+        <item quantity="two">هل تريد نقل مجلدين وكل العناصر بداخلهما إلى سلة المحذوفات؟</item>
+        <item quantity="few">هل تريد نقل %d مجلدات وكل العناصر بداخلها إلى سلة المحذوفات؟</item>
+        <item quantity="many">هل تريد نقل %d مجلداً وكل العناصر بداخله إلى سلة المحذوفات؟</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">أتريد نقل %d ملاحظة إلى سلة المحذوفات؟</item>
+        <item quantity="zero">أتريد نقل %d ملاحظة إلى سلة المحذوفات؟</item>
+        <item quantity="one">أتريد نقل ملاحظة واحدة إلى سلة المحذوفات؟</item>
+        <item quantity="two">أتريد نقل ملاحظتَين إلى سلة المحذوفات؟</item>
+        <item quantity="few">أتريد نقل %d ملاحظات إلى سلة المحذوفات؟</item>
+        <item quantity="many">أتريد نقل %d ملاحظة إلى سلة المحذوفات؟</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">‏‫بعد التحقق من هويتك، سيتم نقل %d ملاحظة (تشمل ملاحظة مقفلة واحدة‬) إلى سلة المحذوفات.</item>
+        <item quantity="zero">‏‫بعد التحقق من هويتك، سيتم نقل %d ملاحظة (تشمل ملاحظة مقفلة واحدة‬) إلى سلة المحذوفات.</item>
+        <item quantity="one">‏‫بعد التحقق من هويتك، سيتم نقل ملاحظة واحدة (تشمل ملاحظة مقفلة واحدة‬) إلى سلة المحذوفات.</item>
+        <item quantity="two">‏‫بعد التحقق من هويتك، سيتم نقل ملاحظتين (تشمل ملاحظة مقفلة واحدة‬) إلى سلة المحذوفات.</item>
+        <item quantity="few">‏‫بعد التحقق من هويتك، سيتم نقل %d ملاحظات (تشمل ملاحظة مقفلة واحدة‬) إلى سلة المحذوفات.</item>
+        <item quantity="many">‏‫بعد التحقق من هويتك، سيتم نقل %d ملاحظةً (تشمل ملاحظة مقفلة واحدة‬) إلى سلة المحذوفات.</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">لم يتم نقل %d ملاحظة موجودة مسبقاً في المجلد المحدد.</item>
+        <item quantity="zero">لم يتم نقل %d ملاحظة موجودة مسبقاً في المجلد المحدد.</item>
+        <item quantity="one">لم يتم نقل ملاحظة واحدة موجودة مسبقاً في المجلد المحدد.</item>
+        <item quantity="two">لم يتم نقل ملاحظتين موجودتين مسبقاً في المجلد المحدد.</item>
+        <item quantity="few">لم يتم نقل %d ملاحظات موجودة مسبقاً في المجلد المحدد.</item>
+        <item quantity="many">لم يتم نقل %d ملاحظة موجودة مسبقاً في المجلد المحدد.</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">هل تريد نقل %1$d ملاحظة إلى %2$s؟</item>
+        <item quantity="zero">هل تريد نقل %1$d ملاحظة إلى %2$s؟</item>
+        <item quantity="one">هل تريد نقل ملاحظة واحدة إلى %2$s؟</item>
+        <item quantity="two">هل تريد نقل ملاحظتين إلى %2$s؟</item>
+        <item quantity="few">هل تريد نقل %1$d ملاحظات إلى %2$s؟</item>
+        <item quantity="many">هل تريد نقل %1$d ملاحظةً إلى %2$s؟</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">سيتم حذف %d عنصر نهائياً من السحابة وكل أجهزتك.</item>
+        <item quantity="zero">سيتم حذف %d عنصر نهائياً من السحابة وكل أجهزتك.</item>
+        <item quantity="one">سيتم حذف عنصر واحد نهائياً من السحابة وكل أجهزتك.</item>
+        <item quantity="two">سيتم حذف عنصرين نهائياً من السحابة وكل أجهزتك.</item>
+        <item quantity="few">سيتم حذف %d عناصر نهائياً من السحابة وكل أجهزتك.</item>
+        <item quantity="many">سيتم حذف %d عنصراً نهائياً من السحابة وكل أجهزتك.</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">هل تريد حذف %d ملاحظة بشكلٍ دائم؟</item>
+        <item quantity="zero">هل تريد حذف %d ملاحظة بشكلٍ دائم؟</item>
+        <item quantity="one">هل تريد حذف ملاحظة واحدة بشكلٍ دائم؟</item>
+        <item quantity="two">هل تريد حذف ملاحظتَين بشكلٍ دائم؟</item>
+        <item quantity="few">هل تريد حذف %d ملاحظات بشكلٍ دائم؟</item>
+        <item quantity="many">هل تريد حذف %d ملاحظة بشكلٍ دائم؟</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">سيتم حذف %d عنصر بشكلٍ دائم.</item>
+        <item quantity="zero">سيتم حذف %d عنصر بشكلٍ دائم.</item>
+        <item quantity="one">سيتم حذف عنصر واحد بشكلٍ دائم.</item>
+        <item quantity="two">سيتم حذف عنصرَين بشكلٍ دائم.</item>
+        <item quantity="few">سيتم حذف %d عناصر بشكلٍ دائم.</item>
+        <item quantity="many">سيتم حذف %d عنصراً بشكلٍ دائم.</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d يوم</item>
+        <item quantity="zero">%d يوم</item>
+        <item quantity="one">يوم واحد</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d يوماً</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">يتعذر تحديد أكثر من %d خط أو كائن في ملاحظة مشتركة.</item>
+        <item quantity="zero">يتعذر تحديد أكثر من %d خط أو كائن في ملاحظة مشتركة.</item>
+        <item quantity="one">يتعذر تحديد أكثر من خط أو كائن واحد في ملاحظة مشتركة.</item>
+        <item quantity="two">يتعذر تحديد أكثر من خطين أو كائنين في ملاحظة مشتركة.</item>
+        <item quantity="few">يتعذر تحديد أكثر من %d خطوط أو كائنات في ملاحظة مشتركة.</item>
+        <item quantity="many">يتعذر تحديد أكثر من %d خطاً أو كائناً في ملاحظة مشتركة.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">تم حفظ %d صورة على هاتفك.</item>
+        <item quantity="zero">تم حفظ %d صورة على هاتفك.</item>
+        <item quantity="one">تم حفظ صورة واحدة على هاتفك.</item>
+        <item quantity="two">تم حفظ صورتين على هاتفك.</item>
+        <item quantity="few">تم حفظ %d صور على هاتفك.</item>
+        <item quantity="many">تم حفظ %d صورةً على هاتفك.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">تم حفظ %d صورة على جهازك اللوحي.</item>
+        <item quantity="zero">تم حفظ %d صورة على جهازك اللوحي.</item>
+        <item quantity="one">تم حفظ صورة واحدة على جهازك اللوحي.</item>
+        <item quantity="two">تم حفظ صورتين على جهازك اللوحي.</item>
+        <item quantity="few">تم حفظ %d صور على جهازك اللوحي.</item>
+        <item quantity="many">تم حفظ %d صورةً على جهازك اللوحي.</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">تم حفظ %d ملف على هاتفك.</item>
+        <item quantity="zero">تم حفظ %d ملف على هاتفك.</item>
+        <item quantity="one">تم حفظ ملف واحد على هاتفك.</item>
+        <item quantity="two">تم حفظ ملفَين على هاتفك.</item>
+        <item quantity="few">تم حفظ %d ملفات على هاتفك.</item>
+        <item quantity="many">تم حفظ %d ملفاً على هاتفك.</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">تم حفظ %d ملف على جهازك اللوحي.</item>
+        <item quantity="zero">تم حفظ %d ملف على جهازك اللوحي.</item>
+        <item quantity="one">تم حفظ ملف واحد على جهازك اللوحي.</item>
+        <item quantity="two">تم حفظ ملفَين على جهازك اللوحي.</item>
+        <item quantity="few">تم حفظ %d ملفات على جهازك اللوحي.</item>
+        <item quantity="many">تم حفظ %d ملفاً على جهازك اللوحي.</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d عضو</item>
+        <item quantity="zero">%d عضو</item>
+        <item quantity="one">عضو واحد</item>
+        <item quantity="two">عضوان</item>
+        <item quantity="few">%d أعضاء</item>
+        <item quantity="many">%d عضوًا</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">سيتم حذف هذه الملاحظة خلال %d يوم.</item>
+        <item quantity="zero">سيتم حذف هذه الملاحظة خلال %d يوم.</item>
+        <item quantity="one">سيتم حذف هذه الملاحظة خلال يوم واحد.</item>
+        <item quantity="two">سيتم حذف هذه الملاحظة خلال يومين.</item>
+        <item quantity="few">سيتم حذف هذه الملاحظة خلال %d أيام.</item>
+        <item quantity="many">سيتم حذف هذه الملاحظة خلال %d يوماً.</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">جارٍ تصدير %d ملف PDF…</item>
+        <item quantity="zero">جارٍ تصدير %d ملف PDF…</item>
+        <item quantity="one">جارٍ تصدير ملف PDF واحد…</item>
+        <item quantity="two">جارٍ تصدير ملفي PDF…</item>
+        <item quantity="few">جارٍ تصدير %d ملفات PDF…</item>
+        <item quantity="many">جارٍ تصدير %d ملف PDF…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">تعذر تحويل %d ملاحظة. قم بإخلاء بعض المساحة في مكان التخزين الداخلي، ثم حاول مرة أخرى.</item>
+        <item quantity="zero">تعذر تحويل %d ملاحظة. قم بإخلاء بعض المساحة في مكان التخزين الداخلي، ثم حاول مرة أخرى.</item>
+        <item quantity="one">تعذر تحويل ملاحظة واحدة. قم بإخلاء بعض المساحة في مكان التخزين الداخلي، ثم حاول مرة أخرى.</item>
+        <item quantity="two">تعذر تحويل ملاحظتين. قم بإخلاء بعض المساحة في مكان التخزين الداخلي، ثم حاول مرة أخرى.</item>
+        <item quantity="few">تعذر تحويل %d ملاحظات. قم بإخلاء بعض المساحة في مكان التخزين الداخلي، ثم حاول مرة أخرى.</item>
+        <item quantity="many">تعذر تحويل %d ملاحظةً. قم بإخلاء بعض المساحة في مكان التخزين الداخلي، ثم حاول مرة أخرى.</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">هل تريد حذف %d عنصر؟</item>
+        <item quantity="zero">هل تريد حذف %d عنصر؟</item>
+        <item quantity="one">هل تريد حذف عنصر واحد؟</item>
+        <item quantity="two">هل تريد حذف عنصرين؟</item>
+        <item quantity="few">هل تريد حذف %d عناصر؟</item>
+        <item quantity="many">هل تريد حذف %d عنصراً؟</item>
+    </plurals>
+</resources>

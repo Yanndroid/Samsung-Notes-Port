@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/folderlist_divider" android:background="@color/folder_list_divider_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/folder_list_item_divider_margin_top" android:layout_marginStart="@dimen/folder_list_item_divider_margin_start_end" android:layout_marginEnd="@dimen/folder_list_item_divider_margin_start_end" />
+    <com.samsung.android.support.senl.nt.app.main.common.view.FolderPenRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/folderlist_recyclerview" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/folder_recyclerview_margin_bottom" />
+</LinearLayout>

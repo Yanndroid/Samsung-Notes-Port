@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:layout_gravity="center" android:id="@id/handler_view" android:background="@drawable/rectify_area_handler" android:layout_width="@dimen/rectify_handler_view_size" android:layout_height="@dimen/rectify_handler_view_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

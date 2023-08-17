@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+import "coedit_core_message.proto";
+
+package coeditCore;
+
+service Continuer{
+  rpc ContinuousMessage (stream coeditCoreMessage.ClientMsg) returns (stream coeditCoreMessage.ServerMsg);
+}
+
+service Submitter {
+  rpc Submit (coeditCoreMessage.SubmitRequest) returns (coeditCoreMessage.SubmitResponse);
+}
+
+service Catcher {
+  rpc Catchup (coeditCoreMessage.CatchupRequest) returns (stream coeditCoreMessage.CatchupResponse);
+}
+
+service PolicyManager {
+  rpc RequestPermission(coeditCoreMessage.PermissionRequest) returns (coeditCoreMessage.PermissionResponse);
+}
+
+service WorkspaceManager {
+  rpc ResetWorkspace(coeditCoreMessage.ResetWorkspaceRequest) returns (coeditCoreMessage.ResetWorkspaceResponse);
+}

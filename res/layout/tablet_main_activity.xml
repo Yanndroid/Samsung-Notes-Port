@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.app.main.tablet.InterceptTouchLayout android:id="@id/intercept_layout" android:background="@color/tablet_drawer_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/drawer_recyclerview_padding_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/drawer_fragment_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <include layout="@layout/drawer_bar_layout" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/tablet_memolist_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/noteslist_container_margin_start">
+        <ImageView android:layout_gravity="start|center|top" android:id="@id/tablet_drawer_top_corner" android:background="@color/noteslist_fragment_bg_color" android:layout_width="@dimen/drawer_corner_width_height" android:layout_height="@dimen/drawer_corner_width_height" android:src="@drawable/tablet_drawer_top_right_corner" />
+        <ImageView android:layout_gravity="start|bottom|center" android:id="@id/tablet_drawer_bottom_corner" android:background="@color/noteslist_fragment_bg_color" android:layout_width="@dimen/drawer_corner_width_height" android:layout_height="@dimen/drawer_corner_width_height" android:src="@drawable/tablet_drawer_bottom_right_corner" />
+        <include layout="@layout/tablet_memolist_container" />
+    </FrameLayout>
+    <include layout="@layout/note_fab_fake_view" />
+    <include layout="@layout/note_fab_view_stub" />
+</com.samsung.android.support.senl.nt.app.main.tablet.InterceptTouchLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:autoMirrored="true" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M8.8,14.25h8v1.5h-8z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff4c4c4c" android:pathData="M9.55,14.25L16.05,14.25A0.75,0.75 0,0 1,16.8 15L16.8,15A0.75,0.75 0,0 1,16.05 15.75L9.55,15.75A0.75,0.75 0,0 1,8.8 15L8.8,15A0.75,0.75 0,0 1,9.55 14.25z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff4c4c4c" android:pathData="M24.3,13.5L29.3,13.5A1.5,1.5 0,0 1,30.8 15L30.8,15A1.5,1.5 0,0 1,29.3 16.5L24.3,16.5A1.5,1.5 0,0 1,22.8 15L22.8,15A1.5,1.5 0,0 1,24.3 13.5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@color/customize_toolbar_item_spinner_color" android:pathData="M15.43,25.572C15.126,25.198 15.417,24.667 15.925,24.667L24.074,24.667C24.583,24.667 24.874,25.198 24.57,25.572L20.496,30.59C20.249,30.895 19.751,30.895 19.504,30.59L15.43,25.572Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

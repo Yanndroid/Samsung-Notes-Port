@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/list_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/tab_round_corner_radius" />
+            <solid android:color="?android:colorAccent" />
+        </shape>
+    </item>
+    <item>
+        <selector>
+            <item android:state_selected="false" android:drawable="@android:color/transparent" />
+            <item>
+                <shape>
+                    <solid android:color="@color/tab_round_bg" />
+                    <corners android:radius="@dimen/tab_round_corner_radius" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

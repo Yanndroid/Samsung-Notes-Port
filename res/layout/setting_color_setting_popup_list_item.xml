@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/top_space" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_alignParentStart="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/item_content" android:layout_width="fill_parent" android:layout_height="32.0dip">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.75" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.75" />
+        <com.samsung.android.sdk.pen.setting.colorpalette.SpenColorChipView android:id="@id/setting_pen_color_view_1" android:focusable="false" android:duplicateParentState="false" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" app:bottomStartRadius="@dimen/setting_change_style_chip_radius" app:topStartRadius="@dimen/setting_change_style_chip_radius">
+            <View android:layout_width="fill_parent" android:layout_height="32.0dip" />
+        </com.samsung.android.sdk.pen.setting.colorpalette.SpenColorChipView>
+        <com.samsung.android.sdk.pen.setting.colorpalette.SpenColorChipView android:id="@id/setting_pen_color_view_2" android:focusable="false" android:duplicateParentState="false" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" />
+        <com.samsung.android.sdk.pen.setting.colorpalette.SpenColorChipView android:id="@id/setting_pen_color_view_3" android:focusable="false" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" />
+        <com.samsung.android.sdk.pen.setting.colorpalette.SpenColorChipView android:id="@id/setting_pen_color_view_4" android:focusable="false" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" />
+        <com.samsung.android.sdk.pen.setting.colorpalette.SpenColorChipView android:id="@id/setting_pen_color_view_5" android:focusable="false" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" />
+        <com.samsung.android.sdk.pen.setting.colorpalette.SpenColorChipView android:id="@id/setting_pen_color_view_6" android:focusable="false" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" />
+        <com.samsung.android.sdk.pen.setting.colorpalette.SpenColorChipView android:id="@id/setting_pen_color_view_7" android:focusable="false" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" />
+        <com.samsung.android.sdk.pen.setting.colorpalette.SpenColorChipView android:id="@id/setting_pen_color_view_8" android:focusable="false" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" app:bottomEndRadius="@dimen/setting_change_style_chip_radius" app:topEndRadius="@dimen/setting_change_style_chip_radius">
+            <View android:layout_width="fill_parent" android:layout_height="32.0dip" />
+        </com.samsung.android.sdk.pen.setting.colorpalette.SpenColorChipView>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.75" />
+    </LinearLayout>
+    <View android:id="@id/bottom_space" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+</LinearLayout>

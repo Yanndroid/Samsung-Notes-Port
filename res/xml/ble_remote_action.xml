@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remote-actions enable_key="146BE4F3" version="1.2">
+    <action id="single_click" label="@string/ble_next_favorite_pen" priority="1" trigger_key="CTRL_LEFT+SHIFT_LEFT+F">
+        <disable-condition feature="SEC_FLOATING_FEATURE_COMMON_SUPPORT_BLE_SPEN" value="false" />
+        <preference name="gesture" value="click" />
+    </action>
+    <action id="double_click" label="@string/ble_previous_favorite_pen" priority="2" trigger_key="CTRL_LEFT+SHIFT_LEFT+P">
+        <disable-condition feature="SEC_FLOATING_FEATURE_COMMON_SUPPORT_BLE_SPEN" value="false" />
+        <preference name="gesture" value="double_click" />
+    </action>
+    <action id="swipe_up" label="@string/ble_previous_page" priority="3" trigger_key="PAGE_UP">
+        <disable-condition feature="SEC_FLOATING_FEATURE_COMMON_SUPPORT_BLE_SPEN" value="false" />
+        <preference name="gesture" value="swipe_up" />
+    </action>
+    <action id="swipe_down" label="@string/ble_next_page" priority="4" trigger_key="PAGE_DOWN">
+        <disable-condition feature="SEC_FLOATING_FEATURE_COMMON_SUPPORT_BLE_SPEN" value="false" />
+        <preference name="gesture" value="swipe_down" />
+    </action>
+    <action id="swipe_left" label="@string/ble_redo" priority="5" trigger_key="CTRL_LEFT+SHIFT_LEFT+Y">
+        <disable-condition feature="SEC_FLOATING_FEATURE_COMMON_SUPPORT_BLE_SPEN" value="false" />
+        <preference name="gesture" value="swipe_right" />
+    </action>
+    <action id="swipe_right" label="@string/ble_undo" priority="6" trigger_key="CTRL_LEFT+SHIFT_LEFT+Z">
+        <disable-condition feature="SEC_FLOATING_FEATURE_COMMON_SUPPORT_BLE_SPEN" value="false" />
+        <preference name="gesture" value="swipe_left" />
+    </action>
+    <action id="circle_cw" label="@string/ble_zoom_in" priority="7" trigger_key="CTRL_LEFT+EQUALS">
+        <disable-condition feature="SEC_FLOATING_FEATURE_COMMON_SUPPORT_BLE_SPEN" value="false" />
+        <preference name="gesture" value="circle_cw" />
+    </action>
+    <action id="circle_ccw" label="@string/ble_zoom_out" priority="8" trigger_key="CTRL_LEFT+MINUS">
+        <disable-condition feature="SEC_FLOATING_FEATURE_COMMON_SUPPORT_BLE_SPEN" value="false" />
+        <preference name="gesture" value="circle_ccw" />
+    </action>
+    <action id="extra_eraser_mode" label="@string/ble_eraser_mode" priority="9" trigger_key="CTRL_LEFT+SHIFT_LEFT+D">
+        <disable-condition feature="SEC_FLOATING_FEATURE_COMMON_SUPPORT_BLE_SPEN" value="false" />
+    </action>
+</remote-actions>

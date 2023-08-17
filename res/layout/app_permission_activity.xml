@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/button_container" android:layout_alignParentTop="true">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:background="@color/window_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" app:extendedSubtitleTextAppearance="@style/AppTheme.CollapsingToolbarSubTitle" app:extendedTitleTextAppearance="@style/AppTheme.CollapsingToolbarTitle" app:layout_scrollFlags="scroll|exitUntilCollapsed" style="@style/Widget.Design.Light.CollapsingToolbar">
+                <include layout="@layout/default_toolbar" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:id="@id/activity_layout" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="92.0dip" android:fillViewport="true" android:layout_marginStart="@dimen/app_permission_description_margin_start_end" android:layout_marginEnd="@dimen/app_permission_description_margin_start_end">
+                <TextView android:textSize="@dimen/app_permission_description_title_text_size" android:textColor="@color/app_permission_description_title_text_color" android:id="@id/optional_permission_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="8.0dip" android:text="@string/optional_permission" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/storage_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="62.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_perm_group_storage" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="12.0dip">
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissionsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/storage_permission_title" />
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/storage_permission_message" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/photos_and_videos_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="62.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_perm_group_photos_and_videos" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="12.0dip">
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissionsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_and_videos_permission_title" />
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photos_and_videos_permission_message" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/notifications_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="62.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_perm_group_notifications" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="12.0dip">
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissionsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notifications_permission_title" />
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notifications_permission_message" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/music_and_audio_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="62.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_perm_group_music_and_audio" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="12.0dip">
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissionsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music_and_audio_permission_title" />
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music_and_audio_permission_message" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/phone_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="62.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_perm_group_phone_calls" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="12.0dip">
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissionsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_permission_title" />
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_permission_message" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="62.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_perm_group_microphone" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="12.0dip">
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissionsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/microphone_permission_title" />
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/microphone_permission_msessage" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="62.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_perm_group_camera" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="12.0dip">
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissionsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_permission_title" />
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_permission_message" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/contacts_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="62.0dip">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_perm_group_contacts" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="12.0dip">
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissionsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contacts_permission_title" />
+                        <TextView android:textAppearance="@style/TextAppearanceAppPermissions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contacts_permission_message" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/app_permission_description_title_text_size" android:textColor="@color/app_permission_description_title_text_color" android:id="@id/special_sensitive_required_permissions_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_marginBottom="16.0dip" android:text="@string/special_sensitive_required_permissions" />
+                <TextView android:textAppearance="@style/TextAppearanceAppPermissionsTitle" android:id="@id/special_sensitive_required_permissions_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/special_sensitive_required_permissions_title" />
+                <TextView android:textAppearance="@style/TextAppearanceAppPermissions" android:id="@id/special_sensitive_required_permissions_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/special_sensitive_required_permissions_message" />
+                <TextView android:textSize="@dimen/app_permission_description_detail_text_size" android:textColor="@color/app_permission_description_title_text_color" android:id="@id/optional_permission_detail_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/optional_permission_detail" />
+            </LinearLayout>
+        </com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="92.0dip" android:weightSum="2.0" android:layout_alignParentBottom="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <Button android:theme="@style/ContainedButtonTheme" android:textSize="18.0sp" android:ellipsize="end" android:id="@id/button_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_cancel" android:maxLines="1" android:layout_weight="1.0" android:layout_marginEnd="3.0dip" style="@style/ContainedButton" />
+        <Button android:theme="@style/ContainedPrimaryColorButtonTheme" android:textSize="18.0sp" android:ellipsize="end" android:id="@id/button_continue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_continue" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="3.0dip" style="@style/ContainedButton" />
+    </LinearLayout>
+</RelativeLayout>

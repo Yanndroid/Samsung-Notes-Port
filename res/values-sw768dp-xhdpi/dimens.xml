@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="handwriting_pen_type_layout_padding">5.0dip</dimen>
+    <dimen name="seekbar_progress_bg_height">173.0dip</dimen>
+    <dimen name="seekbar_progress_bg_width">4.0dip</dimen>
+    <dimen name="floating_controller_voice_button_height">29.0dip</dimen>
+    <dimen name="floating_controller_voice_button_width">29.0dip</dimen>
+    <dimen name="floating_controller_voice_cancel_button_margin_end">16.0dip</dimen>
+    <dimen name="floating_controller_voice_cancel_button_margin_start">10.0dip</dimen>
+    <dimen name="floating_controller_voice_draggable_view_height">29.0dip</dimen>
+    <dimen name="floating_controller_voice_draggable_view_margin_start">11.0dip</dimen>
+    <dimen name="floating_controller_voice_draggable_view_width">20.0dip</dimen>
+    <dimen name="floating_controller_voice_first_button_margin_start">10.0dip</dimen>
+    <dimen name="floating_controller_voice_layout_height">43.0dip</dimen>
+    <dimen name="floating_controller_voice_second_button_margin_start">10.0dip</dimen>
+</resources>

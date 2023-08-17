@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/comp_add_new_page_button_container" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/composer_ctx_menu_add_page"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/comp_add_new_page_button_background" android:background="@drawable/comp_add_new_page_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/comp_dex_button_margin" android:layout_marginTop="@dimen/comp_dex_button_margin" android:layout_marginRight="@dimen/comp_dex_button_margin" android:layout_marginBottom="@dimen/comp_dex_button_margin" android:elevation="4.0dip" android:layout_marginHorizontal="@dimen/comp_dex_button_margin" android:layout_marginVertical="@dimen/comp_dex_button_margin">
+        <ImageView android:id="@id/comp_add_new_page" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/comp_dex_add_page" android:tint="@color/comp_dex_add_page_button_color" />
+    </FrameLayout>
+</FrameLayout>

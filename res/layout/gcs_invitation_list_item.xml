@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/gcs_invitation_list_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/gcs_invitation_list_padding_start_end" android:paddingEnd="@dimen/gcs_invitation_list_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/notes_grid_item_title_size" android:textColor="@color/gcs_invited_notebook_title_text_color" android:id="@id/invited_notebook_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/notes_grid_item_text_content_size" android:textColor="@color/gcs_invited_requester_name_text_color" android:id="@id/invited_requester_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gcs_invitation_list_time_view_margin_top">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/notes_grid_item_text_content_size" android:textColor="@color/gcs_invited_expired_time_text_color" android:id="@id/invited_expired_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/notes_grid_item_text_content_size" android:textColor="@color/gcs_invited_requested_time_text_color" android:id="@id/invited_requested_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/gcs_invitation_list_requested_time_margin_start" />
+    </LinearLayout>
+    <View android:background="@color/settings_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/noteslist_item_divider_height" android:layout_marginTop="@dimen/gcs_invitation_list_padding_top_bottom" />
+</LinearLayout>

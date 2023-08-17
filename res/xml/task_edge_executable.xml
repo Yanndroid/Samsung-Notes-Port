@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <command android:label="@string/aircommand_create_note" android:icon="@drawable/note_task_edge_bg_smallicon" android:enabled="true" android:smallIcon="@drawable/note_task_edge_create_note">
+        <extras-attr android:name="type" android:value="service" />
+        <extras-attr android:name="category" android:value="5" />
+        <extras-attr android:name="action" android:value="com.samsung.android.app.notes.ACTION_TASK_EDGE" />
+        <extras-attr android:name="packageName" android:value="com.samsung.android.app.notes" />
+        <extras-attr android:name="componentName" android:value="com.samsung.android.app.notes.popupnote.PopupNoteService" />
+        <extras-attr android:name="launchMode" android:value="newTask|clearTop" />
+        <extras-attr android:name="extras" android:value="NEW_MEMO_OPEN" android:key="MEMO_WIDGET_ACTION" />
+    </command>
+    <command android:label="@string/task_edge_add" android:icon="@drawable/note_task_edge_bg_smallicon" android:enabled="true" android:tag="\ 3104076508" android:smallIcon="@drawable/note_task_edge_text">
+        <extras-attr android:name="type" android:value="activity" />
+        <extras-attr android:name="category" android:value="4" />
+        <extras-attr android:name="action" android:value="com.samsung.android.app.notes.ACTION_TASK_EDGE" />
+        <extras-attr android:name="packageName" android:value="com.samsung.android.app.notes" />
+        <extras-attr android:name="componentName" android:value="com.samsung.android.support.senl.nt.composer.main.nativecomposer.NativeComposerTriggerActivity" />
+        <extras-attr android:name="launchMode" android:value="newTask|clearTop" />
+        <extras-attr android:name="extras" android:value="NEW_MEMO_OPEN" android:key="MEMO_WIDGET_ACTION" />
+    </command>
+    <command android:label="@string/task_edge_handwriting" android:icon="@drawable/note_task_edge_bg_smallicon" android:enabled="true" android:tag="\ 3308479641" android:smallIcon="@drawable/note_task_edge_handwriting">
+        <extras-attr android:name="type" android:value="activity" />
+        <extras-attr android:name="category" android:value="3" />
+        <extras-attr android:name="action" android:value="com.samsung.android.app.notes.ACTION_TASK_EDGE" />
+        <extras-attr android:name="packageName" android:value="com.samsung.android.app.notes" />
+        <extras-attr android:name="componentName" android:value="com.samsung.android.support.senl.nt.composer.main.nativecomposer.NativeComposerTriggerActivity" />
+        <extras-attr android:name="launchMode" android:value="newTask|clearTop" />
+        <extras-attr android:name="extras" android:value="NEW_MEMO_WRITING_OPEN" android:key="MEMO_WIDGET_ACTION" />
+    </command>
+    <command android:label="@string/task_edge_drawing" android:icon="@drawable/note_task_edge_bg_smallicon" android:enabled="true" android:tag="\ 1194370651" android:smallIcon="@drawable/note_task_edge_drawing">
+        <extras-attr android:name="type" android:value="activity" />
+        <extras-attr android:name="category" android:value="2" />
+        <extras-attr android:name="action" android:value="com.samsung.android.app.notes.ACTION_TASK_EDGE" />
+        <extras-attr android:name="packageName" android:value="com.samsung.android.app.notes" />
+        <extras-attr android:name="componentName" android:value="com.samsung.android.support.senl.nt.composer.main.nativecomposer.NativeComposerTriggerActivity" />
+        <extras-attr android:name="launchMode" android:value="newTask|clearTop" />
+        <extras-attr android:name="extras" android:value="NEW_MEMO_DRAWING_OPEN" android:key="MEMO_WIDGET_ACTION" />
+    </command>
+    <command android:label="@string/task_edge_voice" android:icon="@drawable/note_task_edge_bg_smallicon" android:enabled="true" android:tag="\ 4007409327" android:smallIcon="@drawable/note_task_edge_voice">
+        <extras-attr android:name="type" android:value="activity" />
+        <extras-attr android:name="category" android:value="1" />
+        <extras-attr android:name="action" android:value="com.samsung.android.app.notes.ACTION_TASK_EDGE" />
+        <extras-attr android:name="packageName" android:value="com.samsung.android.app.notes" />
+        <extras-attr android:name="componentName" android:value="com.samsung.android.support.senl.nt.composer.main.nativecomposer.NativeComposerTriggerActivity" />
+        <extras-attr android:name="launchMode" android:value="newTask|clearTop" />
+        <extras-attr android:name="extras" android:value="NEW_MEMO_VOICE_OPEN" android:key="MEMO_WIDGET_ACTION" />
+    </command>
+</executable>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:theme="@style/Theme.AppCompat.DayNight" android:layout_gravity="bottom" android:id="@id/toolbar" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:contentInsetStart="@dimen/default_toolbar_title_inset_start" app:background="@android:color/transparent" app:collapseContentDescription="@string/drawer_description" app:layout_collapseMode="pin" app:tooltipText="@string/drawer_description"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

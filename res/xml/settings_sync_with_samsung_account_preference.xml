@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory android:key="settings_sync_category">
+        <com.samsung.android.support.senl.nt.app.settings.common.component.SwitchPreference android:key="settings_samsung_cloud_sync" app:title="@string/settings_sync_on" />
+    </androidx.preference.PreferenceCategory>
+    <com.samsung.android.support.senl.nt.app.settings.common.component.TextViewPreference android:title="@string/settings_global_auto_sync_off" android:key="settings_sync_with_samsung_account_auto_sync_off_description" />
+    <androidx.preference.PreferenceCategory android:key="settings_sync_with_samsung_account_description_category">
+        <com.samsung.android.support.senl.nt.app.settings.common.component.TextViewPreference android:key="settings_sync_with_samsung_account_description" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="settings_sync_with_samsung_account_contents_category">
+        <com.samsung.android.support.senl.nt.app.settings.common.component.ProgressPreference android:key="settings_sync_with_samsung_account_sync_now" />
+        <androidx.preference.Preference android:key="settings_sync_with_samsung_account_sync_type" />
+        <androidx.preference.Preference android:key="settings_sync_with_samsung_account_cloud_usage" />
+        <androidx.preference.Preference android:title="@string/settings_log_out" android:key="settings_sync_with_samsung_account_log_out" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

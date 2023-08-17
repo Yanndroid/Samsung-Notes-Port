@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/coedit_invitation_background" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:minHeight="132.0dip" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <ImageView android:id="@id/coedit_invitation_thumbnail" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/ic_invitation_no_image" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="20.0dip">
+            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="17.0dip" android:textColor="@color/tip_card_title_text_color" android:id="@id/coedit_invitation_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/co_edit_invitation" />
+            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="13.0dip" android:textColor="@color/tip_card_title_text_color" android:id="@id/coedit_invitation_space_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="13.0dip" android:textColor="@color/invitation_expired_time_text_color" android:id="@id/coedit_invitation_expired_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/gcs_invitations_expires_time" />
+            <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="13.0dip" android:paddingStart="4.0dip" android:paddingEnd="4.0dip">
+                <FrameLayout android:id="@id/coedit_invitation_decline" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/comp_ripple_rounded_effect">
+                    <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="17.0dip" android:textColor="@color/tip_card_button_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/gcs_invitations_join_dialog_decline" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/coedit_invitation_join" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/comp_ripple_rounded_effect" android:layout_marginStart="14.0dip">
+                    <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="17.0dip" android:textColor="@color/tip_card_button_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/co_edit_invitation_join" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout name="brush_panning_bar_layout.xml">
+
+    <View id="brush_canvas_view">
+        <ViewModel id="brushcanvasvm">
+            <Bind
+                bindId="onLayoutChange"
+                property="action_layoutChange" />
+        </ViewModel>
+
+        <ViewModel id="previewvm">
+            <Bind
+                bindId="previewViewModel"
+                property="md_brush_previewImageVM" />
+            <Bind
+                bindId="canvasVisibility"
+                property="ad_base_visibleHide" />
+        </ViewModel>
+    </View>
+
+    <View id="brush_canvas_preview_layout">
+        <ViewModel id="previewvm">
+            <Bind
+                bindId="previewVisibility"
+                property="ad_base_visibleGoneWithAnimation_pending" />
+        </ViewModel>
+    </View>
+
+    <View id="brush_canvas_preview_image">
+        <ViewModel id="previewvm">
+            <Bind
+                bindId="previewBitmap"
+                property="ad_brush_preview" />
+        </ViewModel>
+    </View>
+
+    <View id="brush_vertical_panning">
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="panningBarVerticalMarginBottomPx"
+                property="ad_base_viewMarginBottom" />
+            <Bind
+                bindId="panningBarVerticalMarginEndPx"
+                property="ad_base_viewMarginEnd" />
+            <Bind
+                bindId="panningBarVerticalPaddingEndPx"
+                property="ad_base_viewPaddingEnd" />
+            <Bind
+                bindId="panningBarWidthPx"
+                property="ad_base_viewWidth" />
+        </ViewModel>
+
+        <ViewModel id="panningvm">
+            <Bind
+                bindId="verticalVisibility"
+                property="ad_base_visibleGone_pending" />
+            <Bind
+                bindId="panningbarListener"
+                property="md_brush_panningbarListener" />
+        </ViewModel>
+    </View>
+
+    <View id="brush_horizontal_panning">
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="panningBarHeightPx"
+                property="ad_base_viewHeight" />
+            <Bind
+                bindId="panningBarHorizontalMarginBottomPx"
+                property="ad_base_viewMarginBottom" />
+            <Bind
+                bindId="panningBarHorizontalMarginEndPx"
+                property="ad_base_viewMarginEnd" />
+        </ViewModel>
+
+        <ViewModel id="panningvm">
+            <Bind
+                bindId="horizontalVisibility"
+                property="ad_base_visibleGone_pending" />
+            <Bind
+                bindId="panningbarListener"
+                property="md_brush_panningbarListener" />
+        </ViewModel>
+    </View>
+</Layout>

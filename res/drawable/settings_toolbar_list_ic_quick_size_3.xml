@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center_vertical" android:height="2.0999756dip" android:width="18.25998dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/customize_toolbar_item_icon_color" />
+            <corners android:radius="1.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="center_vertical" android:height="4.1999817dip" android:width="18.25998dip" android:left="23.879974dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/customize_toolbar_item_icon_color" />
+            <corners android:radius="2.7999878dip" />
+        </shape>
+    </item>
+    <item android:gravity="center_vertical" android:height="7.0dip" android:width="18.25998dip" android:left="47.75998dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/customize_toolbar_item_icon_color" />
+            <corners android:radius="4.1999817dip" />
+        </shape>
+    </item>
+</layer-list>

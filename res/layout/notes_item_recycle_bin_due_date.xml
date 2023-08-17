@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/notes_list_item_due_date_text_size" android:textColor="@color/noteslist_item_title_color_white" android:gravity="center" android:background="@color/noteslist_item_due_date_view_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/notes_list_item_due_date_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

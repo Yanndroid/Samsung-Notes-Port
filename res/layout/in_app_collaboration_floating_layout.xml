@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.base.winset.view.floater.FloaterContainer android:id="@id/floating_layout_container_for_sub" android:background="@color/in_app_dim_color" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.composer.main.base.view.menu.toolbar.common.ToolbarContainerLayout android:id="@id/floating_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/in_app_floating_item_layout" android:visibility="gone" style="@style/InAppCollaborationAddOnsButtonStyle" />
+</com.samsung.android.support.senl.nt.base.winset.view.floater.FloaterContainer>

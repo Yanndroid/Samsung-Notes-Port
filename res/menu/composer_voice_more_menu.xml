@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_recording_replay" android:title="@string/composer_voice_record_more_note_replay_off" />
+    <item android:id="@id/action_note_replay" android:title="@string/composer_voice_record_more_note_replay_on" />
+</menu>

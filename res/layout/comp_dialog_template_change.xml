@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:scrollbarStyle="outsideOverlay" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/comp_template_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="@dimen/change_template_list_view_interval">
+        <include layout="@layout/comp_template_image_setting_layout" />
+        <RelativeLayout android:background="@drawable/comp_activity_change_template_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/change_template_list_view_interval" android:paddingStart="@dimen/change_template_recyclerview_side_margin" android:paddingEnd="@dimen/change_template_recyclerview_side_margin">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/comp_default_template_recycler_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@drawable/comp_activity_change_template_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/change_template_recyclerview_side_margin" android:paddingEnd="@dimen/change_template_recyclerview_side_margin">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/comp_added_template_recycler_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/widget_overlap_voice" android:background="@drawable/widget_option_white_background" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/widget_overlap_voice_icon" android:layout_width="@dimen/widget_voice_icon_size" android:layout_height="@dimen/widget_voice_icon_size" android:src="@drawable/widget_ic_voice" android:tint="@color/widget_voice_icon_color" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/widget_overlap_setting" android:background="@drawable/widget_option_white_background" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:foreground="@drawable/widget_ripple" android:layout_marginStart="@dimen/widget_pin_setting_start_margin">
+        <ImageView android:layout_gravity="center" android:id="@id/widget_overlap_setting_icon" android:layout_width="@dimen/widget_voice_icon_size" android:layout_height="@dimen/widget_voice_icon_size" android:src="@drawable/widget_ic_setting" />
+    </FrameLayout>
+</LinearLayout>

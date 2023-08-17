@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.app.settings.common.component.TextViewPreference android:key="settings_convert_your_notes_description" />
+    <PreferenceCategory android:key="settings_convert_your_notes" />
+    <androidx.preference.PreferenceCategory android:key="settings_convert_your_notes_button_category">
+        <com.samsung.android.support.senl.nt.app.settings.common.component.ButtonPreference android:key="settings_convert_your_notes_button" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="settings_bottom_category" />
+</androidx.preference.PreferenceScreen>

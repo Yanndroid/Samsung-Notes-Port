@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:layout_width="wrap_content" android:layout_height="@dimen/mini_popup_layout_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/total_layout" android:layout_width="wrap_content" android:layout_height="@dimen/mini_popup_layout_width">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header_area" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/mini_popup_default_top_bottom_margin">
+            <FrameLayout android:layout_width="@dimen/mini_popup_divider_group_height" android:layout_height="fill_parent">
+                <View android:layout_gravity="end" android:id="@id/header_divider" android:background="@color/mini_setting_divider_color" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/content_area" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/footer_area" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/mini_popup_default_top_bottom_margin">
+            <FrameLayout android:layout_width="@dimen/mini_popup_divider_group_height" android:layout_height="fill_parent">
+                <View android:layout_gravity="start" android:id="@id/footer_divider" android:background="@color/mini_setting_divider_color" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

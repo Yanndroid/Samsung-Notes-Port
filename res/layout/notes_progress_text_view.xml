@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:padding="@dimen/note_progress_circle_dialog_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.SeslProgressBar android:layout_width="@dimen/progress_circle_size_grace_middle" android:layout_height="@dimen/progress_circle_size_grace_middle" android:mirrorForRtl="true" />
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/note_progress_circle_dialog_font_size" android:textColor="@color/notes_title_color" android:id="@id/progress_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/progress_dialog_processing" android:layout_marginStart="16.0dip" />
+</LinearLayout>

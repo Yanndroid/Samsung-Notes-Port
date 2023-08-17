@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.drawerlayout.widget.DrawerLayout android:orientation="vertical" android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/noteslist_activity" />
+        <FrameLayout android:layout_gravity="start" android:id="@id/drawer_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/drawer_recyclerview_padding_top" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+</FrameLayout>

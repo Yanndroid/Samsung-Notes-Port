@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/drawer_icon" android:drawable="@drawable/ic_drawer" />
+    <item android:id="@id/badge_text" android:drawable="@drawable/ic_drawer" />
+</layer-list>

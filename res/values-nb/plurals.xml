@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Kan ikke legge til mer enn %d elementer.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke legge til mer enn %d element.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Kan ikke lime inn mer enn %d elementer samtidig.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke lime inn mer enn %d element samtidig.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Kan ikke skanne mer enn %d dokumenter om gangen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke skanne mer enn %d dokument om gangen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Kan ikke vise mer enn %d farger.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke vise mer enn %d farge.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Kan ikke legge til mer enn %d lydfiler samtidig.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke legge til mer enn %d lydfil samtidig.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Kan ikke lime inn mer enn %d PDF-er samtidig.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke lime inn mer enn %d PDF samtidig.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Eksporten ble avbrutt. %d PDF-er er allerede eksportert.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eksporten ble avbrutt. %d PDF er allerede eksportert.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Kan ikke angi mer enn %d tegn.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke angi mer enn %d tegn.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Angi et passord med minst %d tegn.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Angi et passord med minst %d tegn.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Angi et nytt passord med minst %d tegn.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Angi et nytt passord med minst %d tegn.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Vent %d sekunder, og prøv igjen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vent %d sekund, og prøv igjen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Kan ikke åpne mer enn %d Samsung Notes-vinduer. Lukk et vindu og prøv igjen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke åpne mer enn %d Samsung Notes-vindu. Lukk et vindu og prøv igjen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d notater er lastet ned.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d merknad er lastet ned.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d farger</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d farge</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d tykkelser</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tykkelse</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Vil du slette %d delte notater?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vil du slette %d delt notat?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Konverter %d notater</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Konverter %d notat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d mapper</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mappe</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d elementer</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d merknader</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d merknad</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Kan ikke vise mer enn %d farger.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke vise mer enn %d farge.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d notatbøker</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notatbok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Vil du flytte %1$d mapper til %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vil du flytte %1$d mappe til %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s la til %2$d nye merknader i %3$s-notatboken.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s la til %2$d ny merknad i %3$s-notatboken.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d nye merknader er delt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ny merknad er delt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Importen ble avbrutt. %d PDF-er er allerede importert.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Importen ble avbrutt. %d PDF er allerede importert.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Kunne ikke importere %d notater.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kunne ikke importere %d notat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Angi et nytt passord med minst %d tegn.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Angi et nytt passord med minst %d tegn.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Kan ikke velge mer enn %d elementer.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke velge mer enn %d element.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Vil du flytte %d mapper til papirkurven?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vil du flytte %d mappe til papirkurven?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Vil du flytte %d mapper og alle elementene i dem til papirkurven?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vil du flytte %d mappe og alle elementene i den til papirkurven?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Vil du flytte %d merknader til papirkurven?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vil du flytte %d merknad til papirkurven?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Når du har bekreftet identiteten din, blir %d notater (inkludert 1 låst notat) flyttet til papirkurven.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Når du har bekreftet identiteten din, blir %d notat (inkludert 1 låst notat) flyttet til papirkurven.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Flyttet ikke %d merknader som allerede er i den valgte mappen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Flyttet ikke %d merknad som allerede er i den valgte mappen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Vil du flytte %1$d merknader til %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vil du flytte %1$d merknad til %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d elementer blir permanent slettet fra nettskyen og alle enhetene dine.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element blir permanent slettet fra nettskyen og alle enhetene dine.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Vil du permanent slette %d merknader?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vil du permanent slette %d merknad?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d elementer blir permanent slettet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element blir permanent slettet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d dager</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Kan ikke velger mer enn %d streker eller objekter i delt notat.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke velger mer enn %d strek eller objekt i delt notat.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d bilder er lagret på telefonen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bilde er lagret på telefonen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d bilder er lagret på nettbrettet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bilde er lagret på nettbrettet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d filer er lagret på telefonen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fil er lagret på telefonen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d filer er lagret på nettbrettet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fil er lagret på nettbrettet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d medlemmer</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d medlem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Dette notatet slettes om %d dager.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dette notatet slettes om %d dag.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Eksporterer %d PDF-er …</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eksporterer %d PDF …</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Kunne ikke konvertere %d notater. Frigjør litt plass i intern lagring, og prøv igjen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kunne ikke konvertere %d notat. Frigjør litt plass i intern lagring, og prøv igjen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Vil du slette %d elementer?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vil du slette %d element?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

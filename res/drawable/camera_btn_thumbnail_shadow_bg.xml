@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/camera_thumbnail_btn_radius" />
+    <size android:height="@dimen/camera_thumbnail_btn_size" android:width="@dimen/camera_thumbnail_btn_size" />
+    <solid android:color="@android:color/white" />
+</shape>

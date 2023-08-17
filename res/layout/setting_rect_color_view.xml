@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sdk.pen.setting.common.SpenRoundLayout android:id="@id/color" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/setting_color_rect_chip_unselected_margin_top" android:layout_marginBottom="@dimen/setting_color_rect_chip_unselected_margin_bottom" android:layout_marginStart="@dimen/setting_color_rect_chip_unselected_margin_start" android:layout_marginEnd="@dimen/setting_color_rect_chip_unselected_margin_end">
+        <View android:id="@id/select_icon" android:background="@drawable/selected_white" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:backgroundTint="@color/setting_selection_tint_color" />
+    </com.samsung.android.sdk.pen.setting.common.SpenRoundLayout>
+</merge>

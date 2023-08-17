@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">%d zatdan köp goşup bolmaýar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zatdan köp goşup bolmaýar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Birlikde %d zatdan köp ýelmäp bolmaýar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Birlikde %d zatdan köp ýelmäp bolmaýar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Birlikde %d resminamadan köp skanlap bolmaýar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Birlikde %d resminamadan köp skanlap bolmaýar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">%d reňkden köp görkezip bolmaýar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d reňkden köp görkezip bolmaýar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Birlikde %d audio faýldan köp goşup bolmaýar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Birlikde %d audio faýldan köp goşup bolmaýar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Birlikde %d PDF-den köp ýelmäp bolmaýar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Birlikde %d PDF-den köp ýelmäp bolmaýar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Eksport ýatyryldy. %d PDF eýýäm eksportlandy.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eksport ýatyryldy. %d PDF eýýäm eksportlandy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">%d nyşandan köp girizip bolmaýar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nyşandan köp girizip bolmaýar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Içinde iň azyndan %d nyşanly paroly giriziň.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Içinde iň azyndan %d nyşanly paroly giriziň.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Içinde iň azyndan %d nyşanly täze paroly giriziň.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Içinde iň azyndan %d nyşanly täze paroly giriziň.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d sekunt garaşyp ýene synanyşyň.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunt garaşyp ýene synanyşyň.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">%d Samsung Notes penjiresinden köp açyp bolmaýar. Bir penjiräni ýapyp synanyň.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Samsung Notes penjiresinden köp açyp bolmaýar. Bir penjiräni ýapyp synanyň.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d bellik göçürilip alyndy.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bellik göçürilip alyndy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d reňk</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d reňk</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d galyňlyk</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d galyňlyk</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">%d paýlaşylýan belligi öçürmelimi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paýlaşylýan belligi öçürmelimi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d belligi öwür</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d belligi öwür</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d bukja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bukja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d element</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d bellik</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bellik</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">%d reňkden köp görkezip bolmaýar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d reňkden köp görkezip bolmaýar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d depderçe</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d depderçe</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%1$d bukjany %2$s içine geçirmelimi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d bukjany %2$s içine geçirmelimi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s %2$d täze belligi %3$s depderçesine goşdy.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$d täze belligi %3$s depderçesine goşdy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d täze bellik paýlaşyldy</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d täze bellik paýlaşyldy</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Import ýatyryldy. %d PDF eýýäm importlandy.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Import ýatyryldy. %d PDF eýýäm importlandy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d belligi importlap bolmady.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d belligi importlap bolmady.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Içinde iň azyndan %d nyşanly täze paroly giriziň.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Içinde iň azyndan %d nyşanly täze paroly giriziň.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">%d elementden köp saýlap bolmaýar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elementden köp saýlap bolmaýar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">%d bukja Zibile geçirmelimi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bukja Zibile geçirmelimi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">%d bukjany we olardaky ähli zady Zibile geçirmelimi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bukjany we ondaky ähli zady Zibile geçirmelimi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">%d belligi Zibile geçirmelimi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d belligi Zibile geçirmelimi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Şahsyýetiňiz tassyklanansoň, %d bellik (şol sanda 1 gulply bellik) Zibile geçiriler.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Şahsyýetiňiz tassyklanansoň, %d bellik (şol sanda 1 gulply bellik) Zibile geçiriler.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Saýlanylan bukjadaky eýýäm bar bolan %d belligi geçirilmedi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saýlanylan bukjadaky eýýäm bar bolan %d belligi geçirilmedi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%1$d belligi %2$s içine geçirmelimi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d belligi %2$s içine geçirmelimi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d zat bulutdan we ähli enjamlaryňyzdan hemişelik öçüriler.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zat bulutdan we ähli enjamlaryňyzdan hemişelik öçüriler.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">%d belligi hemişelik öçürmelimi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d belligi hemişelik öçürmelimi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d element hemişelik öçüriler.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element hemişelik öçüriler.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d gün</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Paýlaşylýan bellikde %d ştrihden ýa-da zatdan köp saýlap bolmaýar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Paýlaşylýan bellikde %d ştrihden ýa-da zatdan köp saýlap bolmaýar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d surat telefonyňyzda saklanyldy.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d surat telefonyňyzda saklanyldy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d surat planşetiňizde saklanyldy.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d surat planşetiňizde saklanyldy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d faýl telefonyňyza ýazdyryldy.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d faýl telefonyňyza ýazdyryldy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d faýl planşetiňize ýazdyryldy.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d faýl planşetiňize ýazdyryldy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d agza</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d agza</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Bu bellik %d günden öçüriler.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu bellik %d günden öçüriler.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDF eksportlanýar…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF eksportlanýar…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">%d belligi öwrüp bolmady. Içerki ammarda biraz ýer boşadyp soňra ýene synanyşyň.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d belligi öwrüp bolmady. Içerki ammarda biraz ýer boşadyp soňra ýene synanyşyň.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d elementi öçürmelimi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elementi öçürmelimi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

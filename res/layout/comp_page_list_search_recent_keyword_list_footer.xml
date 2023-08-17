@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/noteslist_recycler_padding_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textAppearance="@style/RobotoMediumStyle" android:textSize="@dimen/recent_search_list_clear_history_text_size" android:textColor="@color/recent_search_list_clear_history_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/clear_search_history" android:background="@color/composer_page_list_bg_color" android:paddingTop="@dimen/recent_search_list_footer_margin_top" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/recent_search_list_footer_height" android:foreground="@drawable/base_ripple_rect_pressed" android:text="@string/clear_search_history" android:maxLines="1" />
+    <View android:layout_gravity="top" android:id="@id/content_divider" android:background="@color/recent_search_list_content_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/recent_search_content_divider_height" android:layout_marginStart="@dimen/recent_search_divider_margin_start" android:layout_marginEnd="@dimen/recent_search_divider_margin_end" />
+</FrameLayout>

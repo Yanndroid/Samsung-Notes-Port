@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sesl_list_divider_height">3.0px</dimen>
+    <dimen name="sesl_switch_divider_height">2.0px</dimen>
+    <dimen name="widget_toolbar_ic_height_tablet">84.0px</dimen>
+    <dimen name="widget_toolbar_ic_width_tablet">84.0px</dimen>
+    <dimen name="common_setting_bg_stroke">2.0px</dimen>
+    <dimen name="common_setting_divider_stroke">2.0px</dimen>
+    <dimen name="drawing_brush_setting_popup_penlist_divider_height">2.0px</dimen>
+    <dimen name="visiontext_entity_underline_width">1.5dip</dimen>
+    <dimen name="actionbar_divider_height">3.0px</dimen>
+</resources>

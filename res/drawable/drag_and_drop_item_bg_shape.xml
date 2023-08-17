@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/note_drag_n_drop_size" android:width="@dimen/note_drag_n_drop_size" />
+    <corners android:radius="4.0dip" />
+    <solid android:color="@color/basic_list_item_bg_color" />
+</shape>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/create" android:title="@string/create_subfolder" />
+    <item android:id="@id/rename" android:title="@string/rename_folder_btn" />
+    <item android:id="@id/delete" android:title="@string/string_delete" />
+    <item android:id="@id/change_color" android:title="@string/change_folder_color" />
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/brush_canvas_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bind="brush_panningbar_binding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.support.senl.addons.brush.view.canvas.BrushCanvas android:id="@id/brush_canvas_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/brush_canvas_preview_layout" android:background="@color/brush_canvas_blank_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/brush_canvas_preview_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+    </RelativeLayout>
+    <com.samsung.android.support.senl.addons.brush.view.panningbar.PanningBar android:orientation="vertical" android:id="@id/brush_vertical_panning" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/brush_panningbar_guideview_vert_margin_top" android:paddingStart="@dimen/brush_panningbar_guideview_vert_padding_start" android:layout_alignParentEnd="true" />
+    <com.samsung.android.support.senl.addons.brush.view.panningbar.PanningBar android:orientation="horizontal" android:id="@id/brush_horizontal_panning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/brush_panningbar_guideview_horiz_margin_start" />
+</RelativeLayout>

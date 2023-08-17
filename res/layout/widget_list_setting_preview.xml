@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/AppTheme" android:id="@id/widget_list_init_layout" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/widget_title_layout" android:layout_width="fill_parent" android:layout_height="@dimen/widget_title_height" android:layout_marginTop="@dimen/widget_list_title_top_margin" android:layout_marginRight="@dimen/widget_title_margin" android:layout_toStartOf="@id/widget_settings">
+            <TextView android:id="@id/widget_title" android:text="@string/widget_list" style="@style/ShowNoteTitleText" />
+            <include layout="@layout/widget_show_note_title_options" />
+        </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_list_pin_side_padding_top" android:layout_marginBottom="@dimen/widget_list_pin_side_padding" android:layout_marginStart="@dimen/widget_list_pin_side_padding" android:layout_marginEnd="@dimen/widget_list_pin_side_padding">
+            <ImageView android:id="@id/inside_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_inside_background" />
+            <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/widget_no_memos_text_size" android:gravity="center" android:id="@id/widget_list_empty_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/widget_pin_setting_empty_note_no_items" />
+            <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/widget_list_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

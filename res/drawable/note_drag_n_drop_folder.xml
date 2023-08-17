@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="4.0dip" />
+            <stroke android:width="1.0dip" android:color="#40ffffff" />
+            <solid android:color="#fffcfcfc" />
+            <size android:height="@dimen/note_drag_n_drop_size" android:width="@dimen/note_drag_n_drop_size" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/note_drag_n_drop_icon_size" android:width="@dimen/note_drag_n_drop_icon_size" android:drawable="@drawable/ic_folder" />
+</layer-list>

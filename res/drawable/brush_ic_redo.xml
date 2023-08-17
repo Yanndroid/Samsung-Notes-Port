@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M0,0h24v24h-24z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.0" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:fillColor="@color/brush_sub_menu_icon_color" android:pathData="M4.5006,17.5349C4.5381,12.1219 8.6682,7.7174 13.7079,7.7174L16.5337,7.7174L14.6124,5.6697L15.7103,4.5L19.5,8.5407L15.7172,12.5886L14.6181,11.4215L16.533,9.3719L13.7079,9.3719C9.5178,9.3719 6.0842,13.0396 6.0527,17.5486L6.0527,19.5L4.5,19.5C4.5,17.5558 4.5006,17.5359 4.5006,17.5349" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

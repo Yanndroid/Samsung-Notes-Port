@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="20" android:drawable="@drawable/sdk_note_voice_btn_ic_play" />
+    <item android:duration="20" android:drawable="@drawable/sdk_vr_pause_play_09" />
+    <item android:duration="20" android:drawable="@drawable/sdk_vr_pause_play_08" />
+    <item android:duration="20" android:drawable="@drawable/sdk_vr_pause_play_07" />
+    <item android:duration="20" android:drawable="@drawable/sdk_vr_pause_play_06" />
+    <item android:duration="20" android:drawable="@drawable/sdk_vr_pause_play_05" />
+    <item android:duration="20" android:drawable="@drawable/sdk_vr_pause_play_04" />
+    <item android:duration="20" android:drawable="@drawable/sdk_vr_pause_play_03" />
+    <item android:duration="20" android:drawable="@drawable/sdk_vr_pause_play_02" />
+    <item android:duration="20" android:drawable="@drawable/sdk_vr_pause_play_01" />
+    <item android:duration="20" android:drawable="@drawable/sdk_note_voice_btn_ic_pause" />
+</animation-list>

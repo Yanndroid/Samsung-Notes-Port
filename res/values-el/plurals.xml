@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Δεν μπορείτε να προσθέσετε πάνω από %d στοιχεία.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να προσθέσετε πάνω από %d στοιχείο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Δεν μπορείτε να επικολλήσετε πάνω από %d στοιχεία τη φορά.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να επικολλήσετε πάνω από %d στοιχείο τη φορά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Δεν μπορείτε να σαρώσετε πάνω από %d έγγραφα τη φορά.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να σαρώσετε πάνω από %d έγγραφο τη φορά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Δεν μπορούν να εμφανίζονται πάνω από %d χρώματα.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορεί να εμφανίζεται πάνω από %d χρώμα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Δεν είναι δυνατή η προσθήκη περισσότερων από %d αρχείων ήχου κάθε φορά.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν είναι δυνατή η προσθήκη περισσότερων από %d αρχείου ήχου κάθε φορά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Δεν μπορείτε να επικολλήσετε πάνω από %d PDF τη φορά.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να επικολλήσετε πάνω από %d PDF τη φορά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Η εξαγωγή ακυρώθηκε. %d PDF έχουν ήδη εξαχθεί.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Η εξαγωγή ακυρώθηκε. %d PDF έχει ήδη εξαχθεί.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Δεν μπορείτε να καταχωρήσετε πάνω από %d χαρακτήρες.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να καταχωρήσετε πάνω από %d χαρακτήρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Καταχωρήστε έναν κωδικό πρόσβασης με τουλάχιστον %d χαρακτήρες.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Καταχωρήστε έναν κωδικό πρόσβασης με τουλάχιστον %d χαρακτήρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Καταχωρήστε έναν νέο κωδικό πρόσβασης με τουλάχιστον %d χαρακτήρες.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Καταχωρήστε έναν νέο κωδικό πρόσβασης με τουλάχιστον %d χαρακτήρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Περιμένετε %d δευτερόλεπτα και δοκιμάστε ξανά.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Περιμένετε %d δευτερόλεπτο και δοκιμάστε ξανά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Δεν μπορείτε να ανοίξετε πάνω από %d παράθυρα του Samsung Notes. Κλείστε ένα παράθυρο και δοκιμάστε ξανά.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να ανοίξετε πάνω από %d παράθυρο του Samsung Notes. Κλείστε ένα παράθυρο και δοκιμάστε ξανά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+        <item quantity="one">%d νέα ειδοποίηση</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">Λήφθηκαν %d σημειώσεις.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Λήφθηκε %d σημείωση.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d χρώματα</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d χρώμα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d πάχη</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d πάχος</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Να διαγραφούν %d κοινόχρηστες σημειώσεις;</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Να διαγραφεί %d κοινόχρηστη σημείωση;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Μετατροπή %d σημειώσεων</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μετατροπή %d σημείωσης</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d φάκελοι</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d φάκελος</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d στοιχεία</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d στοιχείο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d σημειώσεις</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d σημείωση</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Δεν μπορούν να εμφανίζονται πάνω από %d χρώματα.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορεί να εμφανίζεται πάνω από %d χρώμα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d σημειωματάρια</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d σημειωματάριο</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Μετακίνηση %1$d φακέλων σε %2$s;</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μετακίνηση %1$d φακέλου σε %2$s;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">Ο χρήστης %1$s πρόσθεσε %2$d νέες σημειώσεις στο σημειωματάριο %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ο χρήστης %1$s πρόσθεσε %2$d νέα σημείωση στο σημειωματάριο %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">Κοινοποιήθ. %d νέες σημειώσεις</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Κοινοποιήθηκε %d νέα σημείωση</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Η εισαγωγή ακυρώθηκε. %d PDF έχουν ήδη εισαχθεί.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Η εισαγωγή ακυρώθηκε. %d PDF έχει ήδη εισαχθεί.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Δεν ήταν δυνατή η εισαγωγή %d σημειώσεων.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν ήταν δυνατή η εισαγωγή %d σημείωσης.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Καταχωρήστε έναν νέο κωδικό πρόσβασης με τουλάχιστον %d χαρακτήρες.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Καταχωρήστε έναν νέο κωδικό πρόσβασης με τουλάχιστον %d χαρακτήρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Δεν μπορείτε να επιλέξετε πάνω από %d στοιχεία.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να επιλέξετε πάνω από %d στοιχείο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Μετακίνηση %d φακέλων στα Απορρίμματα;</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μετακίνηση %d φακέλου στα Απορρίμματα;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Θέλετε να μετακινήσετε %d φακέλους και όλα τα στοιχεία που περιέχουν στα Απορρίμματα;</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Θέλετε να μετακινήσετε %d φάκελο και όλα τα στοιχεία που περιέχει στα Απορρίμματα;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Μετακίνηση %d σημειώσεων στα Απορρίμματα;</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μετακίνηση %d σημείωσης στα Απορρίμματα;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Μετά την επαλήθευση της ταυτότητάς σας, %d σημειώσεις (συμπεριλαμβανομένης 1 κλειδωμένης σημείωσης) θα μετακινηθούν στα Απορρίμματα.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μετά την επαλήθευση της ταυτότητάς σας, %d σημείωση (συμπεριλαμβανομένης 1 κλειδωμένης σημείωσης) θα μετακινηθεί στα Απορρίμματα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Οι σημειώσεις %d δεν μετακινήθηκαν ήδη στον επιλεγμένο φάκελο.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Η σημείωση %d δεν μετακινήθηκε ήδη στον επιλεγμένο φάκελο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Μετακίνηση %1$d σημειώσεων σε %2$s;</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Μετακίνηση %1$d σημείωσης σε %2$s;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d στοιχεία θα διαγραφούν οριστικά από το cloud και όλες τις συσκευές σας.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d στοιχείο θα διαγραφεί οριστικά από το cloud και όλες τις συσκευές σας.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Να διαγραφούν οριστικά %d σημειώσεις;</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Να διαγραφεί οριστικά %d σημείωση;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d στοιχεία θα διαγραφούν οριστικά.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d στοιχείο θα διαγραφεί οριστικά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d μέρες</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d μέρα</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Δεν μπορείτε να επιλέξετε πάνω από %d πινελιές ή αντικείμενα στην κοινόχρηστη σημείωση.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν μπορείτε να επιλέξετε πάνω από %d πινελιά ή αντικείμενο στην κοινόχρηστη σημείωση.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d εικόνες αποθηκεύτηκαν στο τηλέφωνο.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d εικόνα αποθηκεύτηκε στο τηλέφωνο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d εικόνες αποθηκεύτηκαν στο tablet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d εικόνα αποθηκεύτηκε στο tablet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d αρχεία αποθηκεύτηκαν στο τηλέφωνο.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d αρχείο αποθηκεύτηκε στο τηλέφωνο.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d αρχεία αποθηκεύτηκαν στο tablet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d αρχείο αποθηκεύτηκε στο tablet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d μέλη</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d μέλος</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Αυτή η σημείωση θα διαγραφεί σε %d ημέρες.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Αυτή η σημείωση θα διαγραφεί σε %d ημέρα.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Εξαγωγή %d PDF…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Εξαγωγή %d PDF…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Δεν ήταν δυνατή η μετατροπή %d σημειώσεων. Ελευθερώστε χώρο από τον εσωτερικό χώρο αποθήκευσης και, στη συνέχεια, δοκιμάστε ξανά.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Δεν ήταν δυνατή η μετατροπή %d σημείωσης. Ελευθερώστε χώρο από τον εσωτερικό χώρο αποθήκευσης και, στη συνέχεια, δοκιμάστε ξανά.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Θέλετε να διαγράψετε %d στοιχεία;</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Θέλετε να διαγράψετε %d στοιχείο;</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/blank" />
+    <item android:id="@id/stroke_drawable">
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="0.0dip" android:topRightRadius="0.0dip" android:bottomLeftRadius="0.0dip" android:bottomRightRadius="0.0dip" />
+            <stroke android:width="@dimen/setting_change_style_chip_unselected_outline_size" android:color="@color/setting_palette_resource_stroke_color" />
+        </shape>
+    </item>
+</layer-list>

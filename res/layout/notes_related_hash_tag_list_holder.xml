@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/related_hash_tag_holder_padding_top_bottom" android:paddingBottom="@dimen/related_hash_tag_holder_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/related_hash_tag_holder_padding_start_end" android:paddingEnd="@dimen/related_hash_tag_holder_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.app.main.common.hashtag.HashTagListLayout android:id="@id/hash_tag_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

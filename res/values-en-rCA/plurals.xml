@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">"Can't add more than %d items."</item>
+        <item quantity="zero">"Can't add more than %d items."</item>
+        <item quantity="one">"Can't add more than %d item."</item>
+        <item quantity="two">"Can't add more than %d items."</item>
+        <item quantity="few">"Can't add more than %d items."</item>
+        <item quantity="many">"Can't add more than %d items."</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">"Can't paste more than %d items at one time."</item>
+        <item quantity="zero">"Can't paste more than %d items at one time."</item>
+        <item quantity="one">"Can't paste more than %d item at one time."</item>
+        <item quantity="two">"Can't paste more than %d items at one time."</item>
+        <item quantity="few">"Can't paste more than %d items at one time."</item>
+        <item quantity="many">"Can't paste more than %d items at one time."</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">"Can't scan more than %d documents at a time."</item>
+        <item quantity="zero">"Can't scan more than %d documents at a time."</item>
+        <item quantity="one">"Can't scan more than %d document at a time."</item>
+        <item quantity="two">"Can't scan more than %d documents at a time."</item>
+        <item quantity="few">"Can't scan more than %d documents at a time."</item>
+        <item quantity="many">"Can't scan more than %d documents at a time."</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">"Can't show more than %d colors."</item>
+        <item quantity="zero">"Can't show more than %d colours."</item>
+        <item quantity="one">"Can't show more than %d color."</item>
+        <item quantity="two">"Can't show more than %d colours."</item>
+        <item quantity="few">"Can't show more than %d colours."</item>
+        <item quantity="many">"Can't show more than %d colours."</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">"Can't add more than %d audio files at one time."</item>
+        <item quantity="zero">"Can't add more than %d audio files at one time."</item>
+        <item quantity="one">"Can't add more than %d audio file at one time."</item>
+        <item quantity="two">"Can't add more than %d audio files at one time."</item>
+        <item quantity="few">"Can't add more than %d audio files at one time."</item>
+        <item quantity="many">"Can't add more than %d audio files at one time."</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">"Can't paste more than %d PDFs at one time."</item>
+        <item quantity="zero">"Can't paste more than %d PDFs at one time."</item>
+        <item quantity="one">"Can't paste more than %d PDF at one time."</item>
+        <item quantity="two">"Can't paste more than %d PDFs at one time."</item>
+        <item quantity="few">"Can't paste more than %d PDFs at one time."</item>
+        <item quantity="many">"Can't paste more than %d PDFs at one time."</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Export cancelled. Already exported %d PDFs .</item>
+        <item quantity="zero">Export canceled. %d PDFs already exported.</item>
+        <item quantity="one">Export cancelled. Already exported %d PDF.</item>
+        <item quantity="two">Export cancelled. Already exported %d PDFs .</item>
+        <item quantity="few">Export cancelled. Already exported %d PDFs .</item>
+        <item quantity="many">Export cancelled. Already exported %d PDFs .</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">"Can't enter more than %d characters."</item>
+        <item quantity="zero">"Can't enter more than %d characters."</item>
+        <item quantity="one">"Can't enter more than %d character."</item>
+        <item quantity="two">"Can't enter more than %d characters."</item>
+        <item quantity="few">"Can't enter more than %d characters."</item>
+        <item quantity="many">"Can't enter more than %d characters."</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Enter a password with at least %d characters in it.</item>
+        <item quantity="zero">Enter a password with at least %d characters in it.</item>
+        <item quantity="one">Enter a password with at least %d character in it.</item>
+        <item quantity="two">Enter a password with at least %d characters in it.</item>
+        <item quantity="few">Enter a password with at least %d characters in it.</item>
+        <item quantity="many">Enter a password with at least %d characters in it.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Enter a new password with at least %d characters in it.</item>
+        <item quantity="zero">Enter a new password with at least %d characters in it.</item>
+        <item quantity="one">Enter a new password with at least %d character in it.</item>
+        <item quantity="two">Enter a new password with at least %d characters in it.</item>
+        <item quantity="few">Enter a new password with at least %d characters in it.</item>
+        <item quantity="many">Enter a new password with at least %d characters in it.</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Wait %d seconds and try again.</item>
+        <item quantity="zero">Wait %d seconds and try again.</item>
+        <item quantity="one">Wait %d second and try again.</item>
+        <item quantity="two">Wait %d seconds and try again.</item>
+        <item quantity="few">Wait %d seconds and try again.</item>
+        <item quantity="many">Wait %d seconds and try again.</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">"Can't open more than %d Samsung Notes windows. Close a window and try again."</item>
+        <item quantity="zero">"Can't open more than %d Samsung Notes windows. Close a window and try again."</item>
+        <item quantity="one">"Can't open more than %d Samsung Notes window. Close a window and try again."</item>
+        <item quantity="two">"Can't open more than %d Samsung Notes windows. Close a window and try again."</item>
+        <item quantity="few">"Can't open more than %d Samsung Notes windows. Close a window and try again."</item>
+        <item quantity="many">"Can't open more than %d Samsung Notes windows. Close a window and try again."</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d notes downloaded.</item>
+        <item quantity="zero">Downloaded %d notes.</item>
+        <item quantity="one">Downloaded %d note.</item>
+        <item quantity="two">Downloaded %d notes.</item>
+        <item quantity="few">Downloaded %d notes.</item>
+        <item quantity="many">Downloaded %d notes.</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d colours</item>
+        <item quantity="zero">%d colours</item>
+        <item quantity="one">%d colour</item>
+        <item quantity="two">%d colours</item>
+        <item quantity="few">%d colours</item>
+        <item quantity="many">%d colours</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d thicknesses</item>
+        <item quantity="zero">%d thicknesses</item>
+        <item quantity="one">%d thickness</item>
+        <item quantity="two">%d thicknesses</item>
+        <item quantity="few">%d thicknesses</item>
+        <item quantity="many">%d thicknesses</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Delete %d shared notes?</item>
+        <item quantity="zero">Delete %d shared notes?</item>
+        <item quantity="one">Delete %d shared note?</item>
+        <item quantity="two">Delete %d shared notes?</item>
+        <item quantity="few">Delete %d shared notes?</item>
+        <item quantity="many">Delete %d shared notes?</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Convert %d notes</item>
+        <item quantity="zero">Convert %d notes</item>
+        <item quantity="one">Convert %d note</item>
+        <item quantity="two">Convert %d notes</item>
+        <item quantity="few">Convert %d notes</item>
+        <item quantity="many">Convert %d notes</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d folders</item>
+        <item quantity="zero">%d folders</item>
+        <item quantity="one">%d folder</item>
+        <item quantity="two">%d folders</item>
+        <item quantity="few">%d folders</item>
+        <item quantity="many">%d folders</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d items</item>
+        <item quantity="zero">%d items</item>
+        <item quantity="one">%d item</item>
+        <item quantity="two">%d items</item>
+        <item quantity="few">%d items</item>
+        <item quantity="many">%d items</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d notes</item>
+        <item quantity="zero">%d notes</item>
+        <item quantity="one">%d note</item>
+        <item quantity="two">%d notes</item>
+        <item quantity="few">%d notes</item>
+        <item quantity="many">%d notes</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">"Can't show more than %d colors."</item>
+        <item quantity="zero">"Can't show more than %d colours."</item>
+        <item quantity="one">"Can't show more than %d color."</item>
+        <item quantity="two">"Can't show more than %d colours."</item>
+        <item quantity="few">"Can't show more than %d colours."</item>
+        <item quantity="many">"Can't show more than %d colours."</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d notebooks</item>
+        <item quantity="zero">%d notebooks</item>
+        <item quantity="one">%d notebook</item>
+        <item quantity="two">%d notebooks</item>
+        <item quantity="few">%d notebooks</item>
+        <item quantity="many">%d notebooks</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Move %1$d folders to %2$s?</item>
+        <item quantity="zero">Move %1$d folders to %2$s?</item>
+        <item quantity="one">Move %1$d folder to %2$s?</item>
+        <item quantity="two">Move %1$d folders to %2$s?</item>
+        <item quantity="few">Move %1$d folders to %2$s?</item>
+        <item quantity="many">Move %1$d folders to %2$s?</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s added %2$d new notes to the %3$s notebook.</item>
+        <item quantity="zero">%1$s added %2$d new notes to the %3$s notebook.</item>
+        <item quantity="one">%1$s added %2$d new note to the %3$s notebook.</item>
+        <item quantity="two">%1$s added %2$d new notes to the %3$s notebook.</item>
+        <item quantity="few">%1$s added %2$d new notes to the %3$s notebook.</item>
+        <item quantity="many">%1$s added %2$d new notes to the %3$s notebook.</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">Shared %d new notes</item>
+        <item quantity="zero">Shared %d new notes</item>
+        <item quantity="one">%d new note shared</item>
+        <item quantity="two">Shared %d new notes</item>
+        <item quantity="few">Shared %d new notes</item>
+        <item quantity="many">Shared %d new notes</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Import cancelled. Already imported %d PDFs.</item>
+        <item quantity="zero">Import cancelled. Already imported %d PDFs.</item>
+        <item quantity="one">Import cancelled. Already imported %d PDF.</item>
+        <item quantity="two">Import cancelled. Already imported %d PDFs.</item>
+        <item quantity="few">Import cancelled. Already imported %d PDFs.</item>
+        <item quantity="many">Import cancelled. Already imported %d PDFs.</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">"Couldn't import %d notes."</item>
+        <item quantity="zero">"Couldn't import %d notes."</item>
+        <item quantity="one">"Couldn't import %d note."</item>
+        <item quantity="two">"Couldn't import %d notes."</item>
+        <item quantity="few">"Couldn't import %d notes."</item>
+        <item quantity="many">"Couldn't import %d notes."</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Enter a new password with at least %d characters in it.</item>
+        <item quantity="zero">Enter a new password with at least %d characters in it.</item>
+        <item quantity="one">Enter a new password with at least %d character in it.</item>
+        <item quantity="two">Enter a new password with at least %d characters in it.</item>
+        <item quantity="few">Enter a new password with at least %d characters in it.</item>
+        <item quantity="many">Enter a new password with at least %d characters in it.</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">"Can't select more than %d items."</item>
+        <item quantity="zero">"Can't select more than %d items."</item>
+        <item quantity="one">"Can't select more than %d item."</item>
+        <item quantity="two">"Can't select more than %d items."</item>
+        <item quantity="few">"Can't select more than %d items."</item>
+        <item quantity="many">"Can't select more than %d items."</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Move %d folders to the Trash?</item>
+        <item quantity="zero">Move %d folders to the Trash?</item>
+        <item quantity="one">Move %d folder to the Trash?</item>
+        <item quantity="two">Move %d folders to the Trash?</item>
+        <item quantity="few">Move %d folders to the Trash?</item>
+        <item quantity="many">Move %d folders to the Trash?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Move %d folders and all the items in them to the Trash?</item>
+        <item quantity="zero">Move %d folders and all the items in them to the Trash?</item>
+        <item quantity="one">Move %d folder and all the items in it to the Trash?</item>
+        <item quantity="two">Move %d folders and all the items in them to the Trash?</item>
+        <item quantity="few">Move %d folders and all the items in them to the Trash?</item>
+        <item quantity="many">Move %d folders and all the items in them to the Trash?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Move %d notes to the Trash?</item>
+        <item quantity="zero">Move %d notes to the Trash?</item>
+        <item quantity="one">Move %d note to the Trash?</item>
+        <item quantity="two">Move %d notes to the Trash?</item>
+        <item quantity="few">Move %d notes to the Trash?</item>
+        <item quantity="many">Move %d notes to the Trash?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">After verifying your identity, %d notes (including 1 locked note) will be moved to the Trash.</item>
+        <item quantity="zero">After verifying your identity, %d notes (including 1 locked note) will be moved to the Trash.</item>
+        <item quantity="one">After verifying your identity, %d note (including 1 locked note) will be moved to the Trash.</item>
+        <item quantity="two">After verifying your identity, %d notes (including 1 locked note) will be moved to the Trash.</item>
+        <item quantity="few">After verifying your identity, %d notes (including 1 locked note) will be moved to the Trash.</item>
+        <item quantity="many">After verifying your identity, %d notes (including 1 locked note) will be moved to the Trash.</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">"Didn't move %d notes already in the selected folder."</item>
+        <item quantity="zero">"Didn't move %d notes already in the selected folder."</item>
+        <item quantity="one">"Didn't move %d note already in the selected folder."</item>
+        <item quantity="two">"Didn't move %d notes already in the selected folder."</item>
+        <item quantity="few">"Didn't move %d notes already in the selected folder."</item>
+        <item quantity="many">"Didn't move %d notes already in the selected folder."</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Move %1$d notes to %2$s?</item>
+        <item quantity="zero">Move %1$d notes to %2$s?</item>
+        <item quantity="one">Move %1$d note to %2$s?</item>
+        <item quantity="two">Move %1$d notes to %2$s?</item>
+        <item quantity="few">Move %1$d notes to %2$s?</item>
+        <item quantity="many">Move %1$d notes to %2$s?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">Permanently deleting %d items from the cloud and all your devices.</item>
+        <item quantity="zero">Permanently deleting %d items from the cloud and all your devices.</item>
+        <item quantity="one">Permanently deleting %d items from the cloud and all your devices.</item>
+        <item quantity="two">Permanently deleting %d items from the cloud and all your devices.</item>
+        <item quantity="few">Permanently deleting %d items from the cloud and all your devices.</item>
+        <item quantity="many">Permanently deleting %d items from the cloud and all your devices.</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Permanently delete %d notes?</item>
+        <item quantity="zero">Permanently delete %d notes?</item>
+        <item quantity="one">Permanently delete %d note?</item>
+        <item quantity="two">Permanently delete %d notes?</item>
+        <item quantity="few">Permanently delete %d notes?</item>
+        <item quantity="many">Permanently delete %d notes?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">Permanently deleting %d items.</item>
+        <item quantity="zero">Permanently deleting %d items.</item>
+        <item quantity="one">Permanently deleting %d item.</item>
+        <item quantity="two">Permanently deleting %d items.</item>
+        <item quantity="few">Permanently deleting %d items.</item>
+        <item quantity="many">Permanently deleting %d items.</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d days</item>
+        <item quantity="zero">%d days</item>
+        <item quantity="one">%d day</item>
+        <item quantity="two">%d days</item>
+        <item quantity="few">%d days</item>
+        <item quantity="many">%d days</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">"Can't select more than %d strokes or objects in shared note."</item>
+        <item quantity="zero">"Can't select more than %d strokes or objects in shared note."</item>
+        <item quantity="one">"Can't select more than %d stroke or object in shared note."</item>
+        <item quantity="two">"Can't select more than %d strokes or objects in shared note."</item>
+        <item quantity="few">"Can't select more than %d strokes or objects in shared note."</item>
+        <item quantity="many">"Can't select more than %d strokes or objects in shared note."</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">Saved %d images to your phone.</item>
+        <item quantity="zero">Saved %d images to your phone.</item>
+        <item quantity="one">Saved %d image to your phone.</item>
+        <item quantity="two">Saved %d images to your phone.</item>
+        <item quantity="few">Saved %d images to your phone.</item>
+        <item quantity="many">Saved %d images to your phone.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">Saved %d images to your tablet.</item>
+        <item quantity="zero">Saved %d images to your tablet.</item>
+        <item quantity="one">Saved %d image to your tablet.</item>
+        <item quantity="two">Saved %d images to your tablet.</item>
+        <item quantity="few">Saved %d images to your tablet.</item>
+        <item quantity="many">Saved %d images to your tablet.</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">Saved %d files to your phone.</item>
+        <item quantity="zero">Saved %d files to your phone.</item>
+        <item quantity="one">Saved %d file to your phone.</item>
+        <item quantity="two">Saved %d files to your phone.</item>
+        <item quantity="few">Saved %d files to your phone.</item>
+        <item quantity="many">Saved %d files to your phone.</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">Saved %d files to your tablet.</item>
+        <item quantity="zero">Saved %d files to your tablet.</item>
+        <item quantity="one">Saved %d file to your tablet.</item>
+        <item quantity="two">Saved %d files to your tablet.</item>
+        <item quantity="few">Saved %d files to your tablet.</item>
+        <item quantity="many">Saved %d files to your tablet.</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d members</item>
+        <item quantity="zero">%d members</item>
+        <item quantity="one">%d member</item>
+        <item quantity="two">%d members</item>
+        <item quantity="few">%d members</item>
+        <item quantity="many">%d members</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">This note will be deleted in %d days.</item>
+        <item quantity="zero">This note will be deleted in %d days.</item>
+        <item quantity="one">This note will be deleted in %d day.</item>
+        <item quantity="two">This note will be deleted in %d days.</item>
+        <item quantity="few">This note will be deleted in %d days.</item>
+        <item quantity="many">This note will be deleted in %d days.</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Exporting %d PDFs…</item>
+        <item quantity="zero">Exporting %d PDFs…</item>
+        <item quantity="one">Exporting %d PDF…</item>
+        <item quantity="two">Exporting %d PDFs…</item>
+        <item quantity="few">Exporting %d PDFs…</item>
+        <item quantity="many">Exporting %d PDFs…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">"Couldn't convert %d notes. Clear some space in internal storage, then try again."</item>
+        <item quantity="zero">"Couldn't convert %d notes. Clear some space in internal storage, then try again."</item>
+        <item quantity="one">"Couldn't convert %d note. Clear some space in internal storage, then try again."</item>
+        <item quantity="two">"Couldn't convert %d notes. Clear some space in internal storage, then try again."</item>
+        <item quantity="few">"Couldn't convert %d notes. Clear some space in internal storage, then try again."</item>
+        <item quantity="many">"Couldn't convert %d notes. Clear some space in internal storage, then try again."</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Delete %d items?</item>
+        <item quantity="zero">Delete %d items?</item>
+        <item quantity="one">Delete %d item?</item>
+        <item quantity="two">Delete %d items?</item>
+        <item quantity="few">Delete %d items?</item>
+        <item quantity="many">Delete %d items?</item>
+    </plurals>
+</resources>

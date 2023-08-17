@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/note_edge_tasks_ic_squircle_bg" />
+    <foreground android:gravity="center" android:drawable="@drawable/note_edge_tasks_ic_notes_create_note" />
+</adaptive-icon>

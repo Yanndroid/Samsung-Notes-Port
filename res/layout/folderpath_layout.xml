@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.app.common.widget.FolderPathLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/folderpath_container" android:paddingTop="@dimen/folderpath_layout_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/folderpath_layout_padding_start_end" android:paddingEnd="@dimen/folderpath_layout_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/folderpath_home_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/folderpath_home" android:background="@drawable/ic_folder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/folderpath_home_icon_margin_end" />
+        <include android:id="@id/folderpath_arrow" layout="@layout/folderpath_arrow" />
+    </LinearLayout>
+    <HorizontalScrollView android:id="@id/folderpath_scrollview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="start|center" android:orientation="horizontal" android:id="@id/folderpath_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+</com.samsung.android.support.senl.nt.app.common.widget.FolderPathLayout>

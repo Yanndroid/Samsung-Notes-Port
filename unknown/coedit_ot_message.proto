@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+import "coedit_operation.proto";
+
+package coeditOtMessage;
+
+message TransformRequest {
+    IdxCedOpsPair first = 1;
+    IdxCedOpsPair second = 2;
+}
+
+message TransformResponse {
+    IdxCedOpsPair first_transformed = 1;
+    IdxCedOpsPair second_transformed = 2;
+}
+
+message MultipleTransformRequest {
+    repeated IdxCedOpsPair first = 1;
+    IdxCedOpsPair second = 2;
+}
+
+message MultipleTransformResponse {
+    repeated IdxCedOpsPair first = 1;
+    IdxCedOpsPair second = 2;
+}
+
+message TransformWithMultipleRequest {
+    IdxCedOpsPair first = 1;
+    repeated IdxCedOpsPair second = 2;
+}
+
+message TransformWithMultipleResponse {
+    IdxCedOpsPair first = 1;
+    repeated IdxCedOpsPair second = 2;
+}
+
+message ComposeRequest {
+    repeated IdxCedOpsPair pairs = 1;
+}
+
+message ComposeResponse {
+    IdxCedOpsPair pairs = 1;
+}
+
+message IdxCedOpsPair {
+    int64 idx = 1;
+    coeditOperation.CedOps cedOps = 2;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/gcs_group_list_item_user_thumbnail_layout_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/group_user_thumbnail" android:background="@drawable/ic_gcs_group_user_thumbnail_default_bg" android:layout_width="@dimen/gcs_group_list_item_user_thumbnail_size" android:layout_height="@dimen/gcs_group_list_item_user_thumbnail_size" android:layout_margin="@dimen/gcs_group_list_item_user_thumbnail_margin" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/shared_notebook_group_owner_icon" android:visibility="gone" android:layout_width="@dimen/gcs_group_list_item_owner_icon_size" android:layout_height="@dimen/gcs_group_list_item_owner_icon_size" android:src="@drawable/ic_gcs_group_owner" />
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/gcs_group_list_item_user_thumbnail_text_size" android:textColor="@color/gcs_group_list_item_user_thumbnail_text_color" android:layout_gravity="center" android:id="@id/group_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:textAlignment="center" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/voice_play_menu_background" android:background="@color/composer_voice_menu_init_background" android:layout_width="fill_parent" android:layout_height="@dimen/voice_recording_play_menu_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/voice_recording_play_seek_bar_menu_height">
+        <ImageButton android:id="@id/voice_record_stop" android:src="@drawable/voice_play_close" android:layout_centerVertical="true" android:contentDescription="@string/composer_string_close" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" style="@style/VoiceImageButtonSize" />
+        <ImageButton android:id="@id/voice_record_play_pause" android:src="@drawable/voice_record_pause" android:layout_centerVertical="true" android:contentDescription="@string/voice_notification_voice_ass_pause" android:layout_toStartOf="@id/voice_record_stop" style="@style/VoiceImageButtonSize" />
+        <androidx.appcompat.widget.SeslSeekBar android:id="@id/voice_record_seek_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:paddingEnd="12.0dip" android:layout_toStartOf="@id/voice_record_play_pause" android:layout_alignParentStart="true" android:progressTint="@color/composer_voice_seek_bar_progress_and_thumb" android:progressBackgroundTint="@color/composer_voice_seek_bar_tick_and_background" android:thumbTint="@color/composer_voice_seek_bar_progress_and_thumb" />
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/voice_recording_play_control_menu_height" layout="@layout/comp_voice_record_control_menu" />
+    <ImageView android:id="@id/voice_play_menu_divider" android:background="@color/composer_voice_menu_item_divider" android:layout_width="fill_parent" android:layout_height="@dimen/voice_recording_divider_height" android:importantForAccessibility="no" />
+</LinearLayout>

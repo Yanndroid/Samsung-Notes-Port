@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/comp_dex_zoom_menu_container" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/comp_dex_zoom_item_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/comp_dex_button_margin" android:layout_marginTop="@dimen/comp_dex_zoom_button_margin" android:layout_marginRight="@dimen/comp_dex_button_margin" android:elevation="4.0dip" android:layout_marginHorizontal="@dimen/comp_dex_button_margin">
+        <ImageView android:id="@id/comp_zoom_in_btn" android:layout_width="@dimen/brush_toolbar_zoom_btn_width_height" android:layout_height="@dimen/brush_toolbar_zoom_btn_width_height" android:src="@drawable/comp_dex_ic_zoom_in" android:tint="@color/comp_dex_zoom_btn_color" android:contentDescription="@string/base_zoom_in" />
+    </LinearLayout>
+    <LinearLayout android:background="@drawable/comp_dex_zoom_item_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/comp_dex_button_margin" android:layout_marginTop="@dimen/comp_dex_zoom_button_margin" android:layout_marginRight="@dimen/comp_dex_button_margin" android:layout_marginBottom="@dimen/comp_dex_button_margin" android:elevation="4.0dip" android:layout_marginHorizontal="@dimen/comp_dex_button_margin">
+        <ImageView android:id="@id/comp_zoom_out_btn" android:layout_width="@dimen/brush_toolbar_zoom_btn_width_height" android:layout_height="@dimen/brush_toolbar_zoom_btn_width_height" android:src="@drawable/comp_dex_ic_zoom_out" android:tint="@color/comp_dex_zoom_btn_color" android:contentDescription="@string/base_zoom_out" />
+    </LinearLayout>
+</LinearLayout>

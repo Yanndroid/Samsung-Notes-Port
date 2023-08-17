@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/checkbox_withtext" android:background="@drawable/select_all_checkbox_layout_selector" android:focusable="true" android:clickable="true" android:layout_width="@dimen/select_all_width" android:layout_height="fill_parent">
+        <CheckBox android:theme="@style/CheckBox" android:id="@id/checkbox_all" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/select_all_checkbox_size" android:layout_height="@dimen/select_all_checkbox_size" />
+        <TextView android:enabled="false" android:id="@id/check_all_text" android:focusable="false" android:clickable="false" android:layout_width="@dimen/select_all_width" android:layout_height="wrap_content" android:text="@string/all_checkbox" style="@style/MultiSelectionCheckboxTextStyle" />
+    </LinearLayout>
+    <TextView android:layout_gravity="center_vertical" android:id="@id/check_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/checkbox_withtext" style="@style/MultiSelectionCountTextStyle" />
+</merge>

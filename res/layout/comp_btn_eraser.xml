@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hw_toolbar_eraser" android:contentDescription="@string/hw_toolbar_item_erase_mode" style="@style/ComposerImageClickButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/comp_hw_toolbar_ic_eraser" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+    <ImageView android:src="@drawable/comp_hw_toolbar_ic_eraser_color" style="@style/ComposerImageButton" />
+</FrameLayout>

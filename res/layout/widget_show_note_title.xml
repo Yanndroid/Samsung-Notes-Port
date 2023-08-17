@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_title_layout" android:focusable="false" android:focusableInTouchMode="false" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/widget_title_margin" android:paddingEnd="@dimen/widget_title_end_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/widget_options">
+        <TextView android:id="@id/widget_title" style="@style/ShowNoteTitleText" />
+        <TextView android:id="@id/widget_title_shadow" android:shadowColor="@color/widget_title_text_shadow_color" android:shadowDy="0.0" android:shadowRadius="3.0" style="@style/ShowNoteTitleText" />
+    </FrameLayout>
+    <include layout="@layout/widget_show_note_title_options" />
+</RelativeLayout>

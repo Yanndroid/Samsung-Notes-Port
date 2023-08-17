@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/camera_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.docscan.detect.view.DetectOverlayView android:layout_gravity="center_horizontal" android:id="@id/overlay_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/camera_flash_layout_port" />
+    <include layout="@layout/camera_btn_layout_port" />
+</FrameLayout>

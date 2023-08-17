@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearanceNoItem" android:gravity="center" android:id="@id/nonote" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_gcs_invitations" android:textAlignment="center" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" />
+    <com.samsung.android.support.senl.nt.app.common.penrecyclerview.PenRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/recyclerview_invitationlist" android:paddingBottom="@dimen/noteslist_recycler_padding_bottom" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/rectify_handler_select_size" android:width="@dimen/rectify_handler_select_size">
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/rectify_area_line_width" android:color="@color/detect_highlight_color" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/rectify_handler_view_size" android:width="@dimen/rectify_handler_view_size" android:drawable="@drawable/rectify_area_handler_preview_center" />
+</layer-list>

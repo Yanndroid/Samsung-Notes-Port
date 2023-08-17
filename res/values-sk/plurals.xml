@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Nedá sa pridať viac než %d položiek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa pridať viac než %d položka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa pridať viac než %d položky.</item>
+        <item quantity="many">Nedá sa pridať viac než %d položky.</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Naraz sa nedá prilepiť viac než %d položiek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Naraz sa nedá prilepiť viac než %d položka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Naraz sa nedajú prilepiť viac než %d položky.</item>
+        <item quantity="many">Naraz sa nedá prilepiť viac než %d položky.</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Naraz sa nedá skenovať viac ako %d dokumentov.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Naraz sa nedá skenovať viac ako %d dokument.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Naraz sa nedajú skenovať viac ako %d dokumenty.</item>
+        <item quantity="many">Naraz sa nedá skenovať viac ako %d dokumentu.</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Nedá sa zobraziť viac než %d farieb.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa zobraziť viac než %d farba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa zobraziť viac než %d farby.</item>
+        <item quantity="many">Nedá sa zobraziť viac než %d farby.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Naraz nemôžete pridať viac než %d zvukových súborov.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Naraz nemôžete pridať viac než %d zvukový súbor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Naraz nemôžete pridať viac než %d zvukové súbory.</item>
+        <item quantity="many">Naraz nemôžete pridať viac než %d zvukového súboru.</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Naraz sa nedá prilepiť viac než %d súborov PDF.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Naraz sa nedá prilepiť viac než %d súbor PDF.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Naraz sa nedajú prilepiť viac než %d súbory PDF.</item>
+        <item quantity="many">Naraz sa nedá prilepiť viac než %d súboru PDF.</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Exportovanie bolo zrušené. %d súborov PDF už bolo exportovaných.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Exportovanie bolo zrušené. %d súbor PDF už bol exportovaný.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Exportovanie bolo zrušené. %d súbory PDF už boli exportované.</item>
+        <item quantity="many">Exportovanie bolo zrušené. %d súboru PDF už bolo exportovaného.</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Nedá sa zadať viac než %d znakov.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa zadať viac než %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa zadať viac než %d znaky.</item>
+        <item quantity="many">Nedá sa zadať viac než %d znaku.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Zadajte heslo obsahujúce aspoň %d znakov.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zadajte heslo obsahujúce aspoň %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zadajte heslo obsahujúce aspoň %d znaky.</item>
+        <item quantity="many">Zadajte heslo obsahujúce aspoň %d znaku.</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Zadajte nové heslo obsahujúce aspoň %d znakov.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zadajte nové heslo obsahujúce aspoň %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zadajte nové heslo obsahujúce aspoň %d znaky.</item>
+        <item quantity="many">Zadajte nové heslo obsahujúce aspoň %d znaku.</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Počkajte %d sekúnd a skúste to znova.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Počkajte %d sekundu a skúste to znova.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Počkajte %d sekundy a skúste to znova.</item>
+        <item quantity="many">Počkajte %d sekundy a skúste to znova.</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Nedá sa otvoriť viac než %d okien aplikácie Samsung Notes. Zavrite niektoré okno a skúste to znova.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa otvoriť viac než %d okno aplikácie Samsung Notes. Zavrite niektoré okno a skúste to znova.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa otvoriť viac než %d okná aplikácie Samsung Notes. Zavrite niektoré okno a skúste to znova.</item>
+        <item quantity="many">Nedá sa otvoriť viac než %d okna aplikácie Samsung Notes. Zavrite niektoré okno a skúste to znova.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových upozornení</item>
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">Stiahlo sa %d poznámok.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Stiahla sa %d poznámka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Stiahli sa %d poznámky.</item>
+        <item quantity="many">Stiahlo sa %d poznámky.</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d farieb</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d farba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d farby</item>
+        <item quantity="many">%d farby</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d hrúbok</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hrúbka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d hrúbky</item>
+        <item quantity="many">%d hrúbky</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Odstrániť %d zdieľaných poznámok?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstrániť %d zdieľanú poznámku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstrániť %d zdieľané poznámky?</item>
+        <item quantity="many">Odstrániť %d zdieľanej poznámky?</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Konvertovať %d poznámok</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Konvertovať %d poznámku</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Konvertovať %d poznámky</item>
+        <item quantity="many">Konvertovať %d poznámky</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d priečinkov</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d priečinok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d priečinky</item>
+        <item quantity="many">%d priečinka</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d položiek</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d položka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d položky</item>
+        <item quantity="many">%d položky</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d poznámok</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d poznámka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d poznámky</item>
+        <item quantity="many">%d poznámky</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Nedá sa zobraziť viac než %d farieb.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa zobraziť viac než %d farba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa zobraziť viac než %d farby.</item>
+        <item quantity="many">Nedá sa zobraziť viac než %d farby.</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d poznámkových blokov</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d poznámkový blok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d poznámkové bloky</item>
+        <item quantity="many">%d poznámkového bloku</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Premiestniť %1$d priečinkov do priečinka %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Premiestniť %1$d priečinok do priečinka %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Premiestniť %1$d priečinky do priečinka %2$s?</item>
+        <item quantity="many">Premiestniť %1$d priečinka do priečinka %2$s?</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">Používateľ %1$s pridal %2$d nových poznámok do poznámkového bloku %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Používateľ %1$s pridal %2$d novú poznámku do poznámkového bloku %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Používateľ %1$s pridal %2$d nové poznámky do poznámkového bloku %3$s.</item>
+        <item quantity="many">Používateľ %1$s pridal %2$d novej poznámky do poznámkového bloku %3$s.</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">Zdieľa sa %d nových poznámok</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zdieľa sa %d nová poznámka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zdieľajú sa %d nové poznámky</item>
+        <item quantity="many">Zdieľa sa %d novej poznámky</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Importovanie bolo zrušené. %d súborov PDF už bolo importovaných.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Importovanie bolo zrušené. %d súbor PDF už bol importovaný.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Importovanie bolo zrušené. %d súbory PDF už boli importované.</item>
+        <item quantity="many">Importovanie bolo zrušené. %d súboru PDF už bolo importovaného.</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Nepodarilo sa importovať %d poznámok.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nepodarilo sa importovať %d poznámku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nepodarilo sa importovať %d poznámky.</item>
+        <item quantity="many">Nepodarilo sa importovať %d poznámky.</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Zadajte nové heslo obsahujúce aspoň %d znakov.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zadajte nové heslo obsahujúce aspoň %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zadajte nové heslo obsahujúce aspoň %d znaky.</item>
+        <item quantity="many">Zadajte nové heslo obsahujúce aspoň %d znaku.</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Nedá sa vybrať viac než %d položiek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa vybrať viac než %d položka.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa vybrať viac než %d položky.</item>
+        <item quantity="many">Nedá sa vybrať viac než %d položky.</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Premiestniť %d priečinkov do Koša?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Premiestniť %d priečinok do Koša?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Premiestniť %d priečinky do Koša?</item>
+        <item quantity="many">Premiestniť %d priečinka do Koša?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Vykonať premiestnenie %d priečinkov a všetkých položiek v nich do Koša?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vykonať premiestnenie %d priečinka a všetkých položiek v ňom do Koša?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vykonať premiestnenie %d priečinkov a všetkých položiek v nich do Koša?</item>
+        <item quantity="many">Vykonať premiestnenie %d priečinka a všetkých položiek v nich do Koša?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Premiestniť %d poznámok do Koša?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Premiestniť %d poznámku do Koša?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Premiestniť %d poznámky do Koša?</item>
+        <item quantity="many">Premiestniť %d poznámky do Koša?</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Po overení vašej totožnosti sa premiestni %d poznámok (vrátane 1 zamknutej poznámky) do Koša.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Po overení vašej totožnosti sa premiestni %d poznámka (vrátane 1 zamknutej poznámky) do Koša.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Po overení vašej totožnosti sa premiestnia %d poznámky (vrátane 1 zamknutej poznámky) do Koša.</item>
+        <item quantity="many">Po overení vašej totožnosti sa premiestni %d poznámky (vrátane 1 zamknutej poznámky) do Koša.</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Nepremiestnilo sa %d poznámok, ktoré sa už nachádzajú vo vybratom priečinku.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nepremiestnila sa %d poznámka, ktorá sa už nachádza vo vybratom priečinku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nepremiestnili sa %d poznámky, ktoré sa už nachádzajú vo vybratom priečinku.</item>
+        <item quantity="many">Nepremiestnilo sa %d poznámky, ktoré sa už nachádzajú vo vybratom priečinku.</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Premiestniť %1$d poznámok do priečinka %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Premiestniť %1$d poznámku do priečinka %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Premiestniť %1$d poznámky do priečinka %2$s?</item>
+        <item quantity="many">Premiestniť %1$d poznámky do priečinka %2$s?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d položiek sa natrvalo odstráni z cloudu a všetkých vašich zariadení.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d položka sa natrvalo odstráni z cloudu a všetkých vašich zariadení.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d položky sa natrvalo odstránia z cloudu a všetkých vašich zariadení.</item>
+        <item quantity="many">%d položky sa natrvalo odstráni z cloudu a všetkých vašich zariadení.</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Natrvalo odstrániť %d poznámok?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Natrvalo odstrániť %d poznámku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Natrvalo odstrániť %d poznámky?</item>
+        <item quantity="many">Natrvalo odstrániť %d poznámky?</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d položiek sa natrvalo odstráni.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d položka sa natrvalo odstráni.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d položky sa natrvalo odstránia.</item>
+        <item quantity="many">%d položky sa natrvalo odstráni.</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d dní</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d deň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dňa</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">V zdieľanej poznámke nie je možné vybrať viac než %d ťahov alebo objektov.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">V zdieľanej poznámke nie je možné vybrať viac než %d ťah alebo objekt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">V zdieľanej poznámke nie je možné vybrať viac než %d ťahy alebo objekty.</item>
+        <item quantity="many">V zdieľanej poznámke nie je možné vybrať viac než %d ťahu alebo objektu.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">Do telefónu bolo uložených %d fotografií.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do telefónu bola uložená %d fotografia.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do telefónu boli uložené %d fotografie.</item>
+        <item quantity="many">Do telefónu bolo uloženej %d fotografie.</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">Do tabletu bolo uložených %d fotografií.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do tabletu bola uložená %d fotografia.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Do tabletu boli uložené %d fotografie.</item>
+        <item quantity="many">Do tabletu bolo uloženej %d fotografie.</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d súborov bolo uložených do vášho telefónu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d súbor bol uložený do vášho telefónu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d súbory boli uložené do vášho telefónu.</item>
+        <item quantity="many">%d súboru bolo uloženého do vášho telefónu.</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d súborov bolo uložených do vášho tabletu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d súbor bol uložený do vášho tabletu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d súbory boli uložené do vášho tabletu.</item>
+        <item quantity="many">%d súboru bolo uloženého do vášho tabletu.</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d členov</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d člen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d členovia</item>
+        <item quantity="many">%d člena</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Táto poznámka bude odstránená o %d dní.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Táto poznámka bude odstránená o %d deň.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Táto poznámka bude odstránená o %d dni.</item>
+        <item quantity="many">Táto poznámka bude odstránená o %d dňa.</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Exportuje sa %d súborov PDF…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Exportuje sa %d súbor PDF…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Exportujú sa %d súbory PDF…</item>
+        <item quantity="many">Exportuje sa %d súboru PDF…</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Nepodarilo sa skonvertovať %d poznámok. Uvoľnite miesto v internom úložisku a potom to skúste znova.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nepodarilo sa skonvertovať %d poznámku. Uvoľnite miesto v internom úložisku a potom to skúste znova.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nepodarilo sa skonvertovať %d poznámky. Uvoľnite miesto v internom úložisku a potom to skúste znova.</item>
+        <item quantity="many">Nepodarilo sa skonvertovať %d poznámky. Uvoľnite miesto v internom úložisku a potom to skúste znova.</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Odstrániť %d položiek?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstrániť %d položku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstrániť %d položky?</item>
+        <item quantity="many">Odstrániť %d položky?</item>
+    </plurals>
+</resources>

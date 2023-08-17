@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_pdf" android:id="@id/action_pdf" android:orderInCategory="100" android:title="@string/import_pdf" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_search" android:id="@id/action_search" android:orderInCategory="100" android:title="@string/action_search" app:showAsAction="always" />
+    <group android:id="@id/action_more">
+        <item android:id="@id/action_edit" android:orderInCategory="100" android:title="@string/action_edit" android:showAsAction="never" />
+        <item android:id="@id/action_viewby" android:orderInCategory="100" android:title="@string/noteslist_option_menu_view" android:showAsAction="never" />
+        <item android:id="@id/action_add_folder" android:orderInCategory="100" android:title="@string/add_category" android:showAsAction="never" />
+        <item android:id="@id/action_pin_to_favorites" android:orderInCategory="100" android:title="@string/dialog_sort_by_pin_favorite_to_top" android:showAsAction="never" />
+    </group>
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_add" android:id="@id/action_add_shared_notebook" android:title="@string/action_add_gcs_group" app:contentDescription="@string/action_add_gcs_group" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_invitation_list" android:title="@string/gcs_invitations" app:actionLayout="@layout/gcs_group_list_action_menu_item_invitation_layout" app:contentDescription="@string/gcs_invitations" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_coedit_list" android:title="@string/co_edit_memu_title" app:contentDescription="@string/co_edit_memu_title" app:showAsAction="never" />
+</menu>

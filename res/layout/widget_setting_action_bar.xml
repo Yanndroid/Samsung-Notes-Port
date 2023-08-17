@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/widget_setting_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_setting_actionbar_margin_top" android:baselineAligned="false" android:layout_toEndOf="@id/space_left"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/widget_setting_actionbar_height" android:layout_marginTop="@dimen/widget_setting_actionbar_margin">
+        <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="19.0sp" android:textColor="@color/widget_setting_title_color" android:ellipsize="end" android:id="@id/actionbar_title" android:paddingLeft="@dimen/widget_setting_appbar_margin" android:paddingRight="@dimen/widget_setting_appbar_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_widget_setting_title" android:maxLines="1" android:requiresFadingEdge="horizontal" android:paddingHorizontal="@dimen/widget_setting_appbar_margin" />
+        <LinearLayout android:gravity="end" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/cancelSaveLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/widget_setting_cancel_save_btn_right_margin">
+            <Button android:id="@id/cancel" android:background="@drawable/widget_setting_text_button_ripple" android:text="@string/composer_cancel" style="@style/WidgetSettingsButton.ActionBar" />
+            <Button android:id="@id/save" android:background="@drawable/widget_setting_text_button_ripple" android:text="@string/composer_save" style="@style/WidgetSettingsButton.ActionBar" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

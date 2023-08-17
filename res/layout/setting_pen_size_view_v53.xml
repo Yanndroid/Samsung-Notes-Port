@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/handwriting_size_button_1" android:background="@drawable/spen_round_ripple" android:focusable="true" android:layout_width="28.0dip" android:layout_height="28.0dip">
+        <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreview android:id="@id/handwriting_size_button_preview_1" android:layout_width="28.0dip" android:layout_height="28.0dip" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" />
+    </FrameLayout>
+    <View android:id="@id/handwriting_size_space1" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/handwriting_size_button_2" android:background="@drawable/spen_round_ripple" android:focusable="true" android:layout_width="28.0dip" android:layout_height="28.0dip">
+        <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreview android:id="@id/handwriting_size_button_preview_2" android:layout_width="28.0dip" android:layout_height="28.0dip" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" />
+    </FrameLayout>
+    <View android:id="@id/handwriting_size_space2" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/handwriting_size_button_3" android:background="@drawable/spen_round_ripple" android:focusable="true" android:layout_width="28.0dip" android:layout_height="28.0dip">
+        <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreview android:id="@id/handwriting_size_button_preview_3" android:layout_width="28.0dip" android:layout_height="28.0dip" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" />
+    </FrameLayout>
+    <View android:id="@id/handwriting_size_space3" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/handwriting_size_button_4" android:background="@drawable/spen_round_ripple" android:focusable="true" android:layout_width="28.0dip" android:layout_height="28.0dip">
+        <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreview android:id="@id/handwriting_size_button_preview_4" android:layout_width="28.0dip" android:layout_height="28.0dip" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" />
+    </FrameLayout>
+    <View android:id="@id/handwriting_size_space4" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/handwriting_size_button_5" android:background="@drawable/spen_round_ripple" android:focusable="true" android:layout_width="28.0dip" android:layout_height="28.0dip">
+        <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreview android:id="@id/handwriting_size_button_preview_5" android:layout_width="28.0dip" android:layout_height="28.0dip" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" />
+    </FrameLayout>
+</LinearLayout>

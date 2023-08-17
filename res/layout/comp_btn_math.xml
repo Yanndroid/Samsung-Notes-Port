@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hw_toolbar_math" android:contentDescription="@string/composer_add_math" style="@style/ComposerImageClickButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:src="@drawable/comp_hw_toolbar_ic_shape" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+</FrameLayout>

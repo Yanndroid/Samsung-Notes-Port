@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Ei saa lisada üle %d üksuse.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa lisada üle %d üksuse.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Korraga ei saa kleepide rohkem kui %d üksust.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Korraga ei saa kleepide rohkem kui %d üksuse.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Korraga ei saa otsida rohkem kui %d dokumenti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Korraga ei saa otsida rohkem kui %d dokumenti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Ei saa kuvada üle %d värvi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa kuvada üle %d värvi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Korraga ei saa lisada üle %d helifaili.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Korraga ei saa lisada üle %d helifaili.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Korraga ei saa kleepide rohkem kui %d PDF-i.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Korraga ei saa kleepida rohkem kui %d PDF-i.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Eksportimine on tühistatud. %d PDF-i on juba eksporditud.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eksportimine on tühistatud. %d PDF on juba eksporditud.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Ei saa sisestada üle %d märgi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa sisestada üle %d märgi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Sisestage parool, milles on vähemalt %d tähemärki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sisestage parool, milles on vähemalt %d tähemärk.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Sisestage uus parool, milles on vähemalt %d tähemärki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sisestage uus parool, milles on vähemalt %d tähemärk.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Oodake %d sekundit ja proovige uuesti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Oodake %d sekund ja proovige uuesti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Ei saa avada rohkem kui %d Samsung Notesi akent. Sulgege aken ja proovige uuesti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa avada rohkem kui %d Samsung Notesi akent. Sulgege aken ja proovige uuesti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d märkust alla laaditud.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d märkus alla laaditud.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d värvi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d värv</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d paksust</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paksus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Kustuta %d jagatud märkust?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kustuta %d jagatud märkus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Teisenda %d märget</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teisenda %d märge</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d kausta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kaust</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d üksust</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d üksus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d märkust</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d märkus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Ei saa kuvada üle %d värvi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa kuvada üle %d värvi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d märkmikku</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d märkmik</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Kas teisaldada %1$d kausta asukohta %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %1$d kaust asukohta %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s lisas %2$d uut märkust märkmikusse %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s lisas %2$d uue märkuse märkmikusse %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d uut märkust on jagatud</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uus märkus on jagatud</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Importimine on tühistatud. %d PDF-i on juba imporditud.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Importimine on tühistatud. %d PDF on juba imporditud.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d märkust ei saa importida.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d märkust ei saa importida.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Sisestage uus parool, milles on vähemalt %d tähemärki.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sisestage uus parool, milles on vähemalt %d tähemärk.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Ei saa valida üle %d üksuse.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa valida üle %d üksuse.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Kas teisaldada %d kausta prügikasti?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %d kaust prügikasti?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Kas teisaldada %d kausta ja kõik üksused nendes prügikasti?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %d kaust ja kõik üksused selles prügikasti?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Kas teisaldada %d märkust prügikasti?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %d märkus prügikasti?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Pärast teie identiteedi kinnitamist teisaldatakse %d märget (sh 1 lukustatud märge) prügikasti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pärast teie identiteedi kinnitamist teisaldatakse %d märge (sh 1 lukustatud märge) prügikasti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Ei teisaldatud %d märkust, mis on juba valitud kaustas.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei teisaldatud %d märkust, mis on juba valitud kaustas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Kas teisaldada %1$d märkust asukohta %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %1$d märkus asukohta %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d üksust kustutatakse jäädavalt pilvest ja kõigist teie seadmetest.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d üksus kustutatakse jäädavalt pilvest ja kõigist teie seadmetest.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Kas kustutada jäädavalt %d märkust?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas kustutada jäädavalt %d märkus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d üksust kustutatakse jäädavalt.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d üksus kustutatakse jäädavalt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d päeva</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päev</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Jagatud märkmel ei saa valida rohkem kui %d tõmmet või objekti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jagatud märkmel ei saa valida rohkem kui %d tõmmet või objekti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d pilti salvestati teie telefoni.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pilt salvestati teie telefoni.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d pilti salvestati teie tahvelseadmesse.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pilt salvestati teie tahvelseadmesse.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d faili salvestati teie telefoni.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fail salvestati teie telefoni.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d faili salvestati teie tahvelseadmesse.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fail salvestati teie tahvelseadmesse.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d liiget</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d liige</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">See märge kustutatakse %d päeva pärast.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See märge kustutatakse %d päeva pärast.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDF-i eksportimine…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF-i eksportimine…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">%d märkme teisendamine nurjus. Vabastage sisemäluruumi ja seejärel proovige uuesti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d märkme teisendamine nurjus. Vabastage sisemäluruumi ja seejärel proovige uuesti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Kas kustutada %d üksust?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas kustutada %d üksus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

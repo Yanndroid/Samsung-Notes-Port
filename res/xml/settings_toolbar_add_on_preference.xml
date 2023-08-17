@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/setting_custom_toolbar_direct_write" android:key="settings_add_ons_spen_to_text" android:summary="@string/settings_add_ons_spen_to_text_subtitle" android:defaultValue="true" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_add_ons_straighten_title" android:key="settings_add_ons_straighten" android:summary="@string/settings_add_ons_straighten_summary" android:defaultValue="true" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_add_ons_pen_style_title" android:key="settings_add_ons_pen_style" android:summary="@string/settings_add_ons_pen_style_subtitle" android:defaultValue="true" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_add_ons_convert_to_text_title" android:key="settings_add_ons_convert_to_text" android:summary="@string/settings_add_ons_convert_to_text_subtitle" android:defaultValue="true" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_add_ons_auto_fix_shape_title" android:key="settings_add_ons_auto_fix_shapes" android:summary="@string/settings_add_ons_neat_shapes_subtitle" android:defaultValue="true" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_add_ons_easy_writing_pad_title" android:key="settings_add_ons_easy_writing_pad" android:summary="@string/settings_add_ons_easy_writing_pad_subtitle" android:defaultValue="true" />
+    <androidx.preference.SwitchPreferenceCompat android:key="settings_add_ons_lock_canvas" android:summary="@string/settings_add_ons_lock_canvas_subtitle" android:defaultValue="true" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_add_ons_assistance_summary" android:key="settings_add_ons_assistance" android:summary="@string/settings_add_ons_assistance_title" android:defaultValue="true" />
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

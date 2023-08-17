@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppMainThemeNoChunking" parent="@style/AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/noteslist_fragment_bg_color</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/noteslist_fragment_bg_color</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionModeCloseButton</item>
+    </style>
+    <style name="BaseTheme.NoActionBar" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorPrimary">@color/notes_primary_color</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="colorAccent">@color/notes_accent_color</item>
+        <item name="colorControlActivated">@color/notes_primary_color</item>
+        <item name="colorPrimary">@color/notes_primary_color</item>
+        <item name="colorPrimaryDark">@color/notes_primary_dark_color</item>
+    </style>
+    <style name="BrushTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/brush_canvas_blank_color</item>
+        <item name="android:navigationBarColor">@color/brush_canvas_blank_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="DocumentScanTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@color/background_color_black</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">default</item>
+        <item name="colorControlActivated">@color/notes_primary_color</item>
+    </style>
+</resources>

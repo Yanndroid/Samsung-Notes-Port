@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory>
+        <com.samsung.android.support.senl.nt.app.settings.common.component.ImageViewPreference android:key="settings_look_when_saved_help" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="settings_look_when_saved_list">
+        <com.samsung.android.support.senl.nt.app.settings.common.component.RadioButtonPreference android:title="@string/settings_look_of_saved_notes_same_as_screen_off_memo" android:key="settings_pen_color_for_saved_notes_same_as_screen_off_memo" app:allowCustomDivider="true" app:allowDividerBelow="false" />
+        <com.samsung.android.support.senl.nt.app.settings.common.component.RadioButtonPreference android:title="@string/settings_look_of_saved_notes_pen_color_on_white_bg" android:key="settings_pen_color_for_saved_notes_pen_color_on_white_bg" app:allowCustomDivider="true" app:allowDividerBelow="false" />
+        <com.samsung.android.support.senl.nt.app.settings.common.component.RadioButtonPreference android:title="@string/settings_look_of_saved_notes_black_color_on_white_bg" android:key="settings_pen_color_for_saved_notes_black_color_on_white_bg" app:allowDividerBelow="false" />
+    </PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

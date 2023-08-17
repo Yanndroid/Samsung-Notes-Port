@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout name="brush_fragment_main.xml">
+
+    <View id="brush_total_container_layout">
+        <ViewModel id="brushlayoutvm">
+            <Bind
+                bindId="onLayoutChange"
+                property="action_layoutChange" />
+        </ViewModel>
+    </View>
+
+    <View id="brush_menu_setting">
+        <ViewModel id="brushmainvm">
+            <Bind
+                bindId="inflated"
+                property="md_inflated" />
+        </ViewModel>
+    </View>
+
+    <View id="brush_close_popup_layout">
+        <ViewModel id="settingpopuphidervm">
+            <Bind
+                bindId="touchListener"
+                property="action_touch" />
+        </ViewModel>
+    </View>
+
+    <View id="brush_palette_menu">
+        <ViewModel id="submenuvm">
+            <Bind
+                bindId="eraserSelection"
+                property="md_brush_eraserSelection" />
+        </ViewModel>
+
+        <ViewModel id="brushlayoutvm">
+            <Bind
+                bindId="layoutViewModel"
+                property="md_brush_layoutVM" />
+        </ViewModel>
+
+        <ViewModel id="brushmainvm">
+            <Bind
+                bindId="mainViewModel"
+                property="md_brush_mainVM" />
+        </ViewModel>
+
+        <ViewModel id="brushmenuhidevm">
+            <Bind
+                bindId="menuHideAnimation"
+                property="ad_brush_menuHideAnimation" />
+            <Bind
+                bindId="brushmenuhidevm"
+                property="md_brush_menuHideVM" />
+        </ViewModel>
+
+        <ViewModel id="brushsettingsvm">
+            <Bind
+                bindId="settingViewModel"
+                property="md_brush_settingVM" />
+        </ViewModel>
+
+    </View>
+
+    <View id="brush_setting_menu">
+        <ViewModel id="brushlayoutvm">
+            <Bind
+                bindId="layoutViewModel"
+                property="md_brush_layoutVM" />
+        </ViewModel>
+
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="brushMenuInfo"
+                property="md_brush_menuInfo_pending" />
+        </ViewModel>
+
+        <ViewModel id="brushmainvm">
+            <Bind
+                bindId="mainViewModel"
+                property="md_brush_mainVM" />
+            <Bind
+                bindId="settingPopupListener"
+                property="md_brush_settingPopupListener" />
+        </ViewModel>
+
+        <ViewModel id="brushsettingsvm">
+            <Bind
+                bindId="settingViewModel"
+                property="md_brush_settingVM" />
+            <Bind
+                bindId="popup"
+                property="ad_base_settingPopup_pending" />
+        </ViewModel>
+    </View>
+</Layout>

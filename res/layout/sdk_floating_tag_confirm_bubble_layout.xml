@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/tag_confirm_top_button" android:layout_width="@dimen/sdk_floating_tag_confirm_bubble_width" android:layout_height="@dimen/sdk_floating_tag_confirm_bubble_height" android:src="@drawable/sdk_tag_confirm_bubble" />
+    <ImageButton android:id="@id/tag_confirm_bottom_button" android:layout_width="@dimen/sdk_floating_tag_confirm_bubble_width" android:layout_height="@dimen/sdk_floating_tag_confirm_bubble_height" android:src="@drawable/sdk_tag_confirm_bubble_bottom" />
+</RelativeLayout>

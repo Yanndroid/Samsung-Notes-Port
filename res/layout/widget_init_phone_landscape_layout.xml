@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/AppTheme" android:id="@id/widget_init_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_background_white_phone_layout" android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="true" />
+    <FrameLayout android:orientation="vertical" android:id="@id/widget_loading_layout" android:background="@drawable/widget_background_white_phone_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/widget_content_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_title_top_margin_phone">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_title_bottom_margin_phone" layout="@layout/widget_show_note_title_phone" />
+        <TextView android:id="@id/widget_listview_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/widget_title_layout" android:contentDescription="@string/widget_show_note" />
+        <ListView android:id="@id/widget_list_view" android:layout_marginLeft="@dimen/widget_pin_side_padding_phone" android:layout_marginRight="@dimen/widget_pin_side_padding_phone" android:layout_marginBottom="@dimen/widget_pin_listview_top_margin_phone" android:layout_below="@id/widget_title_layout" android:layout_marginHorizontal="@dimen/widget_pin_side_padding_phone" style="@style/WidgetShowNoteList" />
+        <include layout="@layout/widget_show_note_options" />
+    </RelativeLayout>
+</RelativeLayout>

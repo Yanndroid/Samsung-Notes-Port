@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:background="@drawable/comp_page_setting_divider" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/more_menu_divider_height" android:layerType="software" android:layout_marginStart="@dimen/more_menu_divider_margin_start_end" android:layout_marginEnd="@dimen/more_menu_divider_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

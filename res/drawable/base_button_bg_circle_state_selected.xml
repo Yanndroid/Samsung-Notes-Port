@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/base_toolbar_icon_selected_color" />
+    <size android:height="@dimen/base_toolbar_item_width" android:width="@dimen/base_toolbar_item_width" />
+</shape>

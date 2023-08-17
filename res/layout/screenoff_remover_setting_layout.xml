@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/remover_setting_layout" android:background="@drawable/screenoff_setting_view_background" android:visibility="gone" android:layout_width="@dimen/screenoff_remover_setting_view_width" android:layout_height="@dimen/screenoff_remover_setting_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textAppearance="@style/RobotoRegularStyle" android:textColor="@color/screenoff_remover_setting_view_text" android:gravity="center" android:id="@id/remover_setting_view_erase_all" android:background="@drawable/screenoff_rectangle_button_ripple_effect" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/screenoff_erase_all" />
+</RelativeLayout>

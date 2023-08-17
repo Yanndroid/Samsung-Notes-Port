@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="21.0dip" android:paddingTop="22.0dip" android:paddingRight="21.0dip" android:paddingBottom="22.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="16.0sp" android:textColor="@color/settings_list_text_color" android:id="@id/note_warning_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" />
+    </ScrollView>
+</LinearLayout>

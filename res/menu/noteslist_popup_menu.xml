@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/move" android:title="@string/action_move" />
+    <item android:id="@id/lock" android:title="@string/action_more_lock" />
+    <item android:id="@id/unlock" android:title="@string/action_unlock" />
+    <item android:id="@id/share" android:title="@string/action_share" />
+    <item android:id="@id/delete" android:title="@string/action_delete" />
+    <item android:id="@id/save" android:title="@string/save_as" />
+    <item android:id="@id/duplicate" android:title="@string/action_duplicate" />
+    <item android:id="@id/secure_folder" android:title="@string/action_move_to_secure_folder" />
+</menu>

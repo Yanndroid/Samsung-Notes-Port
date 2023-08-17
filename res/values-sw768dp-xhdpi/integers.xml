@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="seekbar_progress_height_size">4</integer>
+    <integer name="seekbar_progress_width">237</integer>
+</resources>

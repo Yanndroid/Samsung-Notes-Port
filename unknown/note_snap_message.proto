@@ -1,0 +1,58 @@
+syntax = "proto3";
+option java_multiple_files = true;
+
+package noteSnapMessage;
+
+message UploadRequest {
+  oneof request {
+    BinaryInfo binary_info = 1;
+    Binary binary = 2;
+  }
+}
+
+message UploadResponse {
+  ResponseResult response_result = 1;
+  string workspace_id = 2;
+}
+
+message DownloadRequest {
+}
+
+message DownloadResponse {
+  oneof request {
+    BinaryInfo binary_info = 1;
+    Binary binary = 2;
+    ResponseResult response_result = 3;
+  }
+}
+
+message NoteInfoRequest {
+}
+
+message NoteInfoResponse {
+  ResponseResult response_result = 1;
+  string commit_id = 2;
+  int64 checkpoint = 3;
+  int64 modifiedtime = 4;
+}
+
+message Binary {
+  bytes chunk = 1;
+  int32 read_size = 2;
+}
+
+message BinaryInfo {
+  string name = 1;
+  string type = 2;
+  int64 length = 3;
+  string hash = 4;
+  int64 size = 5;
+}
+
+message ResponseResult {
+  int32 code = 1;
+  int32 rcode = 2;
+  int32 lcode = 3;
+  string rmsg = 4;
+  string lmsg = 5;
+}

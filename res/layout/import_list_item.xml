@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:id="@id/root_cardview" android:background="@drawable/notes_list_item_bg_shape" android:focusable="true" android:clickable="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notes_list_item_card_view_margin_top" android:layout_marginBottom="@dimen/notes_list_item_card_view_margin_bottom" android:foreground="@drawable/notes_list_item_fg_ripple" android:layout_marginStart="@dimen/notes_list_item_card_view_margin_start_end" android:layout_marginEnd="@dimen/notes_list_item_card_view_margin_start_end" android:elevation="@dimen/notes_list_item_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/notes_list_checkbox" />
+        <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/import_list_item_margin_start">
+            <LinearLayout android:orientation="vertical" android:id="@id/container" android:paddingTop="@dimen/import_list_item_padding_top_bottom" android:paddingBottom="@dimen/import_list_item_padding_top_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="@dimen/import_list_item_image_margin_left">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/import_list_item_title_content_height" android:layout_marginBottom="@dimen/import_list_item_title_margin_bottom">
+                        <ViewStub android:layout_gravity="start" android:id="@id/title" android:layout="@layout/import_list_item_title" android:inflatedId="@id/inflate_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/import_list_item_title_margin_bottom" />
+                        <ViewStub android:id="@id/content" android:layout="@layout/import_list_item_contents" android:inflatedId="@id/inflate_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <include android:id="@id/extra" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/import_list_item_extra" />
+                </LinearLayout>
+            </LinearLayout>
+            <ViewStub android:id="@id/image" android:layout="@layout/import_list_item_image_view" android:inflatedId="@id/inflate_image" android:layout_width="@dimen/import_list_item_image_size" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

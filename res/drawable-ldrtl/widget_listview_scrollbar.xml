@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/widget_pin_listview_scrollbar_margin" android:bottom="@dimen/widget_pin_listview_scrollbar_margin">
+        <shape>
+            <corners android:radius="@dimen/widget_pin_listview_scrollbar_radius" />
+            <padding android:left="@dimen/widget_pin_listview_scrollbar_padding" android:right="@dimen/widget_pin_listview_scrollbar_padding" />
+            <size android:width="@dimen/widget_pin_listview_scrollbar_size" />
+            <solid android:color="@color/widget_list_scroll_color" />
+        </shape>
+    </item>
+</layer-list>

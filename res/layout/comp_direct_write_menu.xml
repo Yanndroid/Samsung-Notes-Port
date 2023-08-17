@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:id="@id/rt_toolbar_scroll_view" style="@style/ComposerToolbarScroll"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/comp_dw_toolbar_item_margin_start" android:paddingEnd="@dimen/comp_dw_toolbar_enter_size">
+        <include android:layout_width="@dimen/comp_dw_toolbar_item_size" android:layout_height="@dimen/comp_dw_toolbar_item_size" android:layout_marginStart="@dimen/comp_dw_toolbar_item_margin_start" layout="@layout/comp_btn_direct_write_setting" />
+        <include android:layout_width="@dimen/comp_dw_toolbar_item_size" android:layout_height="@dimen/comp_dw_toolbar_item_size" android:layout_marginStart="@dimen/comp_dw_toolbar_item_margin_start" layout="@layout/comp_btn_direct_write_emoji" />
+        <include android:layout_width="@dimen/comp_dw_toolbar_item_size" android:layout_height="@dimen/comp_dw_toolbar_item_size" android:layout_marginStart="@dimen/comp_dw_toolbar_item_margin_start" layout="@layout/comp_btn_direct_write_space" />
+        <include android:layout_width="@dimen/comp_dw_toolbar_item_size" android:layout_height="@dimen/comp_dw_toolbar_item_size" android:layout_marginStart="@dimen/comp_dw_toolbar_item_margin_start" layout="@layout/comp_btn_direct_write_backspace" />
+        <include android:layout_width="@dimen/comp_dw_toolbar_item_size" android:layout_height="@dimen/comp_dw_toolbar_item_size" android:layout_marginStart="@dimen/comp_dw_toolbar_item_margin_start" android:layout_marginEnd="@dimen/comp_dw_toolbar_item_margin_end" layout="@layout/comp_btn_direct_write_keyboard" />
+    </LinearLayout>
+</HorizontalScrollView>

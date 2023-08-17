@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="28.0dip" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M0,0h28v28h-28z" android:strokeAlpha="0.0" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:fillColor="@color/widget_toolbar_ic_color" android:pathData="M19.465,6L9.035,6C7.361,6 6,7.37 6,9.055C6,9.469 6.336,9.805 6.75,9.805C7.164,9.805 7.5,9.469 7.5,9.055C7.5,8.197 8.189,7.5 9.035,7.5L13.5,7.5L13.5,20.512L11.56,20.512C11.146,20.512 10.81,20.848 10.81,21.262C10.81,21.676 11.146,22.012 11.56,22.012L16.942,22.012C17.356,22.012 17.692,21.676 17.692,21.262C17.692,20.848 17.356,20.512 16.942,20.512L15,20.512L15,7.5L19.465,7.5C20.312,7.5 21,8.197 21,9.055C21,9.469 21.336,9.805 21.75,9.805C22.164,9.805 22.5,9.469 22.5,9.055C22.5,7.37 21.139,6 19.465,6" android:fillType="evenOdd" />
+</vector>

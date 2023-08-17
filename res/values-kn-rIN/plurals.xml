@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">%dಕ್ಕೂ ಹೆಚ್ಚಿನ ಐಟಂಗಳನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dಕ್ಕೂ ಹೆಚ್ಚಿನ ಐಟಂ ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">ಒಂದೇ ಬಾರಿಗೆ %dಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಐಟಂಗಳನ್ನು ಅಂಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಒಂದೇ ಬಾರಿಗೆ %dಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಐಟಂ ಅಂಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">ಒಂದೇ ಸಮಯಕ್ಕೆ %dಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಡಾಕ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಒಂದೇ ಸಮಯಕ್ಕೆ %dಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಡಾಕ್ಯುಮೆಂಟ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">%dಕ್ಕೂ ಹೆಚ್ಚಿನ ಬಣ್ಣಗಳನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dಕ್ಕೂ ಹೆಚ್ಚಿನ ಬಣ್ಣ ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">ಒಂದೇ ಸಲಕ್ಕೆ %dಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಆಡಿಯೋ ಫೈಲ್‌ಗಳನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಒಂದೇ ಸಲಕ್ಕೆ %dಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಆಡಿಯೋ ಫೈಲ್ ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">ಒಂದೇ ಬಾರಿಗೆ %dಕ್ಕಿಂತ ಹೆಚ್ಚಿನ PDFಗಳನ್ನು ಅಂಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಒಂದೇ ಬಾರಿಗೆ %dಕ್ಕಿಂತ ಹೆಚ್ಚಿನ PDF ಅಂಟಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">ರಫ್ತು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ. %d PDFಗಳನ್ನು ಈಗಾಗಲೇ ರಫ್ತು ಮಾಡಲಾಗಿದೆ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ರಫ್ತು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ. %d PDF ಈಗಾಗಲೇ ರಫ್ತು ಮಾಡಲಾಗಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">%dಕ್ಕೂ ಹೆಚ್ಚಿನ ಅಕ್ಷರಗಳನ್ನು ನಮೂದಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dಕ್ಕೂ ಹೆಚ್ಚಿನ ಅಕ್ಷರವನ್ನು ನಮೂದಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">ಇದರಲ್ಲಿ ಕನಿಷ್ಠ %d ಅಕ್ಷರಗಳುಳ್ಳ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಇದರಲ್ಲಿ ಕನಿಷ್ಠ %d ಅಕ್ಷರವುಳ್ಳ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">ಇದರಲ್ಲಿ ಕನಿಷ್ಠ %d ಅಕ್ಷರಗಳುಳ್ಳ ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಇದರಲ್ಲಿ ಕನಿಷ್ಠ %d ಅಕ್ಷರವುಳ್ಳ ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">%d ಸೆಕೆಂಡುಗಳವರೆಗೆ ನಿರೀಕ್ಷಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಸೆಕೆಂಡ್ ನಿರೀಕ್ಷಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">%dಕ್ಕಿಂತ ಹೆಚ್ಚು Samsung Notes ವಿಂಡೋಗಳನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ. ವಿಂಡೋ ಮುಚ್ಚಿ ಹಾಗೂ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dಕ್ಕಿಂತ ಹೆಚ್ಚು Samsung Notes ವಿಂಡೋ ತೆರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ. ವಿಂಡೋ ಮುಚ್ಚಿ ಹಾಗೂ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d ಟಿಪ್ಪಣಿಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಟಿಪ್ಪಣಿಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d ಬಣ್ಣಗಳು</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಬಣ್ಣ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d ದಪ್ಪಗಳು</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ದಪ್ಪ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">%d ಹಂಚಿತ ಟಿಪ್ಪಣಿಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಹಂಚಿತ ಟಿಪ್ಪಣಿ ಅಳಿಸುವುದೇ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">%d ಟಿಪ್ಪಣಿಗಳನ್ನು ಪರಿವರ್ತಿಸಿ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಟಿಪ್ಪಣಿಯನ್ನು ಪರಿವರ್ತಿಸಿ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d ಫೋಲ್ಡರ್‌ಗಳು</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಫೋಲ್ಡರ್</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d ಅಂಶಗಳು</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಅಂಶ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d ಟಿಪ್ಪಣಿಗಳು</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಟಿಪ್ಪಣಿ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">%dಕ್ಕೂ ಹೆಚ್ಚಿನ ಬಣ್ಣಗಳನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dಕ್ಕೂ ಹೆಚ್ಚಿನ ಬಣ್ಣ ತೋರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d ನೋಟ್‌ಬುಕ್‌ಗಳು</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ನೋಟ್‌ಬುಕ್</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">%1$d ಫೋಲ್ಡರ್‌ಗಳನ್ನು %2$sಗೆ ಸರಿಸುವುದೇ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ಫೋಲ್ಡರ್ ಅನ್ನು %2$sಗೆ ಸರಿಸುವುದೇ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s ಅವರು %2$d ಹೊಸ ಟಿಪ್ಪಣಿಗಳನ್ನು %3$s ಟಿಪ್ಪಣಿಪುಸ್ತಕಕ್ಕೆ ಸೇರಿಸಿದ್ದಾರೆ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ಅವರು %2$d ಹೊಸ ಟಿಪ್ಪಣಿಯನ್ನು %3$s ಟಿಪ್ಪಣಿಪುಸ್ತಕಕ್ಕೆ ಸೇರಿಸಿದ್ದಾರೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d ಹೊಸ ಟಿಪ್ಪಣಿಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲಾಗಿದೆ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಹೊಸ ಟಿಪ್ಪಣಿ ಹಂಚಿಕೊಳ್ಳಲಾಗಿದೆ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">ಆಮದು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ. %d PDFಗಳನ್ನು ಈಗಾಗಲೇ ಆಮದು ಮಾಡಲಾಗಿದೆ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಆಮದು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ. %d PDF ಈಗಾಗಲೇ ಆಮದು ಮಾಡಲಾಗಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d ಟಿಪ್ಪಣಿಗಳನ್ನು ಆಮದು ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಟಿಪ್ಪಣಿಯನ್ನು ಆಮದು ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">ಇದರಲ್ಲಿ ಕನಿಷ್ಠ %d ಅಕ್ಷರಗಳುಳ್ಳ ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಇದರಲ್ಲಿ ಕನಿಷ್ಠ %d ಅಕ್ಷರವುಳ್ಳ ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">%dಕ್ಕೂ ಹೆಚ್ಚು ಐಟಮ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dಕ್ಕೂ ಹೆಚ್ಚು ಐಟಮ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">%d ಫೋಲ್ಡರ್‌ಗಳನ್ನು ಅನುಪಯುಕ್ತಕ್ಕೆ ಸರಿಸುವುದೇ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಫೋಲ್ಡರ್ ಅನ್ನು ಅನುಪಯುಕ್ತಕ್ಕೆ ಸರಿಸುವುದೇ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">%d ಫೋಲ್ಡರ್‌ಗಳು ಮತ್ತು ಅವುಗಳಲ್ಲಿನ ಎಲ್ಲ ಐಟಂಗಳನ್ನು ಟ್ರ್ಯಾಶ್‌ಗೆ ಸರಿಸುವುದೇ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಫೋಲ್ಡರ್ ಅನ್ನು ಅದರಲ್ಲಿನ ಎಲ್ಲ ಐಟಂಗಳನ್ನು ಟ್ರ್ಯಾಶ್‌ಗೆ ಸರಿಸುವುದೇ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">%d ಟಿಪ್ಪಣಿಗಳನ್ನು ಅನುಪಯುಕ್ತಕ್ಕೆ ಸರಿಸುವುದೇ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಟಿಪ್ಪಣಿಯನ್ನು ಅನುಪಯುಕ್ತಕ್ಕೆ ಸರಿಸುವುದೇ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">ನಿಮ್ಮ ಗುರುತನ್ನು ಪರಿಶೀಲಿಸಿದ ನಂತರ, %d ಟಿಪ್ಪಣಿಗಳನ್ನು (ಲಾಕ್ ಆಗಿರುವ 1 ಟಿಪ್ಪಣಿಯನ್ನು ಒಳಗೊಂಡಂತೆ) ಟ್ರ್ಯಾಶ್‌ಗೆ ಸರಿಸಲಾಗುತ್ತದೆ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ನಿಮ್ಮ ಗುರುತನ್ನು ಪರಿಶೀಲಿಸಿದ ನಂತರ, %d ಟಿಪ್ಪಣಿಯನ್ನು (ಲಾಕ್ ಆಗಿರುವ 1 ಟಿಪ್ಪಣಿಯನ್ನು ಒಳಗೊಂಡಂತೆ) ಟ್ರ್ಯಾಶ್‌ಗೆ ಸರಿಸಲಾಗುತ್ತದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">ಆಯ್ಕೆಮಾಡಿದ ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಈಗಾಗಲೇ ಇರುವ %d ಟಿಪ್ಪಣಿಗಳನ್ನು ಸರಿಸಲಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಆಯ್ಕೆಮಾಡಿದ ಫೋಲ್ಡರ್‌ನಲ್ಲಿ ಈಗಾಗಲೇ ಇರುವ %d ಟಿಪ್ಪಣಿಯನ್ನು ಸರಿಸಲಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">%1$d ಟಿಪ್ಪಣಿಗಳನ್ನು %2$sಗೆ ಸರಿಸುವುದೇ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ಟಿಪ್ಪಣಿಯನ್ನು %2$sಗೆ ಸರಿಸುವುದೇ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d ಐಟಮ್‌ಗಳನ್ನು ಕ್ಲೌಡ್ ಮತ್ತು ನಿಮ್ಮ ಎಲ್ಲ ಸಾಧನಗಳಿಂದ ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಐಟಮ್ ಅನ್ನು ಕ್ಲೌಡ್ ಮತ್ತು ನಿಮ್ಮ ಎಲ್ಲ ಸಾಧನಗಳಿಂದ ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">%d ಟಿಪ್ಪಣಿಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುವುದೇ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಟಿಪ್ಪಣಿಯನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸುವುದೇ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d ಅಂಶಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುವುದು.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಅಂಶವನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುವುದು.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d ದಿನಗಳು</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ದಿನ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">ಹಂಚಿತ ಟಿಪ್ಪಣಿಯಲ್ಲಿ %dಗಿಂತ ಹೆಚ್ಚಿನ ಸ್ಟ್ರೋಕ್‌ಗಳು ಅಥವಾ ಆಬ್ಜೆಕ್ಟ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಹಂಚಿತ ಟಿಪ್ಪಣಿಯಲ್ಲಿ %dಗಿಂತ ಹೆಚ್ಚಿನ ಸ್ಟ್ರೋಕ್ ಅಥವಾ ಆಬ್ಜೆಕ್ಟ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d ಚಿತ್ರಗಳನ್ನು ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಚಿತ್ರವನ್ನು ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d ಚಿತ್ರಗಳನ್ನು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಚಿತ್ರವನ್ನು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">ನಿಮ್ಮ ಫೋನ್‌ಗೆ %d ಫೈಲ್‌ಗಳು ಉಳಿಸಲಾಗಿದೆ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ನಿಮ್ಮ ಫೋನ್‌ಗೆ %d ಫೈಲ್ ಉಳಿಸಲಾಗಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ಗೆ %d ಫೈಲ್‌ಗಳು ಉಳಿಸಲಾಗಿದೆ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‌ಗೆ %d ಫೈಲ್ ಉಳಿಸಲಾಗಿದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d ಸದಸ್ಯರು</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಸದಸ್ಯ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">ಈ ಟಿಪ್ಪಣಿಯನ್ನು %d ದಿನಗಳಲ್ಲಿ ಅಳಿಸಲಾಗುತ್ತದೆ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ಈ ಟಿಪ್ಪಣಿಯನ್ನು %d ದಿನದಲ್ಲಿ ಅಳಿಸಲಾಗುತ್ತದೆ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">%d PDFಗಳನ್ನು ರಫ್ತು ಮಾಡಲಾಗುತ್ತಿದೆ…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d PDF ರಫ್ತು ಮಾಡಲಾಗುತ್ತಿದೆ…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">%d ಟಿಪ್ಪಣಿಗಳನ್ನು ಪರಿವರ್ತಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಆಂತರಿಕ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಸ್ವಲ್ಪ ಸ್ಥಳವನ್ನು ತೆರವುಗೊಳಿಸಿ, ನಂತರ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಟಿಪ್ಪಣಿಯನ್ನು ಪರಿವರ್ತಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಆಂತರಿಕ ಸಂಗ್ರಹಣೆಯಲ್ಲಿ ಸ್ವಲ್ಪ ಸ್ಥಳವನ್ನು ತೆರವುಗೊಳಿಸಿ, ನಂತರ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">%d ಅಂಶಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ಅಂಶವನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

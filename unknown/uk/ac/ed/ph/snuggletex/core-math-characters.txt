@@ -1,0 +1,67 @@
+## This is hand-edited. Add all of the non-auto-generated definitions
+2A::OP:*
+2D::OP:-
+2F:slash:BIN # (Redefined to make this an operator)
+5C:backslash:BIN # (Redefined to make this an operator)
+5E::OP # ^ (This will disappear during token fixing)
+5F::OP # _ (This will disappear during token fixing)
+7B:lbrace:OPEN # (Reinforced here as we need to refer to this character, even though it can't be input directly)
+7D:rbrace:CLOSE # (Ditto)
+## Common useful characters/commands
+6A:jmath:ALPHA
+AC:neg:BIN # (Redefined as operator)
+B2::OP
+B3::OP
+B9::OP
+BC::NUMERIC
+BD::NUMERIC
+BE::NUMERIC
+C5:AA:ORD
+E5:aa:ORD
+131:imath:ALPHA
+2022:bullet:ORD # (Overridden)
+210F:hbar:ORD
+22EF:cdots:ORD # (Overridden)
+## Greek letters
+393:Gamma:ALPHA
+394:Delta:ALPHA
+398:Theta:ALPHA
+39B:Lambda:ALPHA
+39E:Xi:ALPHA
+3A0:Pi:ALPHA
+3A3:Sigma:ALPHA
+3A5:Upsilon:ALPHA
+3A6:Phi:ALPHA
+3A8:Psi:ALPHA
+3A9:Omega:ALPHA
+3B1:alpha:ALPHA
+3B2:beta:ALPHA
+3B3:gamma:ALPHA
+3B4:delta:ALPHA
+3B5:varepsilon:ALPHA
+3B6:zeta:ALPHA
+3B7:eta:ALPHA
+3B8:theta:ALPHA
+3B9:iota:ALPHA
+3BA:kappa:ALPHA
+3BB:lambda:ALPHA
+3BC:mu:ALPHA
+3BD:nu:ALPHA
+3BE:xi:ALPHA
+#3BF:omicron:ALPHA
+3C0:pi:ALPHA
+3C1:rho:ALPHA
+#3C2:sigmaf:ALPHA
+3C3:sigma:ALPHA
+3C4:tau:ALPHA
+3C5:upsilon:ALPHA
+3C6:phi:ALPHA
+3C7:chi:ALPHA
+3C8:psi:ALPHA
+3C9:omega:ALPHA
+3D1:vartheta:ALPHA
+#3D2:upsih:ALPHA
+#3D6:piv:ALPHA
+3D6:varpi:ALPHA
+3F1:varrho:ALPHA
+3F5:epsilon:ALPHA

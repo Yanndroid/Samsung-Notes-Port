@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_init_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/widget_empty_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/background" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_empty_background_white" android:scaleType="fitXY" android:adjustViewBounds="true" android:cropToPadding="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_empty_view_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/widget_no_memos_text_size" android:textColor="@color/widget_text_color" android:gravity="center" android:id="@id/widget_no_memo_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/widget_no_memos_text_margin" android:layout_marginRight="@dimen/widget_no_memos_text_margin" android:text="@string/tap_here_to_add_a_note" android:layout_marginHorizontal="@dimen/widget_no_memos_text_margin" />
+    </LinearLayout>
+</RelativeLayout>

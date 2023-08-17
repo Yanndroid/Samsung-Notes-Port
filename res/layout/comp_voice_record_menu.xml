@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/voice_recording_record_menu_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <View android:layout_width="@dimen/voice_recording_minimized_width" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/voice_record_menu_background" android:tag="voice_horizon[root_layout:target;link_target:name_root]" android:background="@drawable/voice_record_background" android:focusable="false" android:clickable="true" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/voice_record_animation" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="@dimen/voice_recording_minimized_width" android:layout_height="fill_parent" app:lottie_autoPlay="false" app:lottie_fileName="recording_equalizer.json" />
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/voice_record_menu_open" android:tag="voice_horizon[link_target:name_open_close;accessibility_focus:target]" android:src="@drawable/voice_record_open" android:contentDescription="@string/change_template_expand" android:layout_marginEnd="4.0dip" style="@style/VoiceImageButtonSize" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageButton android:id="@id/voice_record_stop" android:src="@drawable/voice_record_stop" android:layout_centerVertical="true" android:contentDescription="@string/voice_notification_voice_ass_stop" android:layout_alignParentStart="true" style="@style/VoiceImageButtonSize" />
+                <ImageButton android:id="@id/voice_record_recording" android:tag="voice_horizon[link_target:name_recording]" android:src="@drawable/voice_record_icon" android:layout_centerVertical="true" android:contentDescription="@string/voice_notification_voice_ass_record" android:layout_alignParentStart="true" style="@style/VoiceImageButtonSize" />
+                <ImageButton android:id="@id/voice_record_play_pause" android:tag="voice_horizon[link_target:name_play_pause]" android:src="@drawable/voice_record_play" android:layout_centerVertical="true" android:contentDescription="@string/voice_notification_voice_ass_play" style="@style/VoiceImageButtonSize" />
+            </RelativeLayout>
+            <LinearLayout android:tag="voice_horizon[link_target:name_time]" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginHorizontal="4.0dip">
+                <TextView android:textAppearance="@style/RobotoRegularStyle" android:textColor="@color/composer_voice_menu_text_icon_color" android:layout_gravity="center_vertical" android:id="@id/voice_record_play_time" style="@style/VoiceTimeTextSize" />
+                <ImageButton android:layout_gravity="center_vertical" android:id="@id/voice_record_minimize_btn" android:tag="voice_horizon[fade:200]" android:src="@drawable/voice_record_minimized" android:contentDescription="@string/voice_record_minimize" android:layout_marginStart="4.0dip" android:layout_marginEnd="10.0dip" style="@style/VoiceImageButtonSize" />
+                <ImageButton android:id="@id/voice_record_stt" android:visibility="gone" android:src="@drawable/voice_record_stt" android:contentDescription="STT" style="@style/VoiceImageButtonSize" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/voice_record_maximize_swipe_area" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="@dimen/voice_recording_minimized_swipe_width" android:layout_height="fill_parent" />
+</RelativeLayout>

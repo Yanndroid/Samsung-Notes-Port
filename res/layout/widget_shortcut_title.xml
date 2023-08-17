@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/widget_img_shortcut_title" style="@style/ShortcutTitleText" />
+    <TextView android:id="@id/widget_img_shortcut_shadow_title" android:shadowColor="@color/widget_title_text_shadow_color" android:shadowDy="0.0" android:shadowRadius="3.0" style="@style/ShortcutTitleText" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/pen_color_setting_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Space android:layout_width="wrap_content" android:layout_height="@dimen/screenoff_pen_color_setting_view_empty_space_width_height" />
+        <include android:id="@id/pen_color_1" layout="@layout/screenoff_pen_color_view" />
+        <Space android:layout_width="wrap_content" android:layout_height="@dimen/screenoff_pen_color_setting_view_empty_space_width_height" />
+        <include android:id="@id/pen_color_2" layout="@layout/screenoff_pen_color_view" />
+        <Space android:layout_width="wrap_content" android:layout_height="@dimen/screenoff_pen_color_setting_view_empty_space_width_height" />
+        <include android:id="@id/pen_color_3" layout="@layout/screenoff_pen_color_view" />
+        <Space android:layout_width="wrap_content" android:layout_height="@dimen/screenoff_pen_color_setting_view_empty_space_width_height" />
+        <include android:id="@id/pen_color_4" layout="@layout/screenoff_pen_color_view" />
+    </LinearLayout>
+</RelativeLayout>

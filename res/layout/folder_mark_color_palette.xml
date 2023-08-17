@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1,3,5,7,9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <FrameLayout android:id="@id/frame_mark_0" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_0" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_0" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/folder_mark_color_column_min_space" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/frame_mark_1" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_1" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_1" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/folder_mark_color_column_min_space" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/frame_mark_2" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_2" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_2" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/folder_mark_color_column_min_space" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/frame_mark_3" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_3" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_3" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/folder_mark_color_column_min_space" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/frame_mark_4" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_4" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_4" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/folder_mark_color_column_min_space" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/frame_mark_5" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_5" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_5" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+    </TableRow>
+    <TableRow android:layout_marginTop="@dimen/folder_mark_color_row_space">
+        <FrameLayout android:id="@id/frame_mark_6" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_6" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_6" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/folder_mark_color_column_min_space" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/frame_mark_7" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_7" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_7" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/folder_mark_color_column_min_space" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/frame_mark_8" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_8" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_8" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/folder_mark_color_column_min_space" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/frame_mark_9" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_9" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_9" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/folder_mark_color_column_min_space" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/frame_mark_10" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_10" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_10" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/folder_mark_color_column_min_space" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/frame_mark_11" style="@style/FolderColorFrameStyle">
+            <ImageView android:id="@id/mark_color_view_11" style="@style/FolderColorMarkStyle" />
+            <ImageView android:id="@id/mark_color_selected_11" style="@style/FolderColorSelectedStyle" />
+        </FrameLayout>
+    </TableRow>
+</TableLayout>

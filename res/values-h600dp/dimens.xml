@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="template_editor_tablet_port_popup_window_crop_vert_margin">36.0dip</dimen>
+</resources>

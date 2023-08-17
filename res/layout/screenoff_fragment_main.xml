@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_layout" android:background="@color/screenoff_main_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dummy_animation_layout" android:background="@color/screenoff_main_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/main_layout_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/comp_view_decor_layout" />
+    </RelativeLayout>
+    <include layout="@layout/comp_progress_circle_layout" />
+</RelativeLayout>

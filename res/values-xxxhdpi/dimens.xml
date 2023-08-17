@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="brush_setting_popup_erase_all_border_line">2.0px</dimen>
+    <dimen name="widget_toolbar_ic_height_tablet">112.0px</dimen>
+    <dimen name="widget_toolbar_ic_width_tablet">112.0px</dimen>
+    <dimen name="floating_controller_voice_button_height">24.0dip</dimen>
+    <dimen name="floating_controller_voice_button_width">24.0dip</dimen>
+    <dimen name="floating_controller_voice_cancel_button_margin_end">15.0dip</dimen>
+    <dimen name="floating_controller_voice_cancel_button_margin_start">9.0dip</dimen>
+    <dimen name="floating_controller_voice_draggable_view_height">24.0dip</dimen>
+    <dimen name="floating_controller_voice_draggable_view_margin_start">7.0dip</dimen>
+    <dimen name="floating_controller_voice_draggable_view_width">16.0dip</dimen>
+    <dimen name="floating_controller_voice_first_button_margin_start">6.0dip</dimen>
+    <dimen name="floating_controller_voice_layout_height">37.0dip</dimen>
+    <dimen name="floating_controller_voice_second_button_margin_start">9.0dip</dimen>
+</resources>

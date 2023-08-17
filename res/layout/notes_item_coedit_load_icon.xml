@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/coedit_load_icon_background" android:visibility="gone" android:layout_width="@dimen/co_edit_load_icon_layout_size" android:layout_height="@dimen/co_edit_load_icon_layout_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/co_edit_load_icon_size" android:layout_height="@dimen/co_edit_load_icon_size" android:src="@drawable/ic_shared_note_load" android:scaleType="centerInside" android:importantForAccessibility="no" />
+</FrameLayout>

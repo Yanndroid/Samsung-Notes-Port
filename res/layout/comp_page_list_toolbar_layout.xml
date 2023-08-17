@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/comp_page_list_page_info_layout" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="30.0dip" android:layout_centerVertical="true" android:layout_marginStart="@dimen/comp_page_list_page_index_start_margin" android:layout_toStartOf="@id/comp_page_list_btn_container" android:layout_alignParentStart="true">
+        <EditText android:textSize="@dimen/comp_page_list_toolbar_menu_text_size" android:id="@id/comp_page_list_page_index_view" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0" android:hint=" " android:lines="1" android:inputType="number" android:importantForAccessibility="no" />
+        <TextView android:textSize="@dimen/comp_page_list_toolbar_menu_text_size" android:textColor="@color/composer_page_list_count_color" android:ellipsize="marquee" android:id="@id/comp_page_list_count_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="/0" android:singleLine="true" android:importantForAccessibility="no" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/comp_page_list_btn_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="12.5dip" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/comp_page_list_toolbar_menu_text_size" android:textColor="@color/composer_default_text_color" android:ellipsize="marquee" android:gravity="end|center" android:layout_gravity="center_vertical" android:id="@id/comp_page_list_edit_btn" android:background="@drawable/comp_page_list_edit_text_ripple" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="10.0dip" android:minHeight="@dimen/comp_page_list_toolbar_menu_button_size" android:text="@string/action_edit" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="gravity" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" android:layout_marginEnd="3.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:id="@id/comp_page_list_bookmark_btn" android:background="@drawable/editor_hw_toolbar_selected" android:contentDescription="@string/composer_bookmark" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/comp_page_list_edit_btn" app:layout_constraintTop_toTopOf="parent" style="@style/ComposerPageListToolbarButton">
+            <LinearLayout android:gravity="center" android:background="@drawable/comp_ripple_circle_effect" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/comp_page_list_bookmark_btn_img" android:src="@drawable/comp_ic_bookmark_mode" style="@style/ComposerPageListToolbarButtonImage" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/comp_list_search_btn" android:background="@drawable/editor_hw_toolbar_pressed" android:contentDescription="@string/action_search" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/comp_page_list_bookmark_btn" app:layout_constraintTop_toTopOf="parent" style="@style/ComposerPageListToolbarButton">
+            <ImageView android:src="@drawable/comp_search_ic" style="@style/ComposerPageListToolbarButtonImage" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/comp_page_list_close_btn" android:background="@drawable/editor_hw_toolbar_pressed" android:contentDescription="@string/composer_string_close" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/comp_list_search_btn" app:layout_constraintTop_toTopOf="parent" style="@style/ComposerPageListToolbarButton">
+            <ImageView android:src="@drawable/comp_page_list_item_ic_close" style="@style/ComposerPageListToolbarButtonImage" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

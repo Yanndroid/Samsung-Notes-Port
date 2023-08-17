@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/text_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/memolist_edit_dialog_margin_top" android:layout_marginBottom="@dimen/memolist_edit_dialog_margin_bottom" android:layout_marginStart="@dimen/memolist_edit_dialog_margin_left" android:layout_marginEnd="@dimen/memolist_edit_dialog_margin_right" app:errorTextAppearance="@style/EditDialogErrorMessageStyle" app:hintTextAppearance="@style/EditDialogHintTextAppearance">
+                <EditText android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/memolist_edit_dialog_edit_text_size" android:ellipsize="end" android:id="@id/text_input_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:imeOptions="flagNoExtractUi" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+                    <requestFocus />
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

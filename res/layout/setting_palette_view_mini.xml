@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/palette_area" android:layout_width="@dimen/mini_popup_layout_width" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <com.samsung.android.sdk.pen.setting.colorpalette.SpenViewFlipper android:id="@id/pallete_flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/mini_pen_setting_color_flipper_padding" android:paddingEnd="@dimen/mini_pen_setting_color_flipper_padding" />
+        <FrameLayout android:id="@id/fixed_area" android:layout_width="fill_parent" android:layout_height="@dimen/mini_color_rect_chip_width" android:layout_marginTop="@dimen/mini_color_rect_chip_between_margin" android:layout_below="@id/pallete_flipper" android:paddingStart="@dimen/mini_pen_setting_color_flipper_padding" android:paddingEnd="@dimen/mini_pen_setting_color_flipper_padding" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/indicator_area" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_below="@id/palette_area" />
+</merge>

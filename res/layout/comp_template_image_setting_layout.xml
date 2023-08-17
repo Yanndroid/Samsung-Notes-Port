@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/change_template_page_setting_container" android:background="@drawable/comp_activity_change_template_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/change_template_list_view_interval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/comp_template_applytoall_layout" />
+        <include layout="@layout/comp_template_page_to_change_layout" />
+    </LinearLayout>
+    <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/round_corner_radius" app:corner="top_left|top_right" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <com.samsung.android.support.senl.nt.base.winset.view.RoundCornerOverlayView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/round_corner_radius" app:corner="bottom_left|bottom_right" xmlns:app="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

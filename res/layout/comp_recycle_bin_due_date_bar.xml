@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/composer_main_background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffd4d4d4" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="#cd1d1d1d" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/comp_recycle_bin_remain_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/te_menu_layout">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/template_editor_adjust" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/te_menu_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="10.0" android:layout_alignParentEnd="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+            <ViewStub android:layout_gravity="center" android:id="@id/te_zoom_menu_viewstub" android:visibility="gone" android:layout="@layout/template_editor_zoom_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0">
+            <include android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/template_editor_opacity_layout" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

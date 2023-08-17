@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+
+import "coedit_core_message.proto";
+
+package coeditCoreInternalMessage;
+
+message WorkspaceRequest {
+  string owner_id = 1;
+  string uuid = 2;
+  string cid = 3;
+}
+
+message WorkspaceResponse {
+  coeditCoreMessage.ResponseResult response_result = 1;
+  string workspace_id = 2;
+}
+
+message GetChangesRequest {
+  string cid = 1;
+  int64 start_checkpoint = 2;
+  int64 end_checkpoint = 3;
+}
+
+message GetChangesResponse {
+  coeditCoreMessage.ResponseResult response_result = 1;
+  repeated coeditCoreMessage.CheckPointCoeditOpPair checkpoint_coeditop_pair = 2;
+}
+
+message EventRequest {
+  coeditCoreMessage.EventType event_type = 1;
+  string target_uid = 2;
+  bool writable = 3;
+}
+
+message EventResponse {
+  coeditCoreMessage.ResponseResult response_result = 1;
+}
+
+message DeleteRequest {
+}
+
+message DeleteResponse {
+  coeditCoreMessage.ResponseResult response_result = 1;
+}

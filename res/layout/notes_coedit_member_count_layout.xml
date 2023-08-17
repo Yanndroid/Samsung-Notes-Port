@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/coedit_member_count_layout" android:background="@drawable/coedit_note_member_count_background" android:layout_width="wrap_content" android:layout_height="20.0dip" android:paddingStart="4.0dip" android:paddingEnd="9.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/space_member_count_img" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_coedit_group_member" android:scaleType="fitXY" android:tint="@color/coedit_note_member_count_text_color" android:tintMode="src_in" />
+    <TextView android:textAppearance="@style/RobotoMediumStyle" android:textSize="12.0dip" android:textColor="@color/coedit_note_member_count_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/space_member_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+</LinearLayout>

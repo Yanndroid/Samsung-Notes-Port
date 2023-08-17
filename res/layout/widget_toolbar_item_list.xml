@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/inside_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_inside_background" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/widget_launch_note_icon" android:layout_width="@dimen/widget_toolbar_ic_width_tablet" android:layout_height="@dimen/widget_toolbar_ic_height_tablet" android:contentDescription="@string/notes" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/widget_add_icon" android:layout_width="@dimen/widget_toolbar_ic_width_tablet" android:layout_height="@dimen/widget_toolbar_ic_height_tablet" android:scaleType="fitCenter" android:contentDescription="@string/widget_toolbar_keypad" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/widget_writing_icon" android:layout_width="@dimen/widget_toolbar_ic_width_tablet" android:layout_height="@dimen/widget_toolbar_ic_height_tablet" android:scaleType="fitCenter" android:contentDescription="@string/widget_toolbar_writing" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/widget_drawing_icon" android:layout_width="@dimen/widget_toolbar_ic_width_tablet" android:layout_height="@dimen/widget_toolbar_ic_height_tablet" android:scaleType="fitCenter" android:contentDescription="@string/widget_toolbar_drawing" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/widget_image_icon" android:layout_width="@dimen/widget_toolbar_ic_width_tablet" android:layout_height="@dimen/widget_toolbar_ic_height_tablet" android:scaleType="fitCenter" android:contentDescription="@string/widget_toolbar_image" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/widget_voice_icon" android:layout_width="@dimen/widget_toolbar_ic_width_tablet" android:layout_height="@dimen/widget_toolbar_ic_height_tablet" android:scaleType="fitCenter" android:contentDescription="@string/widget_toolbar_voice" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

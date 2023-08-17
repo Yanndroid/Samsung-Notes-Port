@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="720.0dip" android:width="720.0dip" android:viewportWidth="720.0" android:viewportHeight="720.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$contact_list_preset_crop_26__0" android:pathData="M368,719h19c111.6,-8.3 209,-67.4 269.2,-154.3c-33.7,-56.6 -52.4,-119.3 -52.4,-185.3V95.1C483.1,-15.9 302.6,-31.4 164.8,57.5v321.9C164.8,514.6 243.4,636 368,719z" />
+    <path android:fillColor="@drawable/$contact_list_preset_crop_26__1" android:pathData="M0,360c0,12.7 0.7,25.5 2,38.1v-76.2C0.7,334.5 0,347.3 0,360z" />
+    <path android:fillColor="@drawable/$contact_list_preset_crop_26__2" android:pathData="M164.8,379.4V57.5C75.7,115.1 13.7,211 2,321.9v76.2c18.1,172.1 157.4,308 331,320.9h35C243.4,636 164.8,514.6 164.8,379.4z" />
+    <path android:fillColor="@drawable/$contact_list_preset_crop_26__3" android:pathData="M164.8,379.4V57.5C75.7,115.1 13.7,211 2,321.9v76.2c18.1,172.1 157.4,308 331,320.9h35C243.4,636 164.8,514.6 164.8,379.4z" />
+    <path android:fillColor="@drawable/$contact_list_preset_crop_26__4" android:pathData="M656.2,564.7c102,-147.7 79.6,-348 -52.4,-469.5v284.2C603.8,445.4 622.5,508.1 656.2,564.7z" />
+    <path android:fillColor="@drawable/$contact_list_preset_crop_26__5" android:pathData="M656.2,564.7c102,-147.7 79.6,-348 -52.4,-469.5v284.2C603.8,445.4 622.5,508.1 656.2,564.7z" android:strokeAlpha="0.64" android:fillAlpha="0.64" />
+</vector>

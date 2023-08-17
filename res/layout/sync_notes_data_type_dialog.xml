@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:paddingTop="@dimen/dialog_title_padding_top_bottom" android:paddingBottom="@dimen/dialog_title_padding_top_bottom" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/scroll_inside" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/wifi_only_layout" android:paddingTop="@dimen/dialog_radio_button_padding_top_bottom" android:paddingBottom="@dimen/dialog_radio_button_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_padding_left_right" android:layout_marginRight="@dimen/dialog_padding_left_right">
+            <RadioButton android:textAppearance="@style/RobotoRegularStyle" android:textSize="17.0sp" android:textColor="@drawable/notes_dialog_ratiobutton_color_selector" android:id="@id/wifi_only" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_wifi_sync_only" android:paddingStart="@dimen/dialog_radio_button_padding_left" android:paddingEnd="0.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/both_wifi_mobile_layout" android:paddingTop="@dimen/dialog_radio_button_padding_top_bottom" android:paddingBottom="@dimen/dialog_radio_button_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_padding_left_right" android:layout_marginRight="@dimen/dialog_padding_left_right">
+            <RadioButton android:id="@id/both_wifi_mobile" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_radio_button_padding_left" android:paddingEnd="0.0dip">
+                <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="16.0sp" android:textColor="@drawable/notes_dialog_ratiobutton_color_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_both_wifi_and_mobile" />
+                <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="13.0sp" android:textColor="@color/settings_list_summary_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_both_wifi_and_mobile_body" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

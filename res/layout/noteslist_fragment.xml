@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/noteslist_fragment" android:background="@color/noteslist_fragment_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/recyclebin_message_container" android:layout="@layout/recyclebin_message" android:inflatedId="@id/inflate_recyclebin_message_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/folderpath_layout_container" android:layout="@layout/folderpath_layout" android:inflatedId="@id/inflate_folderpath_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/noteslist_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/noteslist_swipe_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/noteslist_recyclerview" />
+            </FrameLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <ViewStub android:id="@id/recent_search_container" android:layout="@layout/recent_search_list_layout" android:inflatedId="@id/inflate_recent_search_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/no_note_layout" android:layout="@layout/noteslist_nonote_layout" android:inflatedId="@id/inflate_no_note_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

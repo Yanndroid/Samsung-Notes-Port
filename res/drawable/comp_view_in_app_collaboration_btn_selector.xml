@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/circle_btn_bg" />
+    <item>
+        <selector>
+            <item android:state_selected="true">
+                <shape android:shape="oval">
+                    <solid android:color="@color/composer_floating_toolbar_item_selected_state_bg_color" />
+                </shape>
+            </item>
+            <item android:state_pressed="true">
+                <ripple android:color="@color/composer_default_button_color">
+                    <item android:id="@android:id/mask">
+                        <shape android:shape="oval">
+                            <solid android:color="@color/composer_floating_toolbar_item_selected_state_bg_color" />
+                        </shape>
+                    </item>
+                </ripple>
+            </item>
+        </selector>
+    </item>
+</layer-list>

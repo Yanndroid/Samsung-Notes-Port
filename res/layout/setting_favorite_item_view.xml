@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bg_layout" android:layout_width="66.0dip" android:layout_height="68.0dip" android:foreground="@drawable/setting_favorite_item_ripple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/favorite_preview" android:layout_width="46.0dip" android:layout_height="34.0dip" android:layout_marginTop="6.0dip" android:layout_alignParentTop="true" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+    <View android:id="@id/favorite_pen" android:layout_width="30.0dip" android:layout_height="70.0dip" android:layout_marginTop="13.0dip" android:layout_marginStart="6.0dip" />
+</RelativeLayout>

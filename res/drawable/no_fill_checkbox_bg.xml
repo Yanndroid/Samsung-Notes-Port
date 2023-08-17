@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/blank" />
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="@dimen/setting_change_style_chip_radius" android:topRightRadius="@dimen/setting_change_style_chip_radius" android:bottomLeftRadius="@dimen/setting_change_style_chip_radius" android:bottomRightRadius="@dimen/setting_change_style_chip_radius" />
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="@dimen/setting_change_style_chip_unselected_outline_size" android:color="@color/setting_palette_resource_stroke_color" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.support.senl.nt.app.common.widget.AnimationBottomNavigationView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_navigation_with_icon_view_height" app:elevation="0.0dip" style="@style/Style.BottomNavigationView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="127.0dip" android:width="90.0dip" />
+            <solid android:color="#fffcfcfc" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="20.0dip" android:width="32.0dip" android:drawable="@drawable/ic_pdf_failed" />
+</layer-list>

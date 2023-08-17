@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout name="brush_zoom_menu_layout.xml">
+
+    <View id="brush_zoom_percent_text">
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="zoomTextMarginEndPx"
+                property="ad_base_viewMarginEnd" />
+            <Bind
+                bindId="zoomTextMarginTopPx"
+                property="ad_base_viewMarginTop" />
+            <Bind
+                bindId="brushMenuInfo"
+                property="ad_brush_zoomTextPosition" />
+            <Bind
+                bindId="topRightRotationPivot"
+                property="ad_base_rotationExtra" />
+        </ViewModel>
+
+        <ViewModel id="brushcanvasvm">
+            <Bind
+                bindId="zoomTextVisibility"
+                property="ad_base_visibleGone" />
+            <Bind
+                bindId="zoomPercent"
+                property="ad_base_zoomRatioText" />
+        </ViewModel>
+
+        <Bind
+            bindId="Roboto_Regular"
+            property="ad_base_font" />
+    </View>
+
+    <View id="brush_zoom_layout">
+        <ViewMode id="brushmenuhidevm">
+            <Bind
+                bindId="menuHideAnimation"
+                property="ad_base_hideAnimationByTouch" />
+            <Bind
+                bindId="onLayoutChange"
+                property="action_layoutChange" />
+        </ViewMode>
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="brushMenuInfo"
+                property="ad_brush_zoomMenuPosition" />
+        </ViewModel>
+        <Bind
+            bindId="true"
+            property="ad_brush_desktopModeEnable" />
+    </View>
+
+    <View id="brush_zoom_in_btn">
+        <ViewModel id="brushcanvasvm">
+            <Bind
+                bindId="onZoomInClicked"
+                property="action_click" />
+
+            <Bind
+                bindId="zoomInBtnState"
+                property="ad_brush_imageEnable" />
+
+            <Bind
+                bindId="rectRipple"
+                property="ad_base_backgroundRipple" />
+        </ViewModel>
+    </View>
+
+    <View id="brush_zoom_out_btn">
+        <ViewModel id="brushcanvasvm">
+            <Bind
+                bindId="onZoomOutClicked"
+                property="action_click" />
+
+            <Bind
+                bindId="zoomOutBtnState"
+                property="ad_brush_imageEnable" />
+
+            <Bind
+                bindId="rectRipple"
+                property="ad_base_backgroundRipple" />
+        </ViewModel>
+    </View>
+</Layout>

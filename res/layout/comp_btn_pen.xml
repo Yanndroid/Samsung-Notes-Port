@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hw_toolbar_pen" android:contentDescription="@string/hw_toolbar_item_menu_pen_mode" style="@style/ComposerImageClickButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hw_toolbar_pen_color" android:src="@drawable/comp_hw_toolbar_ic_fountain_pen_color" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+    <ImageView android:id="@id/hw_toolbar_pen_type" android:src="@drawable/comp_hw_toolbar_ic_fountain_pen" android:tint="?floatingToolbarItemTint" style="@style/ComposerImageButton" />
+</FrameLayout>

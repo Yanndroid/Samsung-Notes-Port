@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:icon="@drawable/ic_notes" android:key="top_level_settings_main_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.support.senl.nt.app.settings.common.component.UpdateTipCardPreference android:key="settings_update_tipcard" />
+    <androidx.preference.PreferenceCategory android:key="settings_sync_category">
+        <com.samsung.android.support.senl.nt.app.settings.common.component.SyncSwitchPreferenceScreen android:title="@string/settings_sync_accounts" android:key="settings_samsung_cloud_sync" android:summary="@string/settings_sync_accounts_summary" />
+        <com.samsung.android.support.senl.nt.app.settings.common.component.SyncSwitchPreferenceScreen android:title="@string/settings_sync_to_ms" android:key="settings_sync_to_microsoft" android:summary="@string/settings_sync_to_ms_sign_out_without_account_summary" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_coedit_note_sync_category" android:key="settings_coedit_note_sync_category">
+        <DropDownPreference android:entries="@array/coedit_note_sync_type_entries" android:title="@string/settings_coedit_note_sync_type" android:key="settings_coedit_note_sync_type" android:entryValues="@array/coedit_note_sync_type_values" app:useSimpleSummaryProvider="true" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_screen_off_memo_category" android:key="settings_screen_off_memo_category">
+        <com.samsung.android.support.senl.nt.app.settings.common.component.ColoredPreference android:title="@string/settings_look_when_saved" android:key="settings_pen_color_for_saved_notes" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_general_category" android:key="settings_general_category">
+        <androidx.preference.Preference android:title="@string/settings_style_of_new_notes" android:key="settings_style_of_new_notes" />
+        <androidx.preference.Preference android:title="@string/settings_lock_menu_name" android:key="settings_lock_notes" />
+        <androidx.preference.Preference android:title="@string/settings_convert_your_notes" android:key="settings_convert_your_notes" />
+        <androidx.preference.Preference android:title="@string/settings_import_notes" android:key="settings_import_notes" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_auto_save_notes" android:key="settings_auto_save_notes" android:defaultValue="true" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_advanced_category" android:key="settings_advanced_category">
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_show_links_in_notes" android:key="settings_show_links_in_notes" android:defaultValue="true" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_show_web_previews" android:key="settings_show_web_previews" android:summary="@string/settings_show_web_previews_summary" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_clipping_options" android:key="settings_clipping_options" android:summary="@string/settings_clipping_options_summary" android:defaultValue="true" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_action_icons" android:key="settings_action_icons" android:summary="@string/settings_action_icons_summary" android:defaultValue="true" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_hide_scroll_bar_when_editing" android:key="settings_hide_scroll_bar_when_editing" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_hide_navigation_bar_when_writing" android:key="settings_hide_navigation_bar_when_writing" android:summary="@string/settings_hide_navigation_bar_when_writing_summary" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_block_back_key_while_editing" android:key="settings_block_back_key_while_editing" android:defaultValue="false" />
+        <androidx.preference.Preference android:title="@string/settings_handwriting_recognition" android:key="settings_handwriting_recognition_language" />
+        <androidx.preference.Preference android:title="@string/settings_toolbar_add_ons" android:key="settings_toolbar_add_ons" />
+        <androidx.preference.Preference android:title="@string/settings_customize_toolbar" android:key="settings_customize_toolbar" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_use_phone_as_toolbar" android:key="settings_show_option_to_move_pen_tools" android:summary="@string/settings_use_phone_as_toolbar_global_setting_on_summary" android:defaultValue="true" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_privacy_category" android:key="settings_privacy_category">
+        <androidx.preference.Preference android:title="@string/settings_privacy_notice" android:key="settings_privacy_notice" />
+        <androidx.preference.Preference android:title="@string/settings_permissions" android:key="settings_permissions" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:key="settings_about_category">
+        <com.samsung.android.support.senl.nt.app.settings.common.component.BadgePreference android:title="@string/about_note" android:key="settings_about_notes" />
+        <androidx.preference.Preference android:title="@string/settings_contact_us" android:key="settings_contact_us" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory />
+</androidx.preference.PreferenceScreen>

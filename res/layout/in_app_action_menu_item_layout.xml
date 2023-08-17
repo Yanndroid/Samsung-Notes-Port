@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?actionBarItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?android:actionButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/in_app_action_menu_size" android:layout_height="@dimen/in_app_action_menu_size">
+        <com.samsung.android.support.senl.nt.composer.main.base.view.menu.list.animator.CustomLottieAnimationView android:layout_gravity="center" android:id="@id/in_app_action_menu_lottie_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comp_appbar_ic_mobile_device" />
+        <include android:id="@id/in_app_action_menu_progress" android:visibility="gone" layout="@layout/notes_progress_circle_small" />
+    </FrameLayout>
+</FrameLayout>

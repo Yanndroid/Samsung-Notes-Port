@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:scrollbarStyle="outsideOverlay" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/folder_edit_dialog_layout_padding_start_end" android:paddingEnd="@dimen/folder_edit_dialog_layout_padding_start_end">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout android:gravity="top" android:id="@id/text_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/folder_edit_dialog_text_input_margin_top" android:layout_marginBottom="@dimen/folder_edit_dialog_text_input_margin_bottom" android:minHeight="@dimen/folder_edit_dialog_text_input_min_height" android:layout_marginStart="@dimen/folder_edit_dialog_text_input_margin_start" app:errorTextAppearance="@style/EditDialogErrorMessageStyle" app:hintTextAppearance="@style/EditDialogHintTextAppearance">
+                <EditText android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/folder_edit_dialog_edit_text_size" android:ellipsize="end" android:id="@id/text_input_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:imeOptions="flagNoExtractUi">
+                    <requestFocus />
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/category_color_palette_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TextAppearanceSubHeader" android:id="@id/category_color_palette_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_subtitle" />
+                <RelativeLayout android:id="@id/category_edit_dialog_divider" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/dialog_sub_header_divider_shape" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_sub_header_divider_height" android:layout_marginStart="@dimen/dialog_sub_header_divider_margin_start" />
+                </RelativeLayout>
+            </LinearLayout>
+            <HorizontalScrollView android:id="@id/category_color_palette" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/folder_edit_dialog_palette_margin_top" android:layout_marginBottom="@dimen/folder_edit_dialog_palette_margin_bottom" android:fillViewport="true">
+                <include layout="@layout/folder_mark_color_palette" />
+            </HorizontalScrollView>
+        </LinearLayout>
+    </com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:clickable="true" android:layout_width="@dimen/tablet_drawer_bar_icon_size_with_margin_end" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/drawer_bar_icon_image" android:background="@drawable/drawer_item_selector" android:paddingTop="@dimen/tablet_drawer_default_icon_padding_top_bottom" android:paddingBottom="@dimen/tablet_drawer_default_icon_padding_top_bottom" android:layout_width="@dimen/tablet_drawer_bar_icon_size_width" android:layout_height="@dimen/tablet_drawer_bar_icon_size_height" android:paddingStart="@dimen/tablet_drawer_default_icon_padding_start_end" android:paddingEnd="@dimen/tablet_drawer_default_icon_padding_start_end" />
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/drawer_list_item_title_text_size" android:paddingTop="@dimen/basic_list_body_text_top_bottom_padding" android:paddingBottom="@dimen/basic_list_body_text_top_bottom_padding" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/tablet_drawer_bar_text_size_min_height" android:text="H" android:textAlignment="viewStart" />
+</FrameLayout>

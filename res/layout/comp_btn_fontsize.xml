@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/richtext_font_size" android:contentDescription="@string/composer_font_size" style="@style/ComposerImageClickButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:background="@android:color/transparent" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/composer_writing_rich_text_menu_arrow_width" android:layout_height="@dimen/composer_writing_rich_text_menu_arrow_height" android:src="@drawable/comp_rt_toolbar_ic_drop_down" android:scaleType="fitCenter" android:tint="?floatingToolbarItemTint" />
+    <TextView android:textSize="@dimen/composer_writing_rich_text_menu_font_size_title_size" android:textColor="?floatingToolbarItemTextColor" android:gravity="center" android:layout_gravity="center|left" android:id="@id/richtext_font_size_spinner_name" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/composer_writing_rich_text_menu_font_size_title_width" android:maxLines="1" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="@dimen/comp_hw_floating_menu_item_img_size" android:layout_height="@dimen/comp_hw_floating_menu_item_img_size">
+        <ImageView android:id="@id/richtext_font_size_spinner_arrow" android:focusable="false" android:layout_width="@dimen/composer_writing_rich_text_menu_arrow_width" android:layout_height="@dimen/composer_writing_rich_text_menu_arrow_height" android:scaleType="fitXY" />
+    </LinearLayout>
+</FrameLayout>

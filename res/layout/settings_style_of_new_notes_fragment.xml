@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/window_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/switch_preference_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.tabs.TabLayout android:layout_gravity="center" android:id="@id/note_style_and_template_tab_layout" android:layout_width="fill_parent" android:layout_height="@dimen/tab_layout_height" android:layoutDirection="locale" android:layout_marginStart="@dimen/tab_layout_margin" android:layout_marginEnd="@dimen/tab_layout_margin" app:tabGravity="fill" app:tabMode="scrollable" app:tabTextColor="@color/description_text_color" />
+    <com.samsung.android.support.senl.nt.base.winset.view.AbsViewPager android:id="@id/note_style_and_template_viewpager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

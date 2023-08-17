@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Hindi makadaragdag ng higit sa %d item.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makadaragdag ng higit sa %d item.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Hindi makaka-paste ng higit sa %d item sa isang pagkakataon.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makaka-paste ng higit sa %d item sa isang pagkakataon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Hindi makaka-scan ng higit sa %d dokumento sa isang pagkakataon.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makaka-scan ng higit sa %d dokumento sa isang pagkakataon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Hindi maipakita ang higit sa %d kulay.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi maipakita ang higit sa %d kulay.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Hindi makadagdag ng higit sa %d audio file nang sabay-sabay.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makadagdag ng higit sa %d audio file nang sabay-sabay.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Hindi makaka-paste ng higit sa %d PDF sa isang pagkakataon.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makaka-paste ng higit sa %d PDF sa isang pagkakataon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Kinansela ang pag-export. %d PDF ang na-export na.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kinansela ang pag-export. %d PDF ang na-export na.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Magpasok ng password na may %d character man lang.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Magpasok ng password na may %d character man lang.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Magpasok ng bagong password na may %d character man lang.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Magpasok ng bagong password na may %d character man lang.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Maghintay ng %d segundo at subukang muli.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Maghintay ng %d segundo at subukang muli.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Hindi makabubukas ng higit sa %d Samsung Notes window. Magsara ng isang window at subukang muli.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makabubukas ng higit sa %d Samsung Notes window. Magsara ng isang window at subukang muli.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d na bagong notification</item>
+        <item quantity="one">%d bagong notification</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d note ang nai-download.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d note ang nai-download.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d kulay</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kulay</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d kapal</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kapal</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Tanggalin ang %d nakabahaging note?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tanggalin ang %d nakabahaging note?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">I-convert ang %d note</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I-convert ang %d note</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d folder</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d folder</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d item</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d item</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d note</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d note</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Hindi maipakita ang higit sa %d kulay.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi maipakita ang higit sa %d kulay.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d notebook</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d notebook</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Ilipat ang %1$d folder sa %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang %1$d folder sa %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">Idinagdag ni %1$s ang %2$d bagong note sa %3$s notebook.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Idinagdag ni %1$s ang %2$d bagong note sa %3$s notebook.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d bagong tala ang ibinahagi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bagong tala ang ibinahagi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Kinansela ang pag-import. %d PDF na ang na-import.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kinansela ang pag-import. %d PDF na ang na-import.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">Hindi ma-import ang %d note.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi ma-import ang %d note.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Magpasok ng bagong password na may %d character man lang.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Magpasok ng bagong password na may %d character man lang.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Hindi makapili ng higit sa %d item.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makapili ng higit sa %d item.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Ilipat ang %d folder sa Trash?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang %d folder sa Trash?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Ilipat sa Trash ang %d folder at lahat na item na nasa mga ito?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat sa Trash ang %d folder at lahat na item na nasa mga ito?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Ilipat ang %d note sa Trash?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang %d note sa Trash?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Pagkatapos i-verify ang pagkakakilanlan mo, %d note (kabilang ang 1 naka-lock na note) ang ililipat sa Trash.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pagkatapos i-verify ang pagkakakilanlan mo, %d note (kabilang ang 1 naka-lock na note) ang ililipat sa Trash.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">Hindi inilipat ang %d note na nasa piniling folder na.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi inilipat ang %d note na nasa piniling folder na.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Ilipat ang %1$d note sa %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang %1$d note sa %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">Permanenteng tatanggalin ang item ng %d mula sa cloud at lahat ng iyong mga device.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Permanenteng tatanggalin ang item ng %d mula sa cloud at lahat ng iyong mga device.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Permanenteng tanggalin ang %d note?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Permanenteng tanggalin ang %d note?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d item ay permanenteng tatanggalin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d item ay permanenteng tatanggalin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d araw</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d araw</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Hindi makapili ng higit sa %d stroke o bagay sa nakabahaging tala.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makapili ng higit sa %d stroke o bagay sa nakabahaging tala.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d larawan ang nai-save sa telepono mo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d larawan ang nai-save sa telepono mo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d larawan ang nai-save sa tablet mo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d larawan ang nai-save sa tablet mo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d file ang nai-save sa telepono mo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d file ang nai-save sa telepono mo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d file ang nai-save sa tablet mo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d file ang nai-save sa tablet mo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d miyembro</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d miyembro</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Tatanggalin ang note na ito sa loob ng %d araw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tatanggalin ang note na ito sa loob ng %d araw.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Ine-export ang %d PDF…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ine-export ang %d PDF…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">Hindi mai-convert ang %d note. Magbakante ng kaunting espasyo sa internal storage, tapos subukang muli.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi mai-convert ang %d note. Magbakante ng kaunting espasyo sa internal storage, tapos subukang muli.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Tanggalin ang %d item?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tanggalin ang %d item?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/rt_toolbar_menu_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/hw_toolbar_toggle_root" android:layout_width="@dimen/comp_hw_floating_menu_floating_toggle_btn_size" android:layout_height="@dimen/comp_hw_floating_menu_floating_toggle_btn_size" android:layout_centerVertical="true">
+        <FrameLayout android:id="@id/richtext_toggleBtn" android:background="@drawable/comp_toolbar_toggle_background" android:layout_width="@dimen/comp_hw_floating_menu_floating_toggle_btn_size" android:layout_height="@dimen/comp_hw_floating_menu_floating_toggle_btn_size" android:layout_margin="1.0dip" android:layout_centerInParent="true" android:contentDescription="@string/hw_toolbar_item_menu_writing" android:elevation="1.0dip" style="@style/ComposerImageClickButton">
+            <ImageView android:layout_width="@dimen/comp_hw_floating_menu_toggle_img_size" android:layout_height="@dimen/comp_hw_floating_menu_toggle_img_size" android:src="@drawable/comp_hw_toolbar_ic_pen_mode" style="@style/ComposerImageButton" />
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rt_toolbar_menu_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/hw_toolbar_toggle_root">
+        <include layout="@layout/comp_rich_text_menu" />
+    </RelativeLayout>
+</RelativeLayout>

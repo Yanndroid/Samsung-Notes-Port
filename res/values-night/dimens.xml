@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="comp_hw_floating_menu_toggle_bg_stroke">0.5dip</dimen>
+</resources>

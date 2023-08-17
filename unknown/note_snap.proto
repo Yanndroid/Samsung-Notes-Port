@@ -1,0 +1,18 @@
+syntax = "proto3";
+option java_multiple_files = true;
+
+import "note_snap_message.proto";
+
+package noteSnap;
+
+service Uploader {
+  rpc UploadNote (stream noteSnapMessage.UploadRequest) returns (noteSnapMessage.UploadResponse);
+}
+
+service Downloader {
+  rpc DownloadNote (noteSnapMessage.DownloadRequest) returns (stream noteSnapMessage.DownloadResponse);
+}
+
+service NoteInfoGetter {
+  rpc GetLatestNoteInfo (noteSnapMessage.NoteInfoRequest) returns (noteSnapMessage.NoteInfoResponse);
+}

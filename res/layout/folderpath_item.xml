@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/RobotoRegularStyle" android:textSize="@dimen/folderpath_text_size" android:textColor="@color/folderpath_text_color" android:gravity="center" android:id="@id/folderpath_text" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/folderpath_text_padding_start_end" android:paddingEnd="@dimen/folderpath_text_padding_start_end" />
+    <include android:layout_gravity="center_vertical" android:id="@id/folderpath_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/folderpath_arrow" />
+</LinearLayout>

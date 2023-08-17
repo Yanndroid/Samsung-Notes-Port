@@ -1,0 +1,14 @@
+.class synthetic Lorg/apache/poi/javax/imageio/ImageIO$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/apache/poi/javax/imageio/ImageIO;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1009
+    name = null
+.end annotation

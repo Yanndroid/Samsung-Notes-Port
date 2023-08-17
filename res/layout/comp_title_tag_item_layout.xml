@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/comp_title_tag_container_background" android:background="@drawable/comp_title_tag_item_background" android:layout_width="wrap_content" android:layout_height="@dimen/comp_title_tag_item_height" android:layout_marginRight="@dimen/comp_title_tag_item_space"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/comp_title_tag_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/comp_title_tag_time_hashtag_height" android:layout_height="@dimen/comp_title_tag_time_hashtag_height" android:layout_marginRight="@dimen/comp_title_tag_time_hashtag_margin" android:src="@drawable/comp_title_tag_ic_sharp" android:tint="#ff676768" />
+        <TextView android:textSize="@dimen/comp_title_tag_item_text_size" android:textColor="#ff676767" android:gravity="center_vertical" android:id="@id/comp_title_tag_name" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/comp_title_tag_item_text_margin" android:textAlignment="gravity" />
+    </LinearLayout>
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/comp_title_tag_delete_btn" android:layout_width="@dimen/comp_default_icon_size" android:layout_height="@dimen/comp_default_icon_size" android:src="@drawable/comp_title_tag_ic_delete" android:contentDescription="@string/voice_menu_list_item_remove" />
+</LinearLayout>

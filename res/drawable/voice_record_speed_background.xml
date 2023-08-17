@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/voice_recording_speed_button_radius" />
+    <solid android:color="@android:color/transparent" />
+    <stroke android:width="@dimen/voice_recording_divider_height" android:color="@color/composer_voice_menu_speed_button_color" />
+</shape>

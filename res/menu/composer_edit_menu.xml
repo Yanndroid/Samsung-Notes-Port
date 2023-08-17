@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/comp_appbar_ic_text_only_mode_off" android:id="@id/action_text_only_mode" android:orderInCategory="@integer/menu_type_not_define" android:title="@string/composer_opt_text_only_mode" app:showAsAction="always" />
+    <item android:id="@id/action_start_in_app_collaboration" android:orderInCategory="@integer/menu_type_not_define" android:title="@string/in_app_menu" app:actionLayout="@layout/in_app_action_menu_item_layout" app:showAsAction="always" />
+    <item android:icon="@drawable/comp_appbar_ic_full_screen" android:id="@id/action_tablet_full_screen_mode" android:orderInCategory="@integer/menu_type_not_define" android:title="@string/composer_opt_full_screen" app:showAsAction="always" />
+    <item android:icon="@drawable/comp_appbar_ic_reading_mode_off" android:id="@id/action_read_mode" android:orderInCategory="@integer/menu_type_not_define" android:title="@string/composer_reading_mode" app:showAsAction="always" />
+    <item android:icon="@drawable/comp_appbar_ic_tablet_sort_page" android:id="@id/action_tablet_sort_pages" android:orderInCategory="@integer/menu_type_not_define" android:title="@string/composer_sort_pages" app:showAsAction="always" />
+    <item android:id="@id/action_save" android:visible="false" android:orderInCategory="@integer/menu_type_not_define" android:title="@string/string_save_full" app:showAsAction="always" />
+    <item android:icon="@drawable/comp_appbar_ic_attach" android:id="@id/action_add" android:orderInCategory="@integer/menu_type_card" android:title="@string/composer_insert" app:showAsAction="ifRoom" />
+    <group android:id="@id/action_more">
+        <item android:icon="@drawable/comp_appbar_ic_sort_page" android:id="@id/action_sort_pages" android:orderInCategory="@integer/menu_type_card" android:title="@string/composer_sort_pages" />
+        <item android:icon="@drawable/comp_appbar_ic_change_template" android:id="@id/action_change_template" android:orderInCategory="@integer/menu_type_card" android:title="@string/composer_change_template" />
+        <item android:icon="@drawable/comp_appbar_ic_page_view" android:id="@id/action_page_setting" android:orderInCategory="@integer/menu_type_card" android:title="@string/composer_page_setting" />
+        <item android:id="@id/action_full_screen_mode" android:orderInCategory="@integer/menu_type_text" android:title="@string/composer_opt_full_screen" />
+        <item android:id="@id/action_show_toolbar" android:orderInCategory="@integer/menu_type_text" android:title="@string/composer_opt_show_toolbar" />
+        <item android:id="@id/action_coedit_share_with_collaborators" android:orderInCategory="@integer/menu_type_text" android:title="@string/coedit_share_with_collaborators" />
+        <item android:id="@id/action_coedit_add_to_shared_notebook" android:orderInCategory="@integer/menu_type_text" android:title="@string/coedit_add_to_shared_notebook" />
+        <item android:id="@id/action_coedit_internal_snap_refresh" android:visible="false" android:orderInCategory="@integer/menu_type_text" android:title="@string/coedit_internal_snap_refresh" />
+        <item android:id="@id/action_add_edit_hash_tag" android:orderInCategory="@integer/menu_type_text" android:title="@string/composer_add_tag" />
+        <item android:id="@id/action_export" android:orderInCategory="@integer/menu_type_text" android:title="@string/save_as" />
+        <item android:id="@id/action_turn_on_off_finger_drawing" android:orderInCategory="@integer/menu_type_text" android:title="@string/composer_turn_on_finger_drawing" />
+        <item android:id="@id/action_turn_on_off_auto_change_mode" android:visible="false" android:orderInCategory="@integer/menu_type_text" android:title="@string/composer_turn_off_auto_change_mode" />
+        <item android:icon="@drawable/comp_appbar_ic_favorite_off" android:id="@id/action_add_favorite" android:orderInCategory="@integer/menu_type_icon" android:title="@string/composer_add_to_favorite" />
+        <item android:icon="@drawable/comp_appbar_ic_share" android:id="@id/action_share" android:orderInCategory="@integer/menu_type_icon" android:title="@string/action_share" />
+        <item android:icon="@drawable/comp_appbar_ic_delete" android:id="@id/action_delete" android:orderInCategory="@integer/menu_type_icon" android:title="@string/action_delete" />
+        <item android:icon="@drawable/comp_appbar_ic_leave" android:id="@id/action_leave" android:visible="false" android:orderInCategory="@integer/menu_type_icon" android:title="@string/coedit_action_leave" />
+    </group>
+</menu>

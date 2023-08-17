@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="@dimen/setting_common_popup_width_v53" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/preview1" android:background="@drawable/spen_round_ripple" android:padding="@dimen/setting_size_layout_view_padding" android:layout_width="@dimen/setting_size_layout_view_width" android:layout_height="@dimen/setting_size_layout_view_height" android:layout_marginStart="24.0dip" />
+    <View android:focusable="false" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/preview2" android:background="@drawable/spen_round_ripple" android:padding="@dimen/setting_size_layout_view_padding" android:layout_width="@dimen/setting_size_layout_view_width" android:layout_height="@dimen/setting_size_layout_view_height" />
+    <View android:focusable="false" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/preview3" android:background="@drawable/spen_round_ripple" android:padding="@dimen/setting_size_layout_view_padding" android:layout_width="@dimen/setting_size_layout_view_width" android:layout_height="@dimen/setting_size_layout_view_height" />
+    <View android:focusable="false" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/preview4" android:background="@drawable/spen_round_ripple" android:padding="@dimen/setting_size_layout_view_padding" android:layout_width="@dimen/setting_size_layout_view_width" android:layout_height="@dimen/setting_size_layout_view_height" />
+    <View android:focusable="false" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <com.samsung.android.sdk.pen.setting.pencommon.SpenPenPreviewV2 android:id="@id/preview5" android:background="@drawable/spen_round_ripple" android:padding="@dimen/setting_size_layout_view_padding" android:layout_width="@dimen/setting_size_layout_view_width" android:layout_height="@dimen/setting_size_layout_view_height" android:layout_marginEnd="24.0dip" />
+</LinearLayout>

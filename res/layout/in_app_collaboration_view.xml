@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <FrameLayout android:id="@id/inapp_toolbar_root_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/in_app_layout_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/in_app_toolbar_container_margin_start_end" android:paddingEnd="@dimen/in_app_toolbar_container_margin_start_end">
+                <FrameLayout android:id="@id/layout_toolbar_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/in_app_toolbar_container_margin_top" />
+                <FrameLayout android:id="@id/layout_sub_toolbar_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/in_app_sub_toolbar_container_margin_top" />
+                <FrameLayout android:id="@id/layout_add_ons_toolbar_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/in_app_sub_toolbar_container_margin_top" android:layout_marginBottom="@dimen/in_app_sub_toolbar_container_margin_top" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.samsung.android.support.senl.nt.base.winset.view.BaseNestedScrollView>
+</HorizontalScrollView>

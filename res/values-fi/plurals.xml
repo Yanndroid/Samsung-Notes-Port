@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">Yli %d kohdetta ei voi lisätä.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d kohdetta ei voi lisätä.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">Yli %d kohdetta ei voi liittää kerrallaan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d kohdetta ei voi liittää kerrallaan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">Yli %d asiakirjaa ei voi skannata kerrallaan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d asiakirjaa ei voi skannata kerrallaan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">Yli %d väriä ei voi näyttää.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d väriä ei voi näyttää.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">Yli %d äänitiedostoa ei voi lisätä kerrallaan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d äänitiedostoa ei voi lisätä kerrallaan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">Yli %d PDF-tiedostoa ei voi liittää kerrallaan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d PDF-tiedostoa ei voi liittää kerrallaan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">Vienti on peruutettu. %d PDF-tiedostoa on jo viety.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vienti on peruutettu. %d PDF-tiedosto on jo viety.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">Yli %d merkkiä ei voi kirjoittaa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d merkkiä ei voi kirjoittaa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">Anna salasana, jossa on vähintään %d merkkiä.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Anna salasana, jossa on vähintään %d merkki.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">Anna uusi salasana, jossa on vähintään %d merkkiä.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Anna uusi salasana, jossa on vähintään %d merkki.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">Odota %d sekuntia ja yritä sitten uudelleen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odota %d sekunti ja yritä sitten uudelleen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">Yli %d Samsung Notes -ikkunaa ei voi avata. Sulje ikkuna ja yritä uudelleen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d Samsung Notes -ikkunaa ei voi avata. Sulje ikkuna ja yritä uudelleen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">%d muistiinpanoa ladattu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d muistiinpano ladattu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">%d väriä</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d väri</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">%d paksuutta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d paksuus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">Poistetaanko %d jaettua muistiinpanoa?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poistetaanko %d jaettu muistiinpano?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">Muunna %d muistiinpanoa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Muunna %d muistiinpano</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">%d kansiota</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kansio</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">%d kohdetta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kohde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">%d muistiinpanoa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d muistiinpano</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Yli %d väriä ei voi näyttää.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d väriä ei voi näyttää.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">%d muistikirjaa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d muistikirja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">Siirretäänkö %1$d kansiota kansioon %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siirretäänkö %1$d kansio kansioon %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">%1$s lisäsi %2$d uutta muistiinpanoa muistikirjaan %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s lisäsi %2$d uuden muistiinpanon muistikirjaan %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">%d uutta muistiinpanoa jaettu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uusi muistiinpano jaettu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">Tuonti on peruutettu. %d PDF-tiedostoa on jo tuotu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tuonti on peruutettu. %d PDF-tiedosto on jo tuotu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">%d muistiinpanon tuonti epäonnistui.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d muistiinpanon tuonti epäonnistui.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">Anna uusi salasana, jossa on vähintään %d merkkiä.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Anna uusi salasana, jossa on vähintään %d merkki.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">Voit valita enintään %d kohdetta.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Voit valita enintään %d kohteen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">Siirretäänkö %d kansiota roskakoriin?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siirretäänkö %d kansio roskakoriin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">Siirretäänkö %d kansiota ja kaikki niissä olevat kohteet roskakoriin?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siirretäänkö %d kansio ja kaikki siinä olevat kohteet roskakoriin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">Siirretäänkö %d muistiinpanoa roskakoriin?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siirretäänkö %d muistiinpano roskakoriin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">Kun olet vahvistanut henkilöllisyytesi, %d muistiinpanoa (joukossa 1 lukittu muistiinpano) siirretään roskakoriin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kun olet vahvistanut henkilöllisyytesi, %d muistiinpano (joukossa 1 lukittu muistiinpano) siirretään roskakoriin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">%d muistiinpanoa, jotka olivat jo valitussa kansiossa, ei siirretty.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d muistiinpanoa, joka oli jo valitussa kansiossa, ei siirretty.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">Siirretäänkö %1$d muistiinpanoa kansioon %2$s?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siirretäänkö %1$d muistiinpano kansioon %2$s?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">%d kohdetta poistetaan lopullisesti pilvestä ja kaikista laitteistasi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kohde poistetaan lopullisesti pilvestä ja kaikista laitteistasi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">Poistetaanko %d muistiinpanoa lopullisesti?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poistetaanko %d muistiinpano lopullisesti?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">%d kohdetta poistetaan lopullisesti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kohde poistetaan lopullisesti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">%d päivää</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päivä</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">Jaetusta muistiinpanosta ei voi valita useampaa kuin %d viivaa tai objektia.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jaetusta muistiinpanosta ei voi valita useampaa kuin %d viivaa tai objektia.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">%d kuvaa tallennettu puhelimeesi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kuva tallennettu puhelimeesi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">%d kuvaa tallennettu tablet-laitteeseesi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kuva tallennettu tablet-laitteeseesi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">%d tiedostoa tallennettu puhelimeesi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tiedosto tallennettu puhelimeesi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">%d tiedostoa tallennettu tablet-laitteeseesi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tiedosto tallennettu tablet-laitteeseesi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">%d jäsentä</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d jäsen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">Tämä muistiinpano poistetaan %d päivän kuluttua.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tämä muistiinpano poistetaan %d päivän kuluttua.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">Viedään %d PDF-tiedostoa…</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viedään %d PDF-tiedosto…</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">%d muistiinpanon muuntaminen epäonnistui. Tee sisäisessä tallennustilassa tilaa ja yritä sitten uudelleen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d muistiinpanon muuntaminen epäonnistui. Tee sisäisessä tallennustilassa tilaa ja yritä sitten uudelleen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">Poistetaanko %d kohdetta?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poistetaanko %d kohde?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

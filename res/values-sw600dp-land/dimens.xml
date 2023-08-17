@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="camera_btn_layout_margin_bottom">0.0dip</dimen>
+    <dimen name="camera_btn_layout_margin_end">10.0dip</dimen>
+    <item type="dimen" name="widget_setting_list_weight">750</item>
+    <item type="dimen" name="widget_setting_margin_weight">125</item>
+</resources>

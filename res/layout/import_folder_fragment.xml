@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/import_list_area" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/settings_list_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/folderpath_layout_container" android:layout="@layout/folderpath_layout" android:inflatedId="@id/inflate_folderpath_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/settings_import_folder_path_layout_margin_bottom" />
+        <ImageView android:id="@id/folderpath_divider" android:background="@color/folderpath_divider_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/settings_import_actionbar_divider_height" android:layout_marginStart="@dimen/file_picker_item_divider_margin_start_end" android:layout_marginEnd="@dimen/file_picker_item_divider_margin_start_end" />
+        <FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/no_notes_text_color" android:gravity="center" android:id="@id/nonote" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/settings_import_nonote_margin_left_right" android:layout_marginRight="@dimen/settings_import_nonote_margin_left_right" />
+            <com.samsung.android.support.senl.nt.app.common.penrecyclerview.PenRecyclerView android:id="@id/recyclerview" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

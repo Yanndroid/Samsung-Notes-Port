@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="25.0dip" android:paddingBottom="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="28.0dip" android:paddingEnd="28.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/te_zoom_out_button" android:background="@drawable/template_editor_zoom_btn_bg" android:focusable="true" android:nextFocusLeft="@id/te_zoom_in_button" android:nextFocusRight="@id/te_zoom_in_button" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="3.0dip" android:src="@drawable/template_editor_zoom_out" android:contentDescription="@string/base_zoom_out" android:nextFocusForward="@id/imageeditor_main_button_layout" />
+    <ImageView android:id="@id/te_zoom_in_button" android:background="@drawable/template_editor_zoom_btn_bg" android:focusable="true" android:nextFocusRight="@id/te_zoom_out_button" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="3.0dip" android:src="@drawable/template_editor_zoom_in" android:contentDescription="@string/base_zoom_in" android:nextFocusForward="@id/te_zoom_out_button" />
+</LinearLayout>

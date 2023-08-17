@@ -1,0 +1,12 @@
+# Adds bracket interpretations to existing math characters/commands
+lparen:lparen:OPENER:INFER
+rparen:rparen:CLOSER:INFER
+lbrack:lbrack:OPENER:INFER
+rbrack:rbrack:CLOSER:INFER
+less:langle:OPENER:NOINFER
+greater:rangle:CLOSER:NOINFER
+langle:langle:OPENER:INFER
+rangle:rangle:CLOSER:INFER
+vert:vert:OPENER_OR_CLOSER:NOINFER
+Vert:Vert:OPENER_OR_CLOSER:NOINFER
+Vvert:Vvert:OPENER_OR_CLOSER:NOINFER

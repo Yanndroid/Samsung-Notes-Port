@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout name="brush_sub_menu_layout.xml">
+
+    <View id="sub_menu_container">
+        <ViewModel id="submenulayoutvm">
+            <BindId
+                bindId="onLayoutChange"
+                property="action_layoutChange" />
+        </ViewModel>
+    </View>
+
+    <View id="brush_penup_layout">
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="penUpButtonWidthHeightPx"
+                property="ad_base_viewWidth" />
+            <Bind
+                bindId="penUpButtonWidthHeightPx"
+                property="ad_base_viewHeight" />
+            <Bind
+                bindId="toolbarMarginBottomPx"
+                property="ad_base_viewMarginBottom" />
+            <Bind
+                bindId="toolbarIconMarginPx"
+                property="ad_base_viewMarginStart" />
+        </ViewModel>
+
+        <ViewModel id="brushmenuhidevm">
+            <Bind
+                bindId="menuHideAnimation"
+                property="ad_base_hideAnimationByTouch" />
+            <Bind
+                bindId="onLayoutChange"
+                property="action_layoutChange" />
+        </ViewModel>
+    </View>
+
+    <View id="brush_penup_btn">
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="toolbarChildButtonSizePx"
+                property="ad_base_viewWidth" />
+            <Bind
+                bindId="toolbarChildButtonSizePx"
+                property="ad_base_viewHeight" />
+            <Bind
+                bindId="roundRipple"
+                property="ad_base_backgroundRipple" />
+            <Bind
+                bindId="penupRotationDescription"
+                property="ad_base_rotationExtra" />
+            <Bind
+                bindId="penupDescription"
+                property="pr_content" />
+        </ViewModel>
+
+        <ViewModel id="penupvm">
+            <Bind
+                bindId="enable"
+                property="pr_clickable" />
+            <Bind
+                bindId="penupListener"
+                property="md_brush_penupListener" />
+            <Bind
+                bindId="penupLongClick"
+                property="action_long_click" />
+        </ViewModel>
+
+        <Bind
+            bindId="false"
+            property="ad_base_hoverPopup" />
+    </View>
+
+    <View id="brush_sub_menu_close_layout">
+        <ViewModel id="settingpopuphidervm">
+            <Bind
+                bindId="touchListener"
+                property="action_touch" />
+        </ViewModel>
+    </View>
+
+    <View id="brush_sub_menu_layout">
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="toolbarWidthPx"
+                property="ad_base_viewWidth" />
+            <Bind
+                bindId="toolbarHeightPx"
+                property="ad_base_viewHeight" />
+            <Bind
+                bindId="toolbarMarginBottomPx"
+                property="ad_base_viewMarginBottom" />
+        </ViewModel>
+
+        <ViewModel id="brushmenuhidevm">
+            <Bind
+                bindId="menuHideAnimation"
+                property="ad_base_hideAnimationByTouch" />
+            <Bind
+                bindId="onLayoutChange"
+                property="action_layoutChange" />
+        </ViewModel>
+    </View>
+
+
+    <View id="brush_eraser_btn">
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="toolbarChildButtonSizePx"
+                property="ad_base_viewWidth" />
+            <Bind
+                bindId="toolbarChildButtonSizePx"
+                property="ad_base_viewHeight" />
+            <Bind
+                bindId="roundRipple"
+                property="ad_base_backgroundRipple" />
+            <Bind
+                bindId="eraserRotationDescription"
+                property="ad_base_rotationExtra" />
+            <Bind
+                bindId="eraserDescription"
+                property="pr_content" />
+        </ViewModel>
+
+        <ViewModel id="submenuvm">
+            <Bind
+                bindId="eraserEnable"
+                property="ad_brush_imageEnable_without_enable_tint" />
+            <Bind
+                bindId="eraserSelection"
+                property="ad_base_viewSelected" />
+            <Bind
+                bindId="eraserClick"
+                property="action_click" />
+            <Bind
+                bindId="eraserLongClick"
+                property="action_long_click" />
+        </ViewModel>
+
+        <Bind
+            bindId="false"
+            property="ad_base_hoverPopup" />
+    </View>
+
+    <View id="brush_undo_btn">
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="toolbarChildButtonSizePx"
+                property="ad_base_viewWidth" />
+            <Bind
+                bindId="toolbarChildButtonSizePx"
+                property="ad_base_viewHeight" />
+            <Bind
+                bindId="toolbarChildButtonMarginPx"
+                property="ad_base_viewMarginStart" />
+            <Bind
+                bindId="roundRipple"
+                property="ad_base_backgroundRipple" />
+            <Bind
+                bindId="undoRotationDescription"
+                property="ad_base_rotationExtra" />
+            <Bind
+                bindId="undoDescription"
+                property="pr_content" />
+        </ViewModel>
+
+        <ViewModel id="submenuvm">
+            <Bind
+                bindId="undoEnabled"
+                property="ad_brush_imageEnable" />
+            <Bind
+                bindId="onUndoClicked"
+                property="action_click" />
+            <Bind
+                bindId="onUndoLongClicked"
+                property="action_long_click" />
+        </ViewModel>
+
+        <Bind
+            bindId="180"
+            property="ad_base_rtlFlipping" />
+        <Bind
+            bindId="false"
+            property="ad_base_hoverPopup" />
+    </View>
+
+    <View id="brush_redo_btn">
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="toolbarChildButtonSizePx"
+                property="ad_base_viewWidth" />
+            <Bind
+                bindId="toolbarChildButtonSizePx"
+                property="ad_base_viewHeight" />
+            <Bind
+                bindId="toolbarChildButtonMarginPx"
+                property="ad_base_viewMarginStart" />
+            <Bind
+                bindId="roundRipple"
+                property="ad_base_backgroundRipple" />
+            <Bind
+                bindId="redoRotationDescription"
+                property="ad_base_rotationExtra" />
+            <Bind
+                bindId="redoDescription"
+                property="pr_content" />
+        </ViewModel>
+
+        <ViewModel id="submenuvm">
+            <Bind
+                bindId="redoEnabled"
+                property="ad_brush_imageEnable" />
+            <Bind
+                bindId="onRedoClicked"
+                property="action_click" />
+            <Bind
+                bindId="onRedoLongClicked"
+                property="action_long_click" />
+        </ViewModel>
+
+        <Bind
+            bindId="180"
+            property="ad_base_rtlFlipping" />
+        <Bind
+            bindId="false"
+            property="ad_base_hoverPopup" />
+    </View>
+
+    <View id="brush_done_button">
+        <ViewModel id="brushmenuhidevm">
+            <Bind
+                bindId="menuHideAnimation"
+                property="ad_base_hideAnimationByTouch" />
+            <Bind
+                bindId="onLayoutChange"
+                property="action_layoutChange" />
+        </ViewModel>
+
+        <ViewModel id="submenulayoutvm">
+            <Bind
+                bindId="doneButtonWidthPx"
+                property="ad_base_viewWidth" />
+            <Bind
+                bindId="doneButtonHeightPx"
+                property="ad_base_viewHeight" />
+            <Bind
+                bindId="toolbarMarginBottomPx"
+                property="ad_base_viewMarginBottom" />
+            <Bind
+                bindId="toolbarIconMarginPx"
+                property="ad_base_viewMarginEnd" />
+            <Bind
+                bindId="doneButtonWidthPx"
+                property="ad_brush_doneButtonSize" />
+            <Bind
+                bindId="bottomRotationPivot"
+                property="ad_base_rotationExtra" />
+        </ViewModel>
+
+        <ViewModel id="brushsavevm">
+            <Bind
+                bindId="onSave"
+                property="action_click" />
+        </ViewModel>
+
+        <Bind
+            bindId="Roboto_Medium"
+            property="ad_base_font" />
+    </View>
+</Layout>

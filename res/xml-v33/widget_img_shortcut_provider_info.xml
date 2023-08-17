@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="@dimen/widget_img_shortcut_min_width" android:minHeight="@dimen/widget_img_shortcut_min_height" android:updatePeriodMillis="0" android:initialLayout="@layout/widget_img_shortcut_layout" android:configure="com.samsung.android.app.notes.widget.configure.ShortcutWidgetConfigureActivity" android:previewImage="@drawable/notes_preview_shortcut" android:widgetCategory="home_screen" android:previewLayout="@layout/widget_preview_shortcut"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

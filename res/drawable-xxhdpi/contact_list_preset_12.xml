@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="720.0dip" android:width="720.0dip" android:viewportWidth="720.0" android:viewportHeight="720.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ff86cbbe" android:pathData="M0,0h720v720h-720z" />
+    <path android:fillColor="@drawable/$contact_list_preset_12__0" android:pathData="M642.8,296.8C419.3,249.2 385.8,98.2 389.1,0H250.9c-37.9,92.9 -65.6,237 73.8,319.2C502.1,423.8 531.2,636.1 457.2,720H720V305.7C698.3,306 672.7,303.2 642.8,296.8z" android:strokeAlpha="0.35" android:fillAlpha="0.35" />
+</vector>

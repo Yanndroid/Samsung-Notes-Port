@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/LockActionBarTheme" android:id="@id/lock_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:background="@android:color/transparent" />
+    <FrameLayout android:id="@id/lock_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</android.widget.LinearLayout>

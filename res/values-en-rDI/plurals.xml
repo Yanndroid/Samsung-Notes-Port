@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="can_not_add_more_than_items">
+        <item quantity="other">PLURAL_OTHER_HEALTH_BODY_CANT_ADD_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="zero">PLURAL_ZERO_HEALTH_BODY_CANT_ADD_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="one">PLURAL_ONE_HEALTH_BODY_CANT_ADD_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="two">PLURAL_TWO_HEALTH_BODY_CANT_ADD_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="few">PLURAL_FEW_HEALTH_BODY_CANT_ADD_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="many">PLURAL_MANY_HEALTH_BODY_CANT_ADD_MORE_THAN_PD_ITEMS %d</item>
+    </plurals>
+    <plurals name="can_not_paste_item_at_one_time">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_ITEMS_AT_ONE_TIME %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_ITEMS_AT_ONE_TIME %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_ITEMS_AT_ONE_TIME %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_ITEMS_AT_ONE_TIME %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_ITEMS_AT_ONE_TIME %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_ITEMS_AT_ONE_TIME %d</item>
+    </plurals>
+    <plurals name="can_not_scan_more_than_n_data">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_CANT_SCAN_MORE_THAN_PD_DOCUMENTS_AT_A_TIME %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_CANT_SCAN_MORE_THAN_PD_DOCUMENTS_AT_A_TIME %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_CANT_SCAN_MORE_THAN_PD_DOCUMENTS_AT_A_TIME %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_CANT_SCAN_MORE_THAN_PD_DOCUMENTS_AT_A_TIME %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_CANT_SCAN_MORE_THAN_PD_DOCUMENTS_AT_A_TIME %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_CANT_SCAN_MORE_THAN_PD_DOCUMENTS_AT_A_TIME %d</item>
+    </plurals>
+    <plurals name="colorset_toast_max_restriction">
+        <item quantity="other">PLURAL_OTHER_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_audio">
+        <item quantity="other">PLURAL_OTHER_NOTES_TPOP_CANT_ADD_MORE_THAN_PD_AUDIO_FILES_AT_ONE_TIME %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_TPOP_CANT_ADD_MORE_THAN_PD_AUDIO_FILES_AT_ONE_TIME %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_TPOP_CANT_ADD_MORE_THAN_PD_AUDIO_FILES_AT_ONE_TIME %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_TPOP_CANT_ADD_MORE_THAN_PD_AUDIO_FILES_AT_ONE_TIME %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_TPOP_CANT_ADD_MORE_THAN_PD_AUDIO_FILES_AT_ONE_TIME %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_TPOP_CANT_ADD_MORE_THAN_PD_AUDIO_FILES_AT_ONE_TIME %d</item>
+    </plurals>
+    <plurals name="drag_and_drop_only_one_pdf">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_PDFS_AT_ONE_TIME %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_PDFS_AT_ONE_TIME %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_PDFS_AT_ONE_TIME %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_PDFS_AT_ONE_TIME %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_PDFS_AT_ONE_TIME %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_CANT_PASTE_MORE_THAN_PD_PDFS_AT_ONE_TIME %d</item>
+    </plurals>
+    <plurals name="export_pdf_cancel_result">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_EXPORT_CANCELED_PD_PDFS_ALREADY_EXPORTED %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_EXPORT_CANCELED_PD_PDFS_ALREADY_EXPORTED %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_EXPORT_CANCELED_PD_PDFS_ALREADY_EXPORTED %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_EXPORT_CANCELED_PD_PDFS_ALREADY_EXPORTED %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_EXPORT_CANCELED_PD_PDFS_ALREADY_EXPORTED %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_EXPORT_CANCELED_PD_PDFS_ALREADY_EXPORTED %d</item>
+    </plurals>
+    <plurals name="input_max_length_toast">
+        <item quantity="other">PLURAL_OTHER_TAG_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="zero">PLURAL_ZERO_TAG_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="one">PLURAL_ONE_TAG_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="two">PLURAL_TWO_TAG_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="few">PLURAL_FEW_TAG_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="many">PLURAL_MANY_TAG_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+    </plurals>
+    <plurals name="lock_create_guide_default">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_ENTER_A_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_ENTER_A_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_ENTER_A_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_ENTER_A_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_ENTER_A_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_ENTER_A_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+    </plurals>
+    <plurals name="lock_create_guide_default_new_password">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+    </plurals>
+    <plurals name="lock_out_dialog_message">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_WAIT_PD_SECONDS_AND_TRY_AGAIN %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_WAIT_PD_SECONDS_AND_TRY_AGAIN %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_WAIT_PD_SECONDS_AND_TRY_AGAIN %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_WAIT_PD_SECONDS_AND_TRY_AGAIN %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_WAIT_PD_SECONDS_AND_TRY_AGAIN %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_WAIT_PD_SECONDS_AND_TRY_AGAIN %d</item>
+    </plurals>
+    <plurals name="max_app_window">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_CANT_OPEN_MORE_THAN_PD_SAMSUNG_NOTES_WINDOWS_CLOSE_A_WINDOW_AND_TRY_AGAIN %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_CANT_OPEN_MORE_THAN_PD_SAMSUNG_NOTES_WINDOWS_CLOSE_A_WINDOW_AND_TRY_AGAIN %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_CANT_OPEN_MORE_THAN_PD_SAMSUNG_NOTES_WINDOWS_CLOSE_A_WINDOW_AND_TRY_AGAIN %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_CANT_OPEN_MORE_THAN_PD_SAMSUNG_NOTES_WINDOWS_CLOSE_A_WINDOW_AND_TRY_AGAIN %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_CANT_OPEN_MORE_THAN_PD_SAMSUNG_NOTES_WINDOWS_CLOSE_A_WINDOW_AND_TRY_AGAIN %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_CANT_OPEN_MORE_THAN_PD_SAMSUNG_NOTES_WINDOWS_CLOSE_A_WINDOW_AND_TRY_AGAIN %d</item>
+    </plurals>
+    <plurals name="plural_base_toast_download_shared_notes_success">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_PD_NOTES_DOWNLOADED %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_PD_NOTES_DOWNLOADED %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_PD_NOTES_DOWNLOADED %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_PD_NOTES_DOWNLOADED %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_PD_NOTES_DOWNLOADED %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_PD_NOTES_DOWNLOADED %d</item>
+    </plurals>
+    <plurals name="plural_pen_colors">
+        <item quantity="other">PLURAL_OTHER_NOTES_OPT_PD_COLORS %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_OPT_PD_COLORS %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_OPT_PD_COLORS %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_OPT_PD_COLORS %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_OPT_PD_COLORS %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_OPT_PD_COLORS %d</item>
+    </plurals>
+    <plurals name="plural_pen_thicknesses">
+        <item quantity="other">PLURAL_OTHER_NOTES_OPT_PD_THICKNESSES %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_OPT_PD_THICKNESSES %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_OPT_PD_THICKNESSES %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_OPT_PD_THICKNESSES %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_OPT_PD_THICKNESSES %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_OPT_PD_THICKNESSES %d</item>
+    </plurals>
+    <plurals name="plurals_co_edit_delete_standalone_notes_dialog_title">
+        <item quantity="other">PLURAL_OTHER_NOTES_HEADER_DELETE_PD_SHARED_NOTES_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_HEADER_DELETE_PD_SHARED_NOTES_Q %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_HEADER_DELETE_PD_SHARED_NOTES_Q %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_HEADER_DELETE_PD_SHARED_NOTES_Q %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_HEADER_DELETE_PD_SHARED_NOTES_Q %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_HEADER_DELETE_PD_SHARED_NOTES_Q %d</item>
+    </plurals>
+    <plurals name="plurals_convert_n_notes">
+        <item quantity="other">PLURAL_OTHER_NOTES_BUTTON_CONVERT_PD_NOTES_32 %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BUTTON_CONVERT_PD_NOTES_32 %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BUTTON_CONVERT_PD_NOTES_32 %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BUTTON_CONVERT_PD_NOTES_32 %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BUTTON_CONVERT_PD_NOTES_32 %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BUTTON_CONVERT_PD_NOTES_32 %d</item>
+    </plurals>
+    <plurals name="plurals_count_folders">
+        <item quantity="other">PLURAL_OTHER_VIDEO_BODY_PD_FOLDERS %d</item>
+        <item quantity="zero">PLURAL_ZERO_VIDEO_BODY_PD_FOLDERS %d</item>
+        <item quantity="one">PLURAL_ONE_VIDEO_BODY_PD_FOLDERS %d</item>
+        <item quantity="two">PLURAL_TWO_VIDEO_BODY_PD_FOLDERS %d</item>
+        <item quantity="few">PLURAL_FEW_VIDEO_BODY_PD_FOLDERS %d</item>
+        <item quantity="many">PLURAL_MANY_VIDEO_BODY_PD_FOLDERS %d</item>
+    </plurals>
+    <plurals name="plurals_count_items">
+        <item quantity="other">PLURAL_OTHER_ACCS_TBOPT_PD_ITEMS %d</item>
+        <item quantity="zero">PLURAL_ZERO_ACCS_TBOPT_PD_ITEMS %d</item>
+        <item quantity="one">PLURAL_ONE_ACCS_TBOPT_PD_ITEMS %d</item>
+        <item quantity="two">PLURAL_TWO_ACCS_TBOPT_PD_ITEMS %d</item>
+        <item quantity="few">PLURAL_FEW_ACCS_TBOPT_PD_ITEMS %d</item>
+        <item quantity="many">PLURAL_MANY_ACCS_TBOPT_PD_ITEMS %d</item>
+    </plurals>
+    <plurals name="plurals_count_notes">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_PD_NOTES %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_PD_NOTES %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_PD_NOTES %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_PD_NOTES %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_PD_NOTES %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_PD_NOTES %d</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">PLURAL_OTHER_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+    </plurals>
+    <plurals name="plurals_count_spaces">
+        <item quantity="other">PLURAL_OTHER_NOTES_OPT_PD_NOTEBOOKS %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_OPT_PD_NOTEBOOKS %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_OPT_PD_NOTEBOOKS %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_OPT_PD_NOTEBOOKS %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_OPT_PD_NOTEBOOKS %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_OPT_PD_NOTEBOOKS %d</item>
+    </plurals>
+    <plurals name="plurals_folders_moved">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_MOVE_P1SD_FOLDERS_TO_P2SS_Q %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_MOVE_P1SD_FOLDERS_TO_P2SS_Q %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_MOVE_P1SD_FOLDERS_TO_P2SS_Q %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_MOVE_P1SD_FOLDERS_TO_P2SS_Q %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_MOVE_P1SD_FOLDERS_TO_P2SS_Q %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_MOVE_P1SD_FOLDERS_TO_P2SS_Q %1$d %2$s</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_body">
+        <item quantity="other">PLURAL_OTHER_NOTES_SBODY_P1SS_ADDED_P2SD_NEW_NOTES_TO_THE_P3SS_NOTEBOOK %1$s %2$d %3$s</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_SBODY_P1SS_ADDED_P2SD_NEW_NOTES_TO_THE_P3SS_NOTEBOOK %1$s %2$d %3$s</item>
+        <item quantity="one">PLURAL_ONE_NOTES_SBODY_P1SS_ADDED_P2SD_NEW_NOTES_TO_THE_P3SS_NOTEBOOK %1$s %2$d %3$s</item>
+        <item quantity="two">PLURAL_TWO_NOTES_SBODY_P1SS_ADDED_P2SD_NEW_NOTES_TO_THE_P3SS_NOTEBOOK %1$s %2$d %3$s</item>
+        <item quantity="few">PLURAL_FEW_NOTES_SBODY_P1SS_ADDED_P2SD_NEW_NOTES_TO_THE_P3SS_NOTEBOOK %1$s %2$d %3$s</item>
+        <item quantity="many">PLURAL_MANY_NOTES_SBODY_P1SS_ADDED_P2SD_NEW_NOTES_TO_THE_P3SS_NOTEBOOK %1$s %2$d %3$s</item>
+    </plurals>
+    <plurals name="plurals_gcs_item_added_title">
+        <item quantity="other">PLURAL_OTHER_NOTES_TMBODY_PD_NEW_NOTES_SHARED %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_TMBODY_PD_NEW_NOTES_SHARED %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_TMBODY_PD_NEW_NOTES_SHARED %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_TMBODY_PD_NEW_NOTES_SHARED %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_TMBODY_PD_NEW_NOTES_SHARED %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_TMBODY_PD_NEW_NOTES_SHARED %d</item>
+    </plurals>
+    <plurals name="plurals_import_canceled_pd_pdfs_already_imported_toast_msg">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_IMPORT_CANCELED_PD_PDFS_ALREADY_IMPORTED %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_IMPORT_CANCELED_PD_PDFS_ALREADY_IMPORTED %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_IMPORT_CANCELED_PD_PDFS_ALREADY_IMPORTED %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_IMPORT_CANCELED_PD_PDFS_ALREADY_IMPORTED %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_IMPORT_CANCELED_PD_PDFS_ALREADY_IMPORTED %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_IMPORT_CANCELED_PD_PDFS_ALREADY_IMPORTED %d</item>
+    </plurals>
+    <plurals name="plurals_import_to_coedit_fail">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_COULDNT_IMPORT_PD_NOTES %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_COULDNT_IMPORT_PD_NOTES %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_COULDNT_IMPORT_PD_NOTES %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_COULDNT_IMPORT_PD_NOTES %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_COULDNT_IMPORT_PD_NOTES %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_COULDNT_IMPORT_PD_NOTES %d</item>
+    </plurals>
+    <plurals name="plurals_lock_setting_change_password_help">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_ENTER_A_NEW_PASSWORD_WITH_AT_LEAST_PD_CHARACTERS_IN_IT %d</item>
+    </plurals>
+    <plurals name="plurals_max_select_note_for_widget">
+        <item quantity="other">PLURAL_OTHER_MF_BODY_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="zero">PLURAL_ZERO_MF_BODY_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="one">PLURAL_ONE_MF_BODY_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="two">PLURAL_TWO_MF_BODY_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="few">PLURAL_FEW_MF_BODY_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="many">PLURAL_MANY_MF_BODY_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_dialog_msg">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_MOVE_PD_FOLDERS_TO_THE_TRASH_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_MOVE_PD_FOLDERS_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_MOVE_PD_FOLDERS_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_MOVE_PD_FOLDERS_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_MOVE_PD_FOLDERS_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_MOVE_PD_FOLDERS_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_folder_has_child_dialog_msg">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_MOVE_PD_FOLDERS_AND_ALL_THE_ITEMS_IN_THEM_TO_THE_TRASH_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_MOVE_PD_FOLDERS_AND_ALL_THE_ITEMS_IN_THEM_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_MOVE_PD_FOLDERS_AND_ALL_THE_ITEMS_IN_THEM_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_MOVE_PD_FOLDERS_AND_ALL_THE_ITEMS_IN_THEM_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_MOVE_PD_FOLDERS_AND_ALL_THE_ITEMS_IN_THEM_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_MOVE_PD_FOLDERS_AND_ALL_THE_ITEMS_IN_THEM_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_dialog_msg">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_MOVE_PD_NOTES_TO_THE_TRASH_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_MOVE_PD_NOTES_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_MOVE_PD_NOTES_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_MOVE_PD_NOTES_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_MOVE_PD_NOTES_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_MOVE_PD_NOTES_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="plurals_move_to_trash_n_note_including_1_locked_note_dialog_msg">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_AFTER_VERIFYING_YOUR_IDENTITY_PD_NOTES_HINCLUDING_1_LOCKED_NOTE_WILL_BE_MOVED_TO_THE_TRASH %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_AFTER_VERIFYING_YOUR_IDENTITY_PD_NOTES_HINCLUDING_1_LOCKED_NOTE_WILL_BE_MOVED_TO_THE_TRASH %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_AFTER_VERIFYING_YOUR_IDENTITY_PD_NOTES_HINCLUDING_1_LOCKED_NOTE_WILL_BE_MOVED_TO_THE_TRASH %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_AFTER_VERIFYING_YOUR_IDENTITY_PD_NOTES_HINCLUDING_1_LOCKED_NOTE_WILL_BE_MOVED_TO_THE_TRASH %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_AFTER_VERIFYING_YOUR_IDENTITY_PD_NOTES_HINCLUDING_1_LOCKED_NOTE_WILL_BE_MOVED_TO_THE_TRASH %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_AFTER_VERIFYING_YOUR_IDENTITY_PD_NOTES_HINCLUDING_1_LOCKED_NOTE_WILL_BE_MOVED_TO_THE_TRASH %d</item>
+    </plurals>
+    <plurals name="plurals_note_not_moved">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_DIDNT_MOVE_PD_NOTES_ALREADY_IN_THE_SELECTED_FOLDER %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_DIDNT_MOVE_PD_NOTES_ALREADY_IN_THE_SELECTED_FOLDER %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_DIDNT_MOVE_PD_NOTES_ALREADY_IN_THE_SELECTED_FOLDER %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_DIDNT_MOVE_PD_NOTES_ALREADY_IN_THE_SELECTED_FOLDER %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_DIDNT_MOVE_PD_NOTES_ALREADY_IN_THE_SELECTED_FOLDER %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_DIDNT_MOVE_PD_NOTES_ALREADY_IN_THE_SELECTED_FOLDER %d</item>
+    </plurals>
+    <plurals name="plurals_notes_moved">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_MOVE_P1SD_NOTES_TO_P2SS_Q %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_MOVE_P1SD_NOTES_TO_P2SS_Q %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_MOVE_P1SD_NOTES_TO_P2SS_Q %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_MOVE_P1SD_NOTES_TO_P2SS_Q %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_MOVE_P1SD_NOTES_TO_P2SS_Q %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_MOVE_P1SD_NOTES_TO_P2SS_Q %1$d %2$s</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_dialog_msg">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED_FROM_THE_CLOUD_AND_ALL_YOUR_DEVICES %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED_FROM_THE_CLOUD_AND_ALL_YOUR_DEVICES %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED_FROM_THE_CLOUD_AND_ALL_YOUR_DEVICES %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED_FROM_THE_CLOUD_AND_ALL_YOUR_DEVICES %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED_FROM_THE_CLOUD_AND_ALL_YOUR_DEVICES %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED_FROM_THE_CLOUD_AND_ALL_YOUR_DEVICES %d</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_n_note_erased_dialog_msg">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_PERMANENTLY_DELETE_PD_NOTES_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_PERMANENTLY_DELETE_PD_NOTES_Q %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_PERMANENTLY_DELETE_PD_NOTES_Q %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_PERMANENTLY_DELETE_PD_NOTES_Q %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_PERMANENTLY_DELETE_PD_NOTES_Q %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_PERMANENTLY_DELETE_PD_NOTES_Q %d</item>
+    </plurals>
+    <plurals name="plurals_permanently_delete_no_cloud_dialog_msg">
+        <item quantity="other">PLURAL_OTHER_GALLERY_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="zero">PLURAL_ZERO_GALLERY_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="one">PLURAL_ONE_GALLERY_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="two">PLURAL_TWO_GALLERY_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="few">PLURAL_FEW_GALLERY_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED %d</item>
+        <item quantity="many">PLURAL_MANY_GALLERY_BODY_PD_ITEMS_WILL_BE_PERMANENTLY_DELETED %d</item>
+    </plurals>
+    <plurals name="plurals_recycle_bin_due_date">
+        <item quantity="other">PLURAL_OTHER_GALLERY_OPT_PD_DAYS_ABB2 %d</item>
+        <item quantity="zero">PLURAL_ZERO_GALLERY_OPT_PD_DAYS_ABB2 %d</item>
+        <item quantity="one">PLURAL_ONE_GALLERY_OPT_PD_DAYS_ABB2 %d</item>
+        <item quantity="two">PLURAL_TWO_GALLERY_OPT_PD_DAYS_ABB2 %d</item>
+        <item quantity="few">PLURAL_FEW_GALLERY_OPT_PD_DAYS_ABB2 %d</item>
+        <item quantity="many">PLURAL_MANY_GALLERY_OPT_PD_DAYS_ABB2 %d</item>
+    </plurals>
+    <plurals name="plurals_restriction_selected_number">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_CANT_SELECT_MORE_THAN_PD_STROKES_OR_OBJECTS_IN_SHARED_NOTE %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_CANT_SELECT_MORE_THAN_PD_STROKES_OR_OBJECTS_IN_SHARED_NOTE %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_CANT_SELECT_MORE_THAN_PD_STROKES_OR_OBJECTS_IN_SHARED_NOTE %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_CANT_SELECT_MORE_THAN_PD_STROKES_OR_OBJECTS_IN_SHARED_NOTE %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_CANT_SELECT_MORE_THAN_PD_STROKES_OR_OBJECTS_IN_SHARED_NOTE %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_CANT_SELECT_MORE_THAN_PD_STROKES_OR_OBJECTS_IN_SHARED_NOTE %d</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_phone">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_PHONE %d</item>
+    </plurals>
+    <plurals name="plurals_save_as_images_tablet">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_PD_IMAGES_SAVED_TO_YOUR_TABLET %d</item>
+    </plurals>
+    <plurals name="plurals_save_as_phone">
+        <item quantity="other">PLURAL_OTHER_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="zero">PLURAL_ZERO_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_PHONE %d</item>
+    </plurals>
+    <plurals name="plurals_save_as_tablet">
+        <item quantity="other">PLURAL_OTHER_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="zero">PLURAL_ZERO_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="one">PLURAL_ONE_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="two">PLURAL_TWO_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="few">PLURAL_FEW_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+        <item quantity="many">PLURAL_MANY_MSG_TPOP_PD_FILES_SAVED_TO_YOUR_TABLET %d</item>
+    </plurals>
+    <plurals name="plurals_shared_with_n_members">
+        <item quantity="other">PLURAL_OTHER_SAC_SBODY_PD_MEMBERS %d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_SBODY_PD_MEMBERS %d</item>
+        <item quantity="one">PLURAL_ONE_SAC_SBODY_PD_MEMBERS %d</item>
+        <item quantity="two">PLURAL_TWO_SAC_SBODY_PD_MEMBERS %d</item>
+        <item quantity="few">PLURAL_FEW_SAC_SBODY_PD_MEMBERS %d</item>
+        <item quantity="many">PLURAL_MANY_SAC_SBODY_PD_MEMBERS %d</item>
+    </plurals>
+    <plurals name="recycle_bin_remain_time">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_THIS_NOTE_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_THIS_NOTE_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_THIS_NOTE_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_THIS_NOTE_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_THIS_NOTE_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_THIS_NOTE_WILL_BE_DELETED_IN_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="save_as_pdf_dialog_title">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_EXPORTING_PD_PDFS_ING %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_EXPORTING_PD_PDFS_ING %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_EXPORTING_PD_PDFS_ING %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_EXPORTING_PD_PDFS_ING %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_EXPORTING_PD_PDFS_ING %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_EXPORTING_PD_PDFS_ING %d</item>
+    </plurals>
+    <plurals name="tipcard_fail_to_convert_storage_error">
+        <item quantity="other">PLURAL_OTHER_NOTES_BODY_COULDNT_CONVERT_PD_NOTES_CLEAR_SOME_SPACE_IN_INTERNAL_STORAGE_THEN_TRY_AGAIN %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_BODY_COULDNT_CONVERT_PD_NOTES_CLEAR_SOME_SPACE_IN_INTERNAL_STORAGE_THEN_TRY_AGAIN %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_BODY_COULDNT_CONVERT_PD_NOTES_CLEAR_SOME_SPACE_IN_INTERNAL_STORAGE_THEN_TRY_AGAIN %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_BODY_COULDNT_CONVERT_PD_NOTES_CLEAR_SOME_SPACE_IN_INTERNAL_STORAGE_THEN_TRY_AGAIN %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_BODY_COULDNT_CONVERT_PD_NOTES_CLEAR_SOME_SPACE_IN_INTERNAL_STORAGE_THEN_TRY_AGAIN %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_BODY_COULDNT_CONVERT_PD_NOTES_CLEAR_SOME_SPACE_IN_INTERNAL_STORAGE_THEN_TRY_AGAIN %d</item>
+    </plurals>
+    <plurals name="voice_delete_confirm_message">
+        <item quantity="other">PLURAL_OTHER_TAG_BODY_DELETE_PD_ITEMS_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_TAG_BODY_DELETE_PD_ITEMS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_TAG_BODY_DELETE_PD_ITEMS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_TAG_BODY_DELETE_PD_ITEMS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_TAG_BODY_DELETE_PD_ITEMS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_TAG_BODY_DELETE_PD_ITEMS_Q %d</item>
+    </plurals>
+</resources>
